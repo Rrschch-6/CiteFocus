@@ -7,7 +7,10 @@ import argparse
 import subprocess
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+
+from agents.semantic_agent import DEFAULT_MODEL_NAME, load_model_and_tokenizer, run_semantic_stage
 
 
 ROOT = Path("/home/sascha/refcheck/CiteFocus")
@@ -15,7 +18,6 @@ AGENTS_DIR = ROOT / "agents"
 OUTPUTS_DIR = ROOT / "outputs"
 DEFAULT_INPUT_PDF = str(ROOT / "inputs" / "nest.pdf")
 PIPELINE_ORDER = ["parse", "route", "exact", "lexical", "fusion", "verify", "semantic"]
-DEFAULT_SEMANTIC_MODEL = "Qwen/Qwen2.5-7B-Instruct"
 
 
 def output_path(name: str, tag: str | None) -> Path:
@@ -29,7 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-name-tag", default=None, help="Optional tag appended to all output JSON names.")
     parser.add_argument("--agents", nargs="+", choices=PIPELINE_ORDER, default=PIPELINE_ORDER, help="Subset of agents to run in pipeline order.")
     parser.add_argument("--python", default=sys.executable, help="Python executable to use for agent scripts.")
-    parser.add_argument("--semantic-model", default=DEFAULT_SEMANTIC_MODEL, help="Local Hugging Face model for semantic checks.")
+    parser.add_argument("--semantic-model", default=DEFAULT_MODEL_NAME, help="Local Hugging Face model for semantic checks.")
     return parser.parse_args()
 
 
@@ -102,7 +104,6 @@ def main() -> int:
         )
 
     lexical_process: subprocess.Popen[str] | None = None
-    semantic_stage1_process: subprocess.Popen[str] | None = None
 
     if "lexical" in selected_set:
         lexical_process = start_command(
@@ -120,22 +121,23 @@ def main() -> int:
             ]
         )
 
+    semantic_executor: ThreadPoolExecutor | None = None
+    semantic_stage1_future = None
+    semantic_model = None
+    semantic_tokenizer = None
     if "semantic" in selected_set:
-        semantic_stage1_process = start_command(
-            [
-                args.python,
-                str(AGENTS_DIR / "semantic_agent.py"),
-                "--stage",
-                "stage1",
-                "--parsed",
-                str(parsed_path),
-                "--fused",
-                str(fusion_stage1_path),
-                "--output",
-                str(semantic_stage1_path),
-                "--model",
-                args.semantic_model,
-            ]
+        print(f"[run_pipeline] loading semantic model once: {args.semantic_model}")
+        semantic_model, semantic_tokenizer = load_model_and_tokenizer(args.semantic_model)
+        semantic_executor = ThreadPoolExecutor(max_workers=1)
+        semantic_stage1_future = semantic_executor.submit(
+            run_semantic_stage,
+            stage="stage1",
+            parsed_path=str(parsed_path),
+            fused_path=str(fusion_stage1_path),
+            output_path=str(semantic_stage1_path),
+            model_name=args.semantic_model,
+            model=semantic_model,
+            tokenizer=semantic_tokenizer,
         )
 
     if lexical_process is not None:
@@ -165,28 +167,22 @@ def main() -> int:
     if "verify" in selected_set:
         run_command([args.python, str(AGENTS_DIR / "verify_agent.py"), "--parsed", str(parsed_path), "--fused", str(fusion_stage2_path), "--output", str(verify_path)])
 
-    if semantic_stage1_process is not None:
-        wait_process(semantic_stage1_process, "semantic_stage1")
-
     if "semantic" in selected_set:
-        run_command(
-            [
-                args.python,
-                str(AGENTS_DIR / "semantic_agent.py"),
-                "--stage",
-                "stage2",
-                "--parsed",
-                str(parsed_path),
-                "--fused",
-                str(fusion_stage2_path),
-                "--existing-output",
-                str(semantic_stage1_path),
-                "--output",
-                str(semantic_final_path),
-                "--model",
-                args.semantic_model,
-            ]
+        if semantic_stage1_future is not None:
+            semantic_stage1_future.result()
+            print("[run_pipeline] finished: semantic_stage1")
+        run_semantic_stage(
+            stage="stage2",
+            parsed_path=str(parsed_path),
+            fused_path=str(fusion_stage2_path),
+            existing_output_path=str(semantic_stage1_path),
+            output_path=str(semantic_final_path),
+            model_name=args.semantic_model,
+            model=semantic_model,
+            tokenizer=semantic_tokenizer,
         )
+        if semantic_executor is not None:
+            semantic_executor.shutdown(wait=True)
 
     print("[run_pipeline] done")
     print("[run_pipeline] outputs:")

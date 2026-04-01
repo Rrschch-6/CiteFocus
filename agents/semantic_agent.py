@@ -240,16 +240,26 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def main() -> int:
-    args = parse_args()
-    fused_path = args.fused or default_fused_for_stage(args.stage)
-    output_path = args.output or default_output_for_stage(args.stage)
-    parsed_records = load_json(args.parsed)
+def run_semantic_stage(
+    *,
+    stage: str,
+    parsed_path: str = DEFAULT_PARSED_PATH,
+    fused_path: str | None = None,
+    existing_output_path: str | None = None,
+    output_path: str | None = None,
+    model_name: str = DEFAULT_MODEL_NAME,
+    model=None,
+    tokenizer=None,
+) -> list[dict[str, Any]]:
+    fused_path = fused_path or default_fused_for_stage(stage)
+    output_path = output_path or default_output_for_stage(stage)
+    parsed_records = load_json(parsed_path)
     fused_map = build_record_map(load_json(fused_path))
-    existing_records = load_json_if_exists(args.existing_output) if args.stage == "stage2" else []
+    existing_records = load_json_if_exists(existing_output_path) if stage == "stage2" else []
     existing_map = build_record_map(existing_records)
 
-    model, tokenizer = load_model_and_tokenizer(args.model)
+    if model is None or tokenizer is None:
+        model, tokenizer = load_model_and_tokenizer(model_name)
     results = list(existing_records)
     processed_ids = set(existing_map)
 
@@ -258,14 +268,14 @@ def main() -> int:
         if citation_id in processed_ids:
             continue
         fused_record = fused_map.get(citation_id, {"citation_id": citation_id, "selected_candidate": None, "selected_source": None})
-        if args.stage == "stage1" and not fused_record.get("selected_candidate"):
+        if stage == "stage1" and not fused_record.get("selected_candidate"):
             continue
         try:
-            result = verify_semantic_one(parsed_record, fused_record, stage=args.stage, model=model, tokenizer=tokenizer)
+            result = verify_semantic_one(parsed_record, fused_record, stage=stage, model=model, tokenizer=tokenizer)
         except Exception as exc:
             result = {
                 "citation_id": citation_id,
-                "stage": args.stage,
+                "stage": stage,
                 "selected_source": fused_record.get("selected_source"),
                 "selected_candidate_title": (fused_record.get("selected_candidate") or {}).get("title"),
                 "selected_candidate_db": (fused_record.get("selected_candidate") or {}).get("db"),
@@ -276,12 +286,25 @@ def main() -> int:
                 "explanation": f"semantic_error: {exc}",
             }
         status = "skipped" if result.get("skipped") else result.get("support_label")
-        print(f"[semantic_agent] stage={args.stage} citation_id={citation_id} status={status}")
+        print(f"[semantic_agent] stage={stage} citation_id={citation_id} status={status}")
         results.append(result)
 
     results.sort(key=lambda item: item.get("citation_id") if item.get("citation_id") is not None else -1)
-    save_json(output_path, results)
+    save_json(str(output_path), results)
     print(f"[semantic_agent] Done. Wrote {len(results)} records.")
+    return results
+
+
+def main() -> int:
+    args = parse_args()
+    run_semantic_stage(
+        stage=args.stage,
+        parsed_path=args.parsed,
+        fused_path=args.fused,
+        existing_output_path=args.existing_output,
+        output_path=args.output,
+        model_name=args.model,
+    )
     return 0
 
 

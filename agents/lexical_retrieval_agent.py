@@ -30,11 +30,11 @@ MIN_CANDIDATES_PER_DB = 3
 MIN_ACCEPTABLE_LEXICAL_SCORE = 0.45
 MIN_TITLE_OVERLAP_SCORE = 0.35
 MIN_MATCHED_WORDS = 2
-FIRST_DB_DECENT_TITLE_SCORE = 0.60
-FIRST_DB_DECENT_LEXICAL_SCORE = 0.50
-EARLY_STOP_TITLE_SCORE = 0.75
-EARLY_STOP_AUTHOR_SCORE = 0.20
-EARLY_STOP_LEXICAL_SCORE = 0.65
+NEAR_PERFECT_TITLE_SCORE = 0.85
+NEAR_PERFECT_AUTHOR_SCORE = 0.50
+NEAR_PERFECT_LEXICAL_SCORE = 0.75
+WEAK_TITLE_SCORE = 0.75
+WEAK_LEXICAL_SCORE = 0.65
 
 
 def load_json(path: str) -> list[dict[str, Any]]:
@@ -373,6 +373,35 @@ def reorder_db_priority_for_lexical(db_priority: list[str]) -> list[str]:
     return [db_name for db_name in fixed_order if db_name in available]
 
 
+def is_near_perfect_candidate(candidate: dict[str, Any] | None) -> bool:
+    if not candidate:
+        return False
+    return (
+        float(candidate.get("title_score") or 0.0) >= NEAR_PERFECT_TITLE_SCORE
+        and float(candidate.get("author_score") or 0.0) >= NEAR_PERFECT_AUTHOR_SCORE
+        and float(candidate.get("lexical_score") or 0.0) >= NEAR_PERFECT_LEXICAL_SCORE
+    )
+
+
+def is_weak_candidate(candidate: dict[str, Any] | None) -> bool:
+    if not candidate:
+        return True
+    return (
+        float(candidate.get("title_score") or 0.0) < WEAK_TITLE_SCORE
+        or float(candidate.get("lexical_score") or 0.0) < WEAK_LEXICAL_SCORE
+    )
+
+
+def query_db_candidates(citation: dict[str, Any], db_name: str, *, arxiv_conn: sqlite3.Connection, dblp_conn: sqlite3.Connection, openalex_conn: sqlite3.Connection) -> list[dict[str, Any]]:
+    if db_name == "arxiv":
+        return lexical_search_sqlite(citation, arxiv_conn, db_name="arxiv", limit=2)
+    if db_name == "dblp":
+        return lexical_search_sqlite(citation, dblp_conn, db_name="dblp", limit=2)
+    if db_name == "openalex":
+        return lexical_search_sqlite(citation, openalex_conn, db_name="openalex", limit=2)
+    return []
+
+
 def retrieve_lexical_for_citation(citation: dict[str, Any], route_record: dict[str, Any], exact_record: dict[str, Any] | None, *, arxiv_conn: sqlite3.Connection, dblp_conn: sqlite3.Connection, openalex_conn: sqlite3.Connection) -> dict[str, Any]:
     citation_id = citation.get("citation_id")
     skip, reason = should_skip_lexical(route_record, exact_record)
@@ -385,26 +414,58 @@ def retrieve_lexical_for_citation(citation: dict[str, Any], route_record: dict[s
     candidates_by_db: list[tuple[str, list[dict[str, Any]]]] = []
     db_timings_ms: dict[str, float] = {}
 
-    for db_name in effective_db_priority:
+    attempted_dbs: list[str] = []
+
+    def run_db(db_name: str) -> list[dict[str, Any]]:
         start_time = time.perf_counter()
-        if db_name == "arxiv":
-            db_candidates = lexical_search_sqlite(citation, arxiv_conn, db_name="arxiv", limit=2)
-        elif db_name == "dblp":
-            db_candidates = lexical_search_sqlite(citation, dblp_conn, db_name="dblp", limit=2)
-        elif db_name == "openalex":
-            db_candidates = lexical_search_sqlite(citation, openalex_conn, db_name="openalex", limit=2)
-        else:
-            db_candidates = []
+        db_candidates = query_db_candidates(citation, db_name, arxiv_conn=arxiv_conn, dblp_conn=dblp_conn, openalex_conn=openalex_conn)
         db_timings_ms[db_name] = round((time.perf_counter() - start_time) * 1000, 2)
         candidates_by_db.append((db_name, db_candidates))
-        if db_candidates:
-            break
+        attempted_dbs.append(db_name)
+        return db_candidates
+
+    available = set(effective_db_priority)
+    arxiv_candidates: list[dict[str, Any]] = []
+    dblp_candidates: list[dict[str, Any]] = []
+
+    if "arxiv" in available:
+        arxiv_candidates = run_db("arxiv")
+        if is_near_perfect_candidate(arxiv_candidates[0] if arxiv_candidates else None):
+            candidates = merge_candidates(candidates_by_db, total_limit=10)
+            return {
+                "citation_id": citation_id,
+                "db_priority": db_priority,
+                "effective_db_priority": attempted_dbs,
+                "run_lexical_retrieval": True,
+                "skipped": False,
+                "skip_reason": None,
+                "query_words": query_words,
+                "db_timings_ms": db_timings_ms,
+                "candidates": candidates,
+            }
+
+    if "dblp" in available and ("arxiv" not in available or not is_near_perfect_candidate(arxiv_candidates[0] if arxiv_candidates else None)):
+        dblp_candidates = run_db("dblp")
+
+    merged_before_openalex = merge_candidates(candidates_by_db, total_limit=10)
+    top_before_openalex = merged_before_openalex[0] if merged_before_openalex else None
+
+    should_query_openalex = (
+        "openalex" in available
+        and (
+            not arxiv_candidates and not dblp_candidates
+            or is_weak_candidate(top_before_openalex)
+        )
+    )
+
+    if should_query_openalex:
+        run_db("openalex")
 
     candidates = merge_candidates(candidates_by_db, total_limit=10)
     return {
         "citation_id": citation_id,
         "db_priority": db_priority,
-        "effective_db_priority": effective_db_priority,
+        "effective_db_priority": attempted_dbs,
         "run_lexical_retrieval": True,
         "skipped": False,
         "skip_reason": None,

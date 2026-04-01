@@ -214,6 +214,7 @@ def build_summary(combined_rows: list[dict[str, Any]]) -> dict[str, Any]:
         },
         "verification_semantic_crosstab": crosstab,
         "needs_review_count": sum(1 for row in combined_rows if row.get("needs_review")),
+        "lexically_verified_count": sum(1 for row in combined_rows if row.get("selected_source") == "lexical"),
         "not_lexically_verified_count": sum(1 for row in combined_rows if row.get("selected_source") != "lexical"),
     }
 

@@ -1,0 +1,17 @@
+{
+  "arxiv": {
+    "count": 60,
+    "average_bibliographic_score": 0.8448,
+    "average_semantic_score": 0.1658,
+    "verification_counts": {
+      "verified": 39,
+      "partially_verified": 19,
+      "hallucinated": 2
+    },
+    "semantic_counts": {
+      "unsupported": 11,
+      "unclear": 5,
+      "supported": 44
+    }
+  }
+}

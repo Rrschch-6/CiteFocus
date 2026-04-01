@@ -1,0 +1,88 @@
+{
+  "total_citations": 60,
+  "verification": {
+    "counts": {
+      "verified": 39,
+      "partially_verified": 19,
+      "ambiguous": 0,
+      "hallucinated": 2
+    },
+    "percentages": {
+      "verified": 65.0,
+      "partially_verified": 31.67,
+      "ambiguous": 0.0,
+      "hallucinated": 3.33
+    }
+  },
+  "semantic": {
+    "counts": {
+      "supported": 44,
+      "partially_supported": 0,
+      "unclear": 5,
+      "unsupported": 11,
+      "skipped": 0
+    },
+    "percentages": {
+      "supported": 73.33,
+      "partially_supported": 0.0,
+      "unclear": 8.33,
+      "unsupported": 18.33,
+      "skipped": 0.0
+    },
+    "supporting_count": 44,
+    "not_supporting_count": 11
+  },
+  "combined_labels": {
+    "counts": {
+      "bibliographically_valid_but_semantically_unsupported": 7,
+      "needs_manual_review": 7,
+      "strongly_supported_citation": 27,
+      "promising_but_needs_review": 17,
+      "likely_problematic": 2
+    },
+    "percentages": {
+      "bibliographically_valid_but_semantically_unsupported": 11.67,
+      "needs_manual_review": 11.67,
+      "strongly_supported_citation": 45.0,
+      "promising_but_needs_review": 28.33,
+      "likely_problematic": 3.33
+    }
+  },
+  "verification_semantic_crosstab": {
+    "verified": {
+      "supported": 27,
+      "partially_supported": 0,
+      "unclear": 5,
+      "unsupported": 7,
+      "skipped": 0
+    },
+    "partially_verified": {
+      "supported": 17,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 2,
+      "skipped": 0
+    },
+    "ambiguous": {
+      "supported": 0,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 0,
+      "skipped": 0
+    },
+    "hallucinated": {
+      "supported": 0,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 2,
+      "skipped": 0
+    }
+  },
+  "needs_review_count": 33,
+  "chart_paths": [
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_verification_status.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_semantic_support.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_verification_semantic_crosstab.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_selected_source.png"
+  ]
+}

@@ -17,7 +17,7 @@ ROOT = Path("/home/sascha/refcheck/CiteFocus")
 AGENTS_DIR = ROOT / "agents"
 OUTPUTS_DIR = ROOT / "outputs"
 DEFAULT_INPUT_PDF = str(ROOT / "inputs" / "nest.pdf")
-PIPELINE_ORDER = ["parse", "route", "exact", "lexical", "fusion", "verify", "semantic"]
+PIPELINE_ORDER = ["parse", "route", "exact", "lexical", "fusion", "verify", "semantic", "report"]
 
 
 def output_path(name: str, tag: str | None) -> Path:
@@ -76,6 +76,14 @@ def main() -> int:
     verify_path = output_path("verification_results", args.output_name_tag)
     semantic_stage1_path = output_path("semantic_results_stage1", args.output_name_tag)
     semantic_final_path = output_path("semantic_results", args.output_name_tag)
+    semantic_stage1_summary_path = output_path("semantic_summary_stage1", args.output_name_tag)
+    semantic_final_summary_path = output_path("semantic_summary", args.output_name_tag)
+    report_summary_path = output_path("report_summary", args.output_name_tag)
+    report_combined_path = output_path("report_combined", args.output_name_tag)
+    report_combined_csv_path = OUTPUTS_DIR / f"report_combined{'_' + args.output_name_tag if args.output_name_tag else ''}.csv"
+    report_conflicts_path = output_path("report_conflicts", args.output_name_tag)
+    report_review_path = output_path("report_review_queue", args.output_name_tag)
+    report_source_summary_path = output_path("report_source_summary", args.output_name_tag)
 
     if "parse" in selected_set:
         run_command([args.python, str(AGENTS_DIR / "parse_agent.py"), "--input", str(input_pdf), "--output", str(parsed_path)])
@@ -135,6 +143,7 @@ def main() -> int:
             parsed_path=str(parsed_path),
             fused_path=str(fusion_stage1_path),
             output_path=str(semantic_stage1_path),
+            summary_output_path=str(semantic_stage1_summary_path),
             model_name=args.semantic_model,
             model=semantic_model,
             tokenizer=semantic_tokenizer,
@@ -177,12 +186,41 @@ def main() -> int:
             fused_path=str(fusion_stage2_path),
             existing_output_path=str(semantic_stage1_path),
             output_path=str(semantic_final_path),
+            summary_output_path=str(semantic_final_summary_path),
             model_name=args.semantic_model,
             model=semantic_model,
             tokenizer=semantic_tokenizer,
         )
         if semantic_executor is not None:
             semantic_executor.shutdown(wait=True)
+
+    if "report" in selected_set:
+        run_command(
+            [
+                args.python,
+                str(AGENTS_DIR / "report_agent.py"),
+                "--verification",
+                str(verify_path),
+                "--semantic",
+                str(semantic_final_path),
+                "--summary-output",
+                str(report_summary_path),
+                "--combined-output",
+                str(report_combined_path),
+                "--combined-csv-output",
+                str(report_combined_csv_path),
+                "--conflicts-output",
+                str(report_conflicts_path),
+                "--review-output",
+                str(report_review_path),
+                "--source-summary-output",
+                str(report_source_summary_path),
+                "--chart-dir",
+                str(OUTPUTS_DIR),
+                "--tag",
+                args.output_name_tag or "",
+            ]
+        )
 
     print("[run_pipeline] done")
     print("[run_pipeline] outputs:")
@@ -194,7 +232,15 @@ def main() -> int:
     print(f"  fusion_stage2:     {fusion_stage2_path}")
     print(f"  verify:            {verify_path}")
     print(f"  semantic_stage1:   {semantic_stage1_path}")
+    print(f"  semantic_stage1_summary: {semantic_stage1_summary_path}")
     print(f"  semantic_final:    {semantic_final_path}")
+    print(f"  semantic_final_summary:  {semantic_final_summary_path}")
+    print(f"  report_summary:    {report_summary_path}")
+    print(f"  report_combined:   {report_combined_path}")
+    print(f"  report_combined_csv: {report_combined_csv_path}")
+    print(f"  report_conflicts:  {report_conflicts_path}")
+    print(f"  report_review:     {report_review_path}")
+    print(f"  report_source_summary: {report_source_summary_path}")
     elapsed_seconds = time.perf_counter() - start_time
     print(f"[run_pipeline] duration_seconds: {elapsed_seconds:.2f}")
     return 0

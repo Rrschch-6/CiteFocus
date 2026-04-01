@@ -17,6 +17,8 @@ DEFAULT_FUSED_STAGE1_PATH = "/home/sascha/refcheck/CiteFocus/outputs/fused_candi
 DEFAULT_FUSED_STAGE2_PATH = "/home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage2.json"
 DEFAULT_STAGE1_OUTPUT_PATH = "/home/sascha/refcheck/CiteFocus/outputs/semantic_results_stage1.json"
 DEFAULT_STAGE2_OUTPUT_PATH = "/home/sascha/refcheck/CiteFocus/outputs/semantic_results.json"
+DEFAULT_STAGE1_SUMMARY_PATH = "/home/sascha/refcheck/CiteFocus/outputs/semantic_summary_stage1.json"
+DEFAULT_STAGE2_SUMMARY_PATH = "/home/sascha/refcheck/CiteFocus/outputs/semantic_summary.json"
 DEFAULT_MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"
 
 
@@ -43,6 +45,14 @@ def save_json(path: str, data: list[dict[str, Any]]) -> None:
     with output_path.open("w", encoding="utf-8") as handle:
         json.dump(data, handle, ensure_ascii=False, indent=2)
     print(f"[semantic_agent] Wrote JSON to: {output_path}")
+
+
+def save_summary_json(path: str, data: dict[str, Any]) -> None:
+    output_path = Path(path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w", encoding="utf-8") as handle:
+        json.dump(data, handle, ensure_ascii=False, indent=2)
+    print(f"[semantic_agent] Wrote summary JSON to: {output_path}")
 
 
 def build_record_map(records: list[dict[str, Any]]) -> dict[Any, dict[str, Any]]:
@@ -229,6 +239,50 @@ def default_output_for_stage(stage: str) -> str:
     return DEFAULT_STAGE2_OUTPUT_PATH
 
 
+def default_summary_for_stage(stage: str) -> str:
+    if stage == "stage1":
+        return DEFAULT_STAGE1_SUMMARY_PATH
+    return DEFAULT_STAGE2_SUMMARY_PATH
+
+
+def build_semantic_summary(results: list[dict[str, Any]], stage: str) -> dict[str, Any]:
+    judged = [item for item in results if not item.get("skipped")]
+    skipped = [item for item in results if item.get("skipped")]
+    label_counts = {
+        "supported": 0,
+        "partially_supported": 0,
+        "unclear": 0,
+        "unsupported": 0,
+    }
+    for item in judged:
+        label = str(item.get("support_label") or "unclear").strip().lower()
+        if label not in label_counts:
+            label = "unclear"
+        label_counts[label] += 1
+
+    supporting_count = label_counts["supported"] + label_counts["partially_supported"]
+    not_supporting_count = label_counts["unsupported"]
+    judged_count = len(judged)
+
+    def pct(count: int) -> float:
+        if judged_count == 0:
+            return 0.0
+        return round((count / judged_count) * 100.0, 2)
+
+    return {
+        "stage": stage,
+        "total_records": len(results),
+        "judged_records": judged_count,
+        "skipped_records": len(skipped),
+        "supporting_count": supporting_count,
+        "supporting_percentage": pct(supporting_count),
+        "not_supporting_count": not_supporting_count,
+        "not_supporting_percentage": pct(not_supporting_count),
+        "label_counts": label_counts,
+        "label_percentages": {label: pct(count) for label, count in label_counts.items()},
+    }
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run semantic support checking for CiteFocus.")
     parser.add_argument("--stage", choices=["stage1", "stage2"], required=True, help="Semantic stage to run.")
@@ -236,6 +290,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--fused", default=None, help="Path to fused_candidates_stage{1,2}.json")
     parser.add_argument("--existing-output", default=None, help="Optional existing semantic results used to skip already processed citations.")
     parser.add_argument("--output", default=None, help="Path to semantic JSON output")
+    parser.add_argument("--summary-output", default=None, help="Path to semantic summary JSON output")
     parser.add_argument("--model", default=DEFAULT_MODEL_NAME, help="Local Hugging Face model name")
     return parser.parse_args()
 
@@ -247,12 +302,14 @@ def run_semantic_stage(
     fused_path: str | None = None,
     existing_output_path: str | None = None,
     output_path: str | None = None,
+    summary_output_path: str | None = None,
     model_name: str = DEFAULT_MODEL_NAME,
     model=None,
     tokenizer=None,
 ) -> list[dict[str, Any]]:
     fused_path = fused_path or default_fused_for_stage(stage)
     output_path = output_path or default_output_for_stage(stage)
+    summary_output_path = summary_output_path or default_summary_for_stage(stage)
     parsed_records = load_json(parsed_path)
     fused_map = build_record_map(load_json(fused_path))
     existing_records = load_json_if_exists(existing_output_path) if stage == "stage2" else []
@@ -291,6 +348,15 @@ def run_semantic_stage(
 
     results.sort(key=lambda item: item.get("citation_id") if item.get("citation_id") is not None else -1)
     save_json(str(output_path), results)
+    summary = build_semantic_summary(results, stage)
+    save_summary_json(str(summary_output_path), summary)
+    print(
+        "[semantic_agent] summary:"
+        f" supporting={summary['supporting_percentage']}%"
+        f" not_supporting={summary['not_supporting_percentage']}%"
+        f" judged={summary['judged_records']}"
+        f" skipped={summary['skipped_records']}"
+    )
     print(f"[semantic_agent] Done. Wrote {len(results)} records.")
     return results
 
@@ -303,6 +369,7 @@ def main() -> int:
         fused_path=args.fused,
         existing_output_path=args.existing_output,
         output_path=args.output,
+        summary_output_path=args.summary_output,
         model_name=args.model,
     )
     return 0

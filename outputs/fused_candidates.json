@@ -1,0 +1,4616 @@
+[
+  {
+    "citation_id": 1,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2501.04040",
+      "title": "A Survey on Large Language Models with some Insights on their Capabilities and Limitations",
+      "title_normalized": "asurveyonlargelanguagemodelswithsomeinsightsontheircapabilitiesandlimitations",
+      "authors": [
+        "Andrea Matarazzo",
+        "Riccardo Torlone"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2501.04040",
+      "oai_identifier": "oai:arXiv.org:2501.04040",
+      "comments": "174 pages, to be submitted to a journal in a shorter version. It includes figures taken from papers by other authors. All the sources have been referenced. arXiv admin note: text overlap with arXiv:2303.18223 by other authors",
+      "categories": "cs.CL cs.AI cs.LG cs.NE"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 2,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2307.10169",
+      "title": "Challenges and Applications of Large Language Models",
+      "title_normalized": "challengesandapplicationsoflargelanguagemodels",
+      "authors": [
+        "Jean Kaddour",
+        "Joshua Harris",
+        "Maximilian Mozes",
+        "Herbie Bradley",
+        "Roberta Raileanu",
+        "Robert McHardy"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2307.10169",
+      "oai_identifier": "oai:arXiv.org:2307.10169",
+      "comments": "72 pages. v01. Work in progress. Feedback and comments are highly appreciated!",
+      "categories": "cs.CL cs.AI cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 3,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2211.09527",
+      "title": "Ignore Previous Prompt: Attack Techniques For Language Models",
+      "title_normalized": "ignorepreviouspromptattacktechniquesforlanguagemodels",
+      "authors": [
+        "F\\'abio Perez",
+        "Ian Ribeiro"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2211.09527",
+      "oai_identifier": "oai:arXiv.org:2211.09527",
+      "comments": "ML Safety Workshop NeurIPS 2022",
+      "categories": "cs.CL cs.AI"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 4,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2310.10077",
+      "title": "Prompt Packer: Deceiving LLMs through Compositional Instruction with Hidden Attacks",
+      "title_normalized": "promptpackerdeceivingllmsthroughcompositionalinstructionwithhiddenattacks",
+      "authors": [
+        "Shuyu Jiang",
+        "Xingshu Chen",
+        "Rui Tang"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2310.10077",
+      "oai_identifier": "oai:arXiv.org:2310.10077",
+      "comments": "",
+      "categories": "cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 5,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 0.8887,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2308.03825",
+      "title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models",
+      "title_normalized": "doanythingnowcharacterizingandevaluatinginthewildjailbreakpromptsonlargelanguagemodels",
+      "authors": [
+        "Xinyue Shen",
+        "Zeyuan Chen",
+        "Michael Backes",
+        "Yun Shen",
+        "Yang Zhang"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2308.03825",
+      "abstract": "The misuse of large language models (LLMs) has drawn significant attention from the general public and LLM vendors. One particular type of adversarial prompt, known as jailbreak prompt, has emerged as the main attack vector to bypass the safeguards and elicit harmful content from LLMs. In this paper, employing our new framework JailbreakHub, we conduct a comprehensive analysis of 1,405 jailbreak prompts spanning from December 2022 to December 2023. We identify 131 jailbreak communities and discover unique characteristics of jailbreak prompts and their major attack strategies, such as prompt injection and privilege escalation. We also observe that jailbreak prompts increasingly shift from online Web communities to prompt-aggregation websites and 28 user accounts have consistently optimized jailbreak prompts over 100 days. To assess the potential harm caused by jailbreak prompts, we create a question set comprising 107,250 samples across 13 forbidden scenarios. Leveraging this dataset, our experiments on six popular LLMs show that their safeguards cannot adequately defend jailbreak prompts in all scenarios. Particularly, we identify five highly effective jailbreak prompts that achieve 0.95 attack success rates on ChatGPT (GPT-3.5) and GPT-4, and the earliest one has persisted online for over 240 days. We hope that our study can facilitate the research community and LLM vendors in promoting safer and regulated LLMs.",
+      "matched_word_count": 7,
+      "matched_words": [
+        "anything",
+        "characterizing",
+        "evaluating",
+        "jailbreak",
+        "large",
+        "now",
+        "prompts"
+      ],
+      "title_score": 0.875,
+      "author_score": 1.0,
+      "year_score": 0.7,
+      "lexical_score": 0.8887,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2506.10597",
+        "title": "SoK: Evaluating Jailbreak Guardrails for Large Language Models",
+        "title_normalized": "sokevaluatingjailbreakguardrailsforlargelanguagemodels",
+        "authors": [
+          "Xunguang Wang",
+          "Zhenlan Ji",
+          "Wenxuan Wang",
+          "Zongjie Li",
+          "Daoyuan Wu",
+          "Shuai Wang"
+        ],
+        "year": 2025,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2506.10597",
+        "abstract": "Large Language Models (LLMs) have achieved remarkable progress, but their deployment has exposed critical vulnerabilities, particularly to jailbreak attacks that circumvent safety alignments. Guardrails--external defense mechanisms that monitor and control LLM interactions--have emerged as a promising solution. However, the current landscape of LLM guardrails is fragmented, lacking a unified taxonomy and comprehensive evaluation framework. In this Systematization of Knowledge (SoK) paper, we present the first holistic analysis of jailbreak guardrails for LLMs. We propose a novel, multi-dimensional taxonomy that categorizes guardrails along six key dimensions, and introduce a Security-Efficiency-Utility evaluation framework to assess their practical effectiveness. Through extensive analysis and experiments, we identify the strengths and limitations of existing guardrail approaches, provide insights into optimizing their defense mechanisms, and explore their universality across attack types. Our work offers a structured foundation for future research and development, aiming to guide the principled advancement and deployment of robust LLM guardrails. The code is available at https://github.com/xunguangwang/SoK4JailbreakGuardrails.",
+        "matched_word_count": 3,
+        "matched_words": [
+          "evaluating",
+          "jailbreak",
+          "large"
+        ],
+        "title_score": 0.375,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.3138,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3752.24
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 6,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2402.03299",
+      "title": "GUARD: Role-playing to Generate Natural-language Jailbreakings to Test Guideline Adherence of Large Language Models",
+      "title_normalized": "guardroleplayingtogeneratenaturallanguagejailbreakingstotestguidelineadherenceoflargelanguagemodels",
+      "authors": [
+        "Haibo Jin",
+        "Ruoxi Chen",
+        "Peiyan Zhang",
+        "Andy Zhou",
+        "Haohan Wang"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2402.03299",
+      "oai_identifier": "oai:arXiv.org:2402.03299",
+      "comments": "28 papges",
+      "categories": "cs.LG cs.CL cs.CV"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 7,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2309.10253",
+      "title": "GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts",
+      "title_normalized": "gptfuzzerredteaminglargelanguagemodelswithautogeneratedjailbreakprompts",
+      "authors": [
+        "Jiahao Yu",
+        "Xingwei Lin",
+        "Zheng Yu",
+        "Xinyu Xing"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2309.10253",
+      "oai_identifier": "oai:arXiv.org:2309.10253",
+      "comments": "",
+      "categories": "cs.AI"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 8,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 0.4414,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2502.09922",
+      "title": "{\\lambda}Scale: Enabling Fast Scaling for Serverless Large Language Model Inference",
+      "title_normalized": "lambdascaleenablingfastscalingforserverlesslargelanguagemodelinference",
+      "authors": [
+        "Minchen Yu",
+        "Rui Yang",
+        "Chaobo Jia",
+        "Zhaoyuan Su",
+        "Sheng Yao",
+        "Tingfeng Lan",
+        "Yuchen Yang",
+        "Zirui Wang",
+        "Yue Cheng",
+        "Wei Wang",
+        "Ao Wang",
+        "Ruichuan Chen"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2502.09922",
+      "abstract": "Serverless computing has emerged as a compelling solution for cloud-based model inference. However, as modern large language models (LLMs) continue to grow in size, existing serverless platforms often face substantial model startup overhead. This poses a significant challenge in efficiently scaling model instances to accommodate dynamic, bursty workloads commonly observed in real-world inference services. In this paper, we introduce {\\lambda}Scale, an efficient serverless inference system to achieve fast model scaling. The key idea behind {\\lambda}Scale is to leverage high-speed RDMA networks between GPU nodes for fast model multicast, while enabling distributed inference execution during model transmission -- referred to as \"execute-while-load\". {\\lambda}Scale proposes an efficient model scaling scheme, {\\lambda}Pipe, which supports adaptive model multicast and dynamically constructs execution pipelines across receiving nodes for collaborative, distributed inference. Additionally, {\\lambda}Scale supports efficient model management across GPU and host memory, allowing fast scaling for models across different storage tiers. Evaluation results show that {\\lambda}Scale enables fast model scaling and effectively handles load spikes, achieving up to 5x tail-latency improvement and 31.3% cost reduction compared to state-of-the-art solutions on real-world LLM inference traces.",
+      "matched_word_count": 4,
+      "matched_words": [
+        "language",
+        "large",
+        "model",
+        "scaling"
+      ],
+      "title_score": 0.5714,
+      "author_score": 0.0,
+      "year_score": 0.7,
+      "lexical_score": 0.4414,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2512.07761",
+        "title": "TROJail: Trajectory-Level Optimization for Multi-Turn Large Language Model Jailbreaks with Process Rewards",
+        "title_normalized": "trojailtrajectoryleveloptimizationformultiturnlargelanguagemodeljailbreakswithprocessrewards",
+        "authors": [
+          "Xiqiao Xiong",
+          "Ouxiang Li",
+          "Zhuo Liu",
+          "Moxin Li",
+          "Wentao Shi",
+          "Fengbin Zhu",
+          "Qifan Wang",
+          "Fuli Feng"
+        ],
+        "year": 2025,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2512.07761",
+        "abstract": "Large language models have seen widespread adoption, yet they remain vulnerable to multi-turn jailbreak attacks, threatening their safe deployment. This has led to the task of training automated multi-turn attackers to probe model safety vulnerabilities. However, existing approaches typically rely on turn-level optimization, which is insufficient for learning long-term attack strategies. To bridge this gap, we formulate this task as a multi-turn reinforcement learning problem, directly optimizing the harmfulness of the final-turn response as the outcome reward. To address the sparse supervision of the outcome reward, we introduce TROJail, which employs two process rewards to evaluate the utility of intermediate prompts and integrate them into advantage estimation. These rewards (1) penalize overly harmful prompts that trigger the model's refusal mechanism, and (2) encourage steering the semantic relevance of responses toward the targeted harmful content. Experimental results show improved attack success rates across multiple models and benchmarks, highlighting the effectiveness of our approach. The code is available at https://github.com/xxiqiao/TROJail. Warning: This paper contains examples of harmful content.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "jailbreaks",
+          "language",
+          "large",
+          "model"
+        ],
+        "title_score": 0.5714,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.4414,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3814.87
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 9,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "1712.06751",
+      "title": "HotFlip: White-Box Adversarial Examples for Text Classification",
+      "title_normalized": "hotflipwhiteboxadversarialexamplesfortextclassification",
+      "authors": [
+        "Javid Ebrahimi",
+        "Anyi Rao",
+        "Daniel Lowd",
+        "Dejing Dou"
+      ],
+      "year": 2017,
+      "venue": "ACL 2018",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1712.06751",
+      "oai_identifier": "oai:arXiv.org:1712.06751",
+      "comments": "",
+      "categories": "cs.CL cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 10,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2010.15980",
+      "title": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts",
+      "title_normalized": "autopromptelicitingknowledgefromlanguagemodelswithautomaticallygeneratedprompts",
+      "authors": [
+        "Taylor Shin",
+        "Yasaman Razeghi",
+        "Robert L. Logan IV",
+        "Eric Wallace",
+        "Sameer Singh"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2010.15980",
+      "oai_identifier": "oai:arXiv.org:2010.15980",
+      "comments": "v2: Fixed error in Figure 2",
+      "categories": "cs.CL cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 11,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2104.08691",
+      "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+      "title_normalized": "thepowerofscaleforparameterefficientprompttuning",
+      "authors": [
+        "Brian Lester",
+        "Rami Al-Rfou",
+        "Noah Constant"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2104.08691",
+      "oai_identifier": "oai:arXiv.org:2104.08691",
+      "comments": "Accepted to EMNLP 2021",
+      "categories": "cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 12,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2202.11705",
+      "title": "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics",
+      "title_normalized": "colddecodingenergybasedconstrainedtextgenerationwithlangevindynamics",
+      "authors": [
+        "Lianhui Qin",
+        "Sean Welleck",
+        "Daniel Khashabi",
+        "Yejin Choi"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2202.11705",
+      "abstract": "Many applications of text generation require incorporating different constraints to control the semantics or style of generated text. These constraints can be hard (e.g., ensuring certain keywords are included in the output) and soft (e.g., contextualizing the output with the left- or right-hand context). In this paper, we present Energy-based Constrained Decoding with Langevin Dynamics (COLD), a decoding framework which unifies constrained generation as specifying constraints through an energy function, then performing efficient differentiable reasoning over the constraints through gradient-based sampling. COLD decoding is a flexible framework that can be applied directly to off-the-shelf left-to-right language models without the need for any task-specific fine-tuning, as demonstrated through three challenging text generation applications: lexically-constrained generation, abductive reasoning, and counterfactual reasoning. Our experiments on these constrained generation tasks point to the effectiveness of our approach, both in terms of automatic and human evaluation.",
+      "matched_word_count": 8,
+      "matched_words": [
+        "cold",
+        "constrained",
+        "decoding",
+        "dynamics",
+        "energy-based",
+        "generation",
+        "langevin",
+        "text"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2112.08726",
+        "title": "NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics",
+        "title_normalized": "neurologicaesquedecodingconstrainedtextgenerationwithlookaheadheuristics",
+        "authors": [
+          "Ximing Lu",
+          "Sean Welleck",
+          "Peter West",
+          "Liwei Jiang",
+          "Jungo Kasai",
+          "Daniel Khashabi",
+          "Ronan Le Bras",
+          "Lianhui Qin",
+          "Youngjae Yu",
+          "Rowan Zellers",
+          "Noah A. Smith",
+          "Yejin Choi"
+        ],
+        "year": 2021,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2112.08726",
+        "abstract": "The dominant paradigm for neural text generation is left-to-right decoding from autoregressive language models. Constrained or controllable generation under complex lexical constraints, however, requires foresight to plan ahead feasible future paths. Drawing inspiration from the A* search algorithm, we propose NeuroLogic A*esque, a decoding algorithm that incorporates heuristic estimates of future cost. We develop efficient lookahead heuristics that are efficient for large-scale language models, making our method a drop-in replacement for common techniques such as beam search and top-k sampling. To enable constrained generation, we build on NeuroLogic decoding (Lu et al., 2021), combining its flexibility in incorporating logical constraints with A*esque estimates of future constraint satisfaction. Our approach outperforms competitive baselines on five generation tasks, and achieves new state-of-the-art performance on table-to-text generation, constrained machine translation, and keyword-constrained generation. The improvements are particularly notable on tasks that require complex constraint satisfaction or in few-shot or zero-shot settings. NeuroLogic A*esque illustrates the power of decoding for improving and enabling new capabilities of large-scale language models.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "constrained",
+          "decoding",
+          "generation",
+          "text"
+        ],
+        "title_score": 0.5,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 0.645,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3431.79
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 13,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2302.03668",
+      "title": "Hard Prompts Made Easy: Gradient-Based Discrete Optimization for Prompt Tuning and Discovery",
+      "title_normalized": "hardpromptsmadeeasygradientbaseddiscreteoptimizationforprompttuninganddiscovery",
+      "authors": [
+        "Yuxin Wen",
+        "Neel Jain",
+        "John Kirchenbauer",
+        "Micah Goldblum",
+        "Jonas Geiping",
+        "Tom Goldstein"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2302.03668",
+      "abstract": "The strength of modern generative models lies in their ability to be controlled through text-based prompts. Typical \"hard\" prompts are made from interpretable words and tokens, and must be hand-crafted by humans. There are also \"soft\" prompts, which consist of continuous feature vectors. These can be discovered using powerful optimization methods, but they cannot be easily interpreted, re-used across models, or plugged into a text-based interface. We describe an approach to robustly optimize hard text prompts through efficient gradient-based optimization. Our approach automatically generates hard text-based prompts for both text-to-image and text-to-text applications. In the text-to-image setting, the method creates hard prompts for diffusion models, allowing API users to easily generate, discover, and mix and match image concepts without prior knowledge on how to prompt the model. In the text-to-text setting, we show that hard prompts can be automatically discovered that are effective in tuning LMs for classification.",
+      "matched_word_count": 8,
+      "matched_words": [
+        "discrete",
+        "easy",
+        "gradient-based",
+        "hard",
+        "made",
+        "optimization",
+        "prompt",
+        "prompts"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2407.14733",
+        "title": "Hard Prompts Made Interpretable: Sparse Entropy Regularization for Prompt Tuning with RL",
+        "title_normalized": "hardpromptsmadeinterpretablesparseentropyregularizationforprompttuningwithrl",
+        "authors": [
+          "Yunseon Choi",
+          "Sangmin Bae",
+          "Seonghyun Ban",
+          "Minchan Jeong",
+          "Chuheng Zhang",
+          "Lei Song",
+          "Li Zhao",
+          "Jiang Bian",
+          "Kee-Eung Kim"
+        ],
+        "year": 2024,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2407.14733",
+        "abstract": "With the advent of foundation models, prompt tuning has positioned itself as an important technique for directing model behaviors and eliciting desired responses. Prompt tuning regards selecting appropriate keywords included into the input, thereby adapting to the downstream task without adjusting or fine-tuning the model parameters. There is a wide range of work in prompt tuning, from approaches that directly harness the backpropagated gradient signals from the model, to those employing black-box optimization such as reinforcement learning (RL) methods. Our primary focus is on RLPrompt, which aims to find optimal prompt tokens leveraging soft Q-learning. While the results show promise, we have observed that the prompts frequently appear unnatural, which impedes their interpretability. We address this limitation by using sparse Tsallis entropy regularization, a principled approach to filtering out unlikely tokens from consideration. We extensively evaluate our approach across various tasks, including few-shot text classification, unsupervised text style transfer, and textual inversion from images. The results indicate a notable improvement over baselines, highlighting the efficacy of our approach in addressing the challenges of prompt tuning. Moreover, we show that the prompts discovered using our method are more natural and interpretable compared to those from other baselines.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "hard",
+          "made",
+          "prompt",
+          "prompts"
+        ],
+        "title_score": 0.5,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.395,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3286.49
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 14,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2303.04381",
+      "title": "Automatically Auditing Large Language Models via Discrete Optimization",
+      "title_normalized": "automaticallyauditinglargelanguagemodelsviadiscreteoptimization",
+      "authors": [
+        "Erik Jones",
+        "Anca Dragan",
+        "Aditi Raghunathan",
+        "Jacob Steinhardt"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2303.04381",
+      "abstract": "Auditing large language models for unexpected behaviors is critical to preempt catastrophic deployments, yet remains challenging. In this work, we cast auditing as an optimization problem, where we automatically search for input-output pairs that match a desired target behavior. For example, we might aim to find a non-toxic input that starts with \"Barack Obama\" that a model maps to a toxic output. This optimization problem is difficult to solve as the set of feasible points is sparse, the space is discrete, and the language models we audit are non-linear and high-dimensional. To combat these challenges, we introduce a discrete optimization algorithm, ARCA, that jointly and efficiently optimizes over inputs and outputs. Our approach automatically uncovers derogatory completions about celebrities (e.g. \"Barack Obama is a legalized unborn\" -> \"child murderer\"), produces French inputs that complete to English outputs, and finds inputs that generate a specific name. Our work offers a promising new tool to uncover models' failure-modes before deployment.",
+      "matched_word_count": 8,
+      "matched_words": [
+        "auditing",
+        "automatically",
+        "discrete",
+        "language",
+        "large",
+        "models",
+        "optimization",
+        "via"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2407.02203",
+        "title": "Automatic Adaptation Rule Optimization via Large Language Models",
+        "title_normalized": "automaticadaptationruleoptimizationvialargelanguagemodels",
+        "authors": [
+          "Yusei Ishimizu",
+          "Jialong Li",
+          "Jinglue Xu",
+          "Jinyu Cai",
+          "Hitoshi Iba",
+          "Kenji Tei"
+        ],
+        "year": 2024,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2407.02203",
+        "abstract": "Rule-based adaptation is a foundational approach to self-adaptation, characterized by its human readability and rapid response. However, building high-performance and robust adaptation rules is often a challenge because it essentially involves searching the optimal design in a complex (variables) space. In response, this paper attempt to employ large language models (LLMs) as a optimizer to construct and optimize adaptation rules, leveraging the common sense and reasoning capabilities inherent in LLMs. Preliminary experiments conducted in SWIM have validated the effectiveness and limitation of our method.",
+        "matched_word_count": 5,
+        "matched_words": [
+          "language",
+          "large",
+          "models",
+          "optimization",
+          "via"
+        ],
+        "title_score": 0.625,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.4763,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3959.24
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 15,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2307.15043",
+      "title": "Universal and Transferable Adversarial Attacks on Aligned Language Models",
+      "title_normalized": "universalandtransferableadversarialattacksonalignedlanguagemodels",
+      "authors": [
+        "Andy Zou",
+        "Zifan Wang",
+        "Nicholas Carlini",
+        "Milad Nasr",
+        "J. Zico Kolter",
+        "Matt Fredrikson"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2307.15043",
+      "oai_identifier": "oai:arXiv.org:2307.15043",
+      "comments": "Website: http://llm-attacks.org/",
+      "categories": "cs.CL cs.AI cs.CR cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 16,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2312.04730",
+      "title": "DeceptPrompt: Exploiting LLM-driven Code Generation via Adversarial Natural Language Instructions",
+      "title_normalized": "deceptpromptexploitingllmdrivencodegenerationviaadversarialnaturallanguageinstructions",
+      "authors": [
+        "Fangzhou Wu",
+        "Xiaogeng Liu",
+        "Chaowei Xiao"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2312.04730",
+      "oai_identifier": "oai:arXiv.org:2312.04730",
+      "comments": "",
+      "categories": "cs.CR cs.AI"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 17,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2310.04451",
+      "title": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+      "title_normalized": "autodangeneratingstealthyjailbreakpromptsonalignedlargelanguagemodels",
+      "authors": [
+        "Xiaogeng Liu",
+        "Nan Xu",
+        "Muhao Chen",
+        "Chaowei Xiao"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2310.04451",
+      "oai_identifier": "oai:arXiv.org:2310.04451",
+      "comments": "Published as a conference paper at ICLR 2024. Code is available at https://github.com/SheltonLiu-N/AutoDAN",
+      "categories": "cs.CL cs.AI"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 18,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2012.15723",
+      "title": "Making Pre-trained Language Models Better Few-shot Learners",
+      "title_normalized": "makingpretrainedlanguagemodelsbetterfewshotlearners",
+      "authors": [
+        "Tianyu Gao",
+        "Adam Fisch",
+        "Danqi Chen"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2012.15723",
+      "oai_identifier": "oai:arXiv.org:2012.15723",
+      "comments": "Accepted to ACL 2021. The code is publicly available at https://github.com/princeton-nlp/LM-BFF",
+      "categories": "cs.CL cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 19,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2305.03495",
+      "title": "Automatic Prompt Optimization with \"Gradient Descent\" and Beam Search",
+      "title_normalized": "automaticpromptoptimizationwithgradientdescentandbeamsearch",
+      "authors": [
+        "Reid Pryzant",
+        "Dan Iter",
+        "Jerry Li",
+        "Yin Tat Lee",
+        "Chenguang Zhu",
+        "Michael Zeng"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2305.03495",
+      "oai_identifier": "oai:arXiv.org:2305.03495",
+      "comments": "EMNLP 2023",
+      "categories": "cs.CL cs.AI cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 20,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2211.01910",
+      "title": "Large Language Models Are Human-Level Prompt Engineers",
+      "title_normalized": "largelanguagemodelsarehumanlevelpromptengineers",
+      "authors": [
+        "Yongchao Zhou",
+        "Andrei Ioan Muresanu",
+        "Ziwen Han",
+        "Keiran Paster",
+        "Silviu Pitis",
+        "Harris Chan",
+        "Jimmy Ba"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2211.01910",
+      "abstract": "By conditioning on natural language instructions, large language models (LLMs) have displayed impressive capabilities as general-purpose computers. However, task performance depends significantly on the quality of the prompt used to steer the model, and most effective prompts have been handcrafted by humans. Inspired by classical program synthesis and the human approach to prompt engineering, we propose Automatic Prompt Engineer (APE) for automatic instruction generation and selection. In our method, we treat the instruction as the \"program,\" optimized by searching over a pool of instruction candidates proposed by an LLM in order to maximize a chosen score function. To evaluate the quality of the selected instruction, we evaluate the zero-shot performance of another LLM following the selected instruction. Experiments on 24 NLP tasks show that our automatically generated instructions outperform the prior LLM baseline by a large margin and achieve better or comparable performance to the instructions generated by human annotators on 19/24 tasks. We conduct extensive qualitative and quantitative analyses to explore the performance of APE. We show that APE-engineered prompts can be applied to steer models toward truthfulness and/or informativeness, as well as to improve few-shot learning performance by simply prepending them to standard in-context learning prompts. Please check out our webpage at https://sites.google.com/view/automatic-prompt-engineer.",
+      "matched_word_count": 7,
+      "matched_words": [
+        "are",
+        "engineers",
+        "human-level",
+        "language",
+        "large",
+        "models",
+        "prompt"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2312.04076",
+        "title": "Large Language Models are Good Prompt Learners for Low-Shot Image Classification",
+        "title_normalized": "largelanguagemodelsaregoodpromptlearnersforlowshotimageclassification",
+        "authors": [
+          "Zhaoheng Zheng",
+          "Jingmin Wei",
+          "Xuefeng Hu",
+          "Haidong Zhu",
+          "Ram Nevatia"
+        ],
+        "year": 2023,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2312.04076",
+        "abstract": "Low-shot image classification, where training images are limited or inaccessible, has benefited from recent progress on pre-trained vision-language (VL) models with strong generalizability, e.g. CLIP. Prompt learning methods built with VL models generate text features from the class names that only have confined class-specific information. Large Language Models (LLMs), with their vast encyclopedic knowledge, emerge as the complement. Thus, in this paper, we discuss the integration of LLMs to enhance pre-trained VL models, specifically on low-shot classification. However, the domain gap between language and vision blocks the direct application of LLMs. Thus, we propose LLaMP, Large Language Models as Prompt learners, that produces adaptive prompts for the CLIP text encoder, establishing it as the connecting bridge. Experiments show that, compared with other state-of-the-art prompt learning methods, LLaMP yields better performance on both zero-shot generalization and few-shot image classification, over a spectrum of 11 datasets. Code will be made available at: https://github.com/zhaohengz/LLaMP.",
+        "matched_word_count": 5,
+        "matched_words": [
+          "are",
+          "language",
+          "large",
+          "models",
+          "prompt"
+        ],
+        "title_score": 0.7143,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.5343,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3528.45
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 21,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2310.08419",
+      "title": "Jailbreaking Black Box Large Language Models in Twenty Queries",
+      "title_normalized": "jailbreakingblackboxlargelanguagemodelsintwentyqueries",
+      "authors": [
+        "Patrick Chao",
+        "Alexander Robey",
+        "Edgar Dobriban",
+        "Hamed Hassani",
+        "George J. Pappas",
+        "Eric Wong"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2310.08419",
+      "oai_identifier": "oai:arXiv.org:2310.08419",
+      "comments": "",
+      "categories": "cs.LG cs.AI"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 22,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 0.97,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2312.02119",
+      "title": "Tree of Attacks: Jailbreaking Black-Box LLMs Automatically",
+      "title_normalized": "treeofattacksjailbreakingblackboxllmsautomatically",
+      "authors": [
+        "Anay Mehrotra",
+        "Manolis Zampetakis",
+        "Paul Kassianik",
+        "Blaine Nelson",
+        "Hyrum Anderson",
+        "Yaron Singer",
+        "Amin Karbasi"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2312.02119",
+      "abstract": "While Large Language Models (LLMs) display versatile functionality, they continue to generate harmful, biased, and toxic content, as demonstrated by the prevalence of human-designed jailbreaks. In this work, we present Tree of Attacks with Pruning (TAP), an automated method for generating jailbreaks that only requires black-box access to the target LLM. TAP utilizes an attacker LLM to iteratively refine candidate (attack) prompts until one of the refined prompts jailbreaks the target. In addition, before sending prompts to the target, TAP assesses them and prunes the ones unlikely to result in jailbreaks, reducing the number of queries sent to the target LLM. In empirical evaluations, we observe that TAP generates prompts that jailbreak state-of-the-art LLMs (including GPT4-Turbo and GPT4o) for more than 80% of the prompts. This significantly improves upon the previous state-of-the-art black-box methods for generating jailbreaks while using a smaller number of queries than them. Furthermore, TAP is also capable of jailbreaking LLMs protected by state-of-the-art guardrails, e.g., LlamaGuard.",
+      "matched_word_count": 6,
+      "matched_words": [
+        "attacks",
+        "automatically",
+        "black-box",
+        "jailbreaking",
+        "llms",
+        "tree"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 0.7,
+      "lexical_score": 0.97,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2510.17277",
+        "title": "PolyJailbreak: Cross-Modal Jailbreaking Attacks on Black-Box Multimodal LLMs",
+        "title_normalized": "polyjailbreakcrossmodaljailbreakingattacksonblackboxmultimodalllms",
+        "authors": [
+          "Xinkai Wang",
+          "Beibei Li",
+          "Zerui Shao",
+          "Ao Liu",
+          "Guangquan Xu",
+          "Shouling Ji"
+        ],
+        "year": 2025,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2510.17277",
+        "abstract": "Multimodal large language models (MLLMs) have become integral to a wide range of real-world applications by jointly reasoning over text and visual inputs. However, despite recent advances in safety alignment, MLLMs remain vulnerable to jailbreak attacks, where carefully crafted inputs can bypass safety mechanisms and elicit harmful responses. In this work, we investigate the security vulnerabilities of MLLMs in text-vision scenarios and propose a novel black-box jailbreak framework, named PolyJailbreak. We first identify a phenomenon, termed multimodal safety asymmetry, where visual alignment introduces uneven safety constraints across modalities and weakens overall robustness. We analyze attention dynamics and latent representations in MLLMs, revealing that visual inputs can disrupt cross-modal information flow and reduce the model's ability to separate benign and malicious intents. Motivated by these findings, we propose PolyJailbreak, which organizes the discovered vulnerabilities into a structured library of reusable Atomic Strategy Primitives to enable step-wise transformations from harmful intents to effective jailbreak inputs. Guided by these primitives, a reinforcement learning-based multi-agent optimization process automatically adapts attacks to the target model without access to internal parameters. Extensive experiments on a wide range of MLLMs demonstrate that PolyJailbreak consistently outperforms state-of-the-art jailbreak baselines, with an average improvement of 18.15% in attack success rate and a success rate exceeding 95% on commercial black-box models, including GPT-4o and Gemini.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "attacks",
+          "black-box",
+          "jailbreaking",
+          "llms"
+        ],
+        "title_score": 0.6667,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.5033,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3103.89
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 23,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2402.09091",
+      "title": "Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues",
+      "title_normalized": "playguessinggamewithllmindirectjailbreakattackwithimplicitclues",
+      "authors": [
+        "Zhiyuan Chang",
+        "Mingyang Li",
+        "Yi Liu",
+        "Junjie Wang",
+        "Qing Wang",
+        "Yang Liu"
+      ],
+      "year": 2024,
+      "venue": "The 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024)",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2402.09091",
+      "oai_identifier": "oai:arXiv.org:2402.09091",
+      "comments": "13 pages, 6 figures",
+      "categories": "cs.CR cs.AI cs.HC"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 24,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 0.97,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2509.11864",
+      "title": "NeuroStrike: Neuron-Level Attacks on Aligned LLMs",
+      "title_normalized": "neurostrikeneuronlevelattacksonalignedllms",
+      "authors": [
+        "Lichao Wu",
+        "Sasha Behrouzi",
+        "Mohamadreza Rostami",
+        "Maximilian Thang",
+        "Stjepan Picek",
+        "Ahmad-Reza Sadeghi"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": "10.14722/ndss.2026.230660",
+      "url": "https://arxiv.org/abs/2509.11864",
+      "abstract": "Safety alignment is critical for the ethical deployment of large language models (LLMs), guiding them to avoid generating harmful or unethical content. Current alignment techniques, such as supervised fine-tuning and reinforcement learning from human feedback, remain fragile and can be bypassed by carefully crafted adversarial prompts. Unfortunately, such attacks rely on trial and error, lack generalizability across models, and are constrained by scalability and reliability. This paper presents NeuroStrike, a novel and generalizable attack framework that exploits a fundamental vulnerability introduced by alignment techniques: the reliance on sparse, specialized safety neurons responsible for detecting and suppressing harmful inputs. We apply NeuroStrike to both white-box and black-box settings: In the white-box setting, NeuroStrike identifies safety neurons through feedforward activation analysis and prunes them during inference to disable safety mechanisms. In the black-box setting, we propose the first LLM profiling attack, which leverages safety neuron transferability by training adversarial prompt generators on open-weight surrogate models and then deploying them against black-box and proprietary targets. We evaluate NeuroStrike on over 20 open-weight LLMs from major LLM developers. By removing less than 0.6% of neurons in targeted layers, NeuroStrike achieves an average attack success rate (ASR) of 76.9% using only vanilla malicious prompts. Moreover, Neurostrike generalizes to four multimodal LLMs with 100% ASR on unsafe image inputs. Safety neurons transfer effectively across architectures, raising ASR to 78.5% on 11 fine-tuned models and 77.7% on five distilled models. The black-box LLM profiling attack achieves an average ASR of 63.7% across five black-box models, including the Google Gemini family.",
+      "matched_word_count": 5,
+      "matched_words": [
+        "aligned",
+        "attacks",
+        "llms",
+        "neuron-level",
+        "neurostrike"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 0.7,
+      "lexical_score": 0.97,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2602.22613",
+        "title": "Spectrally Distilled Representations Aligned with Instruction-Augmented LLMs for Satellite Imagery",
+        "title_normalized": "spectrallydistilledrepresentationsalignedwithinstructionaugmentedllmsforsatelliteimagery",
+        "authors": [
+          "Minh Kha Do",
+          "Wei Xiang",
+          "Kang Han",
+          "Di Wu",
+          "Khoa Phan",
+          "Yi-Ping Phoebe Chen",
+          "Gaowen Liu",
+          "Ramana Rao Kompella"
+        ],
+        "year": 2026,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2602.22613",
+        "abstract": "Vision-language foundation models (VLFMs) promise zero-shot and retrieval understanding for Earth observation. While operational satellite systems often lack full multi-spectral coverage, making RGB-only inference highly desirable for scalable deployment, the adoption of VLFMs for satellite imagery remains hindered by two factors: (1) multi-spectral inputs are informative but difficult to exploit consistently due to band redundancy and misalignment; and (2) CLIP-style text encoders limit semantic expressiveness and weaken fine-grained alignment. We present SATtxt, a spectrum-aware VLFM that operates with RGB inputs only at inference while retaining spectral cues learned during training. Our framework comprises two stages. First, Spectral Representation Distillation transfers spectral priors from a frozen multi-spectral teacher to an RGB student via a lightweight projector. Second, Spectrally Grounded Alignment with Instruction-Augmented LLMs bridges the distilled visual space and an expressive LLM embedding space. Across EuroSAT, BigEarthNet, and ForestNet, SATtxt improves zero-shot classification on average by 4.2%, retrieval by 5.9%, and linear probing by 2.7% over baselines, showing an efficient path toward spectrum-aware vision-language learning for Earth observation. Project page: https://ikhado.github.io/sattxt/",
+        "matched_word_count": 2,
+        "matched_words": [
+          "aligned",
+          "llms"
+        ],
+        "title_score": 0.4,
+        "author_score": 0.0,
+        "year_score": 1.0,
+        "lexical_score": 0.36,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3017.34
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 25,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2203.02155",
+      "title": "Training language models to follow instructions with human feedback",
+      "title_normalized": "traininglanguagemodelstofollowinstructionswithhumanfeedback",
+      "authors": [
+        "Long Ouyang",
+        "Jeff Wu",
+        "Xu Jiang",
+        "Diogo Almeida",
+        "Carroll L. Wainwright",
+        "Pamela Mishkin",
+        "Chong Zhang",
+        "Sandhini Agarwal",
+        "Katarina Slama",
+        "Alex Ray",
+        "John Schulman",
+        "Jacob Hilton",
+        "Fraser Kelton",
+        "Luke Miller",
+        "Maddie Simens",
+        "Amanda Askell",
+        "Peter Welinder",
+        "Paul Christiano",
+        "Jan Leike",
+        "Ryan Lowe"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2203.02155",
+      "abstract": "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In other words, these models are not aligned with their users. In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through the OpenAI API, we collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. We then collect a dataset of rankings of model outputs, which we use to further fine-tune this supervised model using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on our prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.",
+      "matched_word_count": 7,
+      "matched_words": [
+        "feedback",
+        "follow",
+        "human",
+        "instructions",
+        "language",
+        "models",
+        "training"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2311.09132",
+        "title": "Aligning Neural Machine Translation Models: Human Feedback in Training and Inference",
+        "title_normalized": "aligningneuralmachinetranslationmodelshumanfeedbackintrainingandinference",
+        "authors": [
+          "Miguel Moura Ramos",
+          "Patrick Fernandes",
+          "Ant\\'onio Farinhas",
+          "Andr\\'e F. T. Martins"
+        ],
+        "year": 2023,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2311.09132",
+        "abstract": "Reinforcement learning from human feedback (RLHF) is a recent technique to improve the quality of the text generated by a language model, making it closer to what humans would generate. A core ingredient in RLHF's success in aligning and improving large language models (LLMs) is its reward model, trained using human feedback on model outputs. In machine translation (MT), where metrics trained from human annotations can readily be used as reward models, recent methods using minimum Bayes risk decoding and reranking have succeeded in improving the final quality of translation. In this study, we comprehensively explore and compare techniques for integrating quality metrics as reward models into the MT pipeline. This includes using the reward model for data filtering, during the training phase through RL, and at inference time by employing reranking techniques, and we assess the effects of combining these in a unified approach. Our experimental results, conducted across multiple translation tasks, underscore the crucial role of effective data filtering, based on estimated quality, in harnessing the full potential of RL in enhancing MT quality. Furthermore, our findings demonstrate the effectiveness of combining RL training with reranking techniques, showcasing substantial improvements in translation quality.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "feedback",
+          "human",
+          "models",
+          "training"
+        ],
+        "title_score": 0.5714,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.4414,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3464.41
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 26,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 0.97,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2407.09121",
+      "title": "Refuse Whenever You Feel Unsafe: Improving Safety in LLMs via Decoupled Refusal Training",
+      "title_normalized": "refusewheneveryoufeelunsafeimprovingsafetyinllmsviadecoupledrefusaltraining",
+      "authors": [
+        "Youliang Yuan",
+        "Wenxiang Jiao",
+        "Wenxuan Wang",
+        "Jen-tse Huang",
+        "Jiahao Xu",
+        "Tian Liang",
+        "Pinjia He",
+        "Zhaopeng Tu"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2407.09121",
+      "abstract": "This study addresses a critical gap in safety tuning practices for Large Language Models (LLMs) by identifying and tackling a refusal position bias within safety tuning data, which compromises the models' ability to appropriately refuse generating unsafe content. We introduce a novel approach, Decoupled Refusal Training (DeRTa), designed to empower LLMs to refuse compliance to harmful prompts at any response position, significantly enhancing their safety capabilities. DeRTa incorporates two novel components: (1) Maximum Likelihood Estimation (MLE) with Harmful Response Prefix, which trains models to recognize and avoid unsafe content by appending a segment of harmful response to the beginning of a safe response, and (2) Reinforced Transition Optimization (RTO), which equips models with the ability to transition from potential harm to safety refusal consistently throughout the harmful response sequence. Our empirical evaluation, conducted using LLaMA3 and Mistral model families across six attack scenarios, demonstrates that our method not only improves model safety without compromising performance but also surpasses baseline methods in defending against attacks.",
+      "matched_word_count": 8,
+      "matched_words": [
+        "feel",
+        "improving",
+        "llms",
+        "refuse",
+        "safety",
+        "unsafe",
+        "whenever",
+        "you"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 0.7,
+      "lexical_score": 0.97,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2507.17075",
+        "title": "LoRA is All You Need for Safety Alignment of Reasoning LLMs",
+        "title_normalized": "loraisallyouneedforsafetyalignmentofreasoningllms",
+        "authors": [
+          "Yihao Xue",
+          "Baharan Mirzasoleiman"
+        ],
+        "year": 2025,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2507.17075",
+        "abstract": "Reasoning-capable LLMs have achieved major breakthroughs in solving complex problems, but recent work shows that acquiring and deploying strong reasoning can introduce significant safety risks. A common mitigation is to apply a secondary safety-alignment phase after reasoning is learned; however, safety alignment often degrades reasoning performance--a phenomenon known as the \"Safety Tax\". In this work, we show that a simple approach can largely bypass this trade-off: applying LoRA during SFT on refusal datasets. Despite its simplicity, this recipe achieves safety comparable to full-model alignment while preserving reasoning performance close to the original reasoning-tuned model, and the result holds across multiple model sizes and architectures, two safety benchmarks, and four reasoning benchmarks spanning mathematics, science, and code generation. We further ablate LoRA configurations and find that (1) rank-1 updates are sufficient to achieve the best safety-reasoning trade-off, (2) applying LoRA only to the MLP up-projection layers can outperform updating the full MLP, and (3) updating middle layers is more effective than updating early or late layers. Finally, we provide a theoretical analysis that helps understand when and why LoRA works, revealing that overshooting the rank budget (using a larger rank than needed for the finetuning task) induces base-task degradation at a rate inversely proportional to the intrinsic dimensionality of the base task. This suggests LoRA is most effective when the finetuning task is low-rank and the base capability is high-rank.",
+        "matched_word_count": 3,
+        "matched_words": [
+          "llms",
+          "safety",
+          "you"
+        ],
+        "title_score": 0.375,
+        "author_score": 0.0,
+        "year_score": 1.0,
+        "lexical_score": 0.3438,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.82
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3136.49
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 27,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2309.07875",
+      "title": "Safety-Tuned LLaMAs: Lessons From Improving the Safety of Large Language Models that Follow Instructions",
+      "title_normalized": "safetytunedllamaslessonsfromimprovingthesafetyoflargelanguagemodelsthatfollowinstructions",
+      "authors": [
+        "Federico Bianchi",
+        "Mirac Suzgun",
+        "Giuseppe Attanasio",
+        "Paul R\\\"ottger",
+        "Dan Jurafsky",
+        "Tatsunori Hashimoto",
+        "James Zou"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2309.07875",
+      "oai_identifier": "oai:arXiv.org:2309.07875",
+      "comments": "",
+      "categories": "cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 28,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2505.20065",
+      "title": "SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety",
+      "title_normalized": "safedpoasimpleapproachtodirectpreferenceoptimizationwithenhancedsafety",
+      "authors": [
+        "Geon-Hyeong Kim",
+        "Yu Jin Kim",
+        "Byoungjip Kim",
+        "Honglak Lee",
+        "Kyunghoon Bae",
+        "Youngsoo Jang",
+        "Moontae Lee"
+      ],
+      "year": 2025,
+      "venue": "In Proceedings of the International Conference on Learning Representations (ICLR), 2026",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2505.20065",
+      "oai_identifier": "oai:arXiv.org:2505.20065",
+      "comments": "40 pages",
+      "categories": "cs.LG cs.AI"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 29,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2410.07471",
+      "title": "SEAL: Safety-enhanced Aligned LLM Fine-tuning via Bilevel Data Selection",
+      "title_normalized": "sealsafetyenhancedalignedllmfinetuningviabileveldataselection",
+      "authors": [
+        "Han Shen",
+        "Pin-Yu Chen",
+        "Payel Das",
+        "Tianyi Chen"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2410.07471",
+      "oai_identifier": "oai:arXiv.org:2410.07471",
+      "comments": "",
+      "categories": "cs.LG cs.AI cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 30,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 0.8033,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "1602.08952",
+      "title": "Representation of linguistic form and function in recurrent neural networks",
+      "title_normalized": "representationoflinguisticformandfunctioninrecurrentneuralnetworks",
+      "authors": [
+        "\\'Akos K\\'ad\\'ar",
+        "Grzegorz Chrupa{\\l}a",
+        "Afra Alishahi"
+      ],
+      "year": 2016,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1602.08952",
+      "abstract": "We present novel methods for analyzing the activation patterns of RNNs from a linguistic point of view and explore the types of linguistic structure they learn. As a case study, we use a multi-task gated recurrent network architecture consisting of two parallel pathways with shared word embeddings trained on predicting the representations of the visual scene corresponding to an input sentence, and predicting the next word in the same sentence. Based on our proposed method to estimate the amount of contribution of individual tokens in the input to the final prediction of the networks we show that the image prediction pathway: a) is sensitive to the information structure of the sentence b) pays selective attention to lexical categories and grammatical functions that carry semantic information c) learns to treat the same input token differently depending on its grammatical functions in the sentence. In contrast the language model is comparatively more sensitive to words with a syntactic function. Furthermore, we propose methods to ex- plore the function of individual hidden units in RNNs and show that the two pathways of the architecture in our case study contain specialized units tuned to patterns informative for the task, some of which can carry activations to later time steps to encode long-term dependencies.",
+      "matched_word_count": 7,
+      "matched_words": [
+        "form",
+        "function",
+        "linguistic",
+        "networks",
+        "neural",
+        "recurrent",
+        "representation"
+      ],
+      "title_score": 1.0,
+      "author_score": 0.3333,
+      "year_score": 0.7,
+      "lexical_score": 0.8033,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "1703.02620",
+        "title": "Linguistic Knowledge as Memory for Recurrent Neural Networks",
+        "title_normalized": "linguisticknowledgeasmemoryforrecurrentneuralnetworks",
+        "authors": [
+          "Bhuwan Dhingra",
+          "Zhilin Yang",
+          "William W. Cohen",
+          "Ruslan Salakhutdinov"
+        ],
+        "year": 2017,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/1703.02620",
+        "abstract": "Training recurrent neural networks to model long term dependencies is difficult. Hence, we propose to use external linguistic knowledge as an explicit signal to inform the model which memories it should utilize. Specifically, external knowledge is used to augment a sequence with typed edges between arbitrarily distant elements, and the resulting graph is decomposed into directed acyclic subgraphs. We introduce a model that encodes such graphs as explicit memory in recurrent neural networks, and use it to model coreference relations in text. We apply our model to several text comprehension tasks and achieve new state-of-the-art results on all considered benchmarks, including CNN, bAbi, and LAMBADA. On the bAbi QA tasks, our model solves 15 out of the 20 tasks with only 1000 training examples per task. Analysis of the learned representations further demonstrates the ability of our model to encode fine-grained entity information across a document.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "linguistic",
+          "networks",
+          "neural",
+          "recurrent"
+        ],
+        "title_score": 0.5714,
+        "author_score": 0.0,
+        "year_score": 1.0,
+        "lexical_score": 0.4714,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.82
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3418.69
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 31,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "1902.07249",
+      "title": "Discovery of Natural Language Concepts in Individual Units of CNNs",
+      "title_normalized": "discoveryofnaturallanguageconceptsinindividualunitsofcnns",
+      "authors": [
+        "Seil Na",
+        "Yo Joong Choe",
+        "Dong-Hyun Lee",
+        "Gunhee Kim"
+      ],
+      "year": 2019,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1902.07249",
+      "oai_identifier": "oai:arXiv.org:1902.07249",
+      "comments": "Published as a conference paper at ICLR 2019",
+      "categories": "cs.CL cs.LG stat.ML"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 32,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2006.14032",
+      "title": "Compositional Explanations of Neurons",
+      "title_normalized": "compositionalexplanationsofneurons",
+      "authors": [
+        "Jesse Mu",
+        "Jacob Andreas"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2006.14032",
+      "abstract": "We describe a procedure for explaining neurons in deep representations by identifying compositional logical concepts that closely approximate neuron behavior. Compared to prior work that uses atomic labels as explanations, analyzing neurons compositionally allows us to more precisely and expressively characterize their behavior. We use this procedure to answer several questions on interpretability in models for vision and natural language processing. First, we examine the kinds of abstractions learned by neurons. In image classification, we find that many neurons learn highly abstract but semantically coherent visual concepts, while other polysemantic neurons detect multiple unrelated features; in natural language inference (NLI), neurons learn shallow lexical heuristics from dataset biases. Second, we see whether compositional explanations give us insight into model performance: vision neurons that detect human-interpretable concepts are positively correlated with task performance, while NLI neurons that fire for shallow heuristics are negatively correlated with task performance. Finally, we show how compositional explanations provide an accessible way for end users to produce simple \"copy-paste\" adversarial examples that change model behavior in predictable ways.",
+      "matched_word_count": 3,
+      "matched_words": [
+        "compositional",
+        "explanations",
+        "neurons"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2103.10415",
+        "title": "Refining Language Models with Compositional Explanations",
+        "title_normalized": "refininglanguagemodelswithcompositionalexplanations",
+        "authors": [
+          "Huihan Yao",
+          "Ying Chen",
+          "Qinyuan Ye",
+          "Xisen Jin",
+          "Xiang Ren"
+        ],
+        "year": 2021,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2103.10415",
+        "abstract": "Pre-trained language models have been successful on text classification tasks, but are prone to learning spurious correlations from biased datasets, and are thus vulnerable when making inferences in a new domain. Prior work reveals such spurious patterns via post-hoc explanation algorithms which compute the importance of input features. Further, the model is regularized to align the importance scores with human knowledge, so that the unintended model behaviors are eliminated. However, such a regularization technique lacks flexibility and coverage, since only importance scores towards a pre-defined list of features are adjusted, while more complex human knowledge such as feature interaction and pattern generalization can hardly be incorporated. In this work, we propose to refine a learned language model for a target domain by collecting human-provided compositional explanations regarding observed biases. By parsing these explanations into executable logic rules, the human-specified refinement advice from a small set of explanations can be generalized to more training examples. We additionally introduce a regularization term allowing adjustments for both importance and interaction of features to better rectify model behavior. We demonstrate the effectiveness of the proposed approach on two text classification tasks by showing improved performance in target domain as well as improved model fairness after refinement.",
+        "matched_word_count": 2,
+        "matched_words": [
+          "compositional",
+          "explanations"
+        ],
+        "title_score": 0.6667,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.5033,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 2913.24
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 33,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2005.07647",
+      "title": "Finding Experts in Transformer Models",
+      "title_normalized": "findingexpertsintransformermodels",
+      "authors": [
+        "Xavier Suau",
+        "Luca Zappella",
+        "Nicholas Apostoloff"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2005.07647",
+      "oai_identifier": "oai:arXiv.org:2005.07647",
+      "comments": "",
+      "categories": "cs.AI cs.CL cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 34,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2110.07483",
+      "title": "On the Pitfalls of Analyzing Individual Neurons in Language Models",
+      "title_normalized": "onthepitfallsofanalyzingindividualneuronsinlanguagemodels",
+      "authors": [
+        "Omer Antverg",
+        "Yonatan Belinkov"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2110.07483",
+      "oai_identifier": "oai:arXiv.org:2110.07483",
+      "comments": "ICLR 2022 Main Conference",
+      "categories": "cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 35,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "1903.07435",
+      "title": "The emergence of number and syntax units in LSTM language models",
+      "title_normalized": "theemergenceofnumberandsyntaxunitsinlstmlanguagemodels",
+      "authors": [
+        "Yair Lakretz, German Kruszewski, Theo Desbordes, Dieuwke Hupkes, Stanislas Dehaene",
+        "Marco Baroni"
+      ],
+      "year": 2019,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1903.07435",
+      "oai_identifier": "oai:arXiv.org:1903.07435",
+      "comments": "To appear in Proceedings of NAACL, Minneapolis, MN, 2019",
+      "categories": "cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 37,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 0.8771,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2106.09685",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "title_normalized": "loralowrankadaptationoflargelanguagemodels",
+      "authors": [
+        "Edward J. Hu",
+        "Yelong Shen",
+        "Phillip Wallis",
+        "Zeyuan Allen-Zhu",
+        "Yuanzhi Li",
+        "Shean Wang",
+        "Lu Wang",
+        "Weizhu Chen"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2106.09685",
+      "abstract": "An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible. Using GPT-3 175B as an example -- deploying independent instances of fine-tuned models, each with 175B parameters, is prohibitively expensive. We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number of trainable parameters by 10,000 times and the GPU memory requirement by 3 times. LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike adapters, no additional inference latency. We also provide an empirical investigation into rank-deficiency in language model adaptation, which sheds light on the efficacy of LoRA. We release a package that facilitates the integration of LoRA with PyTorch models and provide our implementations and model checkpoints for RoBERTa, DeBERTa, and GPT-2 at https://github.com/microsoft/LoRA.",
+      "matched_word_count": 6,
+      "matched_words": [
+        "adaptation",
+        "language",
+        "large",
+        "lora",
+        "low-rank",
+        "models"
+      ],
+      "title_score": 0.8571,
+      "author_score": 1.0,
+      "year_score": 0.7,
+      "lexical_score": 0.8771,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2308.13111",
+        "title": "Bayesian Low-rank Adaptation for Large Language Models",
+        "title_normalized": "bayesianlowrankadaptationforlargelanguagemodels",
+        "authors": [
+          "Adam X. Yang",
+          "Maxime Robeyns",
+          "Xi Wang",
+          "Laurence Aitchison"
+        ],
+        "year": 2023,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2308.13111",
+        "abstract": "Low-rank adaptation (LoRA) has emerged as a new paradigm for cost-efficient fine-tuning of large language models (LLMs). However, fine-tuned LLMs often become overconfident especially when fine-tuned on small datasets. Bayesian methods, with their inherent ability to estimate uncertainty, serve as potent tools to mitigate overconfidence and enhance calibration. In this work, we introduce Laplace-LoRA, which applies a Bayesian approach to the LoRA parameters. Specifically, Laplace-LoRA applies a Laplace approximation to the posterior over the LoRA parameters, considerably improving the calibration of fine-tuned LLMs.",
+        "matched_word_count": 5,
+        "matched_words": [
+          "adaptation",
+          "language",
+          "large",
+          "low-rank",
+          "models"
+        ],
+        "title_score": 0.7143,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.5343,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3356.18
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 38,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "1706.03762",
+      "title": "Attention Is All You Need",
+      "title_normalized": "attentionisallyouneed",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Lukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "year": 2017,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1706.03762",
+      "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "matched_word_count": 4,
+      "matched_words": [
+        "all",
+        "attention",
+        "need",
+        "you"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "1811.09021",
+        "title": "Bytes are All You Need: End-to-End Multilingual Speech Recognition and Synthesis with Bytes",
+        "title_normalized": "bytesareallyouneedendtoendmultilingualspeechrecognitionandsynthesiswithbytes",
+        "authors": [
+          "Bo Li",
+          "Yu Zhang",
+          "Tara Sainath",
+          "Yonghui Wu",
+          "William Chan"
+        ],
+        "year": 2018,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/1811.09021",
+        "abstract": "We present two end-to-end models: Audio-to-Byte (A2B) and Byte-to-Audio (B2A), for multilingual speech recognition and synthesis. Prior work has predominantly used characters, sub-words or words as the unit of choice to model text. These units are difficult to scale to languages with large vocabularies, particularly in the case of multilingual processing. In this work, we model text via a sequence of Unicode bytes, specifically, the UTF-8 variable length byte sequence for each character. Bytes allow us to avoid large softmaxes in languages with large vocabularies, and share representations in multilingual models. We show that bytes are superior to grapheme characters over a wide variety of languages in monolingual end-to-end speech recognition. Additionally, our multilingual byte model outperform each respective single language baseline on average by 4.4% relatively. In Japanese-English code-switching speech, our multilingual byte model outperform our monolingual baseline by 38.6% relatively. Finally, we present an end-to-end multilingual speech synthesis model using byte representations which matches the performance of our monolingual baselines.",
+        "matched_word_count": 3,
+        "matched_words": [
+          "all",
+          "need",
+          "you"
+        ],
+        "title_score": 0.75,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.5575,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 2918.79
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 39,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 0.9075,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2012.14913",
+      "title": "Transformer Feed-Forward Layers Are Key-Value Memories",
+      "title_normalized": "transformerfeedforwardlayersarekeyvaluememories",
+      "authors": [
+        "Mor Geva",
+        "Roei Schuster",
+        "Jonathan Berant",
+        "Omer Levy"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2012.14913",
+      "abstract": "Feed-forward layers constitute two-thirds of a transformer model's parameters, yet their role in the network remains under-explored. We show that feed-forward layers in transformer-based language models operate as key-value memories, where each key correlates with textual patterns in the training examples, and each value induces a distribution over the output vocabulary. Our experiments show that the learned patterns are human-interpretable, and that lower layers tend to capture shallow patterns, while upper layers learn more semantic ones. The values complement the keys' input patterns by inducing output distributions that concentrate probability mass on tokens likely to appear immediately after each pattern, particularly in the upper layers. Finally, we demonstrate that the output of a feed-forward layer is a composition of its memories, which is subsequently refined throughout the model's layers via residual connections to produce the final output distribution.",
+      "matched_word_count": 6,
+      "matched_words": [
+        "are",
+        "feed-forward",
+        "key-value",
+        "layers",
+        "memories",
+        "transformer"
+      ],
+      "title_score": 1.0,
+      "author_score": 0.75,
+      "year_score": 0.7,
+      "lexical_score": 0.9075,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2110.01786",
+        "title": "MoEfication: Transformer Feed-forward Layers are Mixtures of Experts",
+        "title_normalized": "moeficationtransformerfeedforwardlayersaremixturesofexperts",
+        "authors": [
+          "Zhengyan Zhang",
+          "Yankai Lin",
+          "Zhiyuan Liu",
+          "Peng Li",
+          "Maosong Sun",
+          "Jie Zhou"
+        ],
+        "year": 2021,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2110.01786",
+        "abstract": "Recent work has shown that feed-forward networks (FFNs) in pre-trained Transformers are a key component, storing various linguistic and factual knowledge. However, the computational patterns of FFNs are still unclear. In this work, we study the computational patterns of FFNs and observe that most inputs only activate a tiny ratio of neurons of FFNs. This phenomenon is similar to the sparsity of the human brain, which drives research on functional partitions of the human brain. To verify whether functional partitions also emerge in FFNs, we propose to convert a model into its MoE version with the same parameters, namely MoEfication. Specifically, MoEfication consists of two phases: (1) splitting the parameters of FFNs into multiple functional partitions as experts, and (2) building expert routers to decide which experts will be used for each input. Experimental results show that MoEfication can conditionally use 10% to 30% of FFN parameters while maintaining over 95% original performance for different models on various downstream tasks. Besides, MoEfication brings two advantages: (1) it significantly reduces the FLOPS of inference, i.e., 2x speedup with 25% of FFN parameters, and (2) it provides a fine-grained perspective to study the inner mechanism of FFNs. The source code of this paper can be obtained from https://github.com/thunlp/MoEfication.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "are",
+          "feed-forward",
+          "layers",
+          "transformer"
+        ],
+        "title_score": 0.6667,
+        "author_score": 0.0,
+        "year_score": 1.0,
+        "lexical_score": 0.5333,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3101.43
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 41,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2302.13971",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "title_normalized": "llamaopenandefficientfoundationlanguagemodels",
+      "authors": [
+        "Hugo Touvron",
+        "Thibaut Lavril",
+        "Gautier Izacard",
+        "Xavier Martinet",
+        "Marie-Anne Lachaux",
+        "Timoth\\'ee Lacroix",
+        "Baptiste Rozi\\`ere",
+        "Naman Goyal",
+        "Eric Hambro",
+        "Faisal Azhar",
+        "Aurelien Rodriguez",
+        "Armand Joulin",
+        "Edouard Grave",
+        "Guillaume Lample"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2302.13971",
+      "oai_identifier": "oai:arXiv.org:2302.13971",
+      "comments": "",
+      "categories": "cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 43,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2503.19786",
+      "title": "Gemma 3 Technical Report",
+      "title_normalized": "gemma3technicalreport",
+      "authors": [
+        "Gemma Team: Aishwarya Kamath",
+        "Johan Ferret",
+        "Shreya Pathak",
+        "Nino Vieillard",
+        "Ramona Merhej",
+        "Sarah Perrin",
+        "Tatiana Matejovicova",
+        "Alexandre Ram\\'e",
+        "Morgane Rivi\\`ere",
+        "Louis Rouillard",
+        "Thomas Mesnard",
+        "Geoffrey Cideron",
+        "Jean-bastien Grill",
+        "Sabela Ramos",
+        "Edouard Yvinec",
+        "Michelle Casbon",
+        "Etienne Pot",
+        "Ivo Penchev",
+        "Ga\\\"el Liu",
+        "Francesco Visin",
+        "Kathleen Kenealy",
+        "Lucas Beyer",
+        "Xiaohai Zhai",
+        "Anton Tsitsulin",
+        "Robert Busa-Fekete",
+        "Alex Feng",
+        "Noveen Sachdeva",
+        "Benjamin Coleman",
+        "Yi Gao",
+        "Basil Mustafa",
+        "Iain Barr",
+        "Emilio Parisotto",
+        "David Tian",
+        "Matan Eyal",
+        "Colin Cherry",
+        "Jan-Thorsten Peter",
+        "Danila Sinopalnikov",
+        "Surya Bhupatiraju",
+        "Rishabh Agarwal",
+        "Mehran Kazemi",
+        "Dan Malkin",
+        "Ravin Kumar",
+        "David Vilar",
+        "Idan Brusilovsky",
+        "Jiaming Luo",
+        "Andreas Steiner",
+        "Abe Friesen",
+        "Abhanshu Sharma",
+        "Abheesht Sharma",
+        "Adi Mayrav Gilady",
+        "Adrian Goedeckemeyer",
+        "Alaa Saade",
+        "Alex Feng",
+        "Alexander Kolesnikov",
+        "Alexei Bendebury",
+        "Alvin Abdagic",
+        "Amit Vadi",
+        "Andr\\'as Gy\\\"orgy",
+        "Andr\\'e Susano Pinto",
+        "Anil Das",
+        "Ankur Bapna",
+        "Antoine Miech",
+        "Antoine Yang",
+        "Antonia Paterson",
+        "Ashish Shenoy",
+        "Ayan Chakrabarti",
+        "Bilal Piot",
+        "Bo Wu",
+        "Bobak Shahriari",
+        "Bryce Petrini",
+        "Charlie Chen",
+        "Charline Le Lan",
+        "Christopher A. Choquette-Choo",
+        "CJ Carey",
+        "Cormac Brick",
+        "Daniel Deutsch",
+        "Danielle Eisenbud",
+        "Dee Cattle",
+        "Derek Cheng",
+        "Dimitris Paparas",
+        "Divyashree Shivakumar Sreepathihalli",
+        "Doug Reid",
+        "Dustin Tran",
+        "Dustin Zelle",
+        "Eric Noland",
+        "Erwin Huizenga",
+        "Eugene Kharitonov",
+        "Frederick Liu",
+        "Gagik Amirkhanyan",
+        "Glenn Cameron",
+        "Hadi Hashemi",
+        "Hanna Klimczak-Pluci\\'nska",
+        "Harman Singh",
+        "Harsh Mehta",
+        "Harshal Tushar Lehri",
+        "Hussein Hazimeh",
+        "Ian Ballantyne",
+        "Idan Szpektor",
+        "Ivan Nardini",
+        "Jean Pouget-Abadie",
+        "Jetha Chan",
+        "Joe Stanton",
+        "John Wieting",
+        "Jonathan Lai",
+        "Jordi Orbay",
+        "Joseph Fernandez",
+        "Josh Newlan",
+        "Ju-yeong Ji",
+        "Jyotinder Singh",
+        "Kat Black",
+        "Kathy Yu",
+        "Kevin Hui",
+        "Kiran Vodrahalli",
+        "Klaus Greff",
+        "Linhai Qiu",
+        "Marcella Valentine",
+        "Marina Coelho",
+        "Marvin Ritter",
+        "Matt Hoffman",
+        "Matthew Watson",
+        "Mayank Chaturvedi",
+        "Michael Moynihan",
+        "Min Ma",
+        "Nabila Babar",
+        "Natasha Noy",
+        "Nathan Byrd",
+        "Nick Roy",
+        "Nikola Momchev",
+        "Nilay Chauhan",
+        "Noveen Sachdeva",
+        "Oskar Bunyan",
+        "Pankil Botarda",
+        "Paul Caron",
+        "Paul Kishan Rubenstein",
+        "Phil Culliton",
+        "Philipp Schmid",
+        "Pier Giuseppe Sessa",
+        "Pingmei Xu",
+        "Piotr Stanczyk",
+        "Pouya Tafti",
+        "Rakesh Shivanna",
+        "Renjie Wu",
+        "Renke Pan",
+        "Reza Rokni",
+        "Rob Willoughby",
+        "Rohith Vallu",
+        "Ryan Mullins",
+        "Sammy Jerome",
+        "Sara Smoot",
+        "Sertan Girgin",
+        "Shariq Iqbal",
+        "Shashir Reddy",
+        "Shruti Sheth",
+        "Siim P\\~oder",
+        "Sijal Bhatnagar",
+        "Sindhu Raghuram Panyam",
+        "Sivan Eiger",
+        "Susan Zhang",
+        "Tianqi Liu",
+        "Trevor Yacovone",
+        "Tyler Liechty",
+        "Uday Kalra",
+        "Utku Evci",
+        "Vedant Misra",
+        "Vincent Roseberry",
+        "Vlad Feinberg",
+        "Vlad Kolesnikov",
+        "Woohyun Han",
+        "Woosuk Kwon",
+        "Xi Chen",
+        "Yinlam Chow",
+        "Yuvein Zhu",
+        "Zichuan Wei",
+        "Zoltan Egyed",
+        "Victor Cotruta",
+        "Minh Giang",
+        "Phoebe Kirk",
+        "Anand Rao",
+        "Kat Black",
+        "Nabila Babar",
+        "Jessica Lo",
+        "Erica Moreira",
+        "Luiz Gustavo Martins",
+        "Omar Sanseviero",
+        "Lucas Gonzalez",
+        "Zach Gleicher",
+        "Tris Warkentin",
+        "Vahab Mirrokni",
+        "Evan Senter",
+        "Eli Collins",
+        "Joelle Barral",
+        "Zoubin Ghahramani",
+        "Raia Hadsell",
+        "Yossi Matias",
+        "D. Sculley",
+        "Slav Petrov",
+        "Noah Fiedel",
+        "Noam Shazeer",
+        "Oriol Vinyals",
+        "Jeff Dean",
+        "Demis Hassabis",
+        "Koray Kavukcuoglu",
+        "Clement Farabet",
+        "Elena Buchatskaya",
+        "Jean-Baptiste Alayrac",
+        "Rohan Anil",
+        "Dmitry (Dima) Lepikhin",
+        "Sebastian Borgeaud",
+        "Olivier Bachem",
+        "Armand Joulin",
+        "Alek Andreev",
+        "Cassidy Hardin",
+        "Robert Dadashi",
+        "L\\'eonard Hussenot"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2503.19786",
+      "oai_identifier": "oai:arXiv.org:2503.19786",
+      "comments": "",
+      "categories": "cs.CL cs.AI"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 44,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2204.05862",
+      "title": "Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback",
+      "title_normalized": "trainingahelpfulandharmlessassistantwithreinforcementlearningfromhumanfeedback",
+      "authors": [
+        "Yuntao Bai",
+        "Andy Jones",
+        "Kamal Ndousse",
+        "Amanda Askell",
+        "Anna Chen",
+        "Nova DasSarma",
+        "Dawn Drain",
+        "Stanislav Fort",
+        "Deep Ganguli",
+        "Tom Henighan",
+        "Nicholas Joseph",
+        "Saurav Kadavath",
+        "Jackson Kernion",
+        "Tom Conerly",
+        "Sheer El-Showk",
+        "Nelson Elhage",
+        "Zac Hatfield-Dodds",
+        "Danny Hernandez",
+        "Tristan Hume",
+        "Scott Johnston",
+        "Shauna Kravec",
+        "Liane Lovitt",
+        "Neel Nanda",
+        "Catherine Olsson",
+        "Dario Amodei",
+        "Tom Brown",
+        "Jack Clark",
+        "Sam McCandlish",
+        "Chris Olah",
+        "Ben Mann",
+        "Jared Kaplan"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2204.05862",
+      "oai_identifier": "oai:arXiv.org:2204.05862",
+      "comments": "Data available at https://github.com/anthropics/hh-rlhf",
+      "categories": "cs.CL cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 45,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "1706.03741",
+      "title": "Deep reinforcement learning from human preferences",
+      "title_normalized": "deepreinforcementlearningfromhumanpreferences",
+      "authors": [
+        "Paul Christiano",
+        "Jan Leike",
+        "Tom B. Brown",
+        "Miljan Martic",
+        "Shane Legg",
+        "Dario Amodei"
+      ],
+      "year": 2017,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1706.03741",
+      "abstract": "For sophisticated reinforcement learning (RL) systems to interact usefully with real-world environments, we need to communicate complex goals to these systems. In this work, we explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function, including Atari games and simulated robot locomotion, while providing feedback on less than one percent of our agent's interactions with the environment. This reduces the cost of human oversight far enough that it can be practically applied to state-of-the-art RL systems. To demonstrate the flexibility of our approach, we show that we can successfully train complex novel behaviors with about an hour of human time. These behaviors and environments are considerably more complex than any that have been previously learned from human feedback.",
+      "matched_word_count": 6,
+      "matched_words": [
+        "deep",
+        "from",
+        "human",
+        "learning",
+        "preferences",
+        "reinforcement"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "1812.08904",
+        "title": "Pre-training with Non-expert Human Demonstration for Deep Reinforcement Learning",
+        "title_normalized": "pretrainingwithnonexperthumandemonstrationfordeepreinforcementlearning",
+        "authors": [
+          "Gabriel V. de la Cruz, Yunshu Du",
+          "Matthew E. Taylor"
+        ],
+        "year": 2018,
+        "venue": "arXiv",
+        "doi": "10.1017/s0269888919000055",
+        "url": "https://arxiv.org/abs/1812.08904",
+        "abstract": "Deep reinforcement learning (deep RL) has achieved superior performance in complex sequential tasks by using deep neural networks as function approximators to learn directly from raw input images. However, learning directly from raw images is data inefficient. The agent must learn feature representation of complex states in addition to learning a policy. As a result, deep RL typically suffers from slow learning speeds and often requires a prohibitively large amount of training time and data to reach reasonable performance, making it inapplicable to real-world settings where data is expensive. In this work, we improve data efficiency in deep RL by addressing one of the two learning goals, feature learning. We leverage supervised learning to pre-train on a small set of non-expert human demonstrations and empirically evaluate our approach using the asynchronous advantage actor-critic algorithms (A3C) in the Atari domain. Our results show significant improvements in learning speed, even when the provided demonstration is noisy and of low quality.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "deep",
+          "human",
+          "learning",
+          "reinforcement"
+        ],
+        "title_score": 0.6667,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.5033,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3835.42
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 46,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2305.18290",
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "title_normalized": "directpreferenceoptimizationyourlanguagemodelissecretlyarewardmodel",
+      "authors": [
+        "Rafael Rafailov",
+        "Archit Sharma",
+        "Eric Mitchell",
+        "Stefano Ermon",
+        "Christopher D. Manning",
+        "Chelsea Finn"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2305.18290",
+      "abstract": "While large-scale unsupervised language models (LMs) learn broad world knowledge and some reasoning skills, achieving precise control of their behavior is difficult due to the completely unsupervised nature of their training. Existing methods for gaining such steerability collect human labels of the relative quality of model generations and fine-tune the unsupervised LM to align with these preferences, often with reinforcement learning from human feedback (RLHF). However, RLHF is a complex and often unstable procedure, first fitting a reward model that reflects the human preferences, and then fine-tuning the large unsupervised LM using reinforcement learning to maximize this estimated reward without drifting too far from the original model. In this paper we introduce a new parameterization of the reward model in RLHF that enables extraction of the corresponding optimal policy in closed form, allowing us to solve the standard RLHF problem with only a simple classification loss. The resulting algorithm, which we call Direct Preference Optimization (DPO), is stable, performant, and computationally lightweight, eliminating the need for sampling from the LM during fine-tuning or performing significant hyperparameter tuning. Our experiments show that DPO can fine-tune LMs to align with human preferences as well as or better than existing methods. Notably, fine-tuning with DPO exceeds PPO-based RLHF in ability to control sentiment of generations, and matches or improves response quality in summarization and single-turn dialogue while being substantially simpler to implement and train.",
+      "matched_word_count": 8,
+      "matched_words": [
+        "direct",
+        "language",
+        "model",
+        "optimization",
+        "preference",
+        "reward",
+        "secretly",
+        "your"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2412.14516",
+        "title": "Cal-DPO: Calibrated Direct Preference Optimization for Language Model Alignment",
+        "title_normalized": "caldpocalibrateddirectpreferenceoptimizationforlanguagemodelalignment",
+        "authors": [
+          "Teng Xiao",
+          "Yige Yuan",
+          "Huaisheng Zhu",
+          "Mingxiao Li",
+          "Vasant G Honavar"
+        ],
+        "year": 2024,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2412.14516",
+        "abstract": "We study the problem of aligning large language models (LLMs) with human preference data. Contrastive preference optimization has shown promising results in aligning LLMs with available preference data by optimizing the implicit reward associated with the policy. However, the contrastive objective focuses mainly on the relative values of implicit rewards associated with two responses while ignoring their actual values, resulting in suboptimal alignment with human preferences. To address this limitation, we propose calibrated direct preference optimization (Cal-DPO), a simple yet effective algorithm. We show that substantial improvement in alignment with the given preferences can be achieved simply by calibrating the implicit reward to ensure that the learned implicit rewards are comparable in scale to the ground-truth rewards. We demonstrate the theoretical advantages of Cal-DPO over existing approaches. The results of our experiments on a variety of standard benchmarks show that Cal-DPO remarkably improves off-the-shelf methods.",
+        "matched_word_count": 5,
+        "matched_words": [
+          "direct",
+          "language",
+          "model",
+          "optimization",
+          "preference"
+        ],
+        "title_score": 0.625,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.4763,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3768.28
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 47,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 0.425,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2502.14644",
+      "title": "LIFT: A Novel Framework for Enhancing Long-Context Understanding of LLMs via Long Input Fine-Tuning",
+      "title_normalized": "liftanovelframeworkforenhancinglongcontextunderstandingofllmsvialonginputfinetuning",
+      "authors": [
+        "Yansheng Mao",
+        "Yufei Xu",
+        "Jiaqi Li",
+        "Fanxu Meng",
+        "Haotong Yang",
+        "Zilong Zheng",
+        "Xiyuan Wang",
+        "Muhan Zhang"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2502.14644",
+      "abstract": "Long context understanding remains challenging for large language models due to their limited context windows. This paper introduces Long Input Fine-Tuning (LIFT), a novel framework for long-context modeling that can enhance the long-context performance of arbitrary short-context LLMs by dynamically adapting their parameters to the given long input. Importantly, rather than endlessly extending the context window size to accommodate increasingly longer inputs in context, LIFT stores and absorbs the long input in parameters. By fine-tuning the long input into model parameters, LIFT allows short-context LLMs to answer questions even when the required information is not provided in the context during inference, avoiding the quadratic complexity w.r.t. input length of a normal long context model. Furthermore, LIFT does not simply perform continued pretraining on new, long contexts, but leverages carefully designed LLM-generated synthetic tasks to enhance the comprehension of long contexts, moving beyond mere memorization. To accommodate the additional cost of fine-tuning, we design a highly optimized pipeline that reduces the Time to First Token (TTFT) to less than 10 seconds for 8k context. We further provide a comprehensive analysis of LIFT's strengths and limitations in long-context understanding, discuss its feasibility for large-scale real-world deployment, and highlight valuable directions for future research.",
+      "matched_word_count": 4,
+      "matched_words": [
+        "enhancing",
+        "llms",
+        "understanding",
+        "via"
+      ],
+      "title_score": 0.5,
+      "author_score": 0.0,
+      "year_score": 1.0,
+      "lexical_score": 0.425,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2502.11812",
+        "title": "Towards Understanding Fine-Tuning Mechanisms of LLMs via Circuit Analysis",
+        "title_normalized": "towardsunderstandingfinetuningmechanismsofllmsviacircuitanalysis",
+        "authors": [
+          "Xu Wang",
+          "Yan Hu",
+          "Wenyu Du",
+          "Reynold Cheng",
+          "Benyou Wang",
+          "Difan Zou"
+        ],
+        "year": 2025,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2502.11812",
+        "abstract": "Fine-tuning significantly improves the performance of Large Language Models (LLMs), yet its underlying mechanisms remain poorly understood. This paper aims to provide an in-depth interpretation of the fine-tuning process through circuit analysis, a popular tool in Mechanistic Interpretability (MI). Unlike previous studies (Prakash et al. 2024; Chhabra et al. 2024) that focus on tasks where pre-trained models already perform well, we develop a set of mathematical tasks where fine-tuning yields substantial performance gains, which are closer to the practical setting. In our experiments, we identify circuits at various checkpoints during fine-tuning and examine the interplay between circuit analysis, fine-tuning methods, and task complexities. First, we find that while circuits maintain high node similarity before and after fine-tuning, their edges undergo significant changes, in contrast to prior work that shows circuits only add some additional components after fine-tuning. Based on these observations, we develop a circuit-aware Low-Rank Adaptation (LoRA) method, which assigns ranks to layers based on edge changes in the circuits. Experimental results demonstrate that our circuit-based LoRA algorithm achieves an average performance improvement of 2.46% over standard LoRA with similar parameter sizes. Furthermore, we explore how combining circuits from subtasks can enhance fine-tuning in compositional tasks, providing new insights into the design of such tasks and deepening the understanding of circuit dynamics and fine-tuning mechanisms.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "llms",
+          "mechanisms",
+          "understanding",
+          "via"
+        ],
+        "title_score": 0.5,
+        "author_score": 0.0,
+        "year_score": 1.0,
+        "lexical_score": 0.425,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.55
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3482.52
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 48,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2402.11746",
+      "title": "Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic",
+      "title_normalized": "languagemodelsarehomersimpsonsafetyrealignmentoffinetunedlanguagemodelsthroughtaskarithmetic",
+      "authors": [
+        "Rishabh Bhardwaj",
+        "Do Duc Anh",
+        "Soujanya Poria"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2402.11746",
+      "abstract": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for REstoring Safety through Task Arithmetic. At its core, it involves a simple arithmetic addition of a safety vector to the weights of the compromised model. We demonstrate the effectiveness of RESTA in both parameter-efficient and full fine-tuning, covering a wide range of downstream tasks, including instruction following in Chinese, English, and Hindi, as well as problem-solving capabilities in Code and Math. We also showcase the generalizability of RESTA on three existing safety evaluation benchmarks and a multilingual benchmark dataset proposed as a part of this work, consisting of 550 harmful questions covering 11 categories, each with 5 sub-categories of harm. Overall, RESTA decreases the harmfulness of the compromised model from 18.6% to 5.1% and from 9.2% to 1.5% in parameter-efficient and full fine-tuning, respectively, while maintaining most of the model's performance on the task. We release the source codes at: https://github.com/declare-lab/resta.",
+      "matched_word_count": 8,
+      "matched_words": [
+        "are",
+        "fine-tuned",
+        "homer",
+        "language",
+        "models",
+        "re-alignment",
+        "safety",
+        "simpson!"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2508.09190",
+        "title": "Multi-Level Safety Continual Projection for Fine-Tuned Large Language Models without Retraining",
+        "title_normalized": "multilevelsafetycontinualprojectionforfinetunedlargelanguagemodelswithoutretraining",
+        "authors": [
+          "Bing Han",
+          "Feifei Zhao",
+          "Dongcheng Zhao",
+          "Guobin Shen",
+          "Ping Wu",
+          "Yu Shi",
+          "Yi Zeng"
+        ],
+        "year": 2025,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2508.09190",
+        "abstract": "While fine-tuning services drive the rapid expansion of task capabilities in large language models (LLMs), they are often accompanied by the degradation and reorganization of safety-aligned representations, making models more prone to deviating from human preferences and exposing them to emerging jailbreak risks. Existing post-fine-tuning defense methods predominantly rely on single-scale safety correction mechanisms, which struggle to achieve a robust balance among safety, model utility, and continual adaptability. We propose Multi-Level Safety Continual Projection (MSCP), a training-free post-fine-tuning safety enhancement method that implicitly aligns global and localized safety activations through coordinated multi-level representations to isolate sparse neuron clusters governing safety-sensitive behaviors. It then applies composable safety-direction projections without retraining, effectively suppressing harmful outputs under minimal parameter perturbations while preserving task performance and improving alignment with human preferences. Extensive experiments across multiple fine-tuned LLM models demonstrate that our method significantly reduce harmfulness scores and attack success rates with minimal parameter modifications, while preserving the model's utility. Furthermore, we introduce a task-specific, multi-dimensional heterogeneous safety activation clustering mechanism that enables continual defense and generalization capability against unforeseen emerging safety concerns.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "fine-tuned",
+          "language",
+          "models",
+          "safety"
+        ],
+        "title_score": 0.5,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.395,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3665.95
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 49,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2308.09662",
+      "title": "Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment",
+      "title_normalized": "redteaminglargelanguagemodelsusingchainofutterancesforsafetyalignment",
+      "authors": [
+        "Rishabh Bhardwaj",
+        "Soujanya Poria"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2308.09662",
+      "abstract": "Larger language models (LLMs) have taken the world by storm with their massive multi-tasking capabilities simply by optimizing over a next-word prediction objective. With the emergence of their properties and encoded knowledge, the risk of LLMs producing harmful outputs increases, making them unfit for scalable deployment for the public. In this work, we propose a new safety evaluation benchmark RED-EVAL that carries out red-teaming. We show that even widely deployed models are susceptible to the Chain of Utterances-based (CoU) prompting, jailbreaking closed source LLM-based systems such as GPT-4 and ChatGPT to unethically respond to more than 65% and 73% of harmful queries. We also demonstrate the consistency of the RED-EVAL across 8 open-source LLMs in generating harmful responses in more than 86% of the red-teaming attempts. Next, we propose RED-INSTRUCT--An approach for the safety alignment of LLMs. It constitutes two phases: 1) HARMFULQA data collection: Leveraging CoU prompting, we collect a dataset that consists of 1.9K harmful questions covering a wide range of topics, 9.5K safe and 7.3K harmful conversations from ChatGPT; 2) SAFE-ALIGN: We demonstrate how the conversational dataset can be used for the safety alignment of LLMs by minimizing the negative log-likelihood over helpful responses and penalizing over harmful responses by gradient accent over sample loss. Our model STARLING, a fine-tuned Vicuna-7B, is observed to be more safely aligned when evaluated on RED-EVAL and HHH benchmarks while preserving the utility of the baseline models (TruthfulQA, MMLU, and BBH).",
+      "matched_word_count": 8,
+      "matched_words": [
+        "chain",
+        "language",
+        "large",
+        "models",
+        "red-teaming",
+        "safety-alignment",
+        "using",
+        "utterances"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2311.09433",
+        "title": "Trojan Activation Attack: Red-Teaming Large Language Models using Activation Steering for Safety-Alignment",
+        "title_normalized": "trojanactivationattackredteaminglargelanguagemodelsusingactivationsteeringforsafetyalignment",
+        "authors": [
+          "Haoran Wang",
+          "Kai Shu"
+        ],
+        "year": 2023,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2311.09433",
+        "abstract": "To ensure AI safety, instruction-tuned Large Language Models (LLMs) are specifically trained to ensure alignment, which refers to making models behave in accordance with human intentions. While these models have demonstrated commendable results on various safety benchmarks, the vulnerability of their safety alignment has not been extensively studied. This is particularly troubling given the potential harm that LLMs can inflict. Existing attack methods on LLMs often rely on poisoned training data or the injection of malicious prompts. These approaches compromise the stealthiness and generalizability of the attacks, making them susceptible to detection. Additionally, these models often demand substantial computational resources for implementation, making them less practical for real-world applications. In this work, we study a different attack scenario, called Trojan Activation Attack (TA^2), which injects trojan steering vectors into the activation layers of LLMs. These malicious steering vectors can be triggered at inference time to steer the models toward attacker-desired behaviors by manipulating their activations. Our experiment results on four primary alignment tasks show that TA^2 is highly effective and adds little or no overhead to attack efficiency. Additionally, we discuss potential countermeasures against such activation attacks.",
+        "matched_word_count": 5,
+        "matched_words": [
+          "language",
+          "large",
+          "models",
+          "red-teaming",
+          "safety-alignment",
+          "using"
+        ],
+        "title_score": 0.75,
+        "author_score": 0.0,
+        "year_score": 1.0,
+        "lexical_score": 0.5875,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3885.62
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 51,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2502.13124",
+      "title": "NaturalReasoning: Reasoning in the Wild with 2.8M Challenging Questions",
+      "title_normalized": "naturalreasoningreasoninginthewildwith28mchallengingquestions",
+      "authors": [
+        "Weizhe Yuan",
+        "Jane Yu",
+        "Song Jiang",
+        "Karthik Padthe",
+        "Yang Li",
+        "Ilia Kulikov",
+        "Kyunghyun Cho",
+        "Dong Wang",
+        "Yuandong Tian",
+        "Jason E Weston",
+        "Xian Li"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2502.13124",
+      "oai_identifier": "oai:arXiv.org:2502.13124",
+      "comments": "Dataset at https://huggingface.co/datasets/facebook/natural_reasoning",
+      "categories": "cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 53,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2409.12186",
+      "title": "Qwen2.5-Coder Technical Report",
+      "title_normalized": "qwen25codertechnicalreport",
+      "authors": [
+        "Binyuan Hui",
+        "Jian Yang",
+        "Zeyu Cui",
+        "Jiaxi Yang",
+        "Dayiheng Liu",
+        "Lei Zhang",
+        "Tianyu Liu",
+        "Jiajun Zhang",
+        "Bowen Yu",
+        "Keming Lu",
+        "Kai Dang",
+        "Yang Fan",
+        "Yichang Zhang",
+        "An Yang",
+        "Rui Men",
+        "Fei Huang",
+        "Bo Zheng",
+        "Yibo Miao",
+        "Shanghaoran Quan",
+        "Yunlong Feng",
+        "Xingzhang Ren",
+        "Xuancheng Ren",
+        "Jingren Zhou",
+        "Junyang Lin"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2409.12186",
+      "oai_identifier": "oai:arXiv.org:2409.12186",
+      "comments": "",
+      "categories": "cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 54,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2409.12122",
+      "title": "Qwen2.5-Math Technical Report: Toward Mathematical Expert Model via Self-Improvement",
+      "title_normalized": "qwen25mathtechnicalreporttowardmathematicalexpertmodelviaselfimprovement",
+      "authors": [
+        "An Yang",
+        "Beichen Zhang",
+        "Binyuan Hui",
+        "Bofei Gao",
+        "Bowen Yu",
+        "Chengpeng Li",
+        "Dayiheng Liu",
+        "Jianhong Tu",
+        "Jingren Zhou",
+        "Junyang Lin",
+        "Keming Lu",
+        "Mingfeng Xue",
+        "Runji Lin",
+        "Tianyu Liu",
+        "Xingzhang Ren",
+        "Zhenru Zhang"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2409.12122",
+      "oai_identifier": "oai:arXiv.org:2409.12122",
+      "comments": "",
+      "categories": "cs.CL cs.AI cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 56,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2503.01743",
+      "title": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+      "title_normalized": "phi4minitechnicalreportcompactyetpowerfulmultimodallanguagemodelsviamixtureofloras",
+      "authors": [
+        "Microsoft: Abdelrahman Abouelenin",
+        "Atabak Ashfaq",
+        "Adam Atkinson",
+        "Hany Awadalla",
+        "Nguyen Bach",
+        "Jianmin Bao",
+        "Alon Benhaim",
+        "Martin Cai",
+        "Vishrav Chaudhary",
+        "Congcong Chen",
+        "Dong Chen",
+        "Dongdong Chen",
+        "Junkun Chen",
+        "Weizhu Chen",
+        "Yen-Chun Chen",
+        "Yi-ling Chen",
+        "Qi Dai",
+        "Xiyang Dai",
+        "Ruchao Fan",
+        "Mei Gao",
+        "Min Gao",
+        "Amit Garg",
+        "Abhishek Goswami",
+        "Junheng Hao",
+        "Amr Hendy",
+        "Yuxuan Hu",
+        "Xin Jin",
+        "Mahmoud Khademi",
+        "Dongwoo Kim",
+        "Young Jin Kim",
+        "Gina Lee",
+        "Jinyu Li",
+        "Yunsheng Li",
+        "Chen Liang",
+        "Xihui Lin",
+        "Zeqi Lin",
+        "Mengchen Liu",
+        "Yang Liu",
+        "Gilsinia Lopez",
+        "Chong Luo",
+        "Piyush Madan",
+        "Vadim Mazalov",
+        "Arindam Mitra",
+        "Ali Mousavi",
+        "Anh Nguyen",
+        "Jing Pan",
+        "Daniel Perez-Becker",
+        "Jacob Platin",
+        "Thomas Portet",
+        "Kai Qiu",
+        "Bo Ren",
+        "Liliang Ren",
+        "Sambuddha Roy",
+        "Ning Shang",
+        "Yelong Shen",
+        "Saksham Singhal",
+        "Subhojit Som",
+        "Xia Song",
+        "Tetyana Sych",
+        "Praneetha Vaddamanu",
+        "Shuohang Wang",
+        "Yiming Wang",
+        "Zhenghao Wang",
+        "Haibin Wu",
+        "Haoran Xu",
+        "Weijian Xu",
+        "Yifan Yang",
+        "Ziyi Yang",
+        "Donghan Yu",
+        "Ishmam Zabir",
+        "Jianwen Zhang",
+        "Li Lyna Zhang",
+        "Yunan Zhang",
+        "Xiren Zhou"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2503.01743",
+      "oai_identifier": "oai:arXiv.org:2503.01743",
+      "comments": "39 pages",
+      "categories": "cs.CL cs.AI cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 57,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2403.08295",
+      "title": "Gemma: Open Models Based on Gemini Research and Technology",
+      "title_normalized": "gemmaopenmodelsbasedongeminiresearchandtechnology",
+      "authors": [
+        "Gemma Team: Thomas Mesnard",
+        "Cassidy Hardin",
+        "Robert Dadashi",
+        "Surya Bhupatiraju",
+        "Shreya Pathak",
+        "Laurent Sifre",
+        "Morgane Rivi\\`ere",
+        "Mihir Sanjay Kale",
+        "Juliette Love",
+        "Pouya Tafti",
+        "L\\'eonard Hussenot",
+        "Pier Giuseppe Sessa",
+        "Aakanksha Chowdhery",
+        "Adam Roberts",
+        "Aditya Barua",
+        "Alex Botev",
+        "Alex Castro-Ros",
+        "Ambrose Slone",
+        "Am\\'elie H\\'eliou",
+        "Andrea Tacchetti",
+        "Anna Bulanova",
+        "Antonia Paterson",
+        "Beth Tsai",
+        "Bobak Shahriari",
+        "Charline Le Lan",
+        "Christopher A. Choquette-Choo",
+        "Cl\\'ement Crepy",
+        "Daniel Cer",
+        "Daphne Ippolito",
+        "David Reid",
+        "Elena Buchatskaya",
+        "Eric Ni",
+        "Eric Noland",
+        "Geng Yan",
+        "George Tucker",
+        "George-Christian Muraru",
+        "Grigory Rozhdestvenskiy",
+        "Henryk Michalewski",
+        "Ian Tenney",
+        "Ivan Grishchenko",
+        "Jacob Austin",
+        "James Keeling",
+        "Jane Labanowski",
+        "Jean-Baptiste Lespiau",
+        "Jeff Stanway",
+        "Jenny Brennan",
+        "Jeremy Chen",
+        "Johan Ferret",
+        "Justin Chiu",
+        "Justin Mao-Jones",
+        "Katherine Lee",
+        "Kathy Yu",
+        "Katie Millican",
+        "Lars Lowe Sjoesund",
+        "Lisa Lee",
+        "Lucas Dixon",
+        "Machel Reid",
+        "Maciej Miku{\\l}a",
+        "Mateo Wirth",
+        "Michael Sharman",
+        "Nikolai Chinaev",
+        "Nithum Thain",
+        "Olivier Bachem",
+        "Oscar Chang",
+        "Oscar Wahltinez",
+        "Paige Bailey",
+        "Paul Michel",
+        "Petko Yotov",
+        "Rahma Chaabouni",
+        "Ramona Comanescu",
+        "Reena Jana",
+        "Rohan Anil",
+        "Ross McIlroy",
+        "Ruibo Liu",
+        "Ryan Mullins",
+        "Samuel L Smith",
+        "Sebastian Borgeaud",
+        "Sertan Girgin",
+        "Sholto Douglas",
+        "Shree Pandya",
+        "Siamak Shakeri",
+        "Soham De",
+        "Ted Klimenko",
+        "Tom Hennigan",
+        "Vlad Feinberg",
+        "Wojciech Stokowiec",
+        "Yu-hui Chen",
+        "Zafarali Ahmed",
+        "Zhitao Gong",
+        "Tris Warkentin",
+        "Ludovic Peran",
+        "Minh Giang",
+        "Cl\\'ement Farabet",
+        "Oriol Vinyals",
+        "Jeff Dean",
+        "Koray Kavukcuoglu",
+        "Demis Hassabis",
+        "Zoubin Ghahramani",
+        "Douglas Eck",
+        "Joelle Barral",
+        "Fernando Pereira",
+        "Eli Collins",
+        "Armand Joulin",
+        "Noah Fiedel",
+        "Evan Senter",
+        "Alek Andreev",
+        "Kathleen Kenealy"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2403.08295",
+      "oai_identifier": "oai:arXiv.org:2403.08295",
+      "comments": "",
+      "categories": "cs.CL cs.AI"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 58,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2406.18510",
+      "title": "WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models",
+      "title_normalized": "wildteamingatscalefrominthewildjailbreakstoadversariallysaferlanguagemodels",
+      "authors": [
+        "Liwei Jiang",
+        "Kavel Rao",
+        "Seungju Han",
+        "Allyson Ettinger",
+        "Faeze Brahman",
+        "Sachin Kumar",
+        "Niloofar Mireshghallah",
+        "Ximing Lu",
+        "Maarten Sap",
+        "Yejin Choi",
+        "Nouha Dziri"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2406.18510",
+      "oai_identifier": "oai:arXiv.org:2406.18510",
+      "comments": "",
+      "categories": "cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 60,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2110.14168",
+      "title": "Training Verifiers to Solve Math Word Problems",
+      "title_normalized": "trainingverifierstosolvemathwordproblems",
+      "authors": [
+        "Karl Cobbe",
+        "Vineet Kosaraju",
+        "Mohammad Bavarian",
+        "Mark Chen",
+        "Heewoo Jun",
+        "Lukasz Kaiser",
+        "Matthias Plappert",
+        "Jerry Tworek",
+        "Jacob Hilton",
+        "Reiichiro Nakano",
+        "Christopher Hesse",
+        "John Schulman"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2110.14168",
+      "oai_identifier": "oai:arXiv.org:2110.14168",
+      "comments": "",
+      "categories": "cs.LG cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 61,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "1803.05457",
+      "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+      "title_normalized": "thinkyouhavesolvedquestionansweringtryarctheai2reasoningchallenge",
+      "authors": [
+        "Peter Clark",
+        "Isaac Cowhey",
+        "Oren Etzioni",
+        "Tushar Khot",
+        "Ashish Sabharwal",
+        "Carissa Schoenick",
+        "Oyvind Tafjord"
+      ],
+      "year": 2018,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1803.05457",
+      "oai_identifier": "oai:arXiv.org:1803.05457",
+      "comments": "10 pages, 7 tables, 2 figures",
+      "categories": "cs.AI cs.CL cs.IR"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 62,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2009.03300",
+      "title": "Measuring Massive Multitask Language Understanding",
+      "title_normalized": "measuringmassivemultitasklanguageunderstanding",
+      "authors": [
+        "Dan Hendrycks",
+        "Collin Burns",
+        "Steven Basart",
+        "Andy Zou",
+        "Mantas Mazeika",
+        "Dawn Song",
+        "Jacob Steinhardt"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2009.03300",
+      "oai_identifier": "oai:arXiv.org:2009.03300",
+      "comments": "ICLR 2021; the test and code is available at https://github.com/hendrycks/test",
+      "categories": "cs.CY cs.AI cs.CL cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 63,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2506.07596",
+      "title": "TwinBreak: Jailbreaking LLM Security Alignments based on Twin Prompts",
+      "title_normalized": "twinbreakjailbreakingllmsecurityalignmentsbasedontwinprompts",
+      "authors": [
+        "Torsten Krau{\\ss}",
+        "Hamid Dashtbani",
+        "Alexandra Dmitrienko"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2506.07596",
+      "oai_identifier": "oai:arXiv.org:2506.07596",
+      "comments": "26 pages, 25 tables, 13 figures, 2 algorithms, to appear in the 43th USENIX Security Symposium (USENIX Security 2025)",
+      "categories": "cs.LG"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 64,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "1902.00751",
+      "title": "Parameter-Efficient Transfer Learning for NLP",
+      "title_normalized": "parameterefficienttransferlearningfornlp",
+      "authors": [
+        "Neil Houlsby",
+        "Andrei Giurgiu",
+        "Stanislaw Jastrzebski",
+        "Bruna Morrone",
+        "Quentin de Laroussilhe",
+        "Andrea Gesmundo",
+        "Mona Attariyan",
+        "Sylvain Gelly"
+      ],
+      "year": 2019,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/1902.00751",
+      "abstract": "Fine-tuning large pre-trained models is an effective transfer mechanism in NLP. However, in the presence of many downstream tasks, fine-tuning is parameter inefficient: an entire new model is required for every task. As an alternative, we propose transfer with adapter modules. Adapter modules yield a compact and extensible model; they add only a few trainable parameters per task, and new tasks can be added without revisiting previous ones. The parameters of the original network remain fixed, yielding a high degree of parameter sharing. To demonstrate adapter's effectiveness, we transfer the recently proposed BERT Transformer model to 26 diverse text classification tasks, including the GLUE benchmark. Adapters attain near state-of-the-art performance, whilst adding only a few parameters per task. On GLUE, we attain within 0.4% of the performance of full fine-tuning, adding only 3.6% parameters per task. By contrast, fine-tuning trains 100% of the parameters per task.",
+      "matched_word_count": 4,
+      "matched_words": [
+        "learning",
+        "nlp",
+        "parameter-efficient",
+        "transfer"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2009.09139",
+        "title": "Conditionally Adaptive Multi-Task Learning: Improving Transfer Learning in NLP Using Fewer Parameters & Less Data",
+        "title_normalized": "conditionallyadaptivemultitasklearningimprovingtransferlearninginnlpusingfewerparameterslessdata",
+        "authors": [
+          "Jonathan Pilault",
+          "Amine Elhattami",
+          "Christopher Pal"
+        ],
+        "year": 2020,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2009.09139",
+        "abstract": "Multi-Task Learning (MTL) networks have emerged as a promising method for transferring learned knowledge across different tasks. However, MTL must deal with challenges such as: overfitting to low resource tasks, catastrophic forgetting, and negative task transfer, or learning interference. Often, in Natural Language Processing (NLP), a separate model per task is needed to obtain the best performance. However, many fine-tuning approaches are both parameter inefficient, i.e., potentially involving one new model per task, and highly susceptible to losing knowledge acquired during pretraining. We propose a novel Transformer architecture consisting of a new conditional attention mechanism as well as a set of task-conditioned modules that facilitate weight sharing. Through this construction (a hypernetwork adapter), we achieve more efficient parameter sharing and mitigate forgetting by keeping half of the weights of a pretrained model fixed. We also use a new multi-task data sampling strategy to mitigate the negative effects of data imbalance across tasks. Using this approach, we are able to surpass single task fine-tuning methods while being parameter and data efficient (using around 66% of the data for weight updates). Compared to other BERT Large methods on GLUE, our 8-task model surpasses other Adapter methods by 2.8% and our 24-task model outperforms by 0.7-1.0% models that use MTL and single task fine-tuning. We show that a larger variant of our single multi-task model approach performs competitively across 26 NLP tasks and yields state-of-the-art results on a number of test and development sets. Our code is publicly available at https://github.com/CAMTL/CA-MTL.",
+        "matched_word_count": 3,
+        "matched_words": [
+          "learning",
+          "nlp",
+          "transfer"
+        ],
+        "title_score": 0.75,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.5575,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3306.37
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 65,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_confidence": 0.99,
+    "fusion_status": "high_confidence_exact",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2007.07779",
+      "title": "AdapterHub: A Framework for Adapting Transformers",
+      "title_normalized": "adapterhubaframeworkforadaptingtransformers",
+      "authors": [
+        "Jonas Pfeiffer",
+        "Andreas R\\\"uckl\\'e",
+        "Clifton Poth",
+        "Aishwarya Kamath",
+        "Ivan Vuli\\'c",
+        "Sebastian Ruder",
+        "Kyunghyun Cho",
+        "Iryna Gurevych"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2007.07779",
+      "oai_identifier": "oai:arXiv.org:2007.07779",
+      "comments": "EMNLP 2020: Systems Demonstrations",
+      "categories": "cs.CL"
+    },
+    "backup_candidates": [],
+    "exact_summary": {
+      "run_exact_match": true,
+      "match_found": true,
+      "match_type": "arxiv_id_exact",
+      "matched_db": "arxiv",
+      "confidence": 0.99
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": true,
+      "skip_reason": "exact_match_found:arxiv_id_exact",
+      "db_timings_ms": {},
+      "candidate_count": 0
+    }
+  },
+  {
+    "citation_id": 66,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 0.8867,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2106.10199",
+      "title": "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models",
+      "title_normalized": "bitfitsimpleparameterefficientfinetuningfortransformerbasedmaskedlanguagemodels",
+      "authors": [
+        "Elad Ben-Zaken",
+        "Shauli Ravfogel",
+        "Yoav Goldberg"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2106.10199",
+      "abstract": "We introduce BitFit, a sparse-finetuning method where only the bias-terms of the model (or a subset of them) are being modified. We show that with small-to-medium training data, applying BitFit on pre-trained BERT models is competitive with (and sometimes better than) fine-tuning the entire model. For larger data, the method is competitive with other sparse fine-tuning methods. Besides their practical utility, these findings are relevant for the question of understanding the commonly-used process of finetuning: they support the hypothesis that finetuning is mainly about exposing knowledge induced by language-modeling training, rather than learning new task-specific linguistic knowledge.",
+      "matched_word_count": 7,
+      "matched_words": [
+        "bitfit",
+        "fine-tuning",
+        "language-models",
+        "masked",
+        "parameter-efficient",
+        "simple",
+        "transformer-based"
+      ],
+      "title_score": 1.0,
+      "author_score": 0.6667,
+      "year_score": 0.7,
+      "lexical_score": 0.8867,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2309.08513",
+        "title": "SCT: A Simple Baseline for Parameter-Efficient Fine-Tuning via Salient Channels",
+        "title_normalized": "sctasimplebaselineforparameterefficientfinetuningviasalientchannels",
+        "authors": [
+          "Henry Hengyuan Zhao",
+          "Pichao Wang",
+          "Yuyang Zhao",
+          "Hao Luo",
+          "Fan Wang",
+          "Mike Zheng Shou"
+        ],
+        "year": 2023,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2309.08513",
+        "abstract": "Pre-trained vision transformers have strong representation benefits to various downstream tasks. Recently, many parameter-efficient fine-tuning (PEFT) methods have been proposed, and their experiments demonstrate that tuning only 1\\% extra parameters could surpass full fine-tuning in low-data resource scenarios. However, these methods overlook the task-specific information when fine-tuning diverse downstream tasks. In this paper, we propose a simple yet effective method called \"Salient Channel Tuning\" (SCT) to leverage the task-specific information by forwarding the model with the task images to select partial channels in a feature map that enables us to tune only 1/8 channels leading to significantly lower parameter costs. Experiments on 19 visual transfer learning downstream tasks demonstrate that our SCT outperforms full fine-tuning on 18 out of 19 tasks by adding only 0.11M parameters of the ViT-B, which is 780$\\times$ fewer than its full fine-tuning counterpart. Furthermore, experiments on domain generalization and few-shot classification further demonstrate the effectiveness and generic of our approach. The code is available at https://github.com/showlab/SCT.",
+        "matched_word_count": 3,
+        "matched_words": [
+          "fine-tuning",
+          "parameter-efficient",
+          "simple"
+        ],
+        "title_score": 0.4286,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.3486,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.82
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3220.33
+      },
+      "candidate_count": 2
+    }
+  },
+  {
+    "citation_id": 67,
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf",
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "dblp",
+      "openalex"
+    ],
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_confidence": 1.0,
+    "fusion_status": "lexical",
+    "selected_candidate": {
+      "db": "arxiv",
+      "record_id": "2205.05638",
+      "title": "Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning",
+      "title_normalized": "fewshotparameterefficientfinetuningisbetterandcheaperthanincontextlearning",
+      "authors": [
+        "Haokun Liu",
+        "Derek Tam",
+        "Mohammed Muqeeth",
+        "Jay Mohta",
+        "Tenghao Huang",
+        "Mohit Bansal",
+        "Colin Raffel"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "doi": null,
+      "url": "https://arxiv.org/abs/2205.05638",
+      "abstract": "Few-shot in-context learning (ICL) enables pre-trained language models to perform a previously-unseen task without any gradient-based training by feeding a small number of training examples as part of the input. ICL incurs substantial computational, memory, and storage costs because it involves processing all of the training examples every time a prediction is made. Parameter-efficient fine-tuning (PEFT) (e.g. adapter modules, prompt tuning, sparse update methods, etc.) offers an alternative paradigm where a small set of parameters are trained to enable a model to perform the new task. In this paper, we rigorously compare few-shot ICL and PEFT and demonstrate that the latter offers better accuracy as well as dramatically lower computational costs. Along the way, we introduce a new PEFT method called (IA)$^3$ that scales activations by learned vectors, attaining stronger performance while only introducing a relatively tiny amount of new parameters. We also propose a simple recipe based on the T0 model called T-Few that can be applied to new tasks without task-specific tuning or modifications. We validate the effectiveness of T-Few on completely unseen tasks by applying it to the RAFT benchmark, attaining super-human performance for the first time and outperforming the state-of-the-art by 6% absolute. All of the code used in our experiments is publicly available.",
+      "matched_word_count": 8,
+      "matched_words": [
+        "better",
+        "cheaper",
+        "few-shot",
+        "fine-tuning",
+        "in-context",
+        "learning",
+        "parameter-efficient",
+        "than"
+      ],
+      "title_score": 1.0,
+      "author_score": 1.0,
+      "year_score": 1.0,
+      "lexical_score": 1.0,
+      "db_priority_rank": 1,
+      "retrieval_rank": 1
+    },
+    "backup_candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2102.03983",
+        "title": "Partial Is Better Than All: Revisiting Fine-tuning Strategy for Few-shot Learning",
+        "title_normalized": "partialisbetterthanallrevisitingfinetuningstrategyforfewshotlearning",
+        "authors": [
+          "Zhiqiang Shen",
+          "Zechun Liu",
+          "Jie Qin",
+          "Marios Savvides",
+          "Kwang-Ting Cheng"
+        ],
+        "year": 2021,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2102.03983",
+        "abstract": "The goal of few-shot learning is to learn a classifier that can recognize unseen classes from limited support data with labels. A common practice for this task is to train a model on the base set first and then transfer to novel classes through fine-tuning (Here fine-tuning procedure is defined as transferring knowledge from base to novel data, i.e. learning to transfer in few-shot scenario.) or meta-learning. However, as the base classes have no overlap to the novel set, simply transferring whole knowledge from base data is not an optimal solution since some knowledge in the base model may be biased or even harmful to the novel class. In this paper, we propose to transfer partial knowledge by freezing or fine-tuning particular layer(s) in the base model. Specifically, layers will be imposed different learning rates if they are chosen to be fine-tuned, to control the extent of preserved transferability. To determine which layers to be recast and what values of learning rates for them, we introduce an evolutionary search based method that is efficient to simultaneously locate the target layers and determine their individual learning rates. We conduct extensive experiments on CUB and mini-ImageNet to demonstrate the effectiveness of our proposed method. It achieves the state-of-the-art performance on both meta-learning and non-meta based frameworks. Furthermore, we extend our method to the conventional pre-training + fine-tuning paradigm and obtain consistent improvement.",
+        "matched_word_count": 4,
+        "matched_words": [
+          "better",
+          "few-shot",
+          "fine-tuning",
+          "learning",
+          "than"
+        ],
+        "title_score": 0.625,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.4763,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ],
+    "exact_summary": {
+      "run_exact_match": false,
+      "match_found": false,
+      "match_type": "skipped",
+      "matched_db": null,
+      "confidence": 0.78
+    },
+    "lexical_summary": {
+      "run_lexical_retrieval": true,
+      "skipped": false,
+      "skip_reason": null,
+      "db_timings_ms": {
+        "arxiv": 3655.87
+      },
+      "candidate_count": 2
+    }
+  }
+]

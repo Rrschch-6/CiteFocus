@@ -1,0 +1,1919 @@
+[
+  {
+    "citation_id": 1,
+    "raw_citation": "A. Matarazzo and R. Torlone, “A survey on large language models with some insights on their capabilities and limitations,” arXiv preprint arXiv:2501.04040, 2025.",
+    "parsed_title": "A survey on large language models with some insights on their capabilities and limitations",
+    "parsed_authors": [
+      "A. Matarazzo",
+      "R. Torlone"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2501.04040",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2501.04040",
+    "parsed_arxiv_id": "2501.04040",
+    "contexts": [
+      {
+        "sentence": "Trained on large-scale text corpora using trans- former architectures, LLMs show behaviors such as in-context learning, instruction following, and step-by-step reasoning, which allow them to perform a wide range of tasks without task-specific training [1–3].",
+        "expanded_context": [
+          "This amounts to a 17,310× decrease in updated pa- rameters compared to full fine-tuning and a 9.25× reduction relative to LoRA, while consistently achieving stronger safety performance for alignment. 1 Introduction Large Language Models (LLMs) have become a central com- ponent of modern natural language processing, demonstrat- ing strong performance across tasks such as text generation, translation, question answering, reasoning, and conversational interaction.",
+          "Trained on large-scale text corpora using trans- former architectures, LLMs show behaviors such as in-context learning, instruction following, and step-by-step reasoning, which allow them to perform a wide range of tasks without task-specific training [1–3].",
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 2,
+    "raw_citation": "J. Kaddour, J. Harris, M. Mozes, H. Bradley, R. Raileanu, and R. McHardy, “Challenges and applications of large language models,” arXiv preprint arXiv:2307.10169, 2023.",
+    "parsed_title": "Challenges and applications of large language models",
+    "parsed_authors": [
+      "J. Kaddour",
+      "J. Harris",
+      "M. Mozes",
+      "H. Bradley",
+      "R. Raileanu",
+      "R. McHardy"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2307.10169",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2307.10169",
+    "parsed_arxiv_id": "2307.10169",
+    "contexts": [
+      {
+        "sentence": "Trained on large-scale text corpora using trans- former architectures, LLMs show behaviors such as in-context learning, instruction following, and step-by-step reasoning, which allow them to perform a wide range of tasks without task-specific training [1–3].",
+        "expanded_context": [
+          "This amounts to a 17,310× decrease in updated pa- rameters compared to full fine-tuning and a 9.25× reduction relative to LoRA, while consistently achieving stronger safety performance for alignment. 1 Introduction Large Language Models (LLMs) have become a central com- ponent of modern natural language processing, demonstrat- ing strong performance across tasks such as text generation, translation, question answering, reasoning, and conversational interaction.",
+          "Trained on large-scale text corpora using trans- former architectures, LLMs show behaviors such as in-context learning, instruction following, and step-by-step reasoning, which allow them to perform a wide range of tasks without task-specific training [1–3].",
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 3,
+    "raw_citation": "F. Perez and I. Ribeiro, “Ignore previous prompt: Attack techniques for language models,” arXiv preprint arXiv:2211.09527, 2022.",
+    "parsed_title": "Ignore previous prompt: Attack techniques for language models",
+    "parsed_authors": [
+      "F. Perez",
+      "I. Ribeiro"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "arXiv preprint arXiv:2211.09527",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2211.09527",
+    "parsed_arxiv_id": "2211.09527",
+    "contexts": [
+      {
+        "sentence": "Trained on large-scale text corpora using trans- former architectures, LLMs show behaviors such as in-context learning, instruction following, and step-by-step reasoning, which allow them to perform a wide range of tasks without task-specific training [1–3].",
+        "expanded_context": [
+          "This amounts to a 17,310× decrease in updated pa- rameters compared to full fine-tuning and a 9.25× reduction relative to LoRA, while consistently achieving stronger safety performance for alignment. 1 Introduction Large Language Models (LLMs) have become a central com- ponent of modern natural language processing, demonstrat- ing strong performance across tasks such as text generation, translation, question answering, reasoning, and conversational interaction.",
+          "Trained on large-scale text corpora using trans- former architectures, LLMs show behaviors such as in-context learning, instruction following, and step-by-step reasoning, which allow them to perform a wide range of tasks without task-specific training [1–3].",
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 4,
+    "raw_citation": "S. Jiang, X. Chen, and R. Tang, “Prompt packer: Deceiving llms through compositional instruction with hidden attacks,” arXiv preprint arXiv:2310.10077, 2023.",
+    "parsed_title": "Prompt packer: Deceiving llms through compositional instruction with hidden attacks",
+    "parsed_authors": [
+      "S. Jiang",
+      "X. Chen",
+      "R. Tang"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.10077",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.10077",
+    "parsed_arxiv_id": "2310.10077",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 5,
+    "raw_citation": "X. Shen, Z. Chen, M. Backes, Y. Shen, and Y. Zhang, “\" do anything now\": Characterizing and evaluating in-thewild jailbreak prompts on large language models,” in Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security, 2024, pp. 1671–1685.",
+    "parsed_title": "do anything now: Characterizing and evaluating in-thewild jailbreak prompts on large language models,” in Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security",
+    "parsed_authors": [
+      "X. Shen",
+      "Z. Chen",
+      "M. Backes",
+      "Y. Shen",
+      "Y. Zhang"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 6,
+    "raw_citation": "H. Jin, R. Chen, A. Zhou, Y. Zhang, and H. Wang, “Guard: Role-playing to generate natural-language jailbreakings to test guideline adherence of large language models,” arXiv preprint arXiv:2402.03299, 2024.",
+    "parsed_title": "Guard: Role-playing to generate natural-language jailbreakings to test guideline adherence of large language models",
+    "parsed_authors": [
+      "H. Jin",
+      "R. Chen",
+      "A. Zhou",
+      "Y. Zhang",
+      "H. Wang"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2402.03299",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2402.03299",
+    "parsed_arxiv_id": "2402.03299",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 7,
+    "raw_citation": "J. Yu, X. Lin, Z. Yu, and X. Xing, “Gptfuzzer: Red teaming large language models with auto-generated jailbreak prompts,” arXiv preprint arXiv:2309.10253, 2023.",
+    "parsed_title": "Gptfuzzer: Red teaming large language models with auto-generated jailbreak prompts",
+    "parsed_authors": [
+      "J. Yu",
+      "X. Lin",
+      "Z. Yu",
+      "X. Xing"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2309.10253",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2309.10253",
+    "parsed_arxiv_id": "2309.10253",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 8,
+    "raw_citation": "——, “{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks,” in 33rd USENIX Security Symposium (USENIX Security 24), 2024, pp. 4657–4674.",
+    "parsed_title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
+    "parsed_authors": [
+      "J. Yu",
+      "X. Lin",
+      "Z. Yu",
+      "X. Xing"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "33rd USENIX Security Symposium (USENIX Security 24)",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 9,
+    "raw_citation": "J. Ebrahimi, A. Rao, D. Lowd, and D. Dou, “Hotflip: White-box adversarial examples for text classification,” arXiv preprint arXiv:1712.06751, 2017.",
+    "parsed_title": "Hotflip: White-box adversarial examples for text classification",
+    "parsed_authors": [
+      "J. Ebrahimi",
+      "A. Rao",
+      "D. Lowd",
+      "D. Dou"
+    ],
+    "parsed_year": 2017,
+    "parsed_venue": "arXiv preprint arXiv:1712.06751",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1712.06751",
+    "parsed_arxiv_id": "1712.06751",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 10,
+    "raw_citation": "T. Shin, Y. Razeghi, R. L. Logan IV, E. Wallace, and S. Singh, “Autoprompt: Eliciting knowledge from language models with automatically generated prompts,” arXiv preprint arXiv:2010.15980, 2020.",
+    "parsed_title": "Autoprompt: Eliciting knowledge from language models with automatically generated prompts",
+    "parsed_authors": [
+      "T. Shin",
+      "Y. Razeghi",
+      "R. L. Logan IV",
+      "E. Wallace",
+      "S. Singh"
+    ],
+    "parsed_year": 2010,
+    "parsed_venue": "arXiv preprint arXiv:2010.15980",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2010.15980",
+    "parsed_arxiv_id": "2010.15980",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 11,
+    "raw_citation": "B. Lester, R. Al-Rfou, and N. Constant, “The power of scale for parameter-efficient prompt tuning,” arXiv preprint arXiv:2104.08691, 2021.",
+    "parsed_title": "The power of scale for parameter-efficient prompt tuning",
+    "parsed_authors": [
+      "B. Lester",
+      "R. Al-Rfou",
+      "N. Constant"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "arXiv preprint arXiv:2104.08691",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2104.08691",
+    "parsed_arxiv_id": "2104.08691",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 12,
+    "raw_citation": "L. Qin, S. Welleck, D. Khashabi, and Y. Choi, “Cold decoding: Energy-based constrained text generation with langevin dynamics,” Advances in Neural Information Processing Systems, vol. 35, pp. 9538–9551, 2022.",
+    "parsed_title": "Cold decoding: Energy-based constrained text generation with langevin dynamics",
+    "parsed_authors": [
+      "L. Qin",
+      "S. Welleck",
+      "D. Khashabi",
+      "Y. Choi"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "Advances in Neural Information Processing Systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 13,
+    "raw_citation": "Y. Wen, N. Jain, J. Kirchenbauer, M. Goldblum, J. Geiping, and T. Goldstein, “Hard prompts made easy: Gradient-based discrete optimization for prompt tuning and discovery,” Advances in Neural Information Processing Systems, vol. 36, pp. 51 008–51 025, 2023.",
+    "parsed_title": "Hard prompts made easy: Gradient-based discrete optimization for prompt tuning and discovery",
+    "parsed_authors": [
+      "Y. Wen",
+      "N. Jain",
+      "J. Kirchenbauer",
+      "M. Goldblum",
+      "J. Geiping",
+      "T. Goldstein"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "Advances in Neural Information Processing Systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 14,
+    "raw_citation": "E. Jones, A. Dragan, A. Raghunathan, and J. Steinhardt, “Automatically auditing large language models via discrete optimization,” in International Conference on Machine Learning. PMLR, 2023, pp. 15 307–15 329.",
+    "parsed_title": "Automatically auditing large language models via discrete optimization",
+    "parsed_authors": [
+      "E. Jones",
+      "A. Dragan",
+      "A. Raghunathan",
+      "J. Steinhardt"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "International Conference on Machine Learning. PMLR",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 15,
+    "raw_citation": "A. Zou, Z. Wang, N. Carlini, M. Nasr, J. Z. Kolter, and M. Fredrikson, “Universal and transferable adversarial attacks on aligned language models,” arXiv preprint arXiv:2307.15043, 2023.",
+    "parsed_title": "Universal and transferable adversarial attacks on aligned language models",
+    "parsed_authors": [
+      "A. Zou",
+      "Z. Wang",
+      "N. Carlini",
+      "M. Nasr",
+      "J. Z. Kolter",
+      "M. Fredrikson"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2307.15043",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2307.15043",
+    "parsed_arxiv_id": "2307.15043",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 16,
+    "raw_citation": "F. Wu, X. Liu, and C. Xiao, “Deceptprompt: Exploiting llm-driven code generation via adversarial natural language instructions,” arXiv preprint arXiv:2312.04730, 2023.",
+    "parsed_title": "Deceptprompt: Exploiting llm-driven code generation via adversarial natural language instructions",
+    "parsed_authors": [
+      "F. Wu",
+      "X. Liu",
+      "C. Xiao"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2312.04730",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2312.04730",
+    "parsed_arxiv_id": "2312.04730",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 17,
+    "raw_citation": "X. Liu, N. Xu, M. Chen, and C. Xiao, “Autodan: Generating stealthy jailbreak prompts on aligned large language models,” arXiv preprint arXiv:2310.04451, 2023.",
+    "parsed_title": "Autodan: Generating stealthy jailbreak prompts on aligned large language models",
+    "parsed_authors": [
+      "X. Liu",
+      "N. Xu",
+      "M. Chen",
+      "C. Xiao"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.04451",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.04451",
+    "parsed_arxiv_id": "2310.04451",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 18,
+    "raw_citation": "T. Gao, A. Fisch, and D. Chen, “Making pre-trained language models better few-shot learners,” arXiv preprint arXiv:2012.15723, 2020.",
+    "parsed_title": "Making pre-trained language models better few-shot learners",
+    "parsed_authors": [
+      "T. Gao",
+      "A. Fisch",
+      "D. Chen"
+    ],
+    "parsed_year": 2012,
+    "parsed_venue": "arXiv preprint arXiv:2012.15723",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2012.15723",
+    "parsed_arxiv_id": "2012.15723",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 19,
+    "raw_citation": "R. Pryzant, D. Iter, J. Li, Y. T. Lee, C. Zhu, and M. Zeng, “Automatic prompt optimization with\" gradient descent\" and beam search,” arXiv preprint arXiv:2305.03495, 2023.",
+    "parsed_title": "Automatic prompt optimization with",
+    "parsed_authors": [
+      "R. Pryzant",
+      "D. Iter",
+      "J. Li",
+      "Y. T. Lee",
+      "C. Zhu",
+      "M. Zeng"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "gradient descent\" and beam search,” arXiv preprint arXiv:2305.03495",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2305.03495",
+    "parsed_arxiv_id": "2305.03495",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 20,
+    "raw_citation": "Y. Zhou, A. I. Muresanu, Z. Han, K. Paster, S. Pitis, H. Chan, and J. Ba, “Large language models are human-level prompt engineers,” in The Eleventh International Conference on Learning Representations, 2022.",
+    "parsed_title": "Large language models are human-level prompt engineers",
+    "parsed_authors": [
+      "Y. Zhou",
+      "A. I. Muresanu",
+      "Z. Han",
+      "K. Paster",
+      "S. Pitis",
+      "H. Chan",
+      "J. Ba"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "The Eleventh International Conference on Learning Representations",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 21,
+    "raw_citation": "P. Chao, A. Robey, E. Dobriban, H. Hassani, G. J. Pappas, and E. Wong, “Jailbreaking black box large language models in twenty queries,” arXiv preprint arXiv:2310.08419, 2023.",
+    "parsed_title": "Jailbreaking black box large language models in twenty queries",
+    "parsed_authors": [
+      "P. Chao",
+      "A. Robey",
+      "E. Dobriban",
+      "H. Hassani",
+      "G. J. Pappas",
+      "E. Wong"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.08419",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.08419",
+    "parsed_arxiv_id": "2310.08419",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 22,
+    "raw_citation": "A. Mehrotra, M. Zampetakis, P. Kassianik, B. Nelson, H. Anderson, Y. Singer, and A. Karbasi, “Tree of attacks: Jailbreaking black-box llms automatically,” Advances in Neural Information Processing Systems, vol. 37, pp. 61 065–61 105, 2024.",
+    "parsed_title": "Tree of attacks: Jailbreaking black-box llms automatically",
+    "parsed_authors": [
+      "A. Mehrotra",
+      "M. Zampetakis",
+      "P. Kassianik",
+      "B. Nelson",
+      "H. Anderson",
+      "Y. Singer",
+      "A. Karbasi"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "Advances in Neural Information Processing Systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 23,
+    "raw_citation": "Z. Chang, M. Li, Y. Liu, J. Wang, Q. Wang, and Y. Liu, “Play guessing game with llm: Indirect jailbreak attack with implicit clues,” arXiv preprint arXiv:2402.09091, 2024.",
+    "parsed_title": "Play guessing game with llm: Indirect jailbreak attack with implicit clues",
+    "parsed_authors": [
+      "Z. Chang",
+      "M. Li",
+      "Y. Liu",
+      "J. Wang",
+      "Q. Wang",
+      "Y. Liu"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2402.09091",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2402.09091",
+    "parsed_arxiv_id": "2402.09091",
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 24,
+    "raw_citation": "L. Wu, S. Behrouzi, M. Rostami, M. Thang, S. Picek, and A.-R. Sadeghi, “Neurostrike: Neuron-level attacks on aligned llms,” Network and Distributed System Security (NDSS) Symposium, 2026.",
+    "parsed_title": "Neurostrike: Neuron-level attacks on aligned llms",
+    "parsed_authors": [
+      "L. Wu",
+      "S. Behrouzi",
+      "M. Rostami",
+      "M. Thang",
+      "S. Picek",
+      "A.-R. Sadeghi"
+    ],
+    "parsed_year": 2026,
+    "parsed_venue": "Network and Distributed System Security (NDSS) Symposium",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+        "expanded_context": [
+          "Despite their strong capabilities, large language models can be induced to generate harmful or unsafe content through a range of black-box jailbreak tech- niques that manipulate inputs without access to model inter- nals.",
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 25,
+    "raw_citation": "L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. Wainwright, et al., “Training language models to follow instructions with human feedback,” Advances in neural information processing systems, vol. 35, pp. 27 730–27 744, 2022.",
+    "parsed_title": "Training language models to follow instructions with human feedback",
+    "parsed_authors": [
+      "L. Ouyang",
+      "J. Wu",
+      "X. Jiang",
+      "D. Almeida",
+      "C. Wainwright"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "Advances in neural information processing systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25].",
+        "expanded_context": [
+          "These include prompt-based attacks and adaptive meth- ods that automatically or iteratively refine adversarial prompts [4–24].",
+          "In contrast, white-box approaches study internal neu- ron activations and learned representations to understand how specific behaviors, including safety mechanisms, are encoded within the model [25].",
+          "LLM safety alignment methods."
+        ]
+      },
+      {
+        "sentence": "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+        "expanded_context": [
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+          "Ignoring this structure dur- ing safety fine-tuning can disrupt safety-critical components, leading to instability, inconsistent behavior, and unnecessary computational cost."
+        ]
+      },
+      {
+        "sentence": "Emerging methods therefore aim to identify these localized regions and selectively adapt or reinforce them during fine-tuning, enabling targeted safety im- provements without broadly modifying the entire parameter space [25,37,48]. 3 NeST 3.1 Threat Model Adversary.",
+        "expanded_context": [
+          "In this perspective, safety- relevant behavior is encoded within particular layers, activa- tions, or neurons whose responses influence whether outputs comply with safety constraints.",
+          "Emerging methods therefore aim to identify these localized regions and selectively adapt or reinforce them during fine-tuning, enabling targeted safety im- provements without broadly modifying the entire parameter space [25,37,48]. 3 NeST 3.1 Threat Model Adversary.",
+          "We consider a defense-aware black-box adver- sary who interacts with the model solely at inference time via prompts."
+        ]
+      },
+      {
+        "sentence": "Clustered Safety Neurons Prompt Database Neuron-Selective Tuning Cluster Update Frozen Neurons Safety Neurons Figure 2: An overview of the NeST in neuron-selective tuning step. 4 3.3 Safety Neurons Detection Safety alignment leaves structured signatures in internal rep- resentations, giving rise to neuron-level patterns in which a small subset of units responds differently to benign and harm- ful prompts [25].",
+        "expanded_context": [
+          "After training, the learned updates are merged into the base model weights, yielding a standard lan- guage model with improved robustness to adversarial prompt- ing and no additional inference-time overhead.",
+          "Clustered Safety Neurons Prompt Database Neuron-Selective Tuning Cluster Update Frozen Neurons Safety Neurons Figure 2: An overview of the NeST in neuron-selective tuning step. 4 3.3 Safety Neurons Detection Safety alignment leaves structured signatures in internal rep- resentations, giving rise to neuron-level patterns in which a small subset of units responds differently to benign and harm- ful prompts [25].",
+          "We formalize safety neurons through an activation-based probing procedure that quantifies how indi- vidual neurons contribute to safety-related distinctions."
+        ]
+      },
+      {
+        "sentence": "Neuron-level white-box attacks that directly manipulate internal representa- tions [25,64] therefore fall outside the threat model considered in this work.",
+        "expanded_context": [
+          "NeST is de- signed for deployment settings in which attackers interact with the model exclusively through prompts and do not have access to internal parameters or activations, consistent with the black-box adversary defined in Section 3.1.",
+          "Neuron-level white-box attacks that directly manipulate internal representa- tions [25,64] therefore fall outside the threat model considered in this work.",
+          "While NeST distributes safety behavior across coordinated neuron groups rather than isolated units, which may increase the difficulty of precise neuron-targeted ma- nipulation, no training-time alignment method can guarantee robustness against adversaries with unrestricted white-box access or the ability to modify model weights."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 26,
+    "raw_citation": "Y. Yuan, W. Jiao, W. Wang, J.-t. Huang, J. Xu, T. Liang, P. He, and Z. Tu, “Refuse whenever you feel unsafe: Improving safety in llms via decoupled refusal training,” in Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2025, pp. 3149–3167.",
+    "parsed_title": "Refuse whenever you feel unsafe: Improving safety in llms via decoupled refusal training",
+    "parsed_authors": [
+      "Y. Yuan",
+      "W. Jiao",
+      "W. Wang",
+      "J.-t. Huang",
+      "J. Xu",
+      "T. Liang",
+      "P. He",
+      "Z. Tu"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+        "expanded_context": [
+          "Safety alignment via output-level fine-tuning steers language models toward helpful behavior by shaping output distributions with human or automated feedback.",
+          "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded."
+        ]
+      },
+      {
+        "sentence": "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+        "expanded_context": [
+          "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36]."
+        ]
+      },
+      {
+        "sentence": "Through this label- and target-driven optimization, the model is realigned toward desired behavioral constraints without modifying the under- lying training objective itself [26,45].",
+        "expanded_context": [
+          "A common strategy is supervised fine-tuning with curated safe and refusal responses, which can be viewed as applying the standard fine-tuning objective introduced in Section 2 to a safety-labeled dataset, where targets correspond either to com- pliant helpful answers or explicit refusals.",
+          "Through this label- and target-driven optimization, the model is realigned toward desired behavioral constraints without modifying the under- lying training objective itself [26,45].",
+          "Additional alignment is often achieved using reinforcement learning from human feedback (RLHF), which optimizes model outputs according to learned human preference signals [26,46], and preference- based optimization methods such as Direct Preference Opti- mization (DPO), which directly shift the output distribution toward preferred responses without explicit reward model- ing [47]."
+        ]
+      },
+      {
+        "sentence": "Additional alignment is often achieved using reinforcement learning from human feedback (RLHF), which optimizes model outputs according to learned human preference signals [26,46], and preference- based optimization methods such as Direct Preference Opti- mization (DPO), which directly shift the output distribution toward preferred responses without explicit reward model- ing [47].",
+        "expanded_context": [
+          "Through this label- and target-driven optimization, the model is realigned toward desired behavioral constraints without modifying the under- lying training objective itself [26,45].",
+          "Additional alignment is often achieved using reinforcement learning from human feedback (RLHF), which optimizes model outputs according to learned human preference signals [26,46], and preference- based optimization methods such as Direct Preference Opti- mization (DPO), which directly shift the output distribution toward preferred responses without explicit reward model- ing [47].",
+          "These techniques effectively shape the distribution of generated text, but largely treat the model as a homoge- neous parameter space and do not explicitly account for how safety behavior is represented internally."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 27,
+    "raw_citation": "F. Bianchi, M. Suzgun, G. Attanasio, P. Röttger, D. Jurafsky, T. Hashimoto, and J. Zou, “Safety-tuned llamas: Lessons from improving the safety of large language models that follow instructions,” arXiv preprint arXiv:2309.07875, 2023.",
+    "parsed_title": "Safety-tuned llamas: Lessons from improving the safety of large language models that follow instructions",
+    "parsed_authors": [
+      "F. Bianchi",
+      "M. Suzgun",
+      "G. Attanasio",
+      "P. Röttger",
+      "D. Jurafsky",
+      "T. Hashimoto",
+      "J. Zou"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2309.07875",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2309.07875",
+    "parsed_arxiv_id": "2309.07875",
+    "contexts": [
+      {
+        "sentence": "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+        "expanded_context": [
+          "Safety alignment via output-level fine-tuning steers language models toward helpful behavior by shaping output distributions with human or automated feedback.",
+          "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded."
+        ]
+      },
+      {
+        "sentence": "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+        "expanded_context": [
+          "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 28,
+    "raw_citation": "G.-H. Kim, Y. Jang, Y. J. Kim, B. Kim, H. Lee, K. Bae, and M. Lee, “Safedpo: A simple approach to direct preference optimization with enhanced safety,” arXiv preprint arXiv:2505.20065, 2025.",
+    "parsed_title": "Safedpo: A simple approach to direct preference optimization with enhanced safety",
+    "parsed_authors": [
+      "G.-H. Kim",
+      "Y. Jang",
+      "Y. J. Kim",
+      "B. Kim",
+      "H. Lee",
+      "K. Bae",
+      "M. Lee"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2505.20065",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2505.20065",
+    "parsed_arxiv_id": "2505.20065",
+    "contexts": [
+      {
+        "sentence": "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+        "expanded_context": [
+          "Safety alignment via output-level fine-tuning steers language models toward helpful behavior by shaping output distributions with human or automated feedback.",
+          "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded."
+        ]
+      },
+      {
+        "sentence": "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+        "expanded_context": [
+          "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 29,
+    "raw_citation": "H. Shen, P.-Y. Chen, P. Das, and T. Chen, “Seal: Safetyenhanced aligned llm fine-tuning via bilevel data selection,” arXiv preprint arXiv:2410.07471, 2024.",
+    "parsed_title": "Seal: Safetyenhanced aligned llm fine-tuning via bilevel data selection",
+    "parsed_authors": [
+      "H. Shen",
+      "P.-Y. Chen",
+      "P. Das",
+      "T. Chen"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2410.07471",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2410.07471",
+    "parsed_arxiv_id": "2410.07471",
+    "contexts": [
+      {
+        "sentence": "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+        "expanded_context": [
+          "Safety alignment via output-level fine-tuning steers language models toward helpful behavior by shaping output distributions with human or automated feedback.",
+          "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded."
+        ]
+      },
+      {
+        "sentence": "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+        "expanded_context": [
+          "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 30,
+    "raw_citation": "A. Kádár, G. Chrupała, and A. Alishahi, “Representation of linguistic form and function in recurrent neural networks,” Computational Linguistics, vol. 43, no. 4, pp. 761–780, 2017.",
+    "parsed_title": "Representation of linguistic form and function in recurrent neural networks",
+    "parsed_authors": [
+      "A. Kádár",
+      "G. Chrupała",
+      "A. Alishahi"
+    ],
+    "parsed_year": 2017,
+    "parsed_venue": "Computational Linguistics",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+        "expanded_context": [
+          "Com- mon approaches include reinforcement learning from human feedback (RLHF) [26], supervised refusal tuning [27], and preference-based optimization methods such as DPO and SafeDPO [28, 29].",
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 31,
+    "raw_citation": "S. Na, Y. J. Choe, D.-H. Lee, and G. Kim, “Discovery of natural language concepts in individual units of cnns,” arXiv preprint arXiv:1902.07249, 2019.",
+    "parsed_title": "Discovery of natural language concepts in individual units of cnns",
+    "parsed_authors": [
+      "S. Na",
+      "Y. J. Choe",
+      "D.-H. Lee",
+      "G. Kim"
+    ],
+    "parsed_year": 1902,
+    "parsed_venue": "arXiv preprint arXiv:1902.07249",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1902.07249",
+    "parsed_arxiv_id": "1902.07249",
+    "contexts": [
+      {
+        "sentence": "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+        "expanded_context": [
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+          "Ignoring this structure dur- ing safety fine-tuning can disrupt safety-critical components, leading to instability, inconsistent behavior, and unnecessary computational cost."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 32,
+    "raw_citation": "J. Mu and J. Andreas, “Compositional explanations of neurons,” Advances in Neural Information Processing Systems, vol. 33, pp. 17 153–17 163, 2020.",
+    "parsed_title": "Compositional explanations of neurons",
+    "parsed_authors": [
+      "J. Mu",
+      "J. Andreas"
+    ],
+    "parsed_year": 2020,
+    "parsed_venue": "Advances in Neural Information Processing Systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+        "expanded_context": [
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+          "Ignoring this structure dur- ing safety fine-tuning can disrupt safety-critical components, leading to instability, inconsistent behavior, and unnecessary computational cost."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 33,
+    "raw_citation": "X. Suau, L. Zappella, and N. Apostoloff, “Finding experts in transformer models,” arXiv preprint arXiv:2005.07647, 2020.",
+    "parsed_title": "Finding experts in transformer models",
+    "parsed_authors": [
+      "X. Suau",
+      "L. Zappella",
+      "N. Apostoloff"
+    ],
+    "parsed_year": 2005,
+    "parsed_venue": "arXiv preprint arXiv:2005.07647",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2005.07647",
+    "parsed_arxiv_id": "2005.07647",
+    "contexts": [
+      {
+        "sentence": "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+        "expanded_context": [
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+          "Ignoring this structure dur- ing safety fine-tuning can disrupt safety-critical components, leading to instability, inconsistent behavior, and unnecessary computational cost."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 34,
+    "raw_citation": "O. Antverg and Y. Belinkov, “On the pitfalls of analyzing individual neurons in language models,” arXiv preprint arXiv:2110.07483, 2021.",
+    "parsed_title": "On the pitfalls of analyzing individual neurons in language models",
+    "parsed_authors": [
+      "O. Antverg",
+      "Y. Belinkov"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "arXiv preprint arXiv:2110.07483",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2110.07483",
+    "parsed_arxiv_id": "2110.07483",
+    "contexts": [
+      {
+        "sentence": "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+        "expanded_context": [
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+          "Ignoring this structure dur- ing safety fine-tuning can disrupt safety-critical components, leading to instability, inconsistent behavior, and unnecessary computational cost."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 35,
+    "raw_citation": "Y. Lakretz, G. Kruszewski, T. Desbordes, D. Hupkes, S. Dehaene, and M. Baroni, “The emergence of number and syntax units in lstm language models,” arXiv preprint arXiv:1903.07435, 2019.",
+    "parsed_title": "The emergence of number and syntax units in lstm language models",
+    "parsed_authors": [
+      "Y. Lakretz",
+      "G. Kruszewski",
+      "T. Desbordes",
+      "D. Hupkes",
+      "S. Dehaene",
+      "M. Baroni"
+    ],
+    "parsed_year": 1903,
+    "parsed_venue": "arXiv preprint arXiv:1903.07435",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1903.07435",
+    "parsed_arxiv_id": "1903.07435",
+    "contexts": [
+      {
+        "sentence": "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+        "expanded_context": [
+          "These techniques reduce the generation of toxic and unsafe samples and improve instruction follow- ing [26–30], but rely on broad parameter updates and treat the model as a largely homogeneous parameter space, without explicitly modeling how safety behavior is internally encoded.",
+          "In the localization of safety representations, recent work shows that safety-relevant behavior is localized within specific internal components rather than being uniformly distributed across the network [25, 31–36].",
+          "Ignoring this structure dur- ing safety fine-tuning can disrupt safety-critical components, leading to instability, inconsistent behavior, and unnecessary computational cost."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 37,
+    "raw_citation": "E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, W. Chen et al., “Lora: Low-rank adaptation of large language models.” ICLR, vol. 1, no. 2, p. 3, 2022.",
+    "parsed_title": "Lora: Low-rank adaptation of large language models.: ICLR",
+    "parsed_authors": [
+      "E. J. Hu",
+      "Y. Shen",
+      "P. Wallis",
+      "Z. Allen-Zhu",
+      "Y. Li",
+      "S. Wang",
+      "L. Wang",
+      "W. Chen"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Cir- cuit breakers [37] intervene on internal activations at inference time, redirecting harmful generative trajectories toward re- fusal or incoherent states.",
+        "expanded_context": [
+          "Targeted and parameter-efficient intervention approaches aim to influence safety behavior with fewer parameter updates.",
+          "Cir- cuit breakers [37] intervene on internal activations at inference time, redirecting harmful generative trajectories toward re- fusal or incoherent states.",
+          "While effective, they operate primar- ily as inference-time controls and depend on prompt-triggered representations."
+        ]
+      },
+      {
+        "sentence": "In contrast to inference-time control mechanisms such as circuit breakers [37], NeST performs structure-aware safety fine-tuning during training, directly shaping the internal mech- anisms that underpin safe behavior.",
+        "expanded_context": [
+          "This cluster-based formulation concentrates learning capacity precisely where safety behav- ior resides and ensures coherent updates across neurons that jointly implement safety decisions.",
+          "In contrast to inference-time control mechanisms such as circuit breakers [37], NeST performs structure-aware safety fine-tuning during training, directly shaping the internal mech- anisms that underpin safe behavior.",
+          "Compared to parameter- efficient methods such as LoRA [38], which operate at the level of entire layers and remain agnostic to safety localiza- tion, NeST aligns parameter updates with neuron-level safety structure."
+        ]
+      },
+      {
+        "sentence": "Emerging methods therefore aim to identify these localized regions and selectively adapt or reinforce them during fine-tuning, enabling targeted safety im- provements without broadly modifying the entire parameter space [25,37,48]. 3 NeST 3.1 Threat Model Adversary.",
+        "expanded_context": [
+          "In this perspective, safety- relevant behavior is encoded within particular layers, activa- tions, or neurons whose responses influence whether outputs comply with safety constraints.",
+          "Emerging methods therefore aim to identify these localized regions and selectively adapt or reinforce them during fine-tuning, enabling targeted safety im- provements without broadly modifying the entire parameter space [25,37,48]. 3 NeST 3.1 Threat Model Adversary.",
+          "We consider a defense-aware black-box adver- sary who interacts with the model solely at inference time via prompts."
+        ]
+      },
+      {
+        "sentence": "We evaluate NeST in comparison to the original baseline models as well as three representative safety adaptation approaches: full-parameter supervised fine- tuning (Full FT), Circuit Breaker [37], which intervenes on in- ternal activations to suppress unsafe behavior, and parameter- efficient LoRA [38] fine-tuning applied to FNN projections.",
+        "expanded_context": [
+          "This setup reflects realistic deployment conditions for open-weight LLMs, where safety mechanisms are present but may remain vulnerable to black- box adversarial attacks.",
+          "We evaluate NeST in comparison to the original baseline models as well as three representative safety adaptation approaches: full-parameter supervised fine- tuning (Full FT), Circuit Breaker [37], which intervenes on in- ternal activations to suppress unsafe behavior, and parameter- efficient LoRA [38] fine-tuning applied to FNN projections.",
+          "Restricting LoRA to FNN projections ensures a fair compari- son in both trainable parameter count and structural similarity to NeST."
+        ]
+      },
+      {
+        "sentence": "For Circuit Breaker [37], we follow the authors’ original training setup, which uses a curated circuit breaker dataset designed to elicit harmful internal representations together with a retain dataset composed of benign and refusal-aligned examples.",
+        "expanded_context": [
+          "The combined dataset is shuffled and split into training and validation sets using a 95/5 split, and the same data and preprocessing are used across these meth- ods to ensure a fair and controlled comparison.",
+          "For Circuit Breaker [37], we follow the authors’ original training setup, which uses a curated circuit breaker dataset designed to elicit harmful internal representations together with a retain dataset composed of benign and refusal-aligned examples.",
+          "In addition to this original configuration, we evaluate an expanded setting in which the circuit breaker training data is augmented with 5,000 harmful prompts sampled from WildJailbreak [59], while retaining the original retain dataset."
+        ]
+      },
+      {
+        "sentence": "Circuit Breaker [37] follows the Representation Rerouting framework, introducing LoRA-based circuit-breaking mod- ules while freezing the base model.",
+        "expanded_context": [
+          "A small rank of r = 1 is used to keep the number of trainable parameters close to that of NeST, enabling a direct comparison of parameter efficiency.",
+          "Circuit Breaker [37] follows the Representation Rerouting framework, introducing LoRA-based circuit-breaking mod- ules while freezing the base model.",
+          "Training is performed using the authors’ recommended configuration with rank-32 adapters, dropout 0.05, bfloat16 precision, gradient check- pointing, and up to 150 optimization steps."
+        ]
+      },
+      {
+        "sentence": "Cir- cuit Breakers [37] learn auxiliary LoRA-based modules that modify internal representations linked to harmful generation, rerouting these representations toward incoherent or refusal states.",
+        "expanded_context": [
+          "Another line of work focuses on mitigating unsafe behavior through representation-level intervention mechanisms.",
+          "Cir- cuit Breakers [37] learn auxiliary LoRA-based modules that modify internal representations linked to harmful generation, rerouting these representations toward incoherent or refusal states.",
+          "This approach can reduce unsafe behavior without full- parameter fine-tuning, but still relies on additional learned modules and LoRA-scale parameter updates."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 38,
+    "raw_citation": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, L. Kaiser, and I. Polosukhin, “Attention is all you need,” Advances in neural information processing systems, vol. 30, 2017.",
+    "parsed_title": "Attention is all you need",
+    "parsed_authors": [
+      "A. Vaswani",
+      "N. Shazeer",
+      "N. Parmar",
+      "J. Uszkoreit",
+      "L. Jones",
+      "A. N. Gomez",
+      "L. Kaiser",
+      "I. Polosukhin"
+    ],
+    "parsed_year": 2017,
+    "parsed_venue": "Advances in neural information processing systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Parameter-efficient fine-tuning methods such as LoRA [38] further reduce training cost by restricting up- dates to low-rank subspaces, but operate at the level of en- tire layers and remain agnostic to the localization of safety- relevant components.",
+        "expanded_context": [
+          "While effective, they operate primar- ily as inference-time controls and depend on prompt-triggered representations.",
+          "Parameter-efficient fine-tuning methods such as LoRA [38] further reduce training cost by restricting up- dates to low-rank subspaces, but operate at the level of en- tire layers and remain agnostic to the localization of safety- relevant components.",
+          "As a result, existing methods do not fully exploit the internal organization of safety behavior to jointly improve alignment quality and training efficiency."
+        ]
+      },
+      {
+        "sentence": "Compared to parameter- efficient methods such as LoRA [38], which operate at the level of entire layers and remain agnostic to safety localiza- tion, NeST aligns parameter updates with neuron-level safety structure.",
+        "expanded_context": [
+          "In contrast to inference-time control mechanisms such as circuit breakers [37], NeST performs structure-aware safety fine-tuning during training, directly shaping the internal mech- anisms that underpin safe behavior.",
+          "Compared to parameter- efficient methods such as LoRA [38], which operate at the level of entire layers and remain agnostic to safety localiza- tion, NeST aligns parameter updates with neuron-level safety structure.",
+          "As a result, NeST provides a principled, structure- aware form of safety tuning that is both highly parameter- efficient and stable, without relying on layer-wide or global modifications."
+        ]
+      },
+      {
+        "sentence": "We evaluate NeST in comparison to the original baseline models as well as three representative safety adaptation approaches: full-parameter supervised fine- tuning (Full FT), Circuit Breaker [37], which intervenes on in- ternal activations to suppress unsafe behavior, and parameter- efficient LoRA [38] fine-tuning applied to FNN projections.",
+        "expanded_context": [
+          "This setup reflects realistic deployment conditions for open-weight LLMs, where safety mechanisms are present but may remain vulnerable to black- box adversarial attacks.",
+          "We evaluate NeST in comparison to the original baseline models as well as three representative safety adaptation approaches: full-parameter supervised fine- tuning (Full FT), Circuit Breaker [37], which intervenes on in- ternal activations to suppress unsafe behavior, and parameter- efficient LoRA [38] fine-tuning applied to FNN projections.",
+          "Restricting LoRA to FNN projections ensures a fair compari- son in both trainable parameter count and structural similarity to NeST."
+        ]
+      },
+      {
+        "sentence": "For Full FT, LoRA [38], and NeST, we use a balanced supervised fine-tuning dataset composed of harmful and benign prompts.",
+        "expanded_context": [
+          "This comparison enables a systematic assessment of safety robustness and training efficiency across diverse architectures and model scales.",
+          "For Full FT, LoRA [38], and NeST, we use a balanced supervised fine-tuning dataset composed of harmful and benign prompts.",
+          "Harmful examples are drawn from the WildJailbreak [59] benchmark, using up to 10,000 ad- versarial harmful prompts, while benign examples are sam- Method Scope Train Data Epochs/Steps Eval."
+        ]
+      },
+      {
+        "sentence": "LoRA [38] applies parameter-efficient fine-tuning by inserting low-rank adapters into FNN projections.",
+        "expanded_context": [
+          "Full FT performs standard supervised fine- tuning over all model parameters for five epochs.",
+          "LoRA [38] applies parameter-efficient fine-tuning by inserting low-rank adapters into FNN projections.",
+          "A small rank of r = 1 is used to keep the number of trainable parameters close to that of NeST, enabling a direct comparison of parameter efficiency."
+        ]
+      },
+      {
+        "sentence": "LoRA [38] has emerged as a widely adopted PEFT method by injecting low-rank updates into existing weight matrices while freezing the pretrained param- eters.",
+        "expanded_context": [
+          "Repre- sentative approaches include adapter-based tuning [65,66] and lightweight parameter updates such as bias-only or scaling- based tuning [67, 68].",
+          "LoRA [38] has emerged as a widely adopted PEFT method by injecting low-rank updates into existing weight matrices while freezing the pretrained param- eters.",
+          "While these methods are effective for reducing training and storage costs, they generally treat model parameters as a homogeneous space and apply uniform structural constraints, without explicitly considering where task-relevant or safety- relevant behavior is encoded within the model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 39,
+    "raw_citation": "M. Geva, R. Schuster, J. Berant, and O. Levy, “Transformer feed-forward layers are key-value memories,” in Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing, 2021, pp. 5484– 5495.",
+    "parsed_title": "Transformer feed-forward layers are key-value memories",
+    "parsed_authors": [
+      "M. Geva",
+      "R. Schuster",
+      "J. Berant",
+      "O. Levy"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "At each layer ℓ, this process produces a hidden representation (hℓ) for each token, capturing contextual in- formation aggregated from the sequence via self-attention and transformed by the feed-forward sublayer [39].",
+        "expanded_context": [
+          "Given an input sequence, token representations are progressively refined through a stack of transformer blocks, each composed of a self-attention module (Attn(·)) followed by a position-wise feed-forward network (FNN(·)).",
+          "At each layer ℓ, this process produces a hidden representation (hℓ) for each token, capturing contextual in- formation aggregated from the sequence via self-attention and transformed by the feed-forward sublayer [39].",
+          "While 2 self-attention enables contextual information exchange across tokens, the feed-forward sublayers account for a substantial fraction of model parameters and play a critical role in shap- ing token-level transformations."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 41,
+    "raw_citation": "H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux, T. Lacroix, B. Rozière, N. Goyal, E. Hambro, F. Azhar et al., “Llama: Open and efficient foundation language models,” arXiv preprint arXiv:2302.13971, 2023.",
+    "parsed_title": "Llama: Open and efficient foundation language models",
+    "parsed_authors": [
+      "H. Touvron",
+      "T. Lavril",
+      "G. Izacard",
+      "X. Martinet",
+      "M.-A. Lachaux",
+      "T. Lacroix",
+      "B. Rozière",
+      "N. Goyal",
+      "E. Hambro",
+      "F. Azhar"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2302.13971",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2302.13971",
+    "parsed_arxiv_id": "2302.13971",
+    "contexts": [
+      {
+        "sentence": "Such architectures are now standard across contemporary LLM families, includ- ing GPT [41], LLaMA [42], Qwen [43], and Gemma [44]. 2.2 Parameter Efficient Fine Tuning Fine-tuning adapts a pretrained large language model (LLM) to a downstream task by optimizing its parameters on task- specific data.",
+        "expanded_context": [
+          "This gated formulation enables selective activation of feed- forward neurons in a token-dependent manner, supporting expressive and structured transformations.",
+          "Such architectures are now standard across contemporary LLM families, includ- ing GPT [41], LLaMA [42], Qwen [43], and Gemma [44]. 2.2 Parameter Efficient Fine Tuning Fine-tuning adapts a pretrained large language model (LLM) to a downstream task by optimizing its parameters on task- specific data.",
+          "Let θ denote the pretrained model parameters and D the downstream dataset consisting of input–output pairs (x,y)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 43,
+    "raw_citation": "G. Team, A. Kamath, J. Ferret, S. Pathak, N. Vieillard, R. Merhej, S. Perrin, T. Matejovicova, A. Ramé, M. Rivière et al., “Gemma 3 technical report,” arXiv preprint arXiv:2503.19786, 2025.",
+    "parsed_title": "Gemma 3 technical report",
+    "parsed_authors": [
+      "G. Team",
+      "A. Kamath",
+      "J. Ferret",
+      "S. Pathak",
+      "N. Vieillard",
+      "R. Merhej",
+      "S. Perrin",
+      "T. Matejovicova",
+      "A. Ramé",
+      "M. Rivière"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2503.19786",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2503.19786",
+    "parsed_arxiv_id": "2503.19786",
+    "contexts": [
+      {
+        "sentence": "Such architectures are now standard across contemporary LLM families, includ- ing GPT [41], LLaMA [42], Qwen [43], and Gemma [44]. 2.2 Parameter Efficient Fine Tuning Fine-tuning adapts a pretrained large language model (LLM) to a downstream task by optimizing its parameters on task- specific data.",
+        "expanded_context": [
+          "This gated formulation enables selective activation of feed- forward neurons in a token-dependent manner, supporting expressive and structured transformations.",
+          "Such architectures are now standard across contemporary LLM families, includ- ing GPT [41], LLaMA [42], Qwen [43], and Gemma [44]. 2.2 Parameter Efficient Fine Tuning Fine-tuning adapts a pretrained large language model (LLM) to a downstream task by optimizing its parameters on task- specific data.",
+          "Let θ denote the pretrained model parameters and D the downstream dataset consisting of input–output pairs (x,y)."
+        ]
+      },
+      {
+        "sentence": "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+        "expanded_context": [
+          "Together with the observed 7 Figure 4: Gradient alignment of safety neurons across layers.",
+          "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+          "All evaluated models are pub- licly released instruction-following systems that incorporate general-purpose safety alignment, typically via supervised fine-tuning and reinforcement learning from human feedback, with the goal of reducing harmful, unsafe, or policy-violating outputs under standard prompting."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 44,
+    "raw_citation": "Y. Bai, A. Jones, K. Ndousse, A. Askell, A. Chen, N. DasSarma, D. Drain, S. Fort, D. Ganguli, T. Henighan et al., “Training a helpful and harmless assistant with reinforcement learning from human feedback,” arXiv preprint arXiv:2204.05862, 2022.",
+    "parsed_title": "Training a helpful and harmless assistant with reinforcement learning from human feedback",
+    "parsed_authors": [
+      "Y. Bai",
+      "A. Jones",
+      "K. Ndousse",
+      "A. Askell",
+      "A. Chen",
+      "N. DasSarma",
+      "D. Drain",
+      "S. Fort",
+      "D. Ganguli",
+      "T. Henighan"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "arXiv preprint arXiv:2204.05862",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2204.05862",
+    "parsed_arxiv_id": "2204.05862",
+    "contexts": [
+      {
+        "sentence": "Such architectures are now standard across contemporary LLM families, includ- ing GPT [41], LLaMA [42], Qwen [43], and Gemma [44]. 2.2 Parameter Efficient Fine Tuning Fine-tuning adapts a pretrained large language model (LLM) to a downstream task by optimizing its parameters on task- specific data.",
+        "expanded_context": [
+          "This gated formulation enables selective activation of feed- forward neurons in a token-dependent manner, supporting expressive and structured transformations.",
+          "Such architectures are now standard across contemporary LLM families, includ- ing GPT [41], LLaMA [42], Qwen [43], and Gemma [44]. 2.2 Parameter Efficient Fine Tuning Fine-tuning adapts a pretrained large language model (LLM) to a downstream task by optimizing its parameters on task- specific data.",
+          "Let θ denote the pretrained model parameters and D the downstream dataset consisting of input–output pairs (x,y)."
+        ]
+      },
+      {
+        "sentence": "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+        "expanded_context": [
+          "Together with the observed 7 Figure 4: Gradient alignment of safety neurons across layers.",
+          "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+          "All evaluated models are pub- licly released instruction-following systems that incorporate general-purpose safety alignment, typically via supervised fine-tuning and reinforcement learning from human feedback, with the goal of reducing harmful, unsafe, or policy-violating outputs under standard prompting."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 45,
+    "raw_citation": "P. F. Christiano, J. Leike, T. Brown, M. Martic, S. Legg, and D. Amodei, “Deep reinforcement learning from human preferences,” Advances in neural information processing systems, vol. 30, 2017.",
+    "parsed_title": "Deep reinforcement learning from human preferences",
+    "parsed_authors": [
+      "P. F. Christiano",
+      "J. Leike",
+      "T. Brown",
+      "M. Martic",
+      "S. Legg",
+      "D. Amodei"
+    ],
+    "parsed_year": 2017,
+    "parsed_venue": "Advances in neural information processing systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Through this label- and target-driven optimization, the model is realigned toward desired behavioral constraints without modifying the under- lying training objective itself [26,45].",
+        "expanded_context": [
+          "A common strategy is supervised fine-tuning with curated safe and refusal responses, which can be viewed as applying the standard fine-tuning objective introduced in Section 2 to a safety-labeled dataset, where targets correspond either to com- pliant helpful answers or explicit refusals.",
+          "Through this label- and target-driven optimization, the model is realigned toward desired behavioral constraints without modifying the under- lying training objective itself [26,45].",
+          "Additional alignment is often achieved using reinforcement learning from human feedback (RLHF), which optimizes model outputs according to learned human preference signals [26,46], and preference- based optimization methods such as Direct Preference Opti- mization (DPO), which directly shift the output distribution toward preferred responses without explicit reward model- ing [47]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 46,
+    "raw_citation": "R. Rafailov, A. Sharma, E. Mitchell, C. D. Manning, S. Ermon, and C. Finn, “Direct preference optimization: Your language model is secretly a reward model,” Advances in neural information processing systems, vol. 36, pp. 53 728–53 741, 2023.",
+    "parsed_title": "Direct preference optimization: Your language model is secretly a reward model",
+    "parsed_authors": [
+      "R. Rafailov",
+      "A. Sharma",
+      "E. Mitchell",
+      "C. D. Manning",
+      "S. Ermon",
+      "C. Finn"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "Advances in neural information processing systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Additional alignment is often achieved using reinforcement learning from human feedback (RLHF), which optimizes model outputs according to learned human preference signals [26,46], and preference- based optimization methods such as Direct Preference Opti- mization (DPO), which directly shift the output distribution toward preferred responses without explicit reward model- ing [47].",
+        "expanded_context": [
+          "Through this label- and target-driven optimization, the model is realigned toward desired behavioral constraints without modifying the under- lying training objective itself [26,45].",
+          "Additional alignment is often achieved using reinforcement learning from human feedback (RLHF), which optimizes model outputs according to learned human preference signals [26,46], and preference- based optimization methods such as Direct Preference Opti- mization (DPO), which directly shift the output distribution toward preferred responses without explicit reward model- ing [47].",
+          "These techniques effectively shape the distribution of generated text, but largely treat the model as a homoge- neous parameter space and do not explicitly account for how safety behavior is represented internally."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 47,
+    "raw_citation": "Y. Zhao, W. Zhang, Y. Xie, A. Goyal, K. Kawaguchi, and M. Shieh, “Understanding and enhancing safety mechanisms of llms via safety-specific neuron,” in The Thirteenth International Conference on Learning Representations, 2025.",
+    "parsed_title": "Understanding and enhancing safety mechanisms of llms via safety-specific neuron",
+    "parsed_authors": [
+      "Y. Zhao",
+      "W. Zhang",
+      "Y. Xie",
+      "A. Goyal",
+      "K. Kawaguchi",
+      "M. Shieh"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "The Thirteenth International Conference on Learning Representations",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Additional alignment is often achieved using reinforcement learning from human feedback (RLHF), which optimizes model outputs according to learned human preference signals [26,46], and preference- based optimization methods such as Direct Preference Opti- mization (DPO), which directly shift the output distribution toward preferred responses without explicit reward model- ing [47].",
+        "expanded_context": [
+          "Through this label- and target-driven optimization, the model is realigned toward desired behavioral constraints without modifying the under- lying training objective itself [26,45].",
+          "Additional alignment is often achieved using reinforcement learning from human feedback (RLHF), which optimizes model outputs according to learned human preference signals [26,46], and preference- based optimization methods such as Direct Preference Opti- mization (DPO), which directly shift the output distribution toward preferred responses without explicit reward model- ing [47].",
+          "These techniques effectively shape the distribution of generated text, but largely treat the model as a homoge- neous parameter space and do not explicitly account for how safety behavior is represented internally."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 48,
+    "raw_citation": "R. Bhardwaj, D. D. Anh, and S. Poria, “Language models are homer simpson! safety re-alignment of fine-tuned language models through task arithmetic,” 2024.",
+    "parsed_title": "Language models are homer simpson! safety re-alignment of fine-tuned language models through task arithmetic",
+    "parsed_authors": [
+      "R. Bhardwaj",
+      "D. D. Anh",
+      "S. Poria"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Emerging methods therefore aim to identify these localized regions and selectively adapt or reinforce them during fine-tuning, enabling targeted safety im- provements without broadly modifying the entire parameter space [25,37,48]. 3 NeST 3.1 Threat Model Adversary.",
+        "expanded_context": [
+          "In this perspective, safety- relevant behavior is encoded within particular layers, activa- tions, or neurons whose responses influence whether outputs comply with safety constraints.",
+          "Emerging methods therefore aim to identify these localized regions and selectively adapt or reinforce them during fine-tuning, enabling targeted safety im- provements without broadly modifying the entire parameter space [25,37,48]. 3 NeST 3.1 Threat Model Adversary.",
+          "We consider a defense-aware black-box adver- sary who interacts with the model solely at inference time via prompts."
+        ]
+      },
+      {
+        "sentence": "Among these, SN-Tune [48] is the most closely related to our work.",
+        "expanded_context": [
+          "A small but growing body of work has explored neuron and representation-level approaches to safety alignment, mo- tivated by findings that safety behavior is often localized within specific internal components of large language mod- els.",
+          "Among these, SN-Tune [48] is the most closely related to our work.",
+          "SN-Tune identifies safety-relevant neurons and selectively fine-tunes them to improve refusal behavior while freezing the remainder of the model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 49,
+    "raw_citation": "R. Bhardwaj and S. Poria, “Red-teaming large language models using chain of utterances for safety-alignment,” 2023.",
+    "parsed_title": "Red-teaming large language models using chain of utterances for safety-alignment",
+    "parsed_authors": [
+      "R. Bhardwaj",
+      "S. Poria"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Harmful prompts are collected from three public safety benchmarks: CatHarmfulQA [49], HarmfulQA [50], and the LLM-LAT harmful dataset [51], while benign prompts are drawn from the training split of the Natural Reasoning dataset [52].",
+        "expanded_context": [
+          "To identify safety-relevant neurons, we construct a labeled prompt dataset consisting of both harmful and benign inputs.",
+          "Harmful prompts are collected from three public safety benchmarks: CatHarmfulQA [49], HarmfulQA [50], and the LLM-LAT harmful dataset [51], while benign prompts are drawn from the training split of the Natural Reasoning dataset [52].",
+          "For balanced probing, the number of benign prompts is matched to the total number of harmful prompts, resulting in an equal number of harmful and benign samples with binary labels."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 51,
+    "raw_citation": "W. Yuan, J. Yu, S. Jiang, K. Padthe, Y. Li, D. Wang, I. Kulikov, K. Cho, Y. Tian, J. E. Weston, and X. Li, “Naturalreasoning: Reasoning in the wild with 2.8m challenging questions,” 2025. [Online]. Available: https://arxiv.org/abs/2502.13124",
+    "parsed_title": "Naturalreasoning: Reasoning in the wild with 2.8m challenging questions",
+    "parsed_authors": [
+      "W. Yuan",
+      "J. Yu",
+      "S. Jiang",
+      "K. Padthe",
+      "Y. Li",
+      "D. Wang",
+      "I. Kulikov",
+      "K. Cho",
+      "Y. Tian",
+      "J. E. Weston",
+      "X. Li"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "[Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2502.13124",
+    "parsed_arxiv_id": "2502.13124",
+    "contexts": [
+      {
+        "sentence": "Harmful prompts are collected from three public safety benchmarks: CatHarmfulQA [49], HarmfulQA [50], and the LLM-LAT harmful dataset [51], while benign prompts are drawn from the training split of the Natural Reasoning dataset [52].",
+        "expanded_context": [
+          "To identify safety-relevant neurons, we construct a labeled prompt dataset consisting of both harmful and benign inputs.",
+          "Harmful prompts are collected from three public safety benchmarks: CatHarmfulQA [49], HarmfulQA [50], and the LLM-LAT harmful dataset [51], while benign prompts are drawn from the training split of the Natural Reasoning dataset [52].",
+          "For balanced probing, the number of benign prompts is matched to the total number of harmful prompts, resulting in an equal number of harmful and benign samples with binary labels."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 53,
+    "raw_citation": "B. Hui, J. Yang, Z. Cui, J. Yang, D. Liu, L. Zhang, T. Liu, J. Zhang, B. Yu, K. Dang et al., “Qwen2. 5-coder technical report,” arXiv preprint arXiv:2409.12186, 2024.",
+    "parsed_title": "Qwen2. 5-coder technical report",
+    "parsed_authors": [
+      "B. Hui",
+      "J. Yang",
+      "Z. Cui",
+      "J. Yang",
+      "D. Liu",
+      "L. Zhang",
+      "T. Liu",
+      "J. Zhang",
+      "B. Yu",
+      "K. Dang"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2409.12186",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2409.12186",
+    "parsed_arxiv_id": "2409.12186",
+    "contexts": [
+      {
+        "sentence": "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+        "expanded_context": [
+          "Together with the observed 7 Figure 4: Gradient alignment of safety neurons across layers.",
+          "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+          "All evaluated models are pub- licly released instruction-following systems that incorporate general-purpose safety alignment, typically via supervised fine-tuning and reinforcement learning from human feedback, with the goal of reducing harmful, unsafe, or policy-violating outputs under standard prompting."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 54,
+    "raw_citation": "A. Yang, B. Zhang, B. Hui, B. Gao, B. Yu, C. Li, D. Liu, J. Tu, J. Zhou, J. Lin et al., “Qwen2. 5-math technical report: Toward mathematical expert model via selfimprovement,” arXiv preprint arXiv:2409.12122, 2024.",
+    "parsed_title": "Qwen2. 5-math technical report: Toward mathematical expert model via selfimprovement",
+    "parsed_authors": [
+      "A. Yang",
+      "B. Zhang",
+      "B. Hui",
+      "B. Gao",
+      "B. Yu",
+      "C. Li",
+      "D. Liu",
+      "J. Tu",
+      "J. Zhou",
+      "J. Lin"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2409.12122",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2409.12122",
+    "parsed_arxiv_id": "2409.12122",
+    "contexts": [
+      {
+        "sentence": "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+        "expanded_context": [
+          "Together with the observed 7 Figure 4: Gradient alignment of safety neurons across layers.",
+          "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+          "All evaluated models are pub- licly released instruction-following systems that incorporate general-purpose safety alignment, typically via supervised fine-tuning and reinforcement learning from human feedback, with the goal of reducing harmful, unsafe, or policy-violating outputs under standard prompting."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 56,
+    "raw_citation": "A. Abouelenin, A. Ashfaq, A. Atkinson, H. Awadalla, N. Bach, J. Bao, A. Benhaim, M. Cai, V. Chaudhary, C. Chen et al., “Phi-4-mini technical report: Compact yet powerful multimodal language models via mixtureof-loras,” arXiv preprint arXiv:2503.01743, 2025.",
+    "parsed_title": "Phi-4-mini technical report: Compact yet powerful multimodal language models via mixtureof-loras",
+    "parsed_authors": [
+      "A. Abouelenin",
+      "A. Ashfaq",
+      "A. Atkinson",
+      "H. Awadalla",
+      "N. Bach",
+      "J. Bao",
+      "A. Benhaim",
+      "M. Cai",
+      "V. Chaudhary",
+      "C. Chen"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2503.01743",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2503.01743",
+    "parsed_arxiv_id": "2503.01743",
+    "contexts": [
+      {
+        "sentence": "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+        "expanded_context": [
+          "Together with the observed 7 Figure 4: Gradient alignment of safety neurons across layers.",
+          "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+          "All evaluated models are pub- licly released instruction-following systems that incorporate general-purpose safety alignment, typically via supervised fine-tuning and reinforcement learning from human feedback, with the goal of reducing harmful, unsafe, or policy-violating outputs under standard prompting."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 57,
+    "raw_citation": "G. Team, T. Mesnard, C. Hardin, R. Dadashi, S. Bhupatiraju, S. Pathak, L. Sifre, M. Rivière, M. S. Kale, J. Love et al., “Gemma: Open models based on gemini research and technology,” arXiv preprint arXiv:2403.08295, 2024.",
+    "parsed_title": "Gemma: Open models based on gemini research and technology",
+    "parsed_authors": [
+      "G. Team",
+      "T. Mesnard",
+      "C. Hardin",
+      "R. Dadashi",
+      "S. Bhupatiraju",
+      "S. Pathak",
+      "L. Sifre",
+      "M. Rivière",
+      "M. S. Kale",
+      "J. Love"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2403.08295",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2403.08295",
+    "parsed_arxiv_id": "2403.08295",
+    "contexts": [
+      {
+        "sentence": "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+        "expanded_context": [
+          "Together with the observed 7 Figure 4: Gradient alignment of safety neurons across layers.",
+          "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+          "All evaluated models are pub- licly released instruction-following systems that incorporate general-purpose safety alignment, typically via supervised fine-tuning and reinforcement learning from human feedback, with the goal of reducing harmful, unsafe, or policy-violating outputs under standard prompting."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 58,
+    "raw_citation": "L. Jiang, K. Rao, S. Han, A. Ettinger, F. Brahman, S. Kumar, N. Mireshghallah, X. Lu, M. Sap, Y. Choi, and N. Dziri, “Wildteaming at scale: From in-the-wild jailbreaks to (adversarially) safer language models,” 2024. [Online]. Available: https://arxiv.org/abs/2406. 18510",
+    "parsed_title": "Wildteaming at scale: From in-the-wild jailbreaks to (adversarially) safer language models",
+    "parsed_authors": [
+      "L. Jiang",
+      "K. Rao",
+      "S. Han",
+      "A. Ettinger",
+      "F. Brahman",
+      "S. Kumar",
+      "N. Mireshghallah",
+      "X. Lu",
+      "M. Sap",
+      "Y. Choi",
+      "N. Dziri"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "[Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2406.18510",
+    "parsed_arxiv_id": "2406.18510",
+    "contexts": [
+      {
+        "sentence": "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+        "expanded_context": [
+          "Together with the observed 7 Figure 4: Gradient alignment of safety neurons across layers.",
+          "Within-cluster pairs (blue) exhibit higher cosine similarity than between-cluster pairs (orange), indicating aligned update directions that justify NeST’s cluster-level parameter tying. clustering patterns, this gradient alignment provides direct empirical support for neuron-selective tuning in NeST. 6 Evaluation 6.1 Performance Evaluation We evaluate NeST on a diverse set of 10 open-weight instruction-tuned large language models spanning roughly 1B to 14B parameters and covering multiple major model families, including Meta’s Llama, Alibaba’s Qwen2.5 and Qwen3 series [43,53–55], Microsoft’s Phi-4 models [56,57], and Google’s Gemma [44,58].",
+          "All evaluated models are pub- licly released instruction-following systems that incorporate general-purpose safety alignment, typically via supervised fine-tuning and reinforcement learning from human feedback, with the goal of reducing harmful, unsafe, or policy-violating outputs under standard prompting."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 60,
+    "raw_citation": "K. Cobbe, V. Kosaraju, M. Bavarian, M. Chen, H. Jun, et al., “Training verifiers to solve math word problems,” arXiv preprint arXiv:2110.14168, 2021.",
+    "parsed_title": "Training verifiers to solve math word problems",
+    "parsed_authors": [
+      "K. Cobbe",
+      "V. Kosaraju",
+      "M. Bavarian",
+      "M. Chen",
+      "H. Jun"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "arXiv preprint arXiv:2110.14168",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2110.14168",
+    "parsed_arxiv_id": "2110.14168",
+    "contexts": [
+      {
+        "sentence": "To deter- mine whether a response constitutes a successful jailbreak, an independent safety judge model, Qwen3Guard [60], is used to classify each response as safe or unsafe.",
+        "expanded_context": [
+          "For each target model and defense configuration, prompts are formatted using the model’s native instruction template, and responses are generated using greedy decoding with model-specific maximum generation lengths.",
+          "To deter- mine whether a response constitutes a successful jailbreak, an independent safety judge model, Qwen3Guard [60], is used to classify each response as safe or unsafe.",
+          "A prompt is counted as a successful attack if the judge labels the response as un- safe and the output does not contain an explicit refusal."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 61,
+    "raw_citation": "P. Clark, I. Cowhey, O. Etzioni, T. Khot, A. Sabharwal, C. Schoenick, and O. Tafjord, “Think you have solved question answering? try arc, the ai2 reasoning challenge,” arXiv preprint arXiv:1803.05457, 2018.",
+    "parsed_title": "Think you have solved question answering? try arc, the ai2 reasoning challenge",
+    "parsed_authors": [
+      "P. Clark",
+      "I. Cowhey",
+      "O. Etzioni",
+      "T. Khot",
+      "A. Sabharwal",
+      "C. Schoenick",
+      "O. Tafjord"
+    ],
+    "parsed_year": 2018,
+    "parsed_venue": "arXiv preprint arXiv:1803.05457",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1803.05457",
+    "parsed_arxiv_id": "1803.05457",
+    "contexts": [
+      {
+        "sentence": "GSM8K [61]focuses on multi-step mathematical reasoning, ARC [62] evaluates abstract and commonsense reasoning through multiple-choice science questions, and MMLU [63] measures broad-domain knowledge and reasoning across diverse academic subjects.",
+        "expanded_context": [
+          "In partic- ular, the near-zero ASR observed on large models such as Gemma-3-27B indicates that the defense scales favorably with model size and complexity. 6.3 Utility Analysis We evaluate model utility before and after NeST fine-tuning on three standard reasoning benchmarks.",
+          "GSM8K [61]focuses on multi-step mathematical reasoning, ARC [62] evaluates abstract and commonsense reasoning through multiple-choice science questions, and MMLU [63] measures broad-domain knowledge and reasoning across diverse academic subjects.",
+          "Together, these benchmarks capture mathematical, logical, and general knowledge reasoning performance."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 62,
+    "raw_citation": "D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song, and J. Steinhardt, “Measuring massive multitask language understanding,” arXiv preprint arXiv:2009.03300, 2020.",
+    "parsed_title": "Measuring massive multitask language understanding",
+    "parsed_authors": [
+      "D. Hendrycks",
+      "C. Burns",
+      "S. Basart",
+      "A. Zou",
+      "M. Mazeika",
+      "D. Song",
+      "J. Steinhardt"
+    ],
+    "parsed_year": 2009,
+    "parsed_venue": "arXiv preprint arXiv:2009.03300",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2009.03300",
+    "parsed_arxiv_id": "2009.03300",
+    "contexts": [
+      {
+        "sentence": "GSM8K [61]focuses on multi-step mathematical reasoning, ARC [62] evaluates abstract and commonsense reasoning through multiple-choice science questions, and MMLU [63] measures broad-domain knowledge and reasoning across diverse academic subjects.",
+        "expanded_context": [
+          "In partic- ular, the near-zero ASR observed on large models such as Gemma-3-27B indicates that the defense scales favorably with model size and complexity. 6.3 Utility Analysis We evaluate model utility before and after NeST fine-tuning on three standard reasoning benchmarks.",
+          "GSM8K [61]focuses on multi-step mathematical reasoning, ARC [62] evaluates abstract and commonsense reasoning through multiple-choice science questions, and MMLU [63] measures broad-domain knowledge and reasoning across diverse academic subjects.",
+          "Together, these benchmarks capture mathematical, logical, and general knowledge reasoning performance."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 63,
+    "raw_citation": "T. Krauß, H. Dashtbani, and A. Dmitrienko, “Twinbreak: Jailbreaking llm security alignments based on twin prompts,” arXiv preprint arXiv:2506.07596, 2025.",
+    "parsed_title": "Twinbreak: Jailbreaking llm security alignments based on twin prompts",
+    "parsed_authors": [
+      "T. Krauß",
+      "H. Dashtbani",
+      "A. Dmitrienko"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2506.07596",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2506.07596",
+    "parsed_arxiv_id": "2506.07596",
+    "contexts": [
+      {
+        "sentence": "GSM8K [61]focuses on multi-step mathematical reasoning, ARC [62] evaluates abstract and commonsense reasoning through multiple-choice science questions, and MMLU [63] measures broad-domain knowledge and reasoning across diverse academic subjects.",
+        "expanded_context": [
+          "In partic- ular, the near-zero ASR observed on large models such as Gemma-3-27B indicates that the defense scales favorably with model size and complexity. 6.3 Utility Analysis We evaluate model utility before and after NeST fine-tuning on three standard reasoning benchmarks.",
+          "GSM8K [61]focuses on multi-step mathematical reasoning, ARC [62] evaluates abstract and commonsense reasoning through multiple-choice science questions, and MMLU [63] measures broad-domain knowledge and reasoning across diverse academic subjects.",
+          "Together, these benchmarks capture mathematical, logical, and general knowledge reasoning performance."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 64,
+    "raw_citation": "N. Houlsby, A. Giurgiu, S. Jastrzebski, B. Morrone, Q. De Laroussilhe, A. Gesmundo, M. Attariyan, and S. Gelly, “Parameter-efficient transfer learning for nlp,” in International conference on machine learning. PMLR, 2019, pp. 2790–2799.",
+    "parsed_title": "Parameter-efficient transfer learning for nlp",
+    "parsed_authors": [
+      "N. Houlsby",
+      "A. Giurgiu",
+      "S. Jastrzebski",
+      "B. Morrone",
+      "Q. De Laroussilhe",
+      "A. Gesmundo",
+      "M. Attariyan",
+      "S. Gelly"
+    ],
+    "parsed_year": 2019,
+    "parsed_venue": "International conference on machine learning. PMLR",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Neuron-level white-box attacks that directly manipulate internal representa- tions [25,64] therefore fall outside the threat model considered in this work.",
+        "expanded_context": [
+          "NeST is de- signed for deployment settings in which attackers interact with the model exclusively through prompts and do not have access to internal parameters or activations, consistent with the black-box adversary defined in Section 3.1.",
+          "Neuron-level white-box attacks that directly manipulate internal representa- tions [25,64] therefore fall outside the threat model considered in this work.",
+          "While NeST distributes safety behavior across coordinated neuron groups rather than isolated units, which may increase the difficulty of precise neuron-targeted ma- nipulation, no training-time alignment method can guarantee robustness against adversaries with unrestricted white-box access or the ability to modify model weights."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 65,
+    "raw_citation": "J. Pfeiffer, A. Rücklé, C. Poth, A. Kamath, I. Vuli´c, S. Ruder, K. Cho, and I. Gurevych, “Adapterhub: A framework for adapting transformers,” arXiv preprint arXiv:2007.07779, 2020.",
+    "parsed_title": "Adapterhub: A framework for adapting transformers",
+    "parsed_authors": [
+      "J. Pfeiffer",
+      "A. Rücklé",
+      "C. Poth",
+      "A. Kamath",
+      "I. Vuli´c",
+      "S. Ruder",
+      "K. Cho",
+      "I. Gurevych"
+    ],
+    "parsed_year": 2007,
+    "parsed_venue": "arXiv preprint arXiv:2007.07779",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2007.07779",
+    "parsed_arxiv_id": "2007.07779",
+    "contexts": [
+      {
+        "sentence": "Repre- sentative approaches include adapter-based tuning [65,66] and lightweight parameter updates such as bias-only or scaling- based tuning [67, 68].",
+        "expanded_context": [
+          "Parameter-efficient fine-tuning (PEFT) methods address the efficiency requirement of practical large language model adap- tation by updating only a small fraction of parameters.",
+          "Repre- sentative approaches include adapter-based tuning [65,66] and lightweight parameter updates such as bias-only or scaling- based tuning [67, 68].",
+          "LoRA [38] has emerged as a widely adopted PEFT method by injecting low-rank updates into existing weight matrices while freezing the pretrained param- eters."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 66,
+    "raw_citation": "E. B. Zaken, Y. Goldberg, and S. Ravfogel, “Bitfit: Simple parameter-efficient fine-tuning for transformer-based masked language-models,” in Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), 2022, pp. 1–9.",
+    "parsed_title": "Bitfit: Simple parameter-efficient fine-tuning for transformer-based masked language-models",
+    "parsed_authors": [
+      "E. B. Zaken",
+      "Y. Goldberg",
+      "S. Ravfogel"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Repre- sentative approaches include adapter-based tuning [65,66] and lightweight parameter updates such as bias-only or scaling- based tuning [67, 68].",
+        "expanded_context": [
+          "Parameter-efficient fine-tuning (PEFT) methods address the efficiency requirement of practical large language model adap- tation by updating only a small fraction of parameters.",
+          "Repre- sentative approaches include adapter-based tuning [65,66] and lightweight parameter updates such as bias-only or scaling- based tuning [67, 68].",
+          "LoRA [38] has emerged as a widely adopted PEFT method by injecting low-rank updates into existing weight matrices while freezing the pretrained param- eters."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  },
+  {
+    "citation_id": 67,
+    "raw_citation": "H. Liu, D. Tam, M. Muqeeth, J. Mohta, T. Huang, M. Bansal, and C. Raffel, “Few-shot parameter-efficient fine-tuning is better and cheaper than in-context learning,” in Advances in Neural Information Processing Systems (NeurIPS), 2022.",
+    "parsed_title": "Few-shot parameter-efficient fine-tuning is better and cheaper than in-context learning",
+    "parsed_authors": [
+      "H. Liu",
+      "D. Tam",
+      "M. Muqeeth",
+      "J. Mohta",
+      "T. Huang",
+      "M. Bansal",
+      "C. Raffel"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "Advances in Neural Information Processing Systems (NeurIPS)",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Repre- sentative approaches include adapter-based tuning [65,66] and lightweight parameter updates such as bias-only or scaling- based tuning [67, 68].",
+        "expanded_context": [
+          "Parameter-efficient fine-tuning (PEFT) methods address the efficiency requirement of practical large language model adap- tation by updating only a small fraction of parameters.",
+          "Repre- sentative approaches include adapter-based tuning [65,66] and lightweight parameter updates such as bias-only or scaling- based tuning [67, 68].",
+          "LoRA [38] has emerged as a widely adopted PEFT method by injecting low-rank updates into existing weight matrices while freezing the pretrained param- eters."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/inputs/nest.pdf"
+  }
+]

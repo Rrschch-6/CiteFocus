@@ -81,7 +81,6 @@ def main() -> int:
     report_summary_path = output_path("report_summary", args.output_name_tag)
     report_combined_path = output_path("report_combined", args.output_name_tag)
     report_combined_csv_path = OUTPUTS_DIR / f"report_combined{'_' + args.output_name_tag if args.output_name_tag else ''}.csv"
-    report_conflicts_path = output_path("report_conflicts", args.output_name_tag)
     report_review_path = output_path("report_review_queue", args.output_name_tag)
     report_source_summary_path = output_path("report_source_summary", args.output_name_tag)
 
@@ -209,8 +208,6 @@ def main() -> int:
                 str(report_combined_path),
                 "--combined-csv-output",
                 str(report_combined_csv_path),
-                "--conflicts-output",
-                str(report_conflicts_path),
                 "--review-output",
                 str(report_review_path),
                 "--source-summary-output",
@@ -238,7 +235,6 @@ def main() -> int:
     print(f"  report_summary:    {report_summary_path}")
     print(f"  report_combined:   {report_combined_path}")
     print(f"  report_combined_csv: {report_combined_csv_path}")
-    print(f"  report_conflicts:  {report_conflicts_path}")
     print(f"  report_review:     {report_review_path}")
     print(f"  report_source_summary: {report_source_summary_path}")
     elapsed_seconds = time.perf_counter() - start_time

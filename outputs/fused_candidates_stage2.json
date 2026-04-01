@@ -288,7 +288,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3646.82
+        "arxiv": 3448.85
       },
       "candidate_count": 2
     }
@@ -495,7 +495,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3908.45
+        "arxiv": 3792.01
       },
       "candidate_count": 2
     }
@@ -750,7 +750,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3523.3
+        "arxiv": 3609.53
       },
       "candidate_count": 2
     }
@@ -857,7 +857,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3303.55
+        "arxiv": 3414.31
       },
       "candidate_count": 2
     }
@@ -960,7 +960,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3986.9
+        "arxiv": 3968.62
       },
       "candidate_count": 2
     }
@@ -1311,7 +1311,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3562.84
+        "arxiv": 3601.1
       },
       "candidate_count": 2
     }
@@ -1465,7 +1465,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3152.11
+        "arxiv": 3151.81
       },
       "candidate_count": 2
     }
@@ -1617,7 +1617,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3018.9
+        "arxiv": 3026.74
       },
       "candidate_count": 2
     }
@@ -1732,7 +1732,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3508.8
+        "arxiv": 3498.97
       },
       "candidate_count": 2
     }
@@ -1833,7 +1833,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3116.2
+        "arxiv": 3297.78
       },
       "candidate_count": 2
     }
@@ -2084,7 +2084,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3392.25
+        "arxiv": 3425.72
       },
       "candidate_count": 2
     }
@@ -2225,7 +2225,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 2958.21
+        "arxiv": 2911.91
       },
       "candidate_count": 2
     }
@@ -2470,7 +2470,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3362.03
+        "arxiv": 3519.77
       },
       "candidate_count": 2
     }
@@ -2570,7 +2570,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 2945.89
+        "arxiv": 2975.25
       },
       "candidate_count": 2
     }
@@ -2670,7 +2670,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3149.47
+        "arxiv": 3200.94
       },
       "candidate_count": 2
     }
@@ -3162,7 +3162,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3797.68
+        "arxiv": 3928.37
       },
       "candidate_count": 2
     }
@@ -3266,7 +3266,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3760.8
+        "arxiv": 3830.45
       },
       "candidate_count": 2
     }
@@ -3368,7 +3368,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3490.73
+        "arxiv": 3585.77
       },
       "candidate_count": 2
     }
@@ -3470,7 +3470,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3686.09
+        "arxiv": 3753.34
       },
       "candidate_count": 2
     }
@@ -3568,7 +3568,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3850.35
+        "arxiv": 4014.22
       },
       "candidate_count": 2
     }
@@ -4388,7 +4388,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3322.74
+        "arxiv": 3383.37
       },
       "candidate_count": 2
     }
@@ -4540,7 +4540,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3228.94
+        "arxiv": 3311.57
       },
       "candidate_count": 2
     }
@@ -4645,7 +4645,7 @@
       "skipped": false,
       "skip_reason": null,
       "db_timings_ms": {
-        "arxiv": 3593.71
+        "arxiv": 3657.08
       },
       "candidate_count": 2
     }

@@ -17,7 +17,6 @@ DEFAULT_SEMANTIC_PATH = "/home/sascha/refcheck/CiteFocus/outputs/semantic_result
 DEFAULT_SUMMARY_PATH = "/home/sascha/refcheck/CiteFocus/outputs/report_summary.json"
 DEFAULT_COMBINED_PATH = "/home/sascha/refcheck/CiteFocus/outputs/report_combined.json"
 DEFAULT_COMBINED_CSV_PATH = "/home/sascha/refcheck/CiteFocus/outputs/report_combined.csv"
-DEFAULT_CONFLICTS_PATH = "/home/sascha/refcheck/CiteFocus/outputs/report_conflicts.json"
 DEFAULT_REVIEW_QUEUE_PATH = "/home/sascha/refcheck/CiteFocus/outputs/report_review_queue.json"
 DEFAULT_SOURCE_SUMMARY_PATH = "/home/sascha/refcheck/CiteFocus/outputs/report_source_summary.json"
 DEFAULT_CHART_DIR = "/home/sascha/refcheck/CiteFocus/outputs"
@@ -48,6 +47,10 @@ def save_csv(path: str, rows: list[dict[str, Any]]) -> None:
     fieldnames = [
         "citation_id",
         "verification_status",
+        "verification_category",
+        "verification_subcategory",
+        "author_status",
+        "year_status",
         "verification_confidence",
         "bibliographic_score",
         "semantic_label",
@@ -124,6 +127,22 @@ def merge_reports(verification_records: list[dict[str, Any]], semantic_records: 
             {
                 "citation_id": citation_id,
                 "verification_status": verification.get("overall_status"),
+                "verification_category": verification.get("verification_category"),
+                "verification_subcategory": verification.get("verification_subcategory"),
+                "author_status": (
+                    "match"
+                    if field_verification.get("author_match") == "exact"
+                    else "partial"
+                    if field_verification.get("author_match") == "partial"
+                    else "mismatch"
+                ),
+                "year_status": (
+                    "match"
+                    if field_verification.get("year_match") == "exact"
+                    else "partial"
+                    if field_verification.get("year_match") == "partial"
+                    else "mismatch"
+                ),
                 "verification_confidence": verification.get("overall_confidence"),
                 "bibliographic_score": field_verification.get("bibliographic_score"),
                 "semantic_label": semantic_label,
@@ -157,6 +176,13 @@ def percentages_from_counts(counts: dict[str, int], total: int) -> dict[str, flo
 def build_summary(combined_rows: list[dict[str, Any]]) -> dict[str, Any]:
     total = len(combined_rows)
     verification_counts = count_with_order([str(row.get("verification_status")) for row in combined_rows], VERIFICATION_ORDER)
+    verification_category_order = ["Verified", "Partially Verified", "Not Verified"]
+    verification_category_counts = count_with_order([str(row.get("verification_category")) for row in combined_rows], verification_category_order)
+    verification_subcategories: dict[str, dict[str, int]] = {}
+    for category in verification_category_order:
+        category_rows = [row for row in combined_rows if row.get("verification_category") == category]
+        sub_counts = Counter(str(row.get("verification_subcategory") or "unknown") for row in category_rows)
+        verification_subcategories[category] = dict(sorted(sub_counts.items()))
     semantic_counts = count_with_order([str(row.get("semantic_label")) for row in combined_rows], SEMANTIC_ORDER)
     combined_counts = dict(Counter(str(row.get("combined_label")) for row in combined_rows))
     crosstab: dict[str, dict[str, int]] = {}
@@ -171,12 +197,16 @@ def build_summary(combined_rows: list[dict[str, Any]]) -> dict[str, Any]:
         "verification": {
             "counts": verification_counts,
             "percentages": percentages_from_counts(verification_counts, total),
+            "category_counts": verification_category_counts,
+            "category_percentages": percentages_from_counts(verification_category_counts, total),
+            "subcategory_counts": verification_subcategories,
         },
         "semantic": {
             "counts": semantic_counts,
             "percentages": percentages_from_counts(semantic_counts, total),
             "supporting_count": semantic_counts["supported"] + semantic_counts["partially_supported"],
             "not_supporting_count": semantic_counts["unsupported"],
+            "semantically_verified_count": semantic_counts["supported"] + semantic_counts["partially_supported"],
         },
         "combined_labels": {
             "counts": combined_counts,
@@ -184,22 +214,8 @@ def build_summary(combined_rows: list[dict[str, Any]]) -> dict[str, Any]:
         },
         "verification_semantic_crosstab": crosstab,
         "needs_review_count": sum(1 for row in combined_rows if row.get("needs_review")),
+        "not_lexically_verified_count": sum(1 for row in combined_rows if row.get("selected_source") != "lexical"),
     }
-
-
-def build_conflicts(combined_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    conflicts: list[dict[str, Any]] = []
-    for row in combined_rows:
-        verification_status = row.get("verification_status")
-        semantic_label = row.get("semantic_label")
-        if (
-            (verification_status == "verified" and semantic_label == "unsupported")
-            or (verification_status == "hallucinated" and semantic_label in {"supported", "partially_supported"})
-            or (verification_status == "ambiguous" and semantic_label in {"supported", "unsupported"})
-            or row.get("semantic_skipped")
-        ):
-            conflicts.append(row)
-    return conflicts
 
 
 def build_review_queue(combined_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -327,7 +343,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--summary-output", default=DEFAULT_SUMMARY_PATH, help="Path to summary JSON")
     parser.add_argument("--combined-output", default=DEFAULT_COMBINED_PATH, help="Path to combined per-citation JSON")
     parser.add_argument("--combined-csv-output", default=DEFAULT_COMBINED_CSV_PATH, help="Path to combined CSV")
-    parser.add_argument("--conflicts-output", default=DEFAULT_CONFLICTS_PATH, help="Path to conflicts JSON")
     parser.add_argument("--review-output", default=DEFAULT_REVIEW_QUEUE_PATH, help="Path to review queue JSON")
     parser.add_argument("--source-summary-output", default=DEFAULT_SOURCE_SUMMARY_PATH, help="Path to source summary JSON")
     parser.add_argument("--chart-dir", default=DEFAULT_CHART_DIR, help="Directory for saved charts")
@@ -342,7 +357,6 @@ def main() -> int:
 
     combined_rows = merge_reports(verification_records, semantic_records)
     summary = build_summary(combined_rows)
-    conflicts = build_conflicts(combined_rows)
     review_queue = build_review_queue(combined_rows)
     source_summary = build_source_summary(combined_rows)
     chart_paths = write_charts(summary, source_summary, Path(args.chart_dir), tag=args.tag)
@@ -352,7 +366,6 @@ def main() -> int:
     save_json(args.combined_output, combined_rows)
     save_csv(args.combined_csv_output, combined_rows)
     save_json(args.summary_output, summary)
-    save_json(args.conflicts_output, conflicts)
     save_json(args.review_output, review_queue)
     save_json(args.source_summary_output, source_summary)
 

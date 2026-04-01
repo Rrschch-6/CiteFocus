@@ -17,9 +17,9 @@ DEFAULT_ROUTE_PATH = "/home/sascha/refcheck/CiteFocus/outputs/route_plan.json"
 DEFAULT_EXACT_PATH = "/home/sascha/refcheck/CiteFocus/outputs/exact_matches.json"
 DEFAULT_OUTPUT_PATH = "/home/sascha/refcheck/CiteFocus/outputs/lexical_candidates.json"
 
-ARXIV_DB_PATH = Path("/home/sascha/refcheck/academic_metadata/arxiv/oai_pages/arxiv_local_index.sqlite")
-DBLP_DB_PATH = Path("/home/sascha/refcheck/academic_metadata/dblp/dblp_local_index.sqlite")
-OPENALEX_DB_PATH = Path("/home/sascha/refcheck/academic_metadata/openalex/openalex_local_index.sqlite")
+ARXIV_DB_PATH = Path("/home/sascha/refcheck/CiteFocus/academic_metadata/arxiv/oai_pages/arxiv_local_index.sqlite")
+DBLP_DB_PATH = Path("/home/sascha/refcheck/CiteFocus/academic_metadata/dblp/dblp_local_index.sqlite")
+OPENALEX_DB_PATH = Path("/home/sascha/refcheck/CiteFocus/academic_metadata/openalex/openalex_local_index.sqlite")
 
 STOP_WORDS = {"a", "an", "the", "of", "and", "or", "for", "to", "in", "on", "with", "by"}
 WORD_RE = re.compile(r"[a-zA-Z0-9]+(?:['\-][a-zA-Z0-9]+)*[?!]?")

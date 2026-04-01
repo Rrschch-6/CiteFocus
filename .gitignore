@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+web/uploads/
+web/__pycache__/
+academic_metadata/

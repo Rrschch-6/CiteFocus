@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Pipeline Failed{% endblock %}
+{% block content %}
+<section class="panel">
+  <h1>Pipeline Failed</h1>
+  <p><strong>Run tag:</strong> {{ tag }}</p>
+  <p><strong>Duration:</strong> {{ duration_seconds }}s</p>
+  <p><strong>Saved log:</strong> <a href="{{ url_for('artifact', filename=log_filename) }}">{{ log_filename }}</a></p>
+</section>
+
+<section class="panel">
+  <h2>STDOUT</h2>
+  <pre class="code-block">{{ stdout }}</pre>
+</section>
+
+<section class="panel">
+  <h2>STDERR</h2>
+  <pre class="code-block">{{ stderr }}</pre>
+</section>
+{% endblock %}

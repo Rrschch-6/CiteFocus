@@ -1,0 +1,28 @@
+{
+  "arxiv": {
+    "count": 30,
+    "average_bibliographic_score": 0.702,
+    "average_semantic_score": 0.165,
+    "verification_counts": {
+      "verified": 14,
+      "hallucinated": 7,
+      "partially_verified": 9
+    },
+    "semantic_counts": {
+      "unclear": 1,
+      "supported": 21,
+      "unsupported": 8
+    }
+  },
+  "dblp": {
+    "count": 2,
+    "average_bibliographic_score": 0.7913,
+    "average_semantic_score": 0.0,
+    "verification_counts": {
+      "partially_verified": 2
+    },
+    "semantic_counts": {
+      "skipped": 2
+    }
+  }
+}

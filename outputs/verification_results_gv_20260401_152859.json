@@ -1,0 +1,803 @@
+[
+  {
+    "citation_id": 1,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "Evaluating Large Language Models Trained on Code",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 4,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Vibe Coding in Practice: Motivations, Challenges, and a Future Outlook -- a Grey Literature Review",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "mismatch",
+      "author_match": "mismatch",
+      "year_match": "exact",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.2
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "title_mismatch",
+    "verification_reasons": [
+      "title_mismatch"
+    ],
+    "overall_confidence": 0.5062,
+    "explanation": "Selected candidate came from lexical; title=mismatch; authors=mismatch; year=exact; venue=mismatch; overall_status=hallucinated."
+  },
+  {
+    "citation_id": 5,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "Is Vibe Coding Safe? Benchmarking Vulnerability of Agent-Generated Code in Real-World Tasks",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 6,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "venue_mismatch",
+    "verification_reasons": [
+      "venue_mismatch"
+    ],
+    "overall_confidence": 0.9187,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; venue=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 7,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "partial",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.765
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "venue_mismatch",
+    "verification_reasons": [
+      "venue_mismatch"
+    ],
+    "overall_confidence": 0.97,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=partial; venue=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 8,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Large Language Models for Code: Security Hardening and Adversarial Testing",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "venue_mismatch",
+    "verification_reasons": [
+      "venue_mismatch"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; venue=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 9,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "Instruction Tuning for Secure Code Generation",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 10,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 11,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "partial",
+      "venue_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.7275
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 0.8771,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=partial; venue=unknown; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 12,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "PEFTT: Parameter-Efficient Fine-Tuning for low-resource Tibetan pre-trained language models",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "mismatch",
+      "author_match": "mismatch",
+      "year_match": "exact",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.2
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "title_mismatch",
+    "verification_reasons": [
+      "title_mismatch"
+    ],
+    "overall_confidence": 0.6417,
+    "explanation": "Selected candidate came from lexical; title=mismatch; authors=mismatch; year=exact; venue=mismatch; overall_status=hallucinated."
+  },
+  {
+    "citation_id": 13,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "Code Llama: Open Foundation Models for Code",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 14,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "PEFT-Factory: Unified Parameter-Efficient Fine-Tuning of Autoregressive Large Language Models",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "mismatch",
+      "author_match": "mismatch",
+      "year_match": "partial",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.165
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "title_mismatch",
+    "verification_reasons": [
+      "title_mismatch"
+    ],
+    "overall_confidence": 0.395,
+    "explanation": "Selected candidate came from lexical; title=mismatch; authors=mismatch; year=partial; venue=mismatch; overall_status=hallucinated."
+  },
+  {
+    "citation_id": 15,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "Parameter-Efficient Fine-Tuning for Foundation Models",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 16,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Evolution systems: A framework for studying generic mathematical structures",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "mismatch",
+      "author_match": "mismatch",
+      "year_match": "exact",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.2
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "title_mismatch",
+    "verification_reasons": [
+      "title_mismatch"
+    ],
+    "overall_confidence": 0.425,
+    "explanation": "Selected candidate came from lexical; title=mismatch; authors=mismatch; year=exact; venue=mismatch; overall_status=hallucinated."
+  },
+  {
+    "citation_id": 18,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "A Survey on LLM-as-a-Judge",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "venue_mismatch",
+    "verification_reasons": [
+      "venue_mismatch"
+    ],
+    "overall_confidence": 0.8375,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; venue=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 19,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 20,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "Training Verifiers to Solve Math Word Problems",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 21,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Measuring Massive Multitask Language Understanding",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "partial",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.765
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "venue_mismatch",
+    "verification_reasons": [
+      "venue_mismatch"
+    ],
+    "overall_confidence": 0.97,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=partial; venue=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 22,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "The Llama 3 Herd of Models",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.87
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; venue=partial; overall_status=verified."
+  },
+  {
+    "citation_id": 23,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "Gemma 3 Technical Report",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 25,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "A Comprehensive Study of Short Bursts from SGR 1806-20 and SGR 1900+14 Detected by HETE-2",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "mismatch",
+      "author_match": "mismatch",
+      "year_match": "partial",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.165
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "title_mismatch",
+    "verification_reasons": [
+      "title_mismatch"
+    ],
+    "overall_confidence": 0.3138,
+    "explanation": "Selected candidate came from lexical; title=mismatch; authors=mismatch; year=partial; venue=mismatch; overall_status=hallucinated."
+  },
+  {
+    "citation_id": 26,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "SoK: Eternal War in Memory.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.7825
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "multiple_metadata_mismatches",
+    "verification_reasons": [
+      "multiple_metadata_mismatches"
+    ],
+    "overall_confidence": 0.9375,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=partial; year=exact; venue=partial; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 27,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "A Survey on Open Problems for Mobile Robots",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "mismatch",
+      "author_match": "mismatch",
+      "year_match": "exact",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.2
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "title_mismatch",
+    "verification_reasons": [
+      "title_mismatch"
+    ],
+    "overall_confidence": 0.425,
+    "explanation": "Selected candidate came from lexical; title=mismatch; authors=mismatch; year=exact; venue=mismatch; overall_status=hallucinated."
+  },
+  {
+    "citation_id": 28,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "FlowDroid: precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for Android apps.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "venue_mismatch",
+    "verification_reasons": [
+      "venue_mismatch"
+    ],
+    "overall_confidence": 0.9722,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; venue=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 29,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "TwinBreak: Jailbreaking LLM Security Alignments based on Twin Prompts",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 30,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "NeuroStrike: Neuron-Level Attacks on Aligned LLMs",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "partial",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.765
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "venue_mismatch",
+    "verification_reasons": [
+      "venue_mismatch"
+    ],
+    "overall_confidence": 0.97,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=partial; venue=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 31,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "The Making of Cloud Applications An Empirical Study on Software Development for the Cloud",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "mismatch",
+      "author_match": "mismatch",
+      "year_match": "partial",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.165
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "title_mismatch",
+    "verification_reasons": [
+      "title_mismatch"
+    ],
+    "overall_confidence": 0.3486,
+    "explanation": "Selected candidate came from lexical; title=mismatch; authors=mismatch; year=partial; venue=mismatch; overall_status=hallucinated."
+  },
+  {
+    "citation_id": 32,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "Secure-Instruct: An Automated Pipeline for Synthesizing Instruction-Tuning Datasets Using LLMs for Secure Code Generation",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 33,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "HexaCoder: Secure Code Generation via Oracle-Guided Synthetic Training Data",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 34,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs)",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "venue_mismatch",
+    "verification_reasons": [
+      "venue_mismatch"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; venue=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 35,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Demo: SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.7125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "multiple_metadata_mismatches",
+    "verification_reasons": [
+      "venue_mismatch",
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; venue=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 36,
+    "selected_source": "exact",
+    "selected_match_type": "arxiv_id_exact",
+    "selected_candidate_title": "SecCoder: Towards Generalizable and Robust Secure Code Generation",
+    "selected_candidate_db": "arxiv",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "venue_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "exact",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.92
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "exact_identifier_match",
+    "verification_reasons": [
+      "exact_identifier_match"
+    ],
+    "overall_confidence": 0.99,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; venue=partial; arxiv_id=exact; overall_status=verified."
+  }
+]

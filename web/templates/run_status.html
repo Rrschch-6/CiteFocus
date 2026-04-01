@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Run {{ tag }}{% endblock %}
+{% block content %}
+<section class="hero">
+  <div>
+    <h1>Running CiteFocus</h1>
+    <p>Run tag: <strong>{{ tag }}</strong></p>
+  </div>
+</section>
+
+<section class="panel">
+  <h2>Stage Progress</h2>
+  <div id="stageGrid" class="stage-grid single-row">
+    {% for stage in stage_order %}
+      <div class="stage-card" data-stage="{{ stage }}">
+        <div class="stage-name">{{ stage.replace('_', ' ') }}</div>
+        <div class="stage-status">pending</div>
+        <div class="stage-time">0.00s</div>
+      </div>
+    {% endfor %}
+  </div>
+  <p id="runState" class="muted">Queued</p>
+  <p id="runTotalTime" class="muted">Total time: 0.00s</p>
+</section>
+
+<script>
+  const stageOrder = {{ stage_order|tojson }};
+  const tag = {{ tag|tojson }};
+
+  function updateStatus(data) {
+    document.getElementById("runState").textContent =
+      `status: ${data.status}` + (data.current_stage ? ` | current stage: ${data.current_stage}` : "") + (data.error ? ` | ${data.error}` : "");
+    document.getElementById("runTotalTime").textContent = `Total time: ${(data.total_elapsed_seconds || 0).toFixed(2)}s`;
+
+    for (const stage of stageOrder) {
+      const card = document.querySelector(`[data-stage="${stage}"]`);
+      if (!card) continue;
+      const stageInfo = (data.display_stages || {})[stage] || {};
+      const status = stageInfo.status || "pending";
+      card.dataset.status = status;
+      card.querySelector(".stage-status").textContent = status;
+      card.querySelector(".stage-time").textContent = `${(stageInfo.elapsed_seconds || 0).toFixed(2)}s`;
+    }
+
+    if (data.status === "completed" && data.report_url) {
+      window.location.href = data.report_url;
+    }
+  }
+
+  async function pollStatus() {
+    const response = await fetch(`/runs/${tag}/status`, { cache: "no-store" });
+    if (!response.ok) return;
+    const data = await response.json();
+    updateStatus(data);
+    if (data.status === "running" || data.status === "queued") {
+      setTimeout(pollStatus, 1500);
+    }
+  }
+
+  pollStatus();
+</script>
+{% endblock %}

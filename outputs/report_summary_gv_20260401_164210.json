@@ -1,0 +1,113 @@
+{
+  "total_citations": 36,
+  "verification": {
+    "counts": {
+      "verified": 19,
+      "partially_verified": 6,
+      "ambiguous": 0,
+      "hallucinated": 11
+    },
+    "percentages": {
+      "verified": 52.78,
+      "partially_verified": 16.67,
+      "ambiguous": 0.0,
+      "hallucinated": 30.56
+    },
+    "category_counts": {
+      "Verified": 19,
+      "Partially Verified": 6,
+      "Not Verified": 11
+    },
+    "category_percentages": {
+      "Verified": 52.78,
+      "Partially Verified": 16.67,
+      "Not Verified": 30.56
+    },
+    "subcategory_counts": {
+      "Verified": {
+        "exact_identifier_match": 13,
+        "strong_metadata_match": 6
+      },
+      "Partially Verified": {
+        "author/year mismatch": 5,
+        "minor_title_mismatch": 1
+      },
+      "Not Verified": {
+        "title_mismatch": 11
+      }
+    }
+  },
+  "semantic": {
+    "counts": {
+      "supported": 23,
+      "partially_supported": 3,
+      "unclear": 1,
+      "unsupported": 7,
+      "skipped": 2
+    },
+    "percentages": {
+      "supported": 63.89,
+      "partially_supported": 8.33,
+      "unclear": 2.78,
+      "unsupported": 19.44,
+      "skipped": 5.56
+    },
+    "supporting_count": 26,
+    "not_supporting_count": 7,
+    "semantically_verified_count": 26
+  },
+  "combined_labels": {
+    "counts": {
+      "likely_problematic": 11,
+      "strongly_supported_citation": 17,
+      "promising_but_needs_review": 5,
+      "bibliographically_valid_but_semantically_unsupported": 1,
+      "needs_manual_review": 2
+    },
+    "percentages": {
+      "likely_problematic": 30.56,
+      "strongly_supported_citation": 47.22,
+      "promising_but_needs_review": 13.89,
+      "bibliographically_valid_but_semantically_unsupported": 2.78,
+      "needs_manual_review": 5.56
+    }
+  },
+  "verification_semantic_crosstab": {
+    "verified": {
+      "supported": 16,
+      "partially_supported": 1,
+      "unclear": 0,
+      "unsupported": 1,
+      "skipped": 1
+    },
+    "partially_verified": {
+      "supported": 5,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 0,
+      "skipped": 1
+    },
+    "ambiguous": {
+      "supported": 0,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 0,
+      "skipped": 0
+    },
+    "hallucinated": {
+      "supported": 2,
+      "partially_supported": 2,
+      "unclear": 1,
+      "unsupported": 6,
+      "skipped": 0
+    }
+  },
+  "needs_review_count": 19,
+  "not_lexically_verified_count": 14,
+  "chart_paths": [
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_verification_status_gv_20260401_164210.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_semantic_support_gv_20260401_164210.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_verification_semantic_crosstab_gv_20260401_164210.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_selected_source_gv_20260401_164210.png"
+  ]
+}

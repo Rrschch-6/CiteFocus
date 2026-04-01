@@ -234,33 +234,76 @@ def evaluate_arxiv_match(parsed_record: dict[str, Any], candidate: dict[str, Any
     return "mismatch", 0.0
 
 
-def compute_bibliographic_score(title_score: float, author_score: float, year_score: float, venue_score: float, doi_score: float, url_score: float, arxiv_score: float, fused_record: dict[str, Any]) -> float:
-    score = 0.35 * title_score + 0.25 * author_score + 0.10 * year_score + 0.10 * venue_score + 0.10 * doi_score + 0.05 * url_score + 0.05 * arxiv_score
+def compute_bibliographic_score(title_score: float, author_score: float, year_score: float, doi_score: float, url_score: float, arxiv_score: float, fused_record: dict[str, Any]) -> float:
+    score = 0.40 * title_score + 0.25 * author_score + 0.15 * year_score + 0.10 * doi_score + 0.05 * url_score + 0.05 * arxiv_score
     if fused_record.get("selected_match_type") in HIGH_CONFIDENCE_EXACT_TYPES and title_score > 0.0:
         score = max(score, 0.92)
     return min(1.0, round(score, 4))
 
 
-def determine_overall_status(fused_record: dict[str, Any], title_match: str, author_match: str, year_match: str, venue_match: str, doi_match: str, arxiv_match: str, bibliographic_score: float) -> str:
+def determine_overall_status(fused_record: dict[str, Any], title_match: str, author_match: str, year_match: str, doi_match: str, arxiv_match: str, bibliographic_score: float) -> str:
     if fused_record.get("selected_candidate") is None:
         return "hallucinated"
     if fused_record.get("selected_match_type") in HIGH_CONFIDENCE_EXACT_TYPES and title_match != "mismatch":
         return "verified"
     if title_match == "mismatch":
         return "hallucinated"
-    if bibliographic_score >= 0.85 and author_match != "mismatch" and year_match != "mismatch":
-        return "verified"
-    if bibliographic_score >= 0.60 and title_match in {"exact", "partial"}:
-        if author_match == "mismatch" and doi_match == "mismatch" and arxiv_match == "mismatch":
-            return "ambiguous"
+    if title_match == "partial" or author_match in {"partial", "mismatch"} or year_match in {"partial", "mismatch"}:
         return "partially_verified"
-    return "ambiguous"
+    if title_match == "exact":
+        return "verified"
+    return "partially_verified"
 
 
-def build_explanation(fused_record: dict[str, Any], title_match: str, author_match: str, year_match: str, venue_match: str, doi_match: str, arxiv_match: str, overall_status: str) -> str:
+def determine_verification_category_and_subcategory(
+    parsed_record: dict[str, Any],
+    fused_record: dict[str, Any],
+    *,
+    title_match: str,
+    author_match: str,
+    year_match: str,
+    doi_match: str,
+    arxiv_match: str,
+    bibliographic_score: float,
+) -> tuple[str, str, list[str]]:
+    candidate = fused_record.get("selected_candidate")
+
+    if candidate is None:
+        return "Not Verified", "no_candidate_found", ["no_candidate_found"]
+
+    if title_match == "mismatch":
+        return "Not Verified", "title_mismatch", ["title_mismatch"]
+
+    if fused_record.get("selected_match_type") in HIGH_CONFIDENCE_EXACT_TYPES and title_match != "mismatch":
+        return "Verified", "exact_identifier_match", ["exact_identifier_match"]
+
+    if (
+        title_match == "exact"
+        and author_match not in {"partial", "mismatch"}
+        and year_match not in {"partial", "mismatch"}
+        and bibliographic_score >= 0.75
+    ):
+        return "Verified", "strong_metadata_match", ["strong_metadata_match"]
+
+    reasons: list[str] = []
+    if title_match == "partial":
+        reasons.append("minor_title_mismatch")
+    if author_match in {"partial", "mismatch"}:
+        reasons.append("author_mismatch")
+    if year_match in {"partial", "mismatch"}:
+        reasons.append("year_mismatch")
+
+    if any(reason in {"author_mismatch", "year_mismatch"} for reason in reasons):
+        return "Partially Verified", "author/year mismatch", reasons
+    if "minor_title_mismatch" in reasons:
+        return "Partially Verified", "minor_title_mismatch", reasons
+    return "Partially Verified", "author/year mismatch", ["author_mismatch", "year_mismatch"]
+
+
+def build_explanation(fused_record: dict[str, Any], title_match: str, author_match: str, year_match: str, doi_match: str, arxiv_match: str, overall_status: str) -> str:
     if fused_record.get("selected_candidate") is None:
         return "No fused candidate was available for bibliographic verification."
-    parts = [f"Selected candidate came from {fused_record.get('selected_source') or 'unknown'}", f"title={title_match}", f"authors={author_match}", f"year={year_match}", f"venue={venue_match}"]
+    parts = [f"Selected candidate came from {fused_record.get('selected_source') or 'unknown'}", f"title={title_match}", f"authors={author_match}", f"year={year_match}"]
     if doi_match != "unknown":
         parts.append(f"doi={doi_match}")
     if arxiv_match != "unknown":
@@ -273,19 +316,28 @@ def verify_one(parsed_record: dict[str, Any], fused_record: dict[str, Any]) -> d
     citation_id = parsed_record.get("citation_id")
     candidate = fused_record.get("selected_candidate")
     if not candidate:
-        return {"citation_id": citation_id, "selected_source": None, "selected_match_type": None, "selected_candidate_title": None, "selected_candidate_db": None, "field_verification": {"title_match": "unknown", "author_match": "unknown", "year_match": "unknown", "venue_match": "unknown", "doi_match": "unknown", "url_match": "unknown", "arxiv_id_match": "unknown", "bibliographic_score": 0.0}, "overall_status": "hallucinated", "overall_confidence": 0.0, "explanation": "No fused candidate was available for verification."}
+        return {"citation_id": citation_id, "selected_source": None, "selected_match_type": None, "selected_candidate_title": None, "selected_candidate_db": None, "field_verification": {"title_match": "unknown", "author_match": "unknown", "year_match": "unknown", "doi_match": "unknown", "url_match": "unknown", "arxiv_id_match": "unknown", "bibliographic_score": 0.0}, "overall_status": "hallucinated", "verification_category": "Not Verified", "verification_subcategory": "no_candidate_found", "verification_reasons": ["no_candidate_found"], "overall_confidence": 0.0, "explanation": "No fused candidate was available for verification."}
 
     title_match, title_score = evaluate_title_match(parsed_record.get("parsed_title"), candidate.get("title"))
     author_match, author_score = evaluate_author_match(parsed_record.get("parsed_authors") or [], candidate.get("authors") or [])
     year_match, year_score = evaluate_year_match(parsed_record.get("parsed_year"), candidate.get("year"))
-    venue_match, venue_score = evaluate_venue_match(parsed_record.get("parsed_venue"), candidate.get("venue"))
     doi_match, doi_score = evaluate_doi_match(parsed_record.get("parsed_doi"), candidate.get("doi"))
     url_match, url_score = evaluate_url_match(parsed_record.get("parsed_url"), candidate.get("url"))
     arxiv_match, arxiv_score = evaluate_arxiv_match(parsed_record, candidate)
-    bibliographic_score = compute_bibliographic_score(title_score, author_score, year_score, venue_score, doi_score, url_score, arxiv_score, fused_record)
-    overall_status = determine_overall_status(fused_record, title_match, author_match, year_match, venue_match, doi_match, arxiv_match, bibliographic_score)
+    bibliographic_score = compute_bibliographic_score(title_score, author_score, year_score, doi_score, url_score, arxiv_score, fused_record)
+    overall_status = determine_overall_status(fused_record, title_match, author_match, year_match, doi_match, arxiv_match, bibliographic_score)
+    verification_category, verification_subcategory, verification_reasons = determine_verification_category_and_subcategory(
+        parsed_record,
+        fused_record,
+        title_match=title_match,
+        author_match=author_match,
+        year_match=year_match,
+        doi_match=doi_match,
+        arxiv_match=arxiv_match,
+        bibliographic_score=bibliographic_score,
+    )
     overall_confidence = max(float(fused_record.get("selected_confidence") or 0.0), bibliographic_score)
-    explanation = build_explanation(fused_record, title_match, author_match, year_match, venue_match, doi_match, arxiv_match, overall_status)
+    explanation = build_explanation(fused_record, title_match, author_match, year_match, doi_match, arxiv_match, overall_status)
 
     return {
         "citation_id": citation_id,
@@ -297,13 +349,15 @@ def verify_one(parsed_record: dict[str, Any], fused_record: dict[str, Any]) -> d
             "title_match": title_match,
             "author_match": author_match,
             "year_match": year_match,
-            "venue_match": venue_match,
             "doi_match": doi_match,
             "url_match": url_match,
             "arxiv_id_match": arxiv_match,
             "bibliographic_score": bibliographic_score,
         },
         "overall_status": overall_status,
+        "verification_category": verification_category,
+        "verification_subcategory": verification_subcategory,
+        "verification_reasons": verification_reasons,
         "overall_confidence": round(overall_confidence, 4),
         "explanation": explanation,
     }

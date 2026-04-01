@@ -334,6 +334,10 @@ def fix_hyphenation(text):
     - 'detec- tion' or 'detec-\\ntion' → 'detection' (syllable break)
     - 'human- centered' or 'human-\\ncentered' → 'human-centered' (compound word)
     """
+    text = re.sub(r'\bstate-\s+of-the-art\b', 'state-of-the-art', text, flags=re.IGNORECASE)
+    text = re.sub(r'\bagent-\s+generated\b', 'agent-generated', text, flags=re.IGNORECASE)
+    text = re.sub(r'\bai-\s+generated\b', 'ai-generated', text, flags=re.IGNORECASE)
+
     def replace_hyphen(match):
         before = match.group(1)  # character before hyphen
         after_char = match.group(2)  # first character after hyphen
@@ -533,7 +537,7 @@ def segment_references(ref_text):
         ref_text = ref_text[:earliest_boundary].strip()
 
     # Try IEEE style: [1], [2], etc.
-    ieee_pattern = r'\n\s*\[(\d+)\]\s*'
+    ieee_pattern = r'(?:^|\n)\s*\[(\d+)\]\s*'
     ieee_matches = list(re.finditer(ieee_pattern, ref_text))
 
     if len(ieee_matches) >= 3:
@@ -1788,7 +1792,16 @@ def parse_references_from_text(pdf_text: str, source_pdf: str) -> list[dict[str,
         ref_text = fix_hyphenation(ref_text)
 
         if re.search(r"https?\s*:\s*//", ref_text) or re.search(r"ht\s*tps?\s*:\s*//", ref_text):
-            if not re.search(r"(acm\.org|ieee\.org|usenix\.org|arxiv\.org|doi\.org)", ref_text, re.IGNORECASE):
+            trusted_domain = re.search(
+                r"(acm\.org|ieee\.org|usenix\.org|arxiv\.org|doi\.org)",
+                ref_text,
+                re.IGNORECASE,
+            )
+            has_descriptive_title = re.search(r'[“"][^”"]{8,}[”"]', ref_text)
+            has_year = re.search(r"\b(?:19|20)\d{2}\b", ref_text)
+            # Keep web references when they look like real citations with a title and year,
+            # and only skip likely URL-only/non-scholarly entries.
+            if not trusted_domain and not (has_descriptive_title and has_year):
                 continue
 
         title, from_quotes = extract_title_from_reference(ref_text)

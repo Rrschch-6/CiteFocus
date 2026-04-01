@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}CiteFocus{% endblock %}
+{% block content %}
+<section class="landing-shell">
+  <aside class="brand-rail">
+    <img class="brand-logo" src="{{ url_for('logo') }}" alt="System Security Lab logo">
+    <h1 class="brand-title">CiteFocus</h1>
+    <p class="brand-copy">
+      CiteFocus is a tool that detects fake citations in academic papers. This tool extracts references from PDFs and validates them against academic databases.
+    </p>
+    <p class="brand-lab">
+      Created in
+      <a href="https://www.informatik.tu-darmstadt.de/systemsecurity/system_security_lab_sys/index.en.jsp" target="_blank" rel="noopener noreferrer">
+        System Security Lab
+      </a>
+      TU Darmstadt.
+    </p>
+  </aside>
+
+  <section class="upload-shell">
+    <div class="upload-card">
+      <h2>Upload PDF</h2>
+      <form action="{{ url_for('run_pipeline_route') }}" method="post" enctype="multipart/form-data" class="upload-form">
+        <label class="file-drop">
+          <span>Choose one PDF</span>
+          <input type="file" name="pdf" accept="application/pdf" required>
+        </label>
+        <button type="submit" class="button">Run CiteFocus</button>
+      </form>
+    </div>
+
+    {% if recent_runs %}
+      <div class="recent-card">
+        <h3>Recent Runs</h3>
+        <div class="run-list">
+          {% for run in recent_runs %}
+            <a class="run-card" href="{{ url_for('report_view', tag=run.tag) }}">
+              <div class="run-tag">{{ run.tag }}</div>
+              <div class="run-meta">{{ run.total_citations }} citations</div>
+              <div class="run-meta">{{ run.needs_review_count }} need review</div>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </section>
+</section>
+{% endblock %}

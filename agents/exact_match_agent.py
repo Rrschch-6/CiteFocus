@@ -15,9 +15,9 @@ DEFAULT_PARSED_PATH = "/home/sascha/refcheck/CiteFocus/outputs/parsed_citations.
 DEFAULT_ROUTE_PATH = "/home/sascha/refcheck/CiteFocus/outputs/route_plan.json"
 DEFAULT_OUTPUT_PATH = "/home/sascha/refcheck/CiteFocus/outputs/exact_matches.json"
 
-ARXIV_DB_PATH = Path("/home/sascha/refcheck/academic_metadata/arxiv/oai_pages/arxiv_local_index.sqlite")
-DBLP_DB_PATH = Path("/home/sascha/refcheck/academic_metadata/dblp/dblp_local_index.sqlite")
-OPENALEX_DB_PATH = Path("/home/sascha/refcheck/academic_metadata/openalex/openalex_local_index.sqlite")
+ARXIV_DB_PATH = Path("/home/sascha/refcheck/CiteFocus/academic_metadata/arxiv/oai_pages/arxiv_local_index.sqlite")
+DBLP_DB_PATH = Path("/home/sascha/refcheck/CiteFocus/academic_metadata/dblp/dblp_local_index.sqlite")
+OPENALEX_DB_PATH = Path("/home/sascha/refcheck/CiteFocus/academic_metadata/openalex/openalex_local_index.sqlite")
 
 ARXIV_NEW_RE = re.compile(r"\b(\d{4}\.\d{4,5}(?:v\d+)?)\b")
 ARXIV_OLD_RE = re.compile(r"\b([a-z\-]+/\d{7}(?:v\d+)?)\b", re.IGNORECASE)

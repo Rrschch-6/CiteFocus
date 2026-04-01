@@ -1,0 +1,88 @@
+{
+  "total_citations": 32,
+  "verification": {
+    "counts": {
+      "verified": 14,
+      "partially_verified": 11,
+      "ambiguous": 0,
+      "hallucinated": 7
+    },
+    "percentages": {
+      "verified": 43.75,
+      "partially_verified": 34.38,
+      "ambiguous": 0.0,
+      "hallucinated": 21.88
+    }
+  },
+  "semantic": {
+    "counts": {
+      "supported": 21,
+      "partially_supported": 0,
+      "unclear": 1,
+      "unsupported": 8,
+      "skipped": 2
+    },
+    "percentages": {
+      "supported": 65.62,
+      "partially_supported": 0.0,
+      "unclear": 3.12,
+      "unsupported": 25.0,
+      "skipped": 6.25
+    },
+    "supporting_count": 21,
+    "not_supporting_count": 8
+  },
+  "combined_labels": {
+    "counts": {
+      "needs_manual_review": 3,
+      "likely_problematic": 7,
+      "strongly_supported_citation": 9,
+      "promising_but_needs_review": 9,
+      "bibliographically_valid_but_semantically_unsupported": 4
+    },
+    "percentages": {
+      "needs_manual_review": 9.38,
+      "likely_problematic": 21.88,
+      "strongly_supported_citation": 28.12,
+      "promising_but_needs_review": 28.12,
+      "bibliographically_valid_but_semantically_unsupported": 12.5
+    }
+  },
+  "verification_semantic_crosstab": {
+    "verified": {
+      "supported": 9,
+      "partially_supported": 0,
+      "unclear": 1,
+      "unsupported": 4,
+      "skipped": 0
+    },
+    "partially_verified": {
+      "supported": 9,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 0,
+      "skipped": 2
+    },
+    "ambiguous": {
+      "supported": 0,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 0,
+      "skipped": 0
+    },
+    "hallucinated": {
+      "supported": 3,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 4,
+      "skipped": 0
+    }
+  },
+  "needs_review_count": 23,
+  "chart_paths": [
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_verification_status_gv_20260401_151105.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_semantic_support_gv_20260401_151105.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_verification_semantic_crosstab_gv_20260401_151105.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_selected_source_gv_20260401_151105.png"
+  ]
+}

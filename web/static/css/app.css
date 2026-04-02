@@ -303,6 +303,11 @@ main.wrap {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.1rem;
 }
+.stacked-review {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
 .summary-card {
   border: 1px solid var(--line);
   border-radius: 18px;

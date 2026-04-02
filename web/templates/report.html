@@ -118,42 +118,83 @@
   </div>
 </section>
 
+{% set not_verified_queue = review_queue | selectattr("verification_category", "equalto", "Not Verified") | list %}
+{% set partially_verified_queue = review_queue | selectattr("verification_category", "equalto", "Partially Verified") | list %}
 <section class="panel">
   <h2>Manual Review Queue</h2>
-  {% if review_queue %}
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Category</th>
-            <th>Subcategory</th>
-            <th>Author</th>
-            <th>Year</th>
-            <th>Semantic</th>
-            <th>DB</th>
-            <th>Candidate</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for row in review_queue[:20] %}
-            <tr>
-              <td>{{ row.citation_id }}</td>
-              <td>{{ row.verification_category }}</td>
-              <td>{{ row.verification_subcategory }}</td>
-              <td>{{ row.author_status }}</td>
-              <td>{{ row.year_status }}</td>
-              <td>{{ row.semantic_label }}</td>
-              <td>{{ row.selected_candidate_db }}</td>
-              <td>{{ row.selected_candidate_title }}</td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
+  <div class="stacked-review">
+    <div class="summary-card">
+      <h3>Not Verified</h3>
+      {% if not_verified_queue %}
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Subcategory</th>
+                <th>Author</th>
+                <th>Year</th>
+                <th>Semantic</th>
+                <th>DB</th>
+                <th>Candidate</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in not_verified_queue[:20] %}
+                <tr>
+                  <td>{{ row.citation_id }}</td>
+                  <td>{{ row.verification_subcategory }}</td>
+                  <td>{{ row.author_status }}</td>
+                  <td>{{ row.year_status }}</td>
+                  <td>{{ row.semantic_label }}</td>
+                  <td>{{ row.selected_candidate_db }}</td>
+                  <td>{{ row.selected_candidate_title }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% else %}
+        <p class="muted">No Not Verified citations need review.</p>
+      {% endif %}
     </div>
-  {% else %}
-    <p class="muted">No review queue items for this run.</p>
-  {% endif %}
+
+    <div class="summary-card">
+      <h3>Partially Verified</h3>
+      {% if partially_verified_queue %}
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Subcategory</th>
+                <th>Author</th>
+                <th>Year</th>
+                <th>Semantic</th>
+                <th>DB</th>
+                <th>Candidate</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in partially_verified_queue[:20] %}
+                <tr>
+                  <td>{{ row.citation_id }}</td>
+                  <td>{{ row.verification_subcategory }}</td>
+                  <td>{{ row.author_status }}</td>
+                  <td>{{ row.year_status }}</td>
+                  <td>{{ row.semantic_label }}</td>
+                  <td>{{ row.selected_candidate_db }}</td>
+                  <td>{{ row.selected_candidate_title }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% else %}
+        <p class="muted">No Partially Verified citations need review.</p>
+      {% endif %}
+    </div>
+  </div>
 </section>
 
 <section class="panel">

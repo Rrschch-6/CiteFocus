@@ -1,0 +1,13 @@
+PyMuPDF is required. Install it with: pip install PyMuPDF
+[run_pipeline] running: /opt/anaconda3/envs/citefocus/bin/python /home/sascha/refcheck/CiteFocus/agents/parse_agent.py --input /home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_104823.pdf --output /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_104823.json
+Traceback (most recent call last):
+  File "/home/sascha/refcheck/CiteFocus/run_pipeline.py", line 250, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/sascha/refcheck/CiteFocus/run_pipeline.py", line 90, in main
+    run_command([args.python, str(AGENTS_DIR / "parse_agent.py"), "--input", str(input_pdf), "--output", str(parsed_path)])
+  File "/home/sascha/refcheck/CiteFocus/run_pipeline.py", line 47, in run_command
+    subprocess.run(cmd, check=True)
+  File "/opt/anaconda3/envs/citefocus/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/anaconda3/envs/citefocus/bin/python', '/home/sascha/refcheck/CiteFocus/agents/parse_agent.py', '--input', '/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_104823.pdf', '--output', '/home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_104823.json']' returned non-zero exit status 1.

@@ -1,0 +1,2338 @@
+[
+  {
+    "citation_id": 1,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 2,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Fin-R1: A Large Language Model for Financial Reasoning through Reinforcement Learning.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 0.9125,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 3,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Challenges and Applications of Large Language Models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 4,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Jailbroken: How Does LLM Safety Training Fail?",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "mismatch",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.5
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "title_mismatch",
+    "verification_reasons": [
+      "title_mismatch"
+    ],
+    "overall_confidence": 0.9125,
+    "explanation": "Selected candidate came from lexical; title=mismatch; authors=exact; year=exact; overall_status=hallucinated."
+  },
+  {
+    "citation_id": 5,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Training language models to follow instructions with human feedback.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 6,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 7,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Jailbreaking Attack against Multimodal Large Language Model.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 8,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.7475
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch",
+      "year_mismatch"
+    ],
+    "overall_confidence": 0.97,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=partial; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 9,
+    "selected_source": "exact",
+    "selected_match_type": "title_exact",
+    "selected_candidate_title": "Safety Layers in Aligned Large Language Models: The Key to LLM Security.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.735
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch",
+      "year_mismatch"
+    ],
+    "overall_confidence": 0.88,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=partial; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 10,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Finding Safety Neurons in Large Language Models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 11,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Towards Comprehensive Post Safety Alignment of Large Language Models via Safety Patching",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 0.9125,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 12,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "BAN: Detecting Backdoors Activated by Adversarial Neuron Noise",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.875
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 13,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Review of Artificial Intelligence Adversarial Attack and Defense Technologies",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 0.825,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 14,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Adversarial Machine Learning: A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Example.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "mismatch",
+      "year_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.4975
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch",
+      "author_mismatch",
+      "year_mismatch"
+    ],
+    "overall_confidence": 0.77,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=mismatch; year=partial; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 15,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Network Dissection: Quantifying Interpretability of Deep Visual Representations.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 16,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Codebook Features: Sparse and Discrete Interpretability for Neural Networks.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 17,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 19,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "LLaMA: Open and Efficient Foundation Language Models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 0.8433,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 21,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 22,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "mismatch",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.65
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=mismatch; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 23,
+    "selected_source": "exact",
+    "selected_match_type": "title_exact",
+    "selected_candidate_title": "Weight Poisoning Attacks on Pretrained Models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.725
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "year_mismatch"
+    ],
+    "overall_confidence": 0.88,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 24,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "A Comprehensive Overview of Backdoor Attacks in Large Language Models Within Communication Networks.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=partial; year=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 25,
+    "selected_source": "exact",
+    "selected_match_type": "title_exact",
+    "selected_candidate_title": "Beyond Memorization: Violating Privacy Via Inference with Large Language Models",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.735
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch",
+      "year_mismatch"
+    ],
+    "overall_confidence": 0.88,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=partial; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 26,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Prompt Injection attack against LLM-integrated Applications.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 27,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.975,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=partial; year=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 28,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Don't Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=partial; year=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 29,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Gemma 3 Technical Report",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 30,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Transformer Feed-Forward Layers Build Predictions by Promoting Concepts in the Vocabulary Space",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 31,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Decoding specialised feature neurons in LLMs with the final projection layer.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 0.9125,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 32,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "The Llama 3 Herd of Models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "mismatch",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.65
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=mismatch; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 33,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 34,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 35,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "JailBreakV-28K: A Benchmark for Assessing the Robustness of MultiModal Large Language Models against Jailbreak Attacks.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 36,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "WildTeaming at Scale: From In-the-Wild Jailbreaks to (Adversarially) Safer Language Models",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.875
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 37,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 0.8833,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 38,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "LoRA: Low-Rank Adaptation of Large Language Models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 0.9,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 39,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 40,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 41,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.875
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 42,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.76
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch",
+      "year_mismatch"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=partial; year=partial; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 43,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 44,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Can a Suit of Armor Conduct Electricity? A New Dataset for Open Book Question Answering.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.875
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 45,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 46,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "NaturalReasoning: Reasoning in the Wild with 2.8M Challenging Questions",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 47,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 48,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Qwen2.5-Coder Technical Report",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 49,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Qwen2.5-Math Technical Report: Toward Mathematical Expert Model via Self-Improvement",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 52,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 53,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Gemma: Open Models Based on Gemini Research and Technology.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 54,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 55,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "UltraMedical: Building Specialized Generalists in Biomedicine.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 57,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 58,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "s1: Simple test-time scaling",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 64,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 0.9125,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 65,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 66,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "A StrongREJECT for Empty Jailbreaks.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 67,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 68,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "TDC 2023 (LLM Edition) - Trojan Detection Track - Development Phase - Large Subtrack (Deprecated)",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.7125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch",
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.7133,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=partial; year=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 69,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 70,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 72,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Jailbreaking Black Box Large Language Models in Twenty Queries.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 73,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Large Language Models Are Human-Level Prompt Engineers.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 74,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Tree of Attacks: Jailbreaking Black-Box LLMs Automatically.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8475
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "year_mismatch"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=partial; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 75,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Play Guessing Game with LLM: Indirect Jailbreak Attack with Implicit Clues",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.875
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 76,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Baseline Defenses for Adversarial Attacks Against Aligned Language Models",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 77,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "SmoothLLM: Defending Large Language Models Against Jailbreaking Attacks",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 78,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Defending Large Language Models Against Jailbreak Attacks via Layer-specific Editing.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 0.96,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 79,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 80,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 81,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Ignore Previous Prompt: Attack Techniques For Language Models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 82,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 83,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Prompt Packer: Deceiving LLMs through Compositional Instruction with Hidden Attacks.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 84,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "SequentialBreak: Large Language Models Can be Fooled by Embedding Jailbreak Prompts into Sequential Prompt Chains",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 85,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Hidden You Malicious Goal Into Benign Narratives: Jailbreak Large Language Models through Logic Chain Injection.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 86,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Exploiting Large Language Models (LLMs) through Deception Techniques and Persuasion Principles.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 87,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Multi-step Jailbreaking Privacy Attacks on ChatGPT",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 88,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "DeepInception: Hypnotize Large Language Model to Be Jailbreaker.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 89,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "GUARD: Role-playing to Generate Natural-language Jailbreakings to Test Guideline Adherence of Large Language Models",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 90,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "GPTFUZZER: Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 91,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "LLM-Fuzzer: Scaling Assessment of Large Language Model Jailbreaks.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.95,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=partial; year=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 92,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 93,
+    "selected_source": "exact",
+    "selected_match_type": "title_exact",
+    "selected_candidate_title": "AutoPrompt: Eliciting Knowledge from Language Models with Automatically Generated Prompts.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.725
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "year_mismatch"
+    ],
+    "overall_confidence": 0.88,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 94,
+    "selected_source": null,
+    "selected_match_type": null,
+    "selected_candidate_title": null,
+    "selected_candidate_db": null,
+    "field_verification": {
+      "title_match": "unknown",
+      "author_match": "unknown",
+      "year_match": "unknown",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.0
+    },
+    "overall_status": "hallucinated",
+    "verification_category": "Not Verified",
+    "verification_subcategory": "no_candidate_found",
+    "verification_reasons": [
+      "no_candidate_found"
+    ],
+    "overall_confidence": 0.0,
+    "explanation": "No fused candidate was available for verification."
+  },
+  {
+    "citation_id": 95,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=partial; year=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 96,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Hard Prompts Made Easy: Gradient-Based Discrete Optimization for Prompt Tuning and Discovery.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 97,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Automatically Auditing Large Language Models via Discrete Optimization.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 98,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "Universal and Transferable Adversarial Attacks on Aligned Language Models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 99,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "DeceptPrompt: Exploiting LLM-driven Code Generation via Adversarial Natural Language Instructions.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 100,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=exact; arxiv_id=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 101,
+    "selected_source": "exact",
+    "selected_match_type": "title_exact",
+    "selected_candidate_title": "Making Pre-trained Language Models Better Few-shot Learners",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.725
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "year_mismatch"
+    ],
+    "overall_confidence": 0.88,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=mismatch; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 102,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Automatic Prompt Optimization with \"Gradient Descent\" and Beam Search",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "partial",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "minor_title_mismatch",
+    "verification_reasons": [
+      "minor_title_mismatch"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=partial; authors=exact; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 103,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Representation of linguistic form and function in recurrent neural networks",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "partial",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.76
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch",
+      "year_mismatch"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=partial; year=partial; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 104,
+    "selected_source": "exact",
+    "selected_match_type": "title_exact",
+    "selected_candidate_title": "Discovery of Natural Language Concepts in Individual Units of CNNs",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.75
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "year_mismatch"
+    ],
+    "overall_confidence": 0.88,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=mismatch; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 105,
+    "selected_source": "lexical",
+    "selected_match_type": "lexical_top_1",
+    "selected_candidate_title": "Compositional Explanations of Neurons.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "unknown",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.9
+    },
+    "overall_status": "verified",
+    "verification_category": "Verified",
+    "verification_subcategory": "strong_metadata_match",
+    "verification_reasons": [
+      "strong_metadata_match"
+    ],
+    "overall_confidence": 1.0,
+    "explanation": "Selected candidate came from lexical; title=exact; authors=exact; year=exact; overall_status=verified."
+  },
+  {
+    "citation_id": 106,
+    "selected_source": "exact",
+    "selected_match_type": "title_exact",
+    "selected_candidate_title": "Finding Experts in Transformer Models",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.75
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "year_mismatch"
+    ],
+    "overall_confidence": 0.88,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=mismatch; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 107,
+    "selected_source": "exact",
+    "selected_match_type": "title_year_exact",
+    "selected_candidate_title": "On the Pitfalls of Analyzing Individual Neurons in Language Models",
+    "selected_candidate_db": "openalex",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "partial",
+      "year_match": "exact",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "exact",
+      "bibliographic_score": 0.8125
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "author_mismatch"
+    ],
+    "overall_confidence": 0.93,
+    "explanation": "Selected candidate came from exact; title=exact; authors=partial; year=exact; arxiv_id=exact; overall_status=partially_verified."
+  },
+  {
+    "citation_id": 108,
+    "selected_source": "exact",
+    "selected_match_type": "title_exact",
+    "selected_candidate_title": "The emergence of number and syntax units in LSTM language models.",
+    "selected_candidate_db": "dblp",
+    "field_verification": {
+      "title_match": "exact",
+      "author_match": "exact",
+      "year_match": "mismatch",
+      "doi_match": "unknown",
+      "url_match": "mismatch",
+      "arxiv_id_match": "unknown",
+      "bibliographic_score": 0.725
+    },
+    "overall_status": "partially_verified",
+    "verification_category": "Partially Verified",
+    "verification_subcategory": "author/year mismatch",
+    "verification_reasons": [
+      "year_mismatch"
+    ],
+    "overall_confidence": 0.88,
+    "explanation": "Selected candidate came from exact; title=exact; authors=exact; year=mismatch; overall_status=partially_verified."
+  }
+]

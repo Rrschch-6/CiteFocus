@@ -1,0 +1,22 @@
+{
+  "stage": "stage2",
+  "total_records": 36,
+  "judged_records": 14,
+  "skipped_records": 22,
+  "supporting_count": 13,
+  "supporting_percentage": 92.86,
+  "not_supporting_count": 1,
+  "not_supporting_percentage": 7.14,
+  "label_counts": {
+    "supported": 12,
+    "partially_supported": 1,
+    "unclear": 0,
+    "unsupported": 1
+  },
+  "label_percentages": {
+    "supported": 85.71,
+    "partially_supported": 7.14,
+    "unclear": 0.0,
+    "unsupported": 7.14
+  }
+}

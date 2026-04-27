@@ -1,0 +1,38 @@
+{
+  "dblp": {
+    "count": 16,
+    "average_bibliographic_score": 0.8667,
+    "average_semantic_score": 0.0,
+    "verification_counts": {
+      "verified": 9,
+      "partially_verified": 7
+    },
+    "semantic_counts": {
+      "skipped": 16
+    }
+  },
+  "arxiv": {
+    "count": 14,
+    "average_bibliographic_score": 0.9379,
+    "average_semantic_score": 0.2929,
+    "verification_counts": {
+      "verified": 14
+    },
+    "semantic_counts": {
+      "supported": 12,
+      "unsupported": 1,
+      "partially_supported": 1
+    }
+  },
+  "unknown": {
+    "count": 6,
+    "average_bibliographic_score": 0.0,
+    "average_semantic_score": 0.0,
+    "verification_counts": {
+      "hallucinated": 6
+    },
+    "semantic_counts": {
+      "skipped": 6
+    }
+  }
+}

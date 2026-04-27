@@ -25,6 +25,13 @@
           <span>Choose one PDF</span>
           <input type="file" name="pdf" accept="application/pdf" required>
         </label>
+        <div class="option-group">
+          <div class="option-label">Lexical DB</div>
+          <label><input type="radio" name="lexical_db" value="all" {% if lexical_db_default == 'all' %}checked{% endif %}> All</label>
+          <label><input type="radio" name="lexical_db" value="arxiv" {% if lexical_db_default == 'arxiv' %}checked{% endif %}> arXiv</label>
+          <label><input type="radio" name="lexical_db" value="dblp" {% if lexical_db_default == 'dblp' %}checked{% endif %}> DBLP</label>
+          <label><input type="radio" name="lexical_db" value="openalex" {% if lexical_db_default == 'openalex' %}checked{% endif %}> OpenAlex</label>
+        </div>
         <button type="submit" class="button">Run CiteFocus</button>
       </form>
     </div>

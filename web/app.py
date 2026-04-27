@@ -19,6 +19,7 @@ PIPELINE_SCRIPT = ROOT / "run_pipeline.py"
 LOGO_PATH = ROOT / "web" / "Logo_SSL_Colored.png"
 JOB_LOCK = threading.Lock()
 JOBS: dict[str, dict[str, Any]] = {}
+LEXICAL_DB_CHOICES = {"all", "arxiv", "dblp", "openalex"}
 INTERNAL_STAGE_KEYS = [
     "parse",
     "route",
@@ -47,13 +48,17 @@ def create_app() -> Flask:
     @app.route("/")
     def index():
         recent_runs = list_recent_runs()
-        return render_template("index.html", recent_runs=recent_runs)
+        return render_template("index.html", recent_runs=recent_runs, lexical_db_default="all")
 
     @app.post("/run")
     def run_pipeline_route():
         uploaded = request.files.get("pdf")
+        lexical_db = str(request.form.get("lexical_db", "all")).strip().lower()
         if uploaded is None or not uploaded.filename:
             flash("Choose a PDF to upload.", "error")
+            return redirect(url_for("index"))
+        if lexical_db not in LEXICAL_DB_CHOICES:
+            flash("Choose a valid lexical database mode.", "error")
             return redirect(url_for("index"))
 
         filename = uploaded.filename
@@ -64,9 +69,9 @@ def create_app() -> Flask:
         tag = make_run_tag(Path(filename).stem)
         saved_pdf = UPLOADS_DIR / f"{tag}.pdf"
         uploaded.save(saved_pdf)
-        init_job(tag, saved_pdf)
+        init_job(tag, saved_pdf, lexical_db=lexical_db)
 
-        worker = threading.Thread(target=background_run_pipeline, args=(tag, saved_pdf), daemon=True)
+        worker = threading.Thread(target=background_run_pipeline, args=(tag, saved_pdf, lexical_db), daemon=True)
         worker.start()
         return redirect(url_for("run_status_view", tag=tag))
 
@@ -94,9 +99,13 @@ def create_app() -> Flask:
         combined = load_optional_json(OUTPUTS_DIR / f"report_combined_{tag}.json") or []
         review_queue = load_optional_json(OUTPUTS_DIR / f"report_review_queue_{tag}.json") or []
         source_summary = load_optional_json(OUTPUTS_DIR / f"report_source_summary_{tag}.json") or {}
+        runtime = load_optional_json(OUTPUTS_DIR / f"pipeline_runtime_{tag}.json") or {}
 
         if summary is None:
             abort(404)
+        if isinstance(summary, dict):
+            summary = dict(summary)
+            summary["pipeline_duration_seconds"] = runtime.get("duration_seconds", 0.0)
 
         chart_files = [
             f"chart_verification_status_{tag}.png",
@@ -141,6 +150,12 @@ def load_optional_json(path: Path) -> Any:
         return json.load(handle)
 
 
+def save_json(path: Path, data: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as handle:
+        json.dump(data, handle, ensure_ascii=False, indent=2)
+
+
 def list_recent_runs(limit: int = 8) -> list[dict[str, Any]]:
     runs: list[dict[str, Any]] = []
     for path in sorted(OUTPUTS_DIR.glob("report_summary*.json"), key=lambda p: p.stat().st_mtime, reverse=True):
@@ -160,11 +175,12 @@ def list_recent_runs(limit: int = 8) -> list[dict[str, Any]]:
     return runs
 
 
-def init_job(tag: str, pdf_path: Path) -> None:
+def init_job(tag: str, pdf_path: Path, *, lexical_db: str = "all") -> None:
     with JOB_LOCK:
         JOBS[tag] = {
             "tag": tag,
             "pdf_path": str(pdf_path),
+            "lexical_db": lexical_db,
             "status": "queued",
             "current_stage": None,
             "started_at": time.time(),
@@ -257,6 +273,14 @@ def finish_job(tag: str, *, success: bool, error: str | None = None) -> None:
                 job["stage_durations"][current_stage] = round(job["finished_at"] - started_at, 2)
             job["stages"][current_stage] = "failed"
             job["stage_started_at"][current_stage] = None
+        runtime_payload = {
+            "tag": tag,
+            "status": job["status"],
+            "duration_seconds": job["duration_seconds"],
+            "stages": job["stages"],
+            "stage_durations": job["stage_durations"],
+        }
+    save_json(OUTPUTS_DIR / f"pipeline_runtime_{tag}.json", runtime_payload)
 
 
 def infer_stage_from_line(line: str) -> str | None:
@@ -353,7 +377,7 @@ def build_display_stages(job: dict[str, Any]) -> dict[str, dict[str, Any]]:
     return display
 
 
-def background_run_pipeline(tag: str, pdf_path: Path) -> None:
+def background_run_pipeline(tag: str, pdf_path: Path, lexical_db: str = "all") -> None:
     cmd = [
         sys.executable,
         str(PIPELINE_SCRIPT),
@@ -361,6 +385,8 @@ def background_run_pipeline(tag: str, pdf_path: Path) -> None:
         str(pdf_path),
         "--output-name-tag",
         tag,
+        "--lexical-db",
+        lexical_db,
     ]
     log_path = OUTPUTS_DIR / f"pipeline_log_{tag}.txt"
     set_stage_running(tag, "parse")
@@ -413,21 +439,23 @@ def collect_stage_metrics(tag: str) -> list[dict[str, Any]]:
     verify = load_optional_json(OUTPUTS_DIR / f"verification_results_{tag}.json") or []
     semantic = load_optional_json(OUTPUTS_DIR / f"semantic_results_{tag}.json") or []
     report_summary = load_optional_json(OUTPUTS_DIR / f"report_summary_{tag}.json") or {}
+    runtime = load_optional_json(OUTPUTS_DIR / f"pipeline_runtime_{tag}.json") or {}
+    stage_durations = runtime.get("stage_durations", {})
 
     verified_count = sum(1 for item in verify if item.get("overall_status") == "verified")
     semantic_judged = sum(1 for item in semantic if not item.get("skipped"))
     exact_found = sum(1 for item in exact if item.get("match_found"))
     lexical_retrieved = sum(1 for item in lexical if not item.get("skipped"))
-    fusion2_selected = sum(1 for item in fusion2 if item.get("selected_candidate"))
+    semantic_elapsed = round(float(stage_durations.get("semantic_stage1", 0.0) or 0.0) + float(stage_durations.get("semantic_stage2", 0.0) or 0.0), 2)
 
     return [
-        {"stage": "parse", "label": "Parse", "metric": f"{len(parsed)} references found"},
-        {"stage": "route", "label": "Route", "metric": f"{len(route)} citations routed"},
-        {"stage": "exact", "label": "Exact", "metric": f"{exact_found}/{len(exact)} exact matches"},
-        {"stage": "lexical", "label": "Lexical", "metric": f"{lexical_retrieved}/{len(lexical)} citations retrieved"},
-        {"stage": "verify", "label": "Verify", "metric": f"{verified_count}/{len(verify)} verified"},
-        {"stage": "semantic", "label": "Semantic", "metric": f"{semantic_judged}/{len(semantic)} semantic judgments"},
-        {"stage": "report", "label": "Report", "metric": f"{report_summary.get('needs_review_count', 0)} need review"},
+        {"stage": "parse", "label": "Parse", "metric": f"{len(parsed)} references found", "elapsed_seconds": float(stage_durations.get("parse", 0.0) or 0.0)},
+        {"stage": "route", "label": "Route", "metric": f"{len(route)} citations routed", "elapsed_seconds": float(stage_durations.get("route", 0.0) or 0.0)},
+        {"stage": "exact", "label": "Exact", "metric": f"{exact_found}/{len(exact)} exact matches", "elapsed_seconds": float(stage_durations.get("exact", 0.0) or 0.0)},
+        {"stage": "lexical", "label": "Lexical", "metric": f"{lexical_retrieved}/{len(lexical)} citations retrieved", "elapsed_seconds": float(stage_durations.get("lexical", 0.0) or 0.0)},
+        {"stage": "verify", "label": "Verify", "metric": f"{verified_count}/{len(verify)} verified", "elapsed_seconds": float(stage_durations.get("verify", 0.0) or 0.0)},
+        {"stage": "semantic", "label": "Semantic", "metric": f"{semantic_judged}/{len(semantic)} semantic judgments", "elapsed_seconds": semantic_elapsed},
+        {"stage": "report", "label": "Report", "metric": f"{report_summary.get('needs_review_count', 0)} need review", "elapsed_seconds": float(stage_durations.get("report", 0.0) or 0.0)},
     ]
 
 

@@ -1,0 +1,2872 @@
+[
+  {
+    "citation_id": 1,
+    "raw_citation": "A. J. Thirunavukarasu, D. S. J. Ting, K. Elangovan, L. Gutierrez, T. F. Tan, and D. S. W. Ting, “Large language models in medicine,” Nature medicine, vol. 29, no. 8, pp. 1930–1940, 2023.",
+    "parsed_title": "Large language models in medicine",
+    "parsed_authors": [
+      "A. J. Thirunavukarasu",
+      "D. S. J. Ting",
+      "K. Elangovan",
+      "L. Gutierrez",
+      "T. F. Tan",
+      "D. S. W. Ting"
+    ],
+    "parsed_year": 1930,
+    "parsed_venue": "Nature medicine",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "INTRODUCTION Large Language Models (LLMs) have dramatically trans- formed natural language processing, exhibiting extraordinary capabilities in tasks ranging from language generation and translation to complex reasoning and interactive dialogues [1]– [3].",
+        "expanded_context": [
+          "I.",
+          "INTRODUCTION Large Language Models (LLMs) have dramatically trans- formed natural language processing, exhibiting extraordinary capabilities in tasks ranging from language generation and translation to complex reasoning and interactive dialogues [1]– [3].",
+          "Despite these advancements, their extensive deployment across various industries raises signiﬁcant security and safety concerns, notably the potential for generating harmful, mis- leading, or unsafe content [4]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 2,
+    "raw_citation": "Z. Liu, X. Guo, F. Lou, L. Zeng, J. Niu, Z. Wang, J. Xu, W. Cai, Z. Yang, X. Zhao et al., “Fin-r1: A large language model for ﬁnancial reasoning through reinforcement learning,” arXiv preprint arXiv:2503.16252, 2025.",
+    "parsed_title": "Fin-r1: A large language model for ﬁnancial reasoning through reinforcement learning",
+    "parsed_authors": [
+      "Z. Liu",
+      "X. Guo",
+      "F. Lou",
+      "L. Zeng",
+      "J. Niu",
+      "Z. Wang",
+      "J. Xu",
+      "W. Cai",
+      "Z. Yang",
+      "X. Zhao"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2503.16252",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2503.16252",
+    "parsed_arxiv_id": "2503.16252",
+    "contexts": [
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 3,
+    "raw_citation": "J. Kaddour, J. Harris, M. Mozes, H. Bradley, R. Raileanu, and R. McHardy, “Challenges and applications of large language models,” arXiv preprint arXiv:2307.10169, 2023.",
+    "parsed_title": "Challenges and applications of large language models",
+    "parsed_authors": [
+      "J. Kaddour",
+      "J. Harris",
+      "M. Mozes",
+      "H. Bradley",
+      "R. Raileanu",
+      "R. McHardy"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2307.10169",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2307.10169",
+    "parsed_arxiv_id": "2307.10169",
+    "contexts": [
+      {
+        "sentence": "INTRODUCTION Large Language Models (LLMs) have dramatically trans- formed natural language processing, exhibiting extraordinary capabilities in tasks ranging from language generation and translation to complex reasoning and interactive dialogues [1]– [3].",
+        "expanded_context": [
+          "I.",
+          "INTRODUCTION Large Language Models (LLMs) have dramatically trans- formed natural language processing, exhibiting extraordinary capabilities in tasks ranging from language generation and translation to complex reasoning and interactive dialogues [1]– [3].",
+          "Despite these advancements, their extensive deployment across various industries raises signiﬁcant security and safety concerns, notably the potential for generating harmful, mis- leading, or unsafe content [4]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 4,
+    "raw_citation": "A. Wei, N. Haghtalab, and J. Steinhardt, “Jailbroken: How does llm safety training fail?” Advances in Neural Information Processing Systems, vol. 36, pp. 80 079–80 110, 2023.",
+    "parsed_title": "Jailbroken: How does llm safety training fail?: Advances in Neural Information Processing Systems",
+    "parsed_authors": [
+      "A. Wei",
+      "N. Haghtalab",
+      "J. Steinhardt"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Despite these advancements, their extensive deployment across various industries raises signiﬁcant security and safety concerns, notably the potential for generating harmful, mis- leading, or unsafe content [4].",
+        "expanded_context": [
+          "INTRODUCTION Large Language Models (LLMs) have dramatically trans- formed natural language processing, exhibiting extraordinary capabilities in tasks ranging from language generation and translation to complex reasoning and interactive dialogues [1]– [3].",
+          "Despite these advancements, their extensive deployment across various industries raises signiﬁcant security and safety concerns, notably the potential for generating harmful, mis- leading, or unsafe content [4].",
+          "To address these issues, tech- niques referred to as safety alignment have been introduced."
+        ]
+      },
+      {
+        "sentence": "Second, despite ef- forts to guide models toward ethical outputs, they remain susceptible to adversarial prompts, known as jailbreaks, which bypass safety mechanisms and elicit harmful responses [4], [7], [8].",
+        "expanded_context": [
+          "First, align- ment mechanisms lack robustness; even benign ﬁne-tuning intended to enhance general performance can inadvertently weaken existing safety constraints [6].",
+          "Second, despite ef- forts to guide models toward ethical outputs, they remain susceptible to adversarial prompts, known as jailbreaks, which bypass safety mechanisms and elicit harmful responses [4], [7], [8].",
+          "Yet, crafting universally effective jailbreak prompts remains challenging, as differences in training data, model architectures, and alignment strategies severely limit their transferability, rendering existing offensive research largely ad hoc and empirical."
+        ]
+      },
+      {
+        "sentence": "Typically, an adversary crafts adversarial inputs that bypass a model’s alignment constraints, enabling the generation of harmful, restricted, or policy- violating content [4], [7], [8].",
+        "expanded_context": [
+          "Among these, jailbreak attacks have become one of the most prominent and ac- cessible forms of exploitation.",
+          "Typically, an adversary crafts adversarial inputs that bypass a model’s alignment constraints, enabling the generation of harmful, restricted, or policy- violating content [4], [7], [8].",
+          "These attacks often leverage techniques such as obfuscation, role-playing, and contextual misdirection that exploit rigid safety decision boundaries of the model."
+        ]
+      },
+      {
+        "sentence": "Despite these efforts, recent studies demonstrate that even safety-aligned models remain vulnerable to jailbreak-style attacks [4], [27], [28]; the safety alignment itself can be compromised by benign ﬁne-tuning [6].",
+        "expanded_context": [
+          "Aligned models are trained to reject unsafe prompts with predictable refusals, aiming to minimize the risk of misuse.",
+          "Despite these efforts, recent studies demonstrate that even safety-aligned models remain vulnerable to jailbreak-style attacks [4], [27], [28]; the safety alignment itself can be compromised by benign ﬁne-tuning [6].",
+          "This evidence shows the fragile nature of safety alignment, urging a deeper investigation into the internal mechanisms behind it and the corresponding vulnerabilities."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 5,
+    "raw_citation": "L. Ouyang, J. Wu, X. Jiang, D. Almeida, C. Wainwright, P. Mishkin, C. Zhang, S. Agarwal, K. Slama, A. Ray et al., “Training language models to follow instructions with human feedback,” Advances in neural information processing systems, vol. 35, pp. 27 730–27 744, 2022.",
+    "parsed_title": "Training language models to follow instructions with human feedback",
+    "parsed_authors": [
+      "L. Ouyang",
+      "J. Wu",
+      "X. Jiang",
+      "D. Almeida",
+      "C. Wainwright",
+      "P. Mishkin",
+      "C. Zhang",
+      "S. Agarwal",
+      "K. Slama",
+      "A. Ray"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "Advances in neural information processing systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Implemented through post-training ﬁne-tuning, safety align- ment methods like Reinforcement Learning from Human Feedback (RLHF) [5] ﬁne-tune models to align outputs with human ethical judgments, compressing harmful responses.",
+        "expanded_context": [
+          "To address these issues, tech- niques referred to as safety alignment have been introduced.",
+          "Implemented through post-training ﬁne-tuning, safety align- ment methods like Reinforcement Learning from Human Feedback (RLHF) [5] ﬁne-tune models to align outputs with human ethical judgments, compressing harmful responses.",
+          "However, recent research has revealed signiﬁcant limitations in current safety alignment methods for LLMs."
+        ]
+      },
+      {
+        "sentence": "One promi- nent approach to ﬁne-tuning is Reinforcement Learning with Human Feedback (RLHF) [5].",
+        "expanded_context": [
+          "LLM Fine-Tuning Fine-tuning is essential for enhancing the capabilities, such as generating ethical content, of pretrained LLMs.",
+          "One promi- nent approach to ﬁne-tuning is Reinforcement Learning with Human Feedback (RLHF) [5].",
+          "RLHF involves initially ﬁne- tuning a model using supervised examples from human pref- erences, followed by reinforcement learning, where human feedback is converted into reward signals."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 6,
+    "raw_citation": "X. Qi, Y. Zeng, T. Xie, P.-Y. Chen, R. Jia, P. Mittal, and P. Henderson, “Fine-tuning aligned language models compromises safety, even when users do not intend to!” arXiv preprint arXiv:2310.03693, 2023.",
+    "parsed_title": "Fine-tuning aligned language models compromises safety, even when users do not intend to!",
+    "parsed_authors": [
+      "X. Qi",
+      "Y. Zeng",
+      "T. Xie",
+      "P.-Y. Chen",
+      "R. Jia",
+      "P. Mittal",
+      "P. Henderson"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.03693",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.03693",
+    "parsed_arxiv_id": "2310.03693",
+    "contexts": [
+      {
+        "sentence": "First, align- ment mechanisms lack robustness; even benign ﬁne-tuning intended to enhance general performance can inadvertently weaken existing safety constraints [6].",
+        "expanded_context": [
+          "However, recent research has revealed signiﬁcant limitations in current safety alignment methods for LLMs.",
+          "First, align- ment mechanisms lack robustness; even benign ﬁne-tuning intended to enhance general performance can inadvertently weaken existing safety constraints [6].",
+          "Second, despite ef- forts to guide models toward ethical outputs, they remain susceptible to adversarial prompts, known as jailbreaks, which bypass safety mechanisms and elicit harmful responses [4], [7], [8]."
+        ]
+      },
+      {
+        "sentence": "Despite these efforts, recent studies demonstrate that even safety-aligned models remain vulnerable to jailbreak-style attacks [4], [27], [28]; the safety alignment itself can be compromised by benign ﬁne-tuning [6].",
+        "expanded_context": [
+          "Aligned models are trained to reject unsafe prompts with predictable refusals, aiming to minimize the risk of misuse.",
+          "Despite these efforts, recent studies demonstrate that even safety-aligned models remain vulnerable to jailbreak-style attacks [4], [27], [28]; the safety alignment itself can be compromised by benign ﬁne-tuning [6].",
+          "This evidence shows the fragile nature of safety alignment, urging a deeper investigation into the internal mechanisms behind it and the corresponding vulnerabilities."
+        ]
+      },
+      {
+        "sentence": "When comparing with the ASR of the base model, we observe an ASR increase of 23% with the ﬁne-tuned model, which conﬁrms the conclusion from [6] that the safety alignment can be compromised by benign ﬁne-tuning.",
+        "expanded_context": [
+          "The ASR difference with the base model is highlighted in red/green.",
+          "When comparing with the ASR of the base model, we observe an ASR increase of 23% with the ﬁne-tuned model, which conﬁrms the conclusion from [6] that the safety alignment can be compromised by benign ﬁne-tuning.",
+          "Safety neurons identiﬁed from the base model remain effective across ﬁne-tuned variants."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 7,
+    "raw_citation": "Z. Niu, H. Ren, X. Gao, G. Hua, and R. Jin, “Jailbreaking attack against multimodal large language model,” arXiv preprint arXiv:2402.02309, 2024.",
+    "parsed_title": "Jailbreaking attack against multimodal large language model",
+    "parsed_authors": [
+      "Z. Niu",
+      "H. Ren",
+      "X. Gao",
+      "G. Hua",
+      "R. Jin"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2402.02309",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2402.02309",
+    "parsed_arxiv_id": "2402.02309",
+    "contexts": [
+      {
+        "sentence": "Second, despite ef- forts to guide models toward ethical outputs, they remain susceptible to adversarial prompts, known as jailbreaks, which bypass safety mechanisms and elicit harmful responses [4], [7], [8].",
+        "expanded_context": [
+          "First, align- ment mechanisms lack robustness; even benign ﬁne-tuning intended to enhance general performance can inadvertently weaken existing safety constraints [6].",
+          "Second, despite ef- forts to guide models toward ethical outputs, they remain susceptible to adversarial prompts, known as jailbreaks, which bypass safety mechanisms and elicit harmful responses [4], [7], [8].",
+          "Yet, crafting universally effective jailbreak prompts remains challenging, as differences in training data, model architectures, and alignment strategies severely limit their transferability, rendering existing offensive research largely ad hoc and empirical."
+        ]
+      },
+      {
+        "sentence": "Typically, an adversary crafts adversarial inputs that bypass a model’s alignment constraints, enabling the generation of harmful, restricted, or policy- violating content [4], [7], [8].",
+        "expanded_context": [
+          "Among these, jailbreak attacks have become one of the most prominent and ac- cessible forms of exploitation.",
+          "Typically, an adversary crafts adversarial inputs that bypass a model’s alignment constraints, enabling the generation of harmful, restricted, or policy- violating content [4], [7], [8].",
+          "These attacks often leverage techniques such as obfuscation, role-playing, and contextual misdirection that exploit rigid safety decision boundaries of the model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 8,
+    "raw_citation": "X. Shen, Z. Chen, M. Backes, Y. Shen, and Y. Zhang, “” do anything now”: Characterizing and evaluating in-the-wild jailbreak prompts on large language models,” in Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security, 2024, pp. 1671–1685.",
+    "parsed_title": "do anything now: Characterizing and evaluating in-the-wild jailbreak prompts on large language models,” in Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security",
+    "parsed_authors": [
+      "X. Shen",
+      "Z. Chen",
+      "M. Backes",
+      "Y. Shen",
+      "Y. Zhang"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Second, despite ef- forts to guide models toward ethical outputs, they remain susceptible to adversarial prompts, known as jailbreaks, which bypass safety mechanisms and elicit harmful responses [4], [7], [8].",
+        "expanded_context": [
+          "First, align- ment mechanisms lack robustness; even benign ﬁne-tuning intended to enhance general performance can inadvertently weaken existing safety constraints [6].",
+          "Second, despite ef- forts to guide models toward ethical outputs, they remain susceptible to adversarial prompts, known as jailbreaks, which bypass safety mechanisms and elicit harmful responses [4], [7], [8].",
+          "Yet, crafting universally effective jailbreak prompts remains challenging, as differences in training data, model architectures, and alignment strategies severely limit their transferability, rendering existing offensive research largely ad hoc and empirical."
+        ]
+      },
+      {
+        "sentence": "Common vectors of exploitation include adversarial attacks [23], [24], inference attacks [25], [25], and instruction tuning attacks [8], [26] (e.g., jailbreak- ing and prompt injection).",
+        "expanded_context": [
+          "LLM Exploitation & Countermeasures LLMs are susceptible to several security and safety exploits stemming from their open-ended generative capabilities and overparameterized nature.",
+          "Common vectors of exploitation include adversarial attacks [23], [24], inference attacks [25], [25], and instruction tuning attacks [8], [26] (e.g., jailbreak- ing and prompt injection).",
+          "These attacks often target model behavior to circumvent user intent, violate platform policy, or exﬁltrate sensitive information."
+        ]
+      },
+      {
+        "sentence": "Typically, an adversary crafts adversarial inputs that bypass a model’s alignment constraints, enabling the generation of harmful, restricted, or policy- violating content [4], [7], [8].",
+        "expanded_context": [
+          "Among these, jailbreak attacks have become one of the most prominent and ac- cessible forms of exploitation.",
+          "Typically, an adversary crafts adversarial inputs that bypass a model’s alignment constraints, enabling the generation of harmful, restricted, or policy- violating content [4], [7], [8].",
+          "These attacks often leverage techniques such as obfuscation, role-playing, and contextual misdirection that exploit rigid safety decision boundaries of the model."
+        ]
+      },
+      {
+        "sentence": "Early jailbreak methods used carefully engineered prompts, such as role-play, hidden directives, obfuscation, and prompt decomposition, to bypass LLM safety measures [8], [81]–[89].",
+        "expanded_context": [
+          "RELATED WORK Template-based Jailbreak Attacks.",
+          "Early jailbreak methods used carefully engineered prompts, such as role-play, hidden directives, obfuscation, and prompt decomposition, to bypass LLM safety measures [8], [81]–[89].",
+          "As models improved, these static methods became increasingly ineffective, prompt- ing the development of dynamic jailbreak attacks."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 9,
+    "raw_citation": "S. Li, L. Yao, L. Zhang, and Y. Li, “Safety layers in aligned large language models: The key to llm security,” arXiv preprint arXiv:2408.17003, 2024.",
+    "parsed_title": "Safety layers in aligned large language models: The key to llm security",
+    "parsed_authors": [
+      "S. Li",
+      "L. Yao",
+      "L. Zhang",
+      "Y. Li"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2408.17003",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2408.17003",
+    "parsed_arxiv_id": "2408.17003",
+    "contexts": [
+      {
+        "sentence": "On the other hand, recent studies have attempted to interpret the safety mechanisms in LLMs either at the layer level [9] or at the feature level [10].",
+        "expanded_context": [
+          "Yet, crafting universally effective jailbreak prompts remains challenging, as differences in training data, model architectures, and alignment strategies severely limit their transferability, rendering existing offensive research largely ad hoc and empirical.",
+          "On the other hand, recent studies have attempted to interpret the safety mechanisms in LLMs either at the layer level [9] or at the feature level [10].",
+          "However, these methods may not accurately pinpoint the critical components responsible for safety behaviors as they implicate nearly 10% of model parameters as safety-related."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 10,
+    "raw_citation": "J. Chen, X. Wang, Z. Yao, Y. Bai, L. Hou, and J. Li, “Finding safety neurons in large language models,” arXiv preprint arXiv:2406.14144, 2024.",
+    "parsed_title": "Finding safety neurons in large language models",
+    "parsed_authors": [
+      "J. Chen",
+      "X. Wang",
+      "Z. Yao",
+      "Y. Bai",
+      "L. Hou",
+      "J. Li"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2406.14144",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2406.14144",
+    "parsed_arxiv_id": "2406.14144",
+    "contexts": [
+      {
+        "sentence": "On the other hand, recent studies have attempted to interpret the safety mechanisms in LLMs either at the layer level [9] or at the feature level [10].",
+        "expanded_context": [
+          "Yet, crafting universally effective jailbreak prompts remains challenging, as differences in training data, model architectures, and alignment strategies severely limit their transferability, rendering existing offensive research largely ad hoc and empirical.",
+          "On the other hand, recent studies have attempted to interpret the safety mechanisms in LLMs either at the layer level [9] or at the feature level [10].",
+          "However, these methods may not accurately pinpoint the critical components responsible for safety behaviors as they implicate nearly 10% of model parameters as safety-related."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 11,
+    "raw_citation": "W. Zhao, Y. Hu, Z. Li, Y. Deng, Y. Zhao, B. Qin, and T.-S. Chua, “Towards comprehensive and efﬁcient post safety alignment of large language models via safety patching,” arXiv preprint arXiv:2405.13820, 2024.",
+    "parsed_title": "Towards comprehensive and efﬁcient post safety alignment of large language models via safety patching",
+    "parsed_authors": [
+      "W. Zhao",
+      "Y. Hu",
+      "Z. Li",
+      "Y. Deng",
+      "Y. Zhao",
+      "B. Qin",
+      "T.-S. Chua"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2405.13820",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2405.13820",
+    "parsed_arxiv_id": "2405.13820",
+    "contexts": [
+      {
+        "sentence": "Defensive tech- nique [11] narrowly focuses on speciﬁc layers and is validated for limited LLMs, constraining its practical applicability across diverse/multimodal LLMs.",
+        "expanded_context": [
+          "However, these methods may not accurately pinpoint the critical components responsible for safety behaviors as they implicate nearly 10% of model parameters as safety-related.",
+          "Defensive tech- nique [11] narrowly focuses on speciﬁc layers and is validated for limited LLMs, constraining its practical applicability across diverse/multimodal LLMs.",
+          "These gaps highlight the urgent need for a deeper, principled understanding of the underlying mechanisms governing safety alignment, which could inform more targeted, reliable, and generalizable attacks."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 12,
+    "raw_citation": "X. Xu, Z. Liu, S. Koffas, S. Yu, and S. Picek, “Ban: Detecting backdoors activated by adversarial neuron noise,” arXiv preprint arXiv:2405.19928, 2024.",
+    "parsed_title": "Ban: Detecting backdoors activated by adversarial neuron noise",
+    "parsed_authors": [
+      "X. Xu",
+      "Z. Liu",
+      "S. Koffas",
+      "S. Yu",
+      "S. Picek"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2405.19928",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2405.19928",
+    "parsed_arxiv_id": "2405.19928",
+    "contexts": [
+      {
+        "sentence": "Safety Alignment as a Loophole: When analyzing the behav- ior of aligned LLMs, we identify an analogy between safety alignment and adversarial attacks [12]–[14], where models exhibit predictable yet abnormal responses upon receiving specially crafted inputs.",
+        "expanded_context": [
+          "These gaps highlight the urgent need for a deeper, principled understanding of the underlying mechanisms governing safety alignment, which could inform more targeted, reliable, and generalizable attacks.",
+          "Safety Alignment as a Loophole: When analyzing the behav- ior of aligned LLMs, we identify an analogy between safety alignment and adversarial attacks [12]–[14], where models exhibit predictable yet abnormal responses upon receiving specially crafted inputs.",
+          "The aligned models are conditioned to respond predictably (e.g., “I’m sorry, I cannot assist with that.”) to malicious inputs, thereby implicitly creating a safety trigger."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 13,
+    "raw_citation": "S. Qiu, Q. Liu, S. Zhou, and C. Wu, “Review of artiﬁcial intelligence adversarial attack and defense technologies,” Applied Sciences, vol. 9, no. 5, p. 909, 2019.",
+    "parsed_title": "Review of artiﬁcial intelligence adversarial attack and defense technologies",
+    "parsed_authors": [
+      "S. Qiu",
+      "Q. Liu",
+      "S. Zhou",
+      "C. Wu"
+    ],
+    "parsed_year": 2019,
+    "parsed_venue": "Applied Sciences",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 14,
+    "raw_citation": "Y. Li, Y. Jiang, Z. Li, and S.-T. Xia, “Backdoor learning: A survey,” IEEE transactions on neural networks and learning systems, vol. 35, no. 1, pp. 5–22, 2022.",
+    "parsed_title": "Backdoor learning: A survey",
+    "parsed_authors": [
+      "Y. Li",
+      "Y. Jiang",
+      "Z. Li",
+      "S.-T. Xia"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "IEEE transactions on neural networks and learning systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Safety Alignment as a Loophole: When analyzing the behav- ior of aligned LLMs, we identify an analogy between safety alignment and adversarial attacks [12]–[14], where models exhibit predictable yet abnormal responses upon receiving specially crafted inputs.",
+        "expanded_context": [
+          "These gaps highlight the urgent need for a deeper, principled understanding of the underlying mechanisms governing safety alignment, which could inform more targeted, reliable, and generalizable attacks.",
+          "Safety Alignment as a Loophole: When analyzing the behav- ior of aligned LLMs, we identify an analogy between safety alignment and adversarial attacks [12]–[14], where models exhibit predictable yet abnormal responses upon receiving specially crafted inputs.",
+          "The aligned models are conditioned to respond predictably (e.g., “I’m sorry, I cannot assist with that.”) to malicious inputs, thereby implicitly creating a safety trigger."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 15,
+    "raw_citation": "D. Bau, B. Zhou, A. Khosla, A. Oliva, and A. Torralba, “Network dissection: Quantifying interpretability of deep visual representations,” in Proceedings of the IEEE conference on computer vision and pattern recognition, 2017, pp. 6541–6549.",
+    "parsed_title": "Network dissection: Quantifying interpretability of deep visual representations",
+    "parsed_authors": [
+      "D. Bau",
+      "B. Zhou",
+      "A. Khosla",
+      "A. Oliva",
+      "A. Torralba"
+    ],
+    "parsed_year": 2017,
+    "parsed_venue": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Inspired by neural interpretability research, which demonstrates that sophisticated behaviors in neural net- Network and Distributed System Security (NDSS) Symposium 2026 23 - 27 February 2026, San Diego, CA, USA ISBN 979-8-9919276-8-0 https://dx.doi.org/10.14722/ndss.2026.230660 www.ndss-symposium.org arXiv:2509.11864v3 [cs.CR] 26 Mar 2026 works often originate from sparse, highly specialized neuron groups [15], [16], we hypothesize that safety alignment is similarly implemented via dedicated neurons, denoted as safety neurons.",
+        "expanded_context": [
+          "The aligned models are conditioned to respond predictably (e.g., “I’m sorry, I cannot assist with that.”) to malicious inputs, thereby implicitly creating a safety trigger.",
+          "Inspired by neural interpretability research, which demonstrates that sophisticated behaviors in neural net- Network and Distributed System Security (NDSS) Symposium 2026 23 - 27 February 2026, San Diego, CA, USA ISBN 979-8-9919276-8-0 https://dx.doi.org/10.14722/ndss.2026.230660 www.ndss-symposium.org arXiv:2509.11864v3 [cs.CR] 26 Mar 2026 works often originate from sparse, highly specialized neuron groups [15], [16], we hypothesize that safety alignment is similarly implemented via dedicated neurons, denoted as safety neurons.",
+          "Similar to how the human brain has neurons that help us distinguish right from wrong, LLMs rely on speciﬁc safety neurons to recognize and suppress harmful behavior."
+        ]
+      },
+      {
+        "sentence": "Prior neural interpretability studies demonstrate that task- speciﬁc behaviors emerge from sparse subsets of special- ized neurons [15].",
+        "expanded_context": [
+          "Let hℓ(x) ∈Rd be the latent representation of an input x at layer ℓ, the decision boundary separates benign prompts XB from malicious prompts XM, represented as: g(hℓ(x); φ) = ( 1, x ∈XM, 0, x ∈XB, (4) where g(·; φ) is a latent binary classiﬁer parameterized by a subset of model parameters φ ⊆θ, reﬂecting the model’s internal separation between malicious and benign inputs.",
+          "Prior neural interpretability studies demonstrate that task- speciﬁc behaviors emerge from sparse subsets of special- ized neurons [15].",
+          "Analogously, due to the binary nature of g(hℓ(x); φ), there must exist neuron subsets whose activations distinctly and consistently differ between malicious and benign prompts, forming a sparse yet discriminative activation signa- ture."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 16,
+    "raw_citation": "A. Tamkin, M. Taufeeque, and N. D. Goodman, “Codebook features: Sparse and discrete interpretability for neural networks,” arXiv preprint arXiv:2310.17230, 2023.",
+    "parsed_title": "Codebook features: Sparse and discrete interpretability for neural networks",
+    "parsed_authors": [
+      "A. Tamkin",
+      "M. Taufeeque",
+      "N. D. Goodman"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.17230",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.17230",
+    "parsed_arxiv_id": "2310.17230",
+    "contexts": [
+      {
+        "sentence": "Inspired by neural interpretability research, which demonstrates that sophisticated behaviors in neural net- Network and Distributed System Security (NDSS) Symposium 2026 23 - 27 February 2026, San Diego, CA, USA ISBN 979-8-9919276-8-0 https://dx.doi.org/10.14722/ndss.2026.230660 www.ndss-symposium.org arXiv:2509.11864v3 [cs.CR] 26 Mar 2026 works often originate from sparse, highly specialized neuron groups [15], [16], we hypothesize that safety alignment is similarly implemented via dedicated neurons, denoted as safety neurons.",
+        "expanded_context": [
+          "The aligned models are conditioned to respond predictably (e.g., “I’m sorry, I cannot assist with that.”) to malicious inputs, thereby implicitly creating a safety trigger.",
+          "Inspired by neural interpretability research, which demonstrates that sophisticated behaviors in neural net- Network and Distributed System Security (NDSS) Symposium 2026 23 - 27 February 2026, San Diego, CA, USA ISBN 979-8-9919276-8-0 https://dx.doi.org/10.14722/ndss.2026.230660 www.ndss-symposium.org arXiv:2509.11864v3 [cs.CR] 26 Mar 2026 works often originate from sparse, highly specialized neuron groups [15], [16], we hypothesize that safety alignment is similarly implemented via dedicated neurons, denoted as safety neurons.",
+          "Similar to how the human brain has neurons that help us distinguish right from wrong, LLMs rely on speciﬁc safety neurons to recognize and suppress harmful behavior."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 17,
+    "raw_citation": "Z. Shao, P. Wang, Q. Zhu, R. Xu, J. Song, X. Bi, H. Zhang, M. Zhang, Y. Li, Y. Wu et al., “Deepseekmath: Pushing the limits of mathematical reasoning in open language models,” arXiv preprint arXiv:2402.03300, 2024.",
+    "parsed_title": "Deepseekmath: Pushing the limits of mathematical reasoning in open language models",
+    "parsed_authors": [
+      "Z. Shao",
+      "P. Wang",
+      "Q. Zhu",
+      "R. Xu",
+      "J. Song",
+      "X. Bi",
+      "H. Zhang",
+      "M. Zhang",
+      "Y. Li",
+      "Y. Wu"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2402.03300",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2402.03300",
+    "parsed_arxiv_id": "2402.03300",
+    "contexts": [
+      {
+        "sentence": "Speciﬁcally, our contributions are: • We introduce a novel perspective that identiﬁes safety alignment as creating a fundamental yet fragile safety trigger, implemented through sparse, specialized safety neurons that activate in response to harmful inputs. • We propose a novel and lightweight approach to ac- curately identify safety neurons in open-weight LLMs through analyzing neuron activations, enabling precise safety neuron pruning, and substantially improving the model’s likelihood of fulﬁlling malicious requests. • We present a novel LLM proﬁling attack for the black- box setting, which leverages the transferability of safety neurons to train adversarial prompt generators on an open-weight surrogate model with Group Relative Policy Optimization (GRPO) [17]. • Our comprehensive attacks, using only vanilla malicious 1Open-weight LLMs offer publicly available pre-trained weights indepen- dent of data or code openness. prompts2, increase the average attack success rate (ASR) from 12.1% to 76.9% across 11 open-source LLMs from Meta, Google, Alibaba, DeepSeek, and Microsoft.",
+        "expanded_context": [
+          "Since the LLM proﬁling attack is largely executed ofﬂine without direct interaction with the target model, it signiﬁcantly reduces the risk of detection by the LLM service provider.",
+          "Speciﬁcally, our contributions are: • We introduce a novel perspective that identiﬁes safety alignment as creating a fundamental yet fragile safety trigger, implemented through sparse, specialized safety neurons that activate in response to harmful inputs. • We propose a novel and lightweight approach to ac- curately identify safety neurons in open-weight LLMs through analyzing neuron activations, enabling precise safety neuron pruning, and substantially improving the model’s likelihood of fulﬁlling malicious requests. • We present a novel LLM proﬁling attack for the black- box setting, which leverages the transferability of safety neurons to train adversarial prompt generators on an open-weight surrogate model with Group Relative Policy Optimization (GRPO) [17]. • Our comprehensive attacks, using only vanilla malicious 1Open-weight LLMs offer publicly available pre-trained weights indepen- dent of data or code openness. prompts2, increase the average attack success rate (ASR) from 12.1% to 76.9% across 11 open-source LLMs from Meta, Google, Alibaba, DeepSeek, and Microsoft.",
+          "It generalizes robustly to four state-of-the-art multimodal models, reaching a 100% ASR on malicious image inputs after pruning."
+        ]
+      },
+      {
+        "sentence": "Recently, Group Relative Policy Optimization (GRPO) [17] has been proposed as a novel reinforcement learning technique to improve the reasoning capabilities of LLMs, such as DeepSeek-R1 [22].",
+        "expanded_context": [
+          "RLHF involves initially ﬁne- tuning a model using supervised examples from human pref- erences, followed by reinforcement learning, where human feedback is converted into reward signals.",
+          "Recently, Group Relative Policy Optimization (GRPO) [17] has been proposed as a novel reinforcement learning technique to improve the reasoning capabilities of LLMs, such as DeepSeek-R1 [22].",
+          "Unlike RLHF, which relies on value functions, GRPO evalu- ates groups of responses relative to each other, streamlining the training process and reducing computational overhead."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 19,
+    "raw_citation": "H. Touvron, T. Lavril, G. Izacard, X. Martinet, M.-A. Lachaux, T. Lacroix, B. Rozi`ere, N. Goyal, E. Hambro, F. Azhar et al., “Llama: Open and efﬁcient foundation language models,” arXiv preprint arXiv:2302.13971, 2023.",
+    "parsed_title": "Llama: Open and efﬁcient foundation language models",
+    "parsed_authors": [
+      "H. Touvron",
+      "T. Lavril",
+      "G. Izacard",
+      "X. Martinet",
+      "M.-A. Lachaux",
+      "T. Lacroix",
+      "B. Rozi`ere",
+      "N. Goyal",
+      "E. Hambro",
+      "F. Azhar"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2302.13971",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2302.13971",
+    "parsed_arxiv_id": "2302.13971",
+    "contexts": [
+      {
+        "sentence": "Large Language Models LLMs, such as GPT [18], LLaMA [19], and DeepSeek [20], are deep neural networks trained on extensive textual datasets to perform diverse natural language processing tasks.",
+        "expanded_context": [
+          "PRELIMINARIES A.",
+          "Large Language Models LLMs, such as GPT [18], LLaMA [19], and DeepSeek [20], are deep neural networks trained on extensive textual datasets to perform diverse natural language processing tasks.",
+          "These models predominantly use the transformer architecture [21], composed of stacked layers that integrate multi-head self- attention mechanisms and token-wise feed-forward networks commonly referred to as Multi-Layer Perceptrons (MLPs)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 21,
+    "raw_citation": "A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, L. Kaiser, and I. Polosukhin, “Attention is all you need,” Advances in neural information processing systems, vol. 30, 2017.",
+    "parsed_title": "Attention is all you need",
+    "parsed_authors": [
+      "A. Vaswani",
+      "N. Shazeer",
+      "N. Parmar",
+      "J. Uszkoreit",
+      "L. Jones",
+      "A. N. Gomez",
+      "L. Kaiser",
+      "I. Polosukhin"
+    ],
+    "parsed_year": 2017,
+    "parsed_venue": "Advances in neural information processing systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "These models predominantly use the transformer architecture [21], composed of stacked layers that integrate multi-head self- attention mechanisms and token-wise feed-forward networks commonly referred to as Multi-Layer Perceptrons (MLPs).",
+        "expanded_context": [
+          "Large Language Models LLMs, such as GPT [18], LLaMA [19], and DeepSeek [20], are deep neural networks trained on extensive textual datasets to perform diverse natural language processing tasks.",
+          "These models predominantly use the transformer architecture [21], composed of stacked layers that integrate multi-head self- attention mechanisms and token-wise feed-forward networks commonly referred to as Multi-Layer Perceptrons (MLPs).",
+          "Within each transformer block, the self-attention mechanism captures contextual relationships between tokens, while the MLP independently transforms each token’s representation."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 22,
+    "raw_citation": "D. Guo, D. Yang, H. Zhang, J. Song, R. Zhang, R. Xu, Q. Zhu, S. Ma, P. Wang, X. Bi et al., “Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning,” arXiv preprint arXiv:2501.12948, 2025.",
+    "parsed_title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+    "parsed_authors": [
+      "D. Guo",
+      "D. Yang",
+      "H. Zhang",
+      "J. Song",
+      "R. Zhang",
+      "R. Xu",
+      "Q. Zhu",
+      "S. Ma",
+      "P. Wang",
+      "X. Bi"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2501.12948",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2501.12948",
+    "parsed_arxiv_id": "2501.12948",
+    "contexts": [
+      {
+        "sentence": "Recently, Group Relative Policy Optimization (GRPO) [17] has been proposed as a novel reinforcement learning technique to improve the reasoning capabilities of LLMs, such as DeepSeek-R1 [22].",
+        "expanded_context": [
+          "RLHF involves initially ﬁne- tuning a model using supervised examples from human pref- erences, followed by reinforcement learning, where human feedback is converted into reward signals.",
+          "Recently, Group Relative Policy Optimization (GRPO) [17] has been proposed as a novel reinforcement learning technique to improve the reasoning capabilities of LLMs, such as DeepSeek-R1 [22].",
+          "Unlike RLHF, which relies on value functions, GRPO evalu- ates groups of responses relative to each other, streamlining the training process and reducing computational overhead."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 23,
+    "raw_citation": "K. Kurita, P. Michel, and G. Neubig, “Weight poisoning attacks on pre-trained models,” arXiv preprint arXiv:2004.06660, 2020.",
+    "parsed_title": "Weight poisoning attacks on pre-trained models",
+    "parsed_authors": [
+      "K. Kurita",
+      "P. Michel",
+      "G. Neubig"
+    ],
+    "parsed_year": 2004,
+    "parsed_venue": "arXiv preprint arXiv:2004.06660",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2004.06660",
+    "parsed_arxiv_id": "2004.06660",
+    "contexts": [
+      {
+        "sentence": "Common vectors of exploitation include adversarial attacks [23], [24], inference attacks [25], [25], and instruction tuning attacks [8], [26] (e.g., jailbreak- ing and prompt injection).",
+        "expanded_context": [
+          "LLM Exploitation & Countermeasures LLMs are susceptible to several security and safety exploits stemming from their open-ended generative capabilities and overparameterized nature.",
+          "Common vectors of exploitation include adversarial attacks [23], [24], inference attacks [25], [25], and instruction tuning attacks [8], [26] (e.g., jailbreak- ing and prompt injection).",
+          "These attacks often target model behavior to circumvent user intent, violate platform policy, or exﬁltrate sensitive information."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 24,
+    "raw_citation": "H. Yang, K. Xiang, M. Ge, H. Li, R. Lu, and S. Yu, “A comprehensive overview of backdoor attacks in large language models within communication networks,” IEEE Network, 2024.",
+    "parsed_title": "A comprehensive overview of backdoor attacks in large language models within communication networks",
+    "parsed_authors": [
+      "H. Yang",
+      "K. Xiang",
+      "M. Ge",
+      "H. Li",
+      "R. Lu",
+      "S. Yu"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "IEEE Network",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Common vectors of exploitation include adversarial attacks [23], [24], inference attacks [25], [25], and instruction tuning attacks [8], [26] (e.g., jailbreak- ing and prompt injection).",
+        "expanded_context": [
+          "LLM Exploitation & Countermeasures LLMs are susceptible to several security and safety exploits stemming from their open-ended generative capabilities and overparameterized nature.",
+          "Common vectors of exploitation include adversarial attacks [23], [24], inference attacks [25], [25], and instruction tuning attacks [8], [26] (e.g., jailbreak- ing and prompt injection).",
+          "These attacks often target model behavior to circumvent user intent, violate platform policy, or exﬁltrate sensitive information."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 25,
+    "raw_citation": "R. Staab, M. Vero, M. Balunovi´c, and M. Vechev, “Beyond memorization: Violating privacy via inference with large language models,” arXiv preprint arXiv:2310.07298, 2023.",
+    "parsed_title": "Beyond memorization: Violating privacy via inference with large language models",
+    "parsed_authors": [
+      "R. Staab",
+      "M. Vero",
+      "M. Balunovi´c",
+      "M. Vechev"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.07298",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.07298",
+    "parsed_arxiv_id": "2310.07298",
+    "contexts": [
+      {
+        "sentence": "Common vectors of exploitation include adversarial attacks [23], [24], inference attacks [25], [25], and instruction tuning attacks [8], [26] (e.g., jailbreak- ing and prompt injection).",
+        "expanded_context": [
+          "LLM Exploitation & Countermeasures LLMs are susceptible to several security and safety exploits stemming from their open-ended generative capabilities and overparameterized nature.",
+          "Common vectors of exploitation include adversarial attacks [23], [24], inference attacks [25], [25], and instruction tuning attacks [8], [26] (e.g., jailbreak- ing and prompt injection).",
+          "These attacks often target model behavior to circumvent user intent, violate platform policy, or exﬁltrate sensitive information."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 26,
+    "raw_citation": "Y. Liu, G. Deng, Y. Li, K. Wang, Z. Wang, X. Wang, T. Zhang, Y. Liu, H. Wang, Y. Zheng et al., “Prompt injection attack against llm-integrated applications,” arXiv preprint arXiv:2306.05499, 2023.",
+    "parsed_title": "Prompt injection attack against llm-integrated applications",
+    "parsed_authors": [
+      "Y. Liu",
+      "G. Deng",
+      "Y. Li",
+      "K. Wang",
+      "Z. Wang",
+      "X. Wang",
+      "T. Zhang",
+      "Y. Liu",
+      "H. Wang",
+      "Y. Zheng"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2306.05499",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2306.05499",
+    "parsed_arxiv_id": "2306.05499",
+    "contexts": [
+      {
+        "sentence": "Common vectors of exploitation include adversarial attacks [23], [24], inference attacks [25], [25], and instruction tuning attacks [8], [26] (e.g., jailbreak- ing and prompt injection).",
+        "expanded_context": [
+          "LLM Exploitation & Countermeasures LLMs are susceptible to several security and safety exploits stemming from their open-ended generative capabilities and overparameterized nature.",
+          "Common vectors of exploitation include adversarial attacks [23], [24], inference attacks [25], [25], and instruction tuning attacks [8], [26] (e.g., jailbreak- ing and prompt injection).",
+          "These attacks often target model behavior to circumvent user intent, violate platform policy, or exﬁltrate sensitive information."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 27,
+    "raw_citation": "G. Deng, Y. Liu, Y. Li, K. Wang, Y. Zhang, Z. Li, H. Wang, T. Zhang, and Y. Liu, “Masterkey: Automated jailbreaking of large language model chatbots,” in NDSS, 2024. [Online]. Available: https://www.ndss-symposium.org/ndss-paper/ masterkey-automated-jailbreaking-of-large-language-model-chatbots/",
+    "parsed_title": "Masterkey: Automated jailbreaking of large language model chatbots",
+    "parsed_authors": [
+      "G. Deng",
+      "Y. Liu",
+      "Y. Li",
+      "K. Wang",
+      "Y. Zhang",
+      "Z. Li",
+      "H. Wang",
+      "T. Zhang",
+      "Y. Liu"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "NDSS, 2024. [Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Despite these efforts, recent studies demonstrate that even safety-aligned models remain vulnerable to jailbreak-style attacks [4], [27], [28]; the safety alignment itself can be compromised by benign ﬁne-tuning [6].",
+        "expanded_context": [
+          "Aligned models are trained to reject unsafe prompts with predictable refusals, aiming to minimize the risk of misuse.",
+          "Despite these efforts, recent studies demonstrate that even safety-aligned models remain vulnerable to jailbreak-style attacks [4], [27], [28]; the safety alignment itself can be compromised by benign ﬁne-tuning [6].",
+          "This evidence shows the fragile nature of safety alignment, urging a deeper investigation into the internal mechanisms behind it and the corresponding vulnerabilities."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 28,
+    "raw_citation": "Z. Yu, X. Liu, S. Liang, Z. Cameron, C. Xiao, and N. Zhang, “Don’t listen to me: Understanding and exploring jailbreak prompts of large language models,” in 33rd USENIX Security Symposium (USENIX Security 24). Philadelphia, PA: USENIX Association, Aug. 2024, pp. 4675–4692. [Online]. Available: https://www.usenix.org/conference/ usenixsecurity24/presentation/yu-zhiyuan",
+    "parsed_title": "Don’t listen to me: Understanding and exploring jailbreak prompts of large language models",
+    "parsed_authors": [
+      "Z. Yu",
+      "X. Liu",
+      "S. Liang",
+      "Z. Cameron",
+      "C. Xiao",
+      "N. Zhang"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "33rd USENIX Security Symposium (USENIX Security 24). Philadelphia, PA: USENIX Association, Aug",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Despite these efforts, recent studies demonstrate that even safety-aligned models remain vulnerable to jailbreak-style attacks [4], [27], [28]; the safety alignment itself can be compromised by benign ﬁne-tuning [6].",
+        "expanded_context": [
+          "Aligned models are trained to reject unsafe prompts with predictable refusals, aiming to minimize the risk of misuse.",
+          "Despite these efforts, recent studies demonstrate that even safety-aligned models remain vulnerable to jailbreak-style attacks [4], [27], [28]; the safety alignment itself can be compromised by benign ﬁne-tuning [6].",
+          "This evidence shows the fragile nature of safety alignment, urging a deeper investigation into the internal mechanisms behind it and the corresponding vulnerabilities."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 29,
+    "raw_citation": "G. Team, A. Kamath, J. Ferret, S. Pathak, N. Vieillard, R. Merhej, S. Perrin, T. Matejovicova, A. Ram´e, M. Rivi`ere et al., “Gemma 3 technical report,” arXiv preprint arXiv:2503.19786, 2025.",
+    "parsed_title": "Gemma 3 technical report",
+    "parsed_authors": [
+      "G. Team",
+      "A. Kamath",
+      "J. Ferret",
+      "S. Pathak",
+      "N. Vieillard",
+      "R. Merhej",
+      "S. Perrin",
+      "T. Matejovicova",
+      "A. Ram´e",
+      "M. Rivi`ere"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2503.19786",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2503.19786",
+    "parsed_arxiv_id": "2503.19786",
+    "contexts": [
+      {
+        "sentence": "Moreover, major LLM developers frequently release open-weight versions that share core research and technology with their proprietary counterparts [29].",
+        "expanded_context": [
+          "LLM service providers often leverage open-weight models as the foundation for their proprietary services.",
+          "Moreover, major LLM developers frequently release open-weight versions that share core research and technology with their proprietary counterparts [29].",
+          "We provide more discussion about this attack assumption in Section XI."
+        ]
+      },
+      {
+        "sentence": "We choose gemma-3-1b-it, the latest and smallest model from the Gemma-3 family by Google [29] and Qwen2.5- 32B-Instruct [33], the base model of the latest and best- performing open-weight reasoning model, QwQ-32B [34], as the generator.",
+        "expanded_context": [
+          "LLM Proﬁling Attack We employ the LLM proﬁling attack to bypass the safety alignment of black-box models, including proprietary ones.",
+          "We choose gemma-3-1b-it, the latest and smallest model from the Gemma-3 family by Google [29] and Qwen2.5- 32B-Instruct [33], the base model of the latest and best- performing open-weight reasoning model, QwQ-32B [34], as the generator.",
+          "Since the generator may refuse the malicious input by directly applying supervised ﬁne-tuning (SFT) on the original model, we ﬁrst prune the generator by removing the previously identiﬁed safety neurons to eliminate its inherent safety alignment, then use the pruned model as the base model for SFT."
+        ]
+      },
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      },
+      {
+        "sentence": "We further assess the generality of safety neurons in state- of-the-art multimodal LLMs: Gemma-3 [29] and Qwen2.5- VL [50], which can process both image and text inputs.",
+        "expanded_context": [
+          "Once disrupted, the model’s safety alignment collapses.",
+          "We further assess the generality of safety neurons in state- of-the-art multimodal LLMs: Gemma-3 [29] and Qwen2.5- VL [50], which can process both image and text inputs.",
+          "Safety neurons are ﬁrst identiﬁed using only text inputs, identical to previous experiments."
+        ]
+      },
+      {
+        "sentence": "ATTACK ON BLACK-BOX AND PROPRIETARY LLMS To assess the transferability of safety neuron-guided attacks to black-box LLMs, we perform proﬁling attacks on Google’s Gemini models, Gemini-2.0-Flash, Gemini-2.0-Flash-Lite, and Gemini-1.5-Pro, using Gemma-3 as the open-weight surrogate due to their shared architecture and training approach [29].",
+        "expanded_context": [
+          "VIII.",
+          "ATTACK ON BLACK-BOX AND PROPRIETARY LLMS To assess the transferability of safety neuron-guided attacks to black-box LLMs, we perform proﬁling attacks on Google’s Gemini models, Gemini-2.0-Flash, Gemini-2.0-Flash-Lite, and Gemini-1.5-Pro, using Gemma-3 as the open-weight surrogate due to their shared architecture and training approach [29].",
+          "To reﬂect scenarios where open-weight models are deployed in proprietary systems, we also evaluate Gemma-3-1B-it and QwQ-32B as black-box targets, using Gemma-3-1B-it and Qwen2.5-32B-Instruct as their respective surrogates."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 30,
+    "raw_citation": "M. Geva, A. Caciularu, K. R. Wang, and Y. Goldberg, “Transformer feed-forward layers build predictions by promoting concepts in the vocabulary space,” arXiv preprint arXiv:2203.14680, 2022.",
+    "parsed_title": "Transformer feed-forward layers build predictions by promoting concepts in the vocabulary space",
+    "parsed_authors": [
+      "M. Geva",
+      "A. Caciularu",
+      "K. R. Wang",
+      "Y. Goldberg"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "arXiv preprint arXiv:2203.14680",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2203.14680",
+    "parsed_arxiv_id": "2203.14680",
+    "contexts": [
+      {
+        "sentence": "This choice is motivated by recent neural interpretability studies, which demonstrate that gate and up- projection layers in transformer architectures encode higher- level semantic representations and are particularly sensitive to input content [30], [31].",
+        "expanded_context": [
+          "These prompts are individually fed into the target LLM, and neuron activations are extracted speciﬁcally from the MLP layers, focusing explicitly on the gate and up- projection sublayers.",
+          "This choice is motivated by recent neural interpretability studies, which demonstrate that gate and up- projection layers in transformer architectures encode higher- level semantic representations and are particularly sensitive to input content [30], [31].",
+          "Consequently, these sublayers are more likely to manifest discriminative activation patterns distinguishing benign from malicious inputs."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 31,
+    "raw_citation": "H. J. Davies, “Decoding specialised feature neurons in llms with the ﬁnal projection layer,” arXiv preprint arXiv:2501.02688, 2025.",
+    "parsed_title": "Decoding specialised feature neurons in llms with the ﬁnal projection layer",
+    "parsed_authors": [
+      "H. J. Davies"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2501.02688",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2501.02688",
+    "parsed_arxiv_id": "2501.02688",
+    "contexts": [
+      {
+        "sentence": "This choice is motivated by recent neural interpretability studies, which demonstrate that gate and up- projection layers in transformer architectures encode higher- level semantic representations and are particularly sensitive to input content [30], [31].",
+        "expanded_context": [
+          "These prompts are individually fed into the target LLM, and neuron activations are extracted speciﬁcally from the MLP layers, focusing explicitly on the gate and up- projection sublayers.",
+          "This choice is motivated by recent neural interpretability studies, which demonstrate that gate and up- projection layers in transformer architectures encode higher- level semantic representations and are particularly sensitive to input content [30], [31].",
+          "Consequently, these sublayers are more likely to manifest discriminative activation patterns distinguishing benign from malicious inputs."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 32,
+    "raw_citation": "A. Grattaﬁori, A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, A. Letman, A. Mathur, A. Schelten, A. Vaughan et al., “The llama 3 herd of models,” arXiv preprint arXiv:2407.21783, 2024.",
+    "parsed_title": "The llama 3 herd of models",
+    "parsed_authors": [
+      "A. Grattaﬁori",
+      "A. Dubey",
+      "A. Jauhri",
+      "A. Pandey",
+      "A. Kadian",
+      "A. Al-Dahle",
+      "A. Letman",
+      "A. Mathur",
+      "A. Schelten",
+      "A. Vaughan"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2407.21783",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2407.21783",
+    "parsed_arxiv_id": "2407.21783",
+    "contexts": [
+      {
+        "sentence": "As a demonstration, Figure 3 shows the w of the classiﬁer on the ﬁrst up layer on a Llama-3 LLM (Llama-3.2-1B-Instruct) [32], the positive outliers, which indicate the location of the safety neurons, are highlighted in red.",
+        "expanded_context": [
+          "This stringent criterion ensures that only a sparse and specialized subset of neurons, which are genuinely critical to differentiating malicious inputs, are selected.",
+          "As a demonstration, Figure 3 shows the w of the classiﬁer on the ﬁrst up layer on a Llama-3 LLM (Llama-3.2-1B-Instruct) [32], the positive outliers, which indicate the location of the safety neurons, are highlighted in red.",
+          "Only 0.35% of the neurons are identiﬁed as safety neurons in this layer."
+        ]
+      },
+      {
+        "sentence": "We empirically validate and visualize these properties using activation patterns from the LLaMA-3.2-1B-Instruct model [32] (base model) and its ﬁne-tuned variant [45], monitoring the same safety neurons across both.",
+        "expanded_context": [
+          "CASE STUDY: VISUALIZING SAFETY NEURONS’ ACTIVATIONS As deﬁned in Section III, safety neurons are characterized by specialization, sparsity, and transferability.",
+          "We empirically validate and visualize these properties using activation patterns from the LLaMA-3.2-1B-Instruct model [32] (base model) and its ﬁne-tuned variant [45], monitoring the same safety neurons across both.",
+          "Activations are collected from all MLP layers (i.e., gate and up) using three prompt types: benign [46], vanilla malicious [35], and jailbreaking [35], each with 18 336 prompts."
+        ]
+      },
+      {
+        "sentence": "We apply Principal Component Analysis (PCA) to project the activations into 2D for visualization, leveraging its efﬁciency and ability to preserve global structure. (a) Base model [32]. (b) Fine-tuned model [45].",
+        "expanded_context": [
+          "Activations are collected from all MLP layers (i.e., gate and up) using three prompt types: benign [46], vanilla malicious [35], and jailbreaking [35], each with 18 336 prompts.",
+          "We apply Principal Component Analysis (PCA) to project the activations into 2D for visualization, leveraging its efﬁciency and ability to preserve global structure. (a) Base model [32]. (b) Fine-tuned model [45].",
+          "Fig. 4: PCA projection of safety neuron activations."
+        ]
+      },
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 33,
+    "raw_citation": "Q. Team, “Qwen2.5: A party of foundation models,” September 2024. [Online]. Available: https://qwenlm.github.io/blog/qwen2.5/",
+    "parsed_title": "Qwen2.5: A party of foundation models",
+    "parsed_authors": [
+      "Q. Team"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "September 2024. [Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "We choose gemma-3-1b-it, the latest and smallest model from the Gemma-3 family by Google [29] and Qwen2.5- 32B-Instruct [33], the base model of the latest and best- performing open-weight reasoning model, QwQ-32B [34], as the generator.",
+        "expanded_context": [
+          "LLM Proﬁling Attack We employ the LLM proﬁling attack to bypass the safety alignment of black-box models, including proprietary ones.",
+          "We choose gemma-3-1b-it, the latest and smallest model from the Gemma-3 family by Google [29] and Qwen2.5- 32B-Instruct [33], the base model of the latest and best- performing open-weight reasoning model, QwQ-32B [34], as the generator.",
+          "Since the generator may refuse the malicious input by directly applying supervised ﬁne-tuning (SFT) on the original model, we ﬁrst prune the generator by removing the previously identiﬁed safety neurons to eliminate its inherent safety alignment, then use the pruned model as the base model for SFT."
+        ]
+      },
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 34,
+    "raw_citation": "——, “Qwq-32b: Embracing the power of reinforcement learning,” March 2025. [Online]. Available: https://qwenlm.github.io/blog/ qwq-32b/",
+    "parsed_title": "Qwq-32b: Embracing the power of reinforcement learning",
+    "parsed_authors": [
+      "Q. Team"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "March 2025. [Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "We choose gemma-3-1b-it, the latest and smallest model from the Gemma-3 family by Google [29] and Qwen2.5- 32B-Instruct [33], the base model of the latest and best- performing open-weight reasoning model, QwQ-32B [34], as the generator.",
+        "expanded_context": [
+          "LLM Proﬁling Attack We employ the LLM proﬁling attack to bypass the safety alignment of black-box models, including proprietary ones.",
+          "We choose gemma-3-1b-it, the latest and smallest model from the Gemma-3 family by Google [29] and Qwen2.5- 32B-Instruct [33], the base model of the latest and best- performing open-weight reasoning model, QwQ-32B [34], as the generator.",
+          "Since the generator may refuse the malicious input by directly applying supervised ﬁne-tuning (SFT) on the original model, we ﬁrst prune the generator by removing the previously identiﬁed safety neurons to eliminate its inherent safety alignment, then use the pruned model as the base model for SFT."
+        ]
+      },
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 35,
+    "raw_citation": "W. Luo, S. Ma, X. Liu, X. Guo, and C. Xiao, “Jailbreakv-28k: A benchmark for assessing the robustness of multimodal large language models against jailbreak attacks,” 2024.",
+    "parsed_title": "Jailbreakv-28k: A benchmark for assessing the robustness of multimodal large language models against jailbreak attacks",
+    "parsed_authors": [
+      "W. Luo",
+      "S. Ma",
+      "X. Liu",
+      "X. Guo",
+      "C. Xiao"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "The SFT dataset comprises approximately 90 000 paired samples [35], [36], each con- taining a vanilla malicious request alongside its corresponding jailbreaking prompt variant.",
+        "expanded_context": [
+          "During SFT, the generator is instructed on effective jailbreaking prompt generation.",
+          "The SFT dataset comprises approximately 90 000 paired samples [35], [36], each con- taining a vanilla malicious request alongside its corresponding jailbreaking prompt variant.",
+          "After the preliminary testing on different hyperparameter choices, we set the learning rate to 5e-6 and the weight decay to 1e-2."
+        ]
+      },
+      {
+        "sentence": "Activations are collected from all MLP layers (i.e., gate and up) using three prompt types: benign [46], vanilla malicious [35], and jailbreaking [35], each with 18 336 prompts.",
+        "expanded_context": [
+          "We empirically validate and visualize these properties using activation patterns from the LLaMA-3.2-1B-Instruct model [32] (base model) and its ﬁne-tuned variant [45], monitoring the same safety neurons across both.",
+          "Activations are collected from all MLP layers (i.e., gate and up) using three prompt types: benign [46], vanilla malicious [35], and jailbreaking [35], each with 18 336 prompts.",
+          "We apply Principal Component Analysis (PCA) to project the activations into 2D for visualization, leveraging its efﬁciency and ability to preserve global structure. (a) Base model [32]. (b) Fine-tuned model [45]."
+        ]
+      },
+      {
+        "sentence": "We ﬁrst compare the ASR of our GRPO-generated prompts against two baselines from the JailBreakV-28K dataset [35]: (i) vanilla malicious prompts and (ii) manually crafted jailbreak prompts.",
+        "expanded_context": [
+          "Our attack pipeline follows Section IV-D; After training, we generate 2 000 prompts from the trained generator, validate on the surrogate model, and evaluate them on the target models.",
+          "We ﬁrst compare the ASR of our GRPO-generated prompts against two baselines from the JailBreakV-28K dataset [35]: (i) vanilla malicious prompts and (ii) manually crafted jailbreak prompts.",
+          "All evaluations are performed in a black-box manner using API access, and responses are classiﬁed as safe or unsafe using the Llama-Guard-3-8B judge model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 36,
+    "raw_citation": "L. Jiang, K. Rao, S. Han, A. Ettinger, F. Brahman, S. Kumar, N. Mireshghallah, X. Lu, M. Sap, Y. Choi, and N. Dziri, “Wildteaming at scale: From in-the-wild jailbreaks to (adversarially) safer language models,” 2024. [Online]. Available: https://arxiv.org/abs/2406.18510",
+    "parsed_title": "Wildteaming at scale: From in-the-wild jailbreaks to (adversarially) safer language models",
+    "parsed_authors": [
+      "L. Jiang",
+      "K. Rao",
+      "S. Han",
+      "A. Ettinger",
+      "F. Brahman",
+      "S. Kumar",
+      "N. Mireshghallah",
+      "X. Lu",
+      "M. Sap",
+      "Y. Choi",
+      "N. Dziri"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "[Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2406.18510",
+    "parsed_arxiv_id": "2406.18510",
+    "contexts": [
+      {
+        "sentence": "The SFT dataset comprises approximately 90 000 paired samples [35], [36], each con- taining a vanilla malicious request alongside its corresponding jailbreaking prompt variant.",
+        "expanded_context": [
+          "During SFT, the generator is instructed on effective jailbreaking prompt generation.",
+          "The SFT dataset comprises approximately 90 000 paired samples [35], [36], each con- taining a vanilla malicious request alongside its corresponding jailbreaking prompt variant.",
+          "After the preliminary testing on different hyperparameter choices, we set the learning rate to 5e-6 and the weight decay to 1e-2."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 37,
+    "raw_citation": "D. Kalajdzievski, “A rank stabilization scaling factor for ﬁne-tuning with lora,” arXiv preprint arXiv:2312.03732, 2023.",
+    "parsed_title": "A rank stabilization scaling factor for ﬁne-tuning with lora",
+    "parsed_authors": [
+      "D. Kalajdzievski"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2312.03732",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2312.03732",
+    "parsed_arxiv_id": "2312.03732",
+    "contexts": [
+      {
+        "sentence": "Besides, instead of full- model ﬁne-tuning, we integrate Rank-Stabilized Low-Rank Adaptation (RSLoRA) [37], a variant of LoRA [38] with rank-stabilized scaling for better performance, during GRPO ﬁne-tuning.",
+        "expanded_context": [
+          "To reduce the training time and GPU memory usage, we increase the learning rate to 1e-5 and reduce the batch size to eight.",
+          "Besides, instead of full- model ﬁne-tuning, we integrate Rank-Stabilized Low-Rank Adaptation (RSLoRA) [37], a variant of LoRA [38] with rank-stabilized scaling for better performance, during GRPO ﬁne-tuning.",
+          "RSLoRA enables the model to adapt its behavior using a small number of trainable parameters injected into the original weights."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 38,
+    "raw_citation": "E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, W. Chen et al., “Lora: Low-rank adaptation of large language models.” ICLR, vol. 1, no. 2, p. 3, 2022.",
+    "parsed_title": "Lora: Low-rank adaptation of large language models.: ICLR",
+    "parsed_authors": [
+      "E. J. Hu",
+      "Y. Shen",
+      "P. Wallis",
+      "Z. Allen-Zhu",
+      "Y. Li",
+      "S. Wang",
+      "L. Wang",
+      "W. Chen"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Besides, instead of full- model ﬁne-tuning, we integrate Rank-Stabilized Low-Rank Adaptation (RSLoRA) [37], a variant of LoRA [38] with rank-stabilized scaling for better performance, during GRPO ﬁne-tuning.",
+        "expanded_context": [
+          "To reduce the training time and GPU memory usage, we increase the learning rate to 1e-5 and reduce the batch size to eight.",
+          "Besides, instead of full- model ﬁne-tuning, we integrate Rank-Stabilized Low-Rank Adaptation (RSLoRA) [37], a variant of LoRA [38] with rank-stabilized scaling for better performance, during GRPO ﬁne-tuning.",
+          "RSLoRA enables the model to adapt its behavior using a small number of trainable parameters injected into the original weights."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 39,
+    "raw_citation": "H. Inan, K. Upasani, J. Chi, R. Rungta, K. Iyer, Y. Mao, M. Tontchev, Q. Hu, B. Fuller, D. Testuggine et al., “Llama guard: Llm-based input-output safeguard for human-ai conversations,” arXiv preprint arXiv:2312.06674, 2023.",
+    "parsed_title": "Llama guard: Llm-based input-output safeguard for human-ai conversations",
+    "parsed_authors": [
+      "H. Inan",
+      "K. Upasani",
+      "J. Chi",
+      "R. Rungta",
+      "K. Iyer",
+      "Y. Mao",
+      "M. Tontchev",
+      "Q. Hu",
+      "B. Fuller",
+      "D. Testuggine"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2312.06674",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2312.06674",
+    "parsed_arxiv_id": "2312.06674",
+    "contexts": [
+      {
+        "sentence": "Following Eq. (13), we calculate Rjb using a binary classi- ﬁer provided by the safety-aligned LLM judge (Llama-Guard- 3-8b [39]).",
+        "expanded_context": [
+          "Speciﬁcally, after preliminary experiments on different hyperparameter settings, the RSLoRA is applied on all linear layers with a rank r = 128 and a scaling factor α = 16, and dropout set to 1e-2 to regularize training.",
+          "Following Eq. (13), we calculate Rjb using a binary classi- ﬁer provided by the safety-aligned LLM judge (Llama-Guard- 3-8b [39]).",
+          "To reduce misjudgment, we further introduce keyword detection to ensure that LLM refusal responses are accurately detected."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 40,
+    "raw_citation": "R. Zellers, A. Holtzman, Y. Bisk, A. Farhadi, and Y. Choi, “Hellaswag: Can a machine really ﬁnish your sentence?” arXiv preprint arXiv:1905.07830, 2019.",
+    "parsed_title": "Hellaswag: Can a machine really ﬁnish your sentence?",
+    "parsed_authors": [
+      "R. Zellers",
+      "A. Holtzman",
+      "Y. Bisk",
+      "A. Farhadi",
+      "Y. Choi"
+    ],
+    "parsed_year": 1905,
+    "parsed_venue": "arXiv preprint arXiv:1905.07830",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1905.07830",
+    "parsed_arxiv_id": "1905.07830",
+    "contexts": [
+      {
+        "sentence": "ASR = 1 |Xjb| X x∈Xjb I \u0002 fθtgt(x) ∈Yunsafe \u0003 , (17) where I[·] is the indicator function. • Safety Neuron Ratio (Ratio): The percentage of the safety neurons in all neurons of targeted layers. • Utility: The general language modeling capability after the safety neuron removal, evaluated on language under- standing and reasoning benchmarks [40]–[44].",
+        "expanded_context": [
+          "Evaluation Metrics We evaluate NeuroStrike using the three metrics: • Attack Success Rate (ASR): The percentage of malicious prompts that result in harmful outputs.",
+          "ASR = 1 |Xjb| X x∈Xjb I \u0002 fθtgt(x) ∈Yunsafe \u0003 , (17) where I[·] is the indicator function. • Safety Neuron Ratio (Ratio): The percentage of the safety neurons in all neurons of targeted layers. • Utility: The general language modeling capability after the safety neuron removal, evaluated on language under- standing and reasoning benchmarks [40]–[44].",
+          "VI."
+        ]
+      },
+      {
+        "sentence": "In this section, we compare the performance of the original and pruned mod- els on language understanding and reasoning benchmarks: HellaSwag [40], Recognizing Textual Entailment (RTE) [41], WinoGrande [42], ARC Challenge [43], OpenBookQA [44], and Corpus of Linguistic Acceptability (CoLA) [41].",
+        "expanded_context": [
+          "Pruned Models While pruning safety neurons signiﬁcantly increases ASR, it is essential to ensure that this intervention does not degrade the model’s general-purpose capabilities.",
+          "In this section, we compare the performance of the original and pruned mod- els on language understanding and reasoning benchmarks: HellaSwag [40], Recognizing Textual Entailment (RTE) [41], WinoGrande [42], ARC Challenge [43], OpenBookQA [44], and Corpus of Linguistic Acceptability (CoLA) [41].",
+          "Figure 5 shows the comparative performance of original and pruned models across these benchmarks."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 41,
+    "raw_citation": "A. Wang, A. Singh, J. Michael, F. Hill, O. Levy, and S. R. Bowman, “Glue: A multi-task benchmark and analysis platform for natural language understanding,” arXiv preprint arXiv:1804.07461, 2018.",
+    "parsed_title": "Glue: A multi-task benchmark and analysis platform for natural language understanding",
+    "parsed_authors": [
+      "A. Wang",
+      "A. Singh",
+      "J. Michael",
+      "F. Hill",
+      "O. Levy",
+      "S. R. Bowman"
+    ],
+    "parsed_year": 2018,
+    "parsed_venue": "arXiv preprint arXiv:1804.07461",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1804.07461",
+    "parsed_arxiv_id": "1804.07461",
+    "contexts": [
+      {
+        "sentence": "In this section, we compare the performance of the original and pruned mod- els on language understanding and reasoning benchmarks: HellaSwag [40], Recognizing Textual Entailment (RTE) [41], WinoGrande [42], ARC Challenge [43], OpenBookQA [44], and Corpus of Linguistic Acceptability (CoLA) [41].",
+        "expanded_context": [
+          "Pruned Models While pruning safety neurons signiﬁcantly increases ASR, it is essential to ensure that this intervention does not degrade the model’s general-purpose capabilities.",
+          "In this section, we compare the performance of the original and pruned mod- els on language understanding and reasoning benchmarks: HellaSwag [40], Recognizing Textual Entailment (RTE) [41], WinoGrande [42], ARC Challenge [43], OpenBookQA [44], and Corpus of Linguistic Acceptability (CoLA) [41].",
+          "Figure 5 shows the comparative performance of original and pruned models across these benchmarks."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 42,
+    "raw_citation": "K. Sakaguchi, R. L. Bras, C. Bhagavatula, and Y. Choi, “Winogrande: An adversarial winograd schema challenge at scale,” Communications of the ACM, vol. 64, no. 9, pp. 99–106, 2021.",
+    "parsed_title": "Winogrande: An adversarial winograd schema challenge at scale",
+    "parsed_authors": [
+      "K. Sakaguchi",
+      "R. L. Bras",
+      "C. Bhagavatula",
+      "Y. Choi"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "Communications of the ACM",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "In this section, we compare the performance of the original and pruned mod- els on language understanding and reasoning benchmarks: HellaSwag [40], Recognizing Textual Entailment (RTE) [41], WinoGrande [42], ARC Challenge [43], OpenBookQA [44], and Corpus of Linguistic Acceptability (CoLA) [41].",
+        "expanded_context": [
+          "Pruned Models While pruning safety neurons signiﬁcantly increases ASR, it is essential to ensure that this intervention does not degrade the model’s general-purpose capabilities.",
+          "In this section, we compare the performance of the original and pruned mod- els on language understanding and reasoning benchmarks: HellaSwag [40], Recognizing Textual Entailment (RTE) [41], WinoGrande [42], ARC Challenge [43], OpenBookQA [44], and Corpus of Linguistic Acceptability (CoLA) [41].",
+          "Figure 5 shows the comparative performance of original and pruned models across these benchmarks."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 43,
+    "raw_citation": "P. Clark, I. Cowhey, O. Etzioni, T. Khot, A. Sabharwal, C. Schoenick, and O. Tafjord, “Think you have solved question answering? try arc, the ai2 reasoning challenge,” arXiv preprint arXiv:1803.05457, 2018.",
+    "parsed_title": "Think you have solved question answering? try arc, the ai2 reasoning challenge",
+    "parsed_authors": [
+      "P. Clark",
+      "I. Cowhey",
+      "O. Etzioni",
+      "T. Khot",
+      "A. Sabharwal",
+      "C. Schoenick",
+      "O. Tafjord"
+    ],
+    "parsed_year": 2018,
+    "parsed_venue": "arXiv preprint arXiv:1803.05457",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1803.05457",
+    "parsed_arxiv_id": "1803.05457",
+    "contexts": [
+      {
+        "sentence": "In this section, we compare the performance of the original and pruned mod- els on language understanding and reasoning benchmarks: HellaSwag [40], Recognizing Textual Entailment (RTE) [41], WinoGrande [42], ARC Challenge [43], OpenBookQA [44], and Corpus of Linguistic Acceptability (CoLA) [41].",
+        "expanded_context": [
+          "Pruned Models While pruning safety neurons signiﬁcantly increases ASR, it is essential to ensure that this intervention does not degrade the model’s general-purpose capabilities.",
+          "In this section, we compare the performance of the original and pruned mod- els on language understanding and reasoning benchmarks: HellaSwag [40], Recognizing Textual Entailment (RTE) [41], WinoGrande [42], ARC Challenge [43], OpenBookQA [44], and Corpus of Linguistic Acceptability (CoLA) [41].",
+          "Figure 5 shows the comparative performance of original and pruned models across these benchmarks."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 44,
+    "raw_citation": "T. Mihaylov, P. Clark, T. Khot, and A. Sabharwal, “Can a suit of armor conduct electricity? a new dataset for open book question answering,” arXiv preprint arXiv:1809.02789, 2018.",
+    "parsed_title": "Can a suit of armor conduct electricity? a new dataset for open book question answering",
+    "parsed_authors": [
+      "T. Mihaylov",
+      "P. Clark",
+      "T. Khot",
+      "A. Sabharwal"
+    ],
+    "parsed_year": 2018,
+    "parsed_venue": "arXiv preprint arXiv:1809.02789",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1809.02789",
+    "parsed_arxiv_id": "1809.02789",
+    "contexts": [
+      {
+        "sentence": "ASR = 1 |Xjb| X x∈Xjb I \u0002 fθtgt(x) ∈Yunsafe \u0003 , (17) where I[·] is the indicator function. • Safety Neuron Ratio (Ratio): The percentage of the safety neurons in all neurons of targeted layers. • Utility: The general language modeling capability after the safety neuron removal, evaluated on language under- standing and reasoning benchmarks [40]–[44].",
+        "expanded_context": [
+          "Evaluation Metrics We evaluate NeuroStrike using the three metrics: • Attack Success Rate (ASR): The percentage of malicious prompts that result in harmful outputs.",
+          "ASR = 1 |Xjb| X x∈Xjb I \u0002 fθtgt(x) ∈Yunsafe \u0003 , (17) where I[·] is the indicator function. • Safety Neuron Ratio (Ratio): The percentage of the safety neurons in all neurons of targeted layers. • Utility: The general language modeling capability after the safety neuron removal, evaluated on language under- standing and reasoning benchmarks [40]–[44].",
+          "VI."
+        ]
+      },
+      {
+        "sentence": "In this section, we compare the performance of the original and pruned mod- els on language understanding and reasoning benchmarks: HellaSwag [40], Recognizing Textual Entailment (RTE) [41], WinoGrande [42], ARC Challenge [43], OpenBookQA [44], and Corpus of Linguistic Acceptability (CoLA) [41].",
+        "expanded_context": [
+          "Pruned Models While pruning safety neurons signiﬁcantly increases ASR, it is essential to ensure that this intervention does not degrade the model’s general-purpose capabilities.",
+          "In this section, we compare the performance of the original and pruned mod- els on language understanding and reasoning benchmarks: HellaSwag [40], Recognizing Textual Entailment (RTE) [41], WinoGrande [42], ARC Challenge [43], OpenBookQA [44], and Corpus of Linguistic Acceptability (CoLA) [41].",
+          "Figure 5 shows the comparative performance of original and pruned models across these benchmarks."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 45,
+    "raw_citation": "A. Nikolich, K. Korolev, S. Bratchikov, I. Kiselev, and A. Shelmanov, “Vikhr: Constructing a State-of-the-art Bilingual Open-Source Instruction-Following Large Language Model for Russian,” Proceedings of the Fourth Workshop on Multilingual Representation Learning (MRL), 2024, pp 189–199. [Online]. Available: https://aclanthology.org/2024.mrl-1.15/",
+    "parsed_title": "Vikhr: Constructing a State-of-the-art Bilingual Open-Source Instruction-Following Large Language Model for Russian",
+    "parsed_authors": [
+      "A. Nikolich",
+      "K. Korolev",
+      "S. Bratchikov",
+      "I. Kiselev",
+      "A. Shelmanov"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "Proceedings of the Fourth Workshop on Multilingual Representation Learning (MRL), 2024, pp 189–199. [Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "We empirically validate and visualize these properties using activation patterns from the LLaMA-3.2-1B-Instruct model [32] (base model) and its ﬁne-tuned variant [45], monitoring the same safety neurons across both.",
+        "expanded_context": [
+          "CASE STUDY: VISUALIZING SAFETY NEURONS’ ACTIVATIONS As deﬁned in Section III, safety neurons are characterized by specialization, sparsity, and transferability.",
+          "We empirically validate and visualize these properties using activation patterns from the LLaMA-3.2-1B-Instruct model [32] (base model) and its ﬁne-tuned variant [45], monitoring the same safety neurons across both.",
+          "Activations are collected from all MLP layers (i.e., gate and up) using three prompt types: benign [46], vanilla malicious [35], and jailbreaking [35], each with 18 336 prompts."
+        ]
+      },
+      {
+        "sentence": "We apply Principal Component Analysis (PCA) to project the activations into 2D for visualization, leveraging its efﬁciency and ability to preserve global structure. (a) Base model [32]. (b) Fine-tuned model [45].",
+        "expanded_context": [
+          "Activations are collected from all MLP layers (i.e., gate and up) using three prompt types: benign [46], vanilla malicious [35], and jailbreaking [35], each with 18 336 prompts.",
+          "We apply Principal Component Analysis (PCA) to project the activations into 2D for visualization, leveraging its efﬁciency and ability to preserve global structure. (a) Base model [32]. (b) Fine-tuned model [45].",
+          "Fig. 4: PCA projection of safety neuron activations."
+        ]
+      },
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 46,
+    "raw_citation": "W. Yuan, J. Yu, S. Jiang, K. Padthe, Y. Li, D. Wang, I. Kulikov, K. Cho, Y. Tian, J. E. Weston, and X. Li, “Naturalreasoning: Reasoning in the wild with 2.8m challenging questions,” 2025. [Online]. Available: https://arxiv.org/abs/2502.13124",
+    "parsed_title": "Naturalreasoning: Reasoning in the wild with 2.8m challenging questions",
+    "parsed_authors": [
+      "W. Yuan",
+      "J. Yu",
+      "S. Jiang",
+      "K. Padthe",
+      "Y. Li",
+      "D. Wang",
+      "I. Kulikov",
+      "K. Cho",
+      "Y. Tian",
+      "J. E. Weston",
+      "X. Li"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "[Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2502.13124",
+    "parsed_arxiv_id": "2502.13124",
+    "contexts": [
+      {
+        "sentence": "Activations are collected from all MLP layers (i.e., gate and up) using three prompt types: benign [46], vanilla malicious [35], and jailbreaking [35], each with 18 336 prompts.",
+        "expanded_context": [
+          "We empirically validate and visualize these properties using activation patterns from the LLaMA-3.2-1B-Instruct model [32] (base model) and its ﬁne-tuned variant [45], monitoring the same safety neurons across both.",
+          "Activations are collected from all MLP layers (i.e., gate and up) using three prompt types: benign [46], vanilla malicious [35], and jailbreaking [35], each with 18 336 prompts.",
+          "We apply Principal Component Analysis (PCA) to project the activations into 2D for visualization, leveraging its efﬁciency and ability to preserve global structure. (a) Base model [32]. (b) Fine-tuned model [45]."
+        ]
+      },
+      {
+        "sentence": "As described in Section V-A, we begin by identifying safety neurons using a balanced dataset of over 7 000 malicious [63]– [65] and 7 000 benign prompts [46].",
+        "expanded_context": [
+          "These safety mechanisms aim to broadly reduce harmful or sensitive outputs and are not designed for speciﬁc domains such as cybersecurity or biosecurity.",
+          "As described in Section V-A, we begin by identifying safety neurons using a balanced dataset of over 7 000 malicious [63]– [65] and 7 000 benign prompts [46].",
+          "For evaluation, we launch attacks using four additional benchmark datasets [66]–[69] to assess the generalizability of identiﬁed neurons."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 47,
+    "raw_citation": "Meta, “Llama 3.2: Revolutionizing edge ai and vision with open, customizable models,” September 2024. [Online]. Available: https://ai. meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+    "parsed_title": "Llama 3.2: Revolutionizing edge ai and vision with open, customizable models",
+    "parsed_authors": [
+      "Meta"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "September 2024. [Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 48,
+    "raw_citation": "B. Hui, J. Yang, Z. Cui, J. Yang, D. Liu, L. Zhang, T. Liu, J. Zhang, B. Yu, K. Dang et al., “Qwen2. 5-coder technical report,” arXiv preprint arXiv:2409.12186, 2024.",
+    "parsed_title": "Qwen2. 5-coder technical report",
+    "parsed_authors": [
+      "B. Hui",
+      "J. Yang",
+      "Z. Cui",
+      "J. Yang",
+      "D. Liu",
+      "L. Zhang",
+      "T. Liu",
+      "J. Zhang",
+      "B. Yu",
+      "K. Dang"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2409.12186",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2409.12186",
+    "parsed_arxiv_id": "2409.12186",
+    "contexts": [
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 49,
+    "raw_citation": "A. Yang, B. Zhang, B. Hui, B. Gao, B. Yu, C. Li, D. Liu, J. Tu, J. Zhou, J. Lin et al., “Qwen2. 5-math technical report: Toward mathematical expert model via self-improvement,” arXiv preprint arXiv:2409.12122, 2024.",
+    "parsed_title": "Qwen2. 5-math technical report: Toward mathematical expert model via self-improvement",
+    "parsed_authors": [
+      "A. Yang",
+      "B. Zhang",
+      "B. Hui",
+      "B. Gao",
+      "B. Yu",
+      "C. Li",
+      "D. Liu",
+      "J. Tu",
+      "J. Zhou",
+      "J. Lin"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2409.12122",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2409.12122",
+    "parsed_arxiv_id": "2409.12122",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 52,
+    "raw_citation": "A. Abouelenin, A. Ashfaq, A. Atkinson, H. Awadalla, N. Bach, J. Bao, A. Benhaim, M. Cai, V. Chaudhary, C. Chen et al., “Phi-4-mini technical report: Compact yet powerful multimodal language models via mixture-of-loras,” arXiv preprint arXiv:2503.01743, 2025.",
+    "parsed_title": "Phi-4-mini technical report: Compact yet powerful multimodal language models via mixture-of-loras",
+    "parsed_authors": [
+      "A. Abouelenin",
+      "A. Ashfaq",
+      "A. Atkinson",
+      "H. Awadalla",
+      "N. Bach",
+      "J. Bao",
+      "A. Benhaim",
+      "M. Cai",
+      "V. Chaudhary",
+      "C. Chen"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2503.01743",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2503.01743",
+    "parsed_arxiv_id": "2503.01743",
+    "contexts": [
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 53,
+    "raw_citation": "G. Team, T. Mesnard, C. Hardin, R. Dadashi, S. Bhupatiraju, S. Pathak, L. Sifre, M. Rivi`ere, M. S. Kale, J. Love et al., “Gemma: Open models based on gemini research and technology,” arXiv preprint arXiv:2403.08295, 2024.",
+    "parsed_title": "Gemma: Open models based on gemini research and technology",
+    "parsed_authors": [
+      "G. Team",
+      "T. Mesnard",
+      "C. Hardin",
+      "R. Dadashi",
+      "S. Bhupatiraju",
+      "S. Pathak",
+      "L. Sifre",
+      "M. Rivi`ere",
+      "M. S. Kale",
+      "J. Love"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2403.08295",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2403.08295",
+    "parsed_arxiv_id": "2403.08295",
+    "contexts": [
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 54,
+    "raw_citation": "DeepSeek-AI, “Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning,” 2025. [Online]. Available: https: //arxiv.org/abs/2501.12948",
+    "parsed_title": "Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning",
+    "parsed_authors": [
+      "DeepSeek-AI"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "[Online]. Available: https: //arxiv.org/abs/2501.12948",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2501.12948",
+    "parsed_arxiv_id": "2501.12948",
+    "contexts": [
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 55,
+    "raw_citation": "K. Zhang, S. Zeng, E. Hua, N. Ding, Z.-R. Chen, Z. Ma, H. Li, G. Cui, B. Qi, X. Zhu et al., “Ultramedical: Building specialized generalists in biomedicine,” Advances in Neural Information Processing Systems, vol. 37, pp. 26 045–26 081, 2024.",
+    "parsed_title": "Ultramedical: Building specialized generalists in biomedicine",
+    "parsed_authors": [
+      "K. Zhang",
+      "S. Zeng",
+      "E. Hua",
+      "N. Ding",
+      "Z.-R. Chen",
+      "Z. Ma",
+      "H. Li",
+      "G. Cui",
+      "B. Qi",
+      "X. Zhu"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "Advances in Neural Information Processing Systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+        "expanded_context": [
+          "VII.",
+          "ATTACK ON OPEN-WEIGHT LLMS We evaluate our attack on 24 open-source LLMs with diverse architectures and sizes, including models from Meta [32], [47], Alibaba [33], [34], [48]–[50], Microsoft [51], [52], Google [29], [53], and DeepSeek [54], as well as 11 of their ﬁne-tuned variants [2], [45], [48], [55]–[62].",
+          "All considered LLMs include built-in general-purpose safety alignment or are ﬁne-tuned from base models that were aligned before release, typically via supervised ﬁne-tuning (SFT) and reinforcement learning from human feedback (RLHF)."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 57,
+    "raw_citation": "O. (oxyapi), “Oxy small: A ﬁne-tuned qwen2.5-14b-instruct model for role-play,” 2024. [Online]. Available: https://huggingface. co/oxyapi/oxy-1-small",
+    "parsed_title": "Oxy small: A ﬁne-tuned qwen2.5-14b-instruct model for role-play",
+    "parsed_authors": [
+      "O. (oxyapi)"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "[Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 58,
+    "raw_citation": "N. Muennighoff, Z. Yang, W. Shi, X. L. Li, L. Fei-Fei, H. Hajishirzi, L. Zettlemoyer, P. Liang, E. Cand`es, and T. Hashimoto, “s1: Simple test-time scaling,” 2025. [Online]. Available: https: //arxiv.org/abs/2501.19393",
+    "parsed_title": "s1: Simple test-time scaling",
+    "parsed_authors": [
+      "N. Muennighoff",
+      "Z. Yang",
+      "W. Shi",
+      "X. L. Li",
+      "L. Fei-Fei",
+      "H. Hajishirzi",
+      "L. Zettlemoyer",
+      "P. Liang",
+      "E. Cand`es",
+      "T. Hashimoto"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "[Online]. Available: https: //arxiv.org/abs/2501.19393",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2501.19393",
+    "parsed_arxiv_id": "2501.19393",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 64,
+    "raw_citation": "R. Bhardwaj, D. D. Anh, and S. Poria, “Language models are homer simpson! safety re-alignment of ﬁne-tuned language models through task arithmetic,” 2024.",
+    "parsed_title": "Language models are homer simpson! safety re-alignment of ﬁne-tuned language models through task arithmetic",
+    "parsed_authors": [
+      "R. Bhardwaj",
+      "D. D. Anh",
+      "S. Poria"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 65,
+    "raw_citation": "R. Bhardwaj and S. Poria, “Red-teaming large language models using chain of utterances for safety-alignment,” 2023.",
+    "parsed_title": "Red-teaming large language models using chain of utterances for safety-alignment",
+    "parsed_authors": [
+      "R. Bhardwaj",
+      "S. Poria"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "As described in Section V-A, we begin by identifying safety neurons using a balanced dataset of over 7 000 malicious [63]– [65] and 7 000 benign prompts [46].",
+        "expanded_context": [
+          "These safety mechanisms aim to broadly reduce harmful or sensitive outputs and are not designed for speciﬁc domains such as cybersecurity or biosecurity.",
+          "As described in Section V-A, we begin by identifying safety neurons using a balanced dataset of over 7 000 malicious [63]– [65] and 7 000 benign prompts [46].",
+          "For evaluation, we launch attacks using four additional benchmark datasets [66]–[69] to assess the generalizability of identiﬁed neurons."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 66,
+    "raw_citation": "A. Souly, Q. Lu, D. Bowen, T. Trinh, E. Hsieh, S. Pandey, P. Abbeel, J. Svegliato, S. Emmons, O. Watkins, and S. Toyer, “A strongreject for empty jailbreaks,” 2024.",
+    "parsed_title": "A strongreject for empty jailbreaks",
+    "parsed_authors": [
+      "A. Souly",
+      "Q. Lu",
+      "D. Bowen",
+      "T. Trinh",
+      "E. Hsieh",
+      "S. Pandey",
+      "P. Abbeel",
+      "J. Svegliato",
+      "S. Emmons",
+      "O. Watkins",
+      "S. Toyer"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "For evaluation, we launch attacks using four additional benchmark datasets [66]–[69] to assess the generalizability of identiﬁed neurons.",
+        "expanded_context": [
+          "As described in Section V-A, we begin by identifying safety neurons using a balanced dataset of over 7 000 malicious [63]– [65] and 7 000 benign prompts [46].",
+          "For evaluation, we launch attacks using four additional benchmark datasets [66]–[69] to assess the generalizability of identiﬁed neurons.",
+          "Due to the page limit, we present the results on the StrongREJECT [66] dataset below."
+        ]
+      },
+      {
+        "sentence": "Due to the page limit, we present the results on the StrongREJECT [66] dataset below.",
+        "expanded_context": [
+          "For evaluation, we launch attacks using four additional benchmark datasets [66]–[69] to assess the generalizability of identiﬁed neurons.",
+          "Due to the page limit, we present the results on the StrongREJECT [66] dataset below.",
+          "Additional experiments are presented in Ap- pendix A-B."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 67,
+    "raw_citation": "M. Mazeika, L. Phan, X. Yin, A. Zou, Z. Wang, N. Mu, E. Sakhaee, N. Li, S. Basart, B. Li et al., “Harmbench: A standardized evaluation framework for automated red teaming and robust refusal,” arXiv preprint arXiv:2402.04249, 2024.",
+    "parsed_title": "Harmbench: A standardized evaluation framework for automated red teaming and robust refusal",
+    "parsed_authors": [
+      "M. Mazeika",
+      "L. Phan",
+      "X. Yin",
+      "A. Zou",
+      "Z. Wang",
+      "N. Mu",
+      "E. Sakhaee",
+      "N. Li",
+      "S. Basart",
+      "B. Li"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2402.04249",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2402.04249",
+    "parsed_arxiv_id": "2402.04249",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 68,
+    "raw_citation": "M. Mazeika, A. Zou, N. Mu, L. Phan, Z. Wang, C. Yu, A. Khoja, F. Jiang, A. O’Gara, E. Sakhaee, Z. Xiang, A. Rajabi, D. Hendrycks, R. Poovendran, B. Li, and D. Forsyth, “Tdc 2023 (llm edition): The trojan detection challenge,” in NeurIPS Competition Track, 2023.",
+    "parsed_title": "Tdc 2023 (llm edition): The trojan detection challenge",
+    "parsed_authors": [
+      "M. Mazeika",
+      "A. Zou",
+      "N. Mu",
+      "L. Phan",
+      "Z. Wang",
+      "C. Yu",
+      "A. Khoja",
+      "F. Jiang",
+      "A. O’Gara",
+      "E. Sakhaee",
+      "Z. Xiang",
+      "A. Rajabi",
+      "D. Hendrycks",
+      "R. Poovendran",
+      "B. Li"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "NeurIPS Competition Track",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 69,
+    "raw_citation": "Y. Huang, S. Gupta, M. Xia, K. Li, and D. Chen, “Catastrophic jailbreak of open-source llms via exploiting generation,” arXiv preprint arXiv:2310.06987, 2023.",
+    "parsed_title": "Catastrophic jailbreak of open-source llms via exploiting generation",
+    "parsed_authors": [
+      "Y. Huang",
+      "S. Gupta",
+      "M. Xia",
+      "K. Li",
+      "D. Chen"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.06987",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.06987",
+    "parsed_arxiv_id": "2310.06987",
+    "contexts": [
+      {
+        "sentence": "For evaluation, we launch attacks using four additional benchmark datasets [66]–[69] to assess the generalizability of identiﬁed neurons.",
+        "expanded_context": [
+          "As described in Section V-A, we begin by identifying safety neurons using a balanced dataset of over 7 000 malicious [63]– [65] and 7 000 benign prompts [46].",
+          "For evaluation, we launch attacks using four additional benchmark datasets [66]–[69] to assess the generalizability of identiﬁed neurons.",
+          "Due to the page limit, we present the results on the StrongREJECT [66] dataset below."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 70,
+    "raw_citation": "J. Frankle and M. Carbin, “The lottery ticket hypothesis: Finding sparse, trainable neural networks,” arXiv preprint arXiv:1803.03635, 2018.",
+    "parsed_title": "The lottery ticket hypothesis: Finding sparse, trainable neural networks",
+    "parsed_authors": [
+      "J. Frankle",
+      "M. Carbin"
+    ],
+    "parsed_year": 2018,
+    "parsed_venue": "arXiv preprint arXiv:1803.03635",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1803.03635",
+    "parsed_arxiv_id": "1803.03635",
+    "contexts": [
+      {
+        "sentence": "These ﬁndings echo the Lottery Ticket Hypothesis (LTH) [70], which suggests that small, specialized subnetworks within a large model can disproportionately drive performance.",
+        "expanded_context": [
+          "This observation conﬁrms that, despite improved decomposition and inference abilities, they still rely on sparse, centralized safety neurons and remain equally vulnerable when these are disrupted; the enhanced reasoning capability does not inherently improve safety robust- ness when alignment relies on localized neuron activations.",
+          "These ﬁndings echo the Lottery Ticket Hypothesis (LTH) [70], which suggests that small, specialized subnetworks within a large model can disproportionately drive performance.",
+          "In our context, alignment training appears to produce a sparse “winning ticket” for safety: an easily identiﬁable subnetwork that governs rejection behavior."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 72,
+    "raw_citation": "P. Chao, A. Robey, E. Dobriban, H. Hassani, G. J. Pappas, and E. Wong, “Jailbreaking black box large language models in twenty queries,” arXiv preprint arXiv:2310.08419, 2023.",
+    "parsed_title": "Jailbreaking black box large language models in twenty queries",
+    "parsed_authors": [
+      "P. Chao",
+      "A. Robey",
+      "E. Dobriban",
+      "H. Hassani",
+      "G. J. Pappas",
+      "E. Wong"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.08419",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.08419",
+    "parsed_arxiv_id": "2310.08419",
+    "contexts": [
+      {
+        "sentence": "Next, we benchmark NeuroStrike in a black-box setting against recent prompt-to-prompt jailbreak methods: PAIR [72], which iteratively reﬁnes prompts via APE [73]; TAP [74], which explores prompts through branching and pruning; and Puzzler [75], which crafts indirect, game-like prompts to bypass ﬁlters.",
+        "expanded_context": [
+          "These results highlight the effectiveness and generalizability of neuron-guided prompt generation in black-box scenarios.",
+          "Next, we benchmark NeuroStrike in a black-box setting against recent prompt-to-prompt jailbreak methods: PAIR [72], which iteratively reﬁnes prompts via APE [73]; TAP [74], which explores prompts through branching and pruning; and Puzzler [75], which crafts indirect, game-like prompts to bypass ﬁlters.",
+          "As shown in Table VI, PAIR and TAP show average ASRs of 31.0% and 17.3%, respectively, reﬂecting the limitations of direct prompt engineering against modern safety-aligned LLMs."
+        ]
+      },
+      {
+        "sentence": "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model.",
+        "expanded_context": [
+          "To address this, recent jailbreak methods utilize generative models, often other LLMs, to produce adaptive prompt variations [93], [101], [102].",
+          "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model.",
+          "However, these methods operate purely in the input space and rely heavily on feedback from the target model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 73,
+    "raw_citation": "Y. Zhou, A. I. Muresanu, Z. Han, K. Paster, S. Pitis, H. Chan, and J. Ba, “Large language models are human-level prompt engineers,” in The Eleventh International Conference on Learning Representations, 2022.",
+    "parsed_title": "Large language models are human-level prompt engineers",
+    "parsed_authors": [
+      "Y. Zhou",
+      "A. I. Muresanu",
+      "Z. Han",
+      "K. Paster",
+      "S. Pitis",
+      "H. Chan",
+      "J. Ba"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "The Eleventh International Conference on Learning Representations",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Next, we benchmark NeuroStrike in a black-box setting against recent prompt-to-prompt jailbreak methods: PAIR [72], which iteratively reﬁnes prompts via APE [73]; TAP [74], which explores prompts through branching and pruning; and Puzzler [75], which crafts indirect, game-like prompts to bypass ﬁlters.",
+        "expanded_context": [
+          "These results highlight the effectiveness and generalizability of neuron-guided prompt generation in black-box scenarios.",
+          "Next, we benchmark NeuroStrike in a black-box setting against recent prompt-to-prompt jailbreak methods: PAIR [72], which iteratively reﬁnes prompts via APE [73]; TAP [74], which explores prompts through branching and pruning; and Puzzler [75], which crafts indirect, game-like prompts to bypass ﬁlters.",
+          "As shown in Table VI, PAIR and TAP show average ASRs of 31.0% and 17.3%, respectively, reﬂecting the limitations of direct prompt engineering against modern safety-aligned LLMs."
+        ]
+      },
+      {
+        "sentence": "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model.",
+        "expanded_context": [
+          "To address this, recent jailbreak methods utilize generative models, often other LLMs, to produce adaptive prompt variations [93], [101], [102].",
+          "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model.",
+          "However, these methods operate purely in the input space and rely heavily on feedback from the target model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 74,
+    "raw_citation": "A. Mehrotra, M. Zampetakis, P. Kassianik, B. Nelson, H. Anderson, Y. Singer, and A. Karbasi, “Tree of attacks: Jailbreaking black-box llms automatically,” Advances in Neural Information Processing Systems, vol. 37, pp. 61 065–61 105, 2024.",
+    "parsed_title": "Tree of attacks: Jailbreaking black-box llms automatically",
+    "parsed_authors": [
+      "A. Mehrotra",
+      "M. Zampetakis",
+      "P. Kassianik",
+      "B. Nelson",
+      "H. Anderson",
+      "Y. Singer",
+      "A. Karbasi"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "Advances in Neural Information Processing Systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Next, we benchmark NeuroStrike in a black-box setting against recent prompt-to-prompt jailbreak methods: PAIR [72], which iteratively reﬁnes prompts via APE [73]; TAP [74], which explores prompts through branching and pruning; and Puzzler [75], which crafts indirect, game-like prompts to bypass ﬁlters.",
+        "expanded_context": [
+          "These results highlight the effectiveness and generalizability of neuron-guided prompt generation in black-box scenarios.",
+          "Next, we benchmark NeuroStrike in a black-box setting against recent prompt-to-prompt jailbreak methods: PAIR [72], which iteratively reﬁnes prompts via APE [73]; TAP [74], which explores prompts through branching and pruning; and Puzzler [75], which crafts indirect, game-like prompts to bypass ﬁlters.",
+          "As shown in Table VI, PAIR and TAP show average ASRs of 31.0% and 17.3%, respectively, reﬂecting the limitations of direct prompt engineering against modern safety-aligned LLMs."
+        ]
+      },
+      {
+        "sentence": "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model.",
+        "expanded_context": [
+          "To address this, recent jailbreak methods utilize generative models, often other LLMs, to produce adaptive prompt variations [93], [101], [102].",
+          "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model.",
+          "However, these methods operate purely in the input space and rely heavily on feedback from the target model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 75,
+    "raw_citation": "Z. Chang, M. Li, Y. Liu, J. Wang, Q. Wang, and Y. Liu, “Play guessing game with llm: Indirect jailbreak attack with implicit clues,” arXiv preprint arXiv:2402.09091, 2024.",
+    "parsed_title": "Play guessing game with llm: Indirect jailbreak attack with implicit clues",
+    "parsed_authors": [
+      "Z. Chang",
+      "M. Li",
+      "Y. Liu",
+      "J. Wang",
+      "Q. Wang",
+      "Y. Liu"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2402.09091",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2402.09091",
+    "parsed_arxiv_id": "2402.09091",
+    "contexts": [
+      {
+        "sentence": "Next, we benchmark NeuroStrike in a black-box setting against recent prompt-to-prompt jailbreak methods: PAIR [72], which iteratively reﬁnes prompts via APE [73]; TAP [74], which explores prompts through branching and pruning; and Puzzler [75], which crafts indirect, game-like prompts to bypass ﬁlters.",
+        "expanded_context": [
+          "These results highlight the effectiveness and generalizability of neuron-guided prompt generation in black-box scenarios.",
+          "Next, we benchmark NeuroStrike in a black-box setting against recent prompt-to-prompt jailbreak methods: PAIR [72], which iteratively reﬁnes prompts via APE [73]; TAP [74], which explores prompts through branching and pruning; and Puzzler [75], which crafts indirect, game-like prompts to bypass ﬁlters.",
+          "As shown in Table VI, PAIR and TAP show average ASRs of 31.0% and 17.3%, respectively, reﬂecting the limitations of direct prompt engineering against modern safety-aligned LLMs."
+        ]
+      },
+      {
+        "sentence": "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model.",
+        "expanded_context": [
+          "To address this, recent jailbreak methods utilize generative models, often other LLMs, to produce adaptive prompt variations [93], [101], [102].",
+          "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model.",
+          "However, these methods operate purely in the input space and rely heavily on feedback from the target model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 76,
+    "raw_citation": "N. Jain, A. Schwarzschild, Y. Wen, G. Somepalli, J. Kirchenbauer, P.-y. Chiang, M. Goldblum, A. Saha, J. Geiping, and T. Goldstein, “Baseline defenses for adversarial attacks against aligned language models,” arXiv preprint arXiv:2309.00614, 2023.",
+    "parsed_title": "Baseline defenses for adversarial attacks against aligned language models",
+    "parsed_authors": [
+      "N. Jain",
+      "A. Schwarzschild",
+      "Y. Wen",
+      "G. Somepalli",
+      "J. Kirchenbauer",
+      "P.-y. Chiang",
+      "M. Goldblum",
+      "A. Saha",
+      "J. Geiping",
+      "T. Goldstein"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2309.00614",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2309.00614",
+    "parsed_arxiv_id": "2309.00614",
+    "contexts": [
+      {
+        "sentence": "To further assess its robustness, we evaluate its ability to bypass three hardened safety-alignment defenses: Perplexity Filtering [76], which ﬂags prompts with low linguistic naturalness; SmoothLLM [77], which perturbs prompts and aggregates outputs to reduce attack success; and Layer-Speciﬁc Editing (LSE) [78], which realigns internal model layers to reinforce Model PAIR TAP Puzzler NeuroStrike Gemini-2.0-Flash 37.3% 14.0% 73.0% 54.7% Gemini-2.0-Flash-Lite 9.8% 8.0% 86.1% 49.2% Gemini-1.5-Pro 54.9% 32.0% 75.0% 55.7% Gemma-3-1b-it 33.9% 20.4% 94.0% 79.9% QwQ-32B 18.9% 12.2% 97.2% 78.9% Average 31.0% 17.3% 85.7% 63.7% TABLE VI: ASR benchmark with state-of-the-art jailbreaks. safety behavior.",
+        "expanded_context": [
+          "DEFENSE ANALYSIS NeuroStrike demonstrates broad effectiveness across diverse models, architectures, modalities, and ﬁne-tuning strategies.",
+          "To further assess its robustness, we evaluate its ability to bypass three hardened safety-alignment defenses: Perplexity Filtering [76], which ﬂags prompts with low linguistic naturalness; SmoothLLM [77], which perturbs prompts and aggregates outputs to reduce attack success; and Layer-Speciﬁc Editing (LSE) [78], which realigns internal model layers to reinforce Model PAIR TAP Puzzler NeuroStrike Gemini-2.0-Flash 37.3% 14.0% 73.0% 54.7% Gemini-2.0-Flash-Lite 9.8% 8.0% 86.1% 49.2% Gemini-1.5-Pro 54.9% 32.0% 75.0% 55.7% Gemma-3-1b-it 33.9% 20.4% 94.0% 79.9% QwQ-32B 18.9% 12.2% 97.2% 78.9% Average 31.0% 17.3% 85.7% 63.7% TABLE VI: ASR benchmark with state-of-the-art jailbreaks. safety behavior.",
+          "As LSE requires white-box access, it is only applied to open models, excluding the Gemini family."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 77,
+    "raw_citation": "A. Robey, E. Wong, H. Hassani, and G. J. Pappas, “Smoothllm: Defending large language models against jailbreaking attacks,” arXiv preprint arXiv:2310.03684, 2023.",
+    "parsed_title": "Smoothllm: Defending large language models against jailbreaking attacks",
+    "parsed_authors": [
+      "A. Robey",
+      "E. Wong",
+      "H. Hassani",
+      "G. J. Pappas"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.03684",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.03684",
+    "parsed_arxiv_id": "2310.03684",
+    "contexts": [
+      {
+        "sentence": "To further assess its robustness, we evaluate its ability to bypass three hardened safety-alignment defenses: Perplexity Filtering [76], which ﬂags prompts with low linguistic naturalness; SmoothLLM [77], which perturbs prompts and aggregates outputs to reduce attack success; and Layer-Speciﬁc Editing (LSE) [78], which realigns internal model layers to reinforce Model PAIR TAP Puzzler NeuroStrike Gemini-2.0-Flash 37.3% 14.0% 73.0% 54.7% Gemini-2.0-Flash-Lite 9.8% 8.0% 86.1% 49.2% Gemini-1.5-Pro 54.9% 32.0% 75.0% 55.7% Gemma-3-1b-it 33.9% 20.4% 94.0% 79.9% QwQ-32B 18.9% 12.2% 97.2% 78.9% Average 31.0% 17.3% 85.7% 63.7% TABLE VI: ASR benchmark with state-of-the-art jailbreaks. safety behavior.",
+        "expanded_context": [
+          "DEFENSE ANALYSIS NeuroStrike demonstrates broad effectiveness across diverse models, architectures, modalities, and ﬁne-tuning strategies.",
+          "To further assess its robustness, we evaluate its ability to bypass three hardened safety-alignment defenses: Perplexity Filtering [76], which ﬂags prompts with low linguistic naturalness; SmoothLLM [77], which perturbs prompts and aggregates outputs to reduce attack success; and Layer-Speciﬁc Editing (LSE) [78], which realigns internal model layers to reinforce Model PAIR TAP Puzzler NeuroStrike Gemini-2.0-Flash 37.3% 14.0% 73.0% 54.7% Gemini-2.0-Flash-Lite 9.8% 8.0% 86.1% 49.2% Gemini-1.5-Pro 54.9% 32.0% 75.0% 55.7% Gemma-3-1b-it 33.9% 20.4% 94.0% 79.9% QwQ-32B 18.9% 12.2% 97.2% 78.9% Average 31.0% 17.3% 85.7% 63.7% TABLE VI: ASR benchmark with state-of-the-art jailbreaks. safety behavior.",
+          "As LSE requires white-box access, it is only applied to open models, excluding the Gemini family."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 78,
+    "raw_citation": "W. Zhao, Z. Li, Y. Li, Y. Zhang, and J. Sun, “Defending large language models against jailbreak attacks via layer-speciﬁc editing,” arXiv preprint arXiv:2405.18166, 2024.",
+    "parsed_title": "Defending large language models against jailbreak attacks via layer-speciﬁc editing",
+    "parsed_authors": [
+      "W. Zhao",
+      "Z. Li",
+      "Y. Li",
+      "Y. Zhang",
+      "J. Sun"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2405.18166",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2405.18166",
+    "parsed_arxiv_id": "2405.18166",
+    "contexts": [
+      {
+        "sentence": "To further assess its robustness, we evaluate its ability to bypass three hardened safety-alignment defenses: Perplexity Filtering [76], which ﬂags prompts with low linguistic naturalness; SmoothLLM [77], which perturbs prompts and aggregates outputs to reduce attack success; and Layer-Speciﬁc Editing (LSE) [78], which realigns internal model layers to reinforce Model PAIR TAP Puzzler NeuroStrike Gemini-2.0-Flash 37.3% 14.0% 73.0% 54.7% Gemini-2.0-Flash-Lite 9.8% 8.0% 86.1% 49.2% Gemini-1.5-Pro 54.9% 32.0% 75.0% 55.7% Gemma-3-1b-it 33.9% 20.4% 94.0% 79.9% QwQ-32B 18.9% 12.2% 97.2% 78.9% Average 31.0% 17.3% 85.7% 63.7% TABLE VI: ASR benchmark with state-of-the-art jailbreaks. safety behavior.",
+        "expanded_context": [
+          "DEFENSE ANALYSIS NeuroStrike demonstrates broad effectiveness across diverse models, architectures, modalities, and ﬁne-tuning strategies.",
+          "To further assess its robustness, we evaluate its ability to bypass three hardened safety-alignment defenses: Perplexity Filtering [76], which ﬂags prompts with low linguistic naturalness; SmoothLLM [77], which perturbs prompts and aggregates outputs to reduce attack success; and Layer-Speciﬁc Editing (LSE) [78], which realigns internal model layers to reinforce Model PAIR TAP Puzzler NeuroStrike Gemini-2.0-Flash 37.3% 14.0% 73.0% 54.7% Gemini-2.0-Flash-Lite 9.8% 8.0% 86.1% 49.2% Gemini-1.5-Pro 54.9% 32.0% 75.0% 55.7% Gemma-3-1b-it 33.9% 20.4% 94.0% 79.9% QwQ-32B 18.9% 12.2% 97.2% 78.9% Average 31.0% 17.3% 85.7% 63.7% TABLE VI: ASR benchmark with state-of-the-art jailbreaks. safety behavior.",
+          "As LSE requires white-box access, it is only applied to open models, excluding the Gemini family."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 79,
+    "raw_citation": "E. Nelson, N. Neel, O. Catherine, H. Tom, J. Nicholas, M. Ben, A. Amanda, B. Yuntao, C. Anna, C. Tom et al., “A mathematical framework for transformer circuits,” Transformer Circuits Thread, 2021.",
+    "parsed_title": "A mathematical framework for transformer circuits",
+    "parsed_authors": [
+      "E. Nelson",
+      "N. Neel",
+      "O. Catherine",
+      "H. Tom",
+      "J. Nicholas",
+      "M. Ben",
+      "A. Amanda",
+      "B. Yuntao",
+      "C. Anna",
+      "C. Tom"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "Transformer Circuits Thread",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Notably, omitting the GRPO ﬁne- tuning signiﬁcantly reduces the ASR, highlighting that the 3Down projection is a compressive, output-mapping layer; it is usually not where specialized behavior (like safety enforcement) emerges [79]. 12 LLM proﬁling is critical for jailbreak effectiveness.",
+        "expanded_context": [
+          "The results show that the complete RGRPO reward signiﬁcantly outperforms both ablated conﬁgurations, achieving an average ASR of 73.2%, com- pared to only 65.3% without Rneuron and 53.6% when relying solely on the SFT baseline.",
+          "Notably, omitting the GRPO ﬁne- tuning signiﬁcantly reduces the ASR, highlighting that the 3Down projection is a compressive, output-mapping layer; it is usually not where specialized behavior (like safety enforcement) emerges [79]. 12 LLM proﬁling is critical for jailbreak effectiveness.",
+          "Similarly, incorporating the safety neuron reward further improves ASR by suppressing safety neuron activations, enhancing the gen- erator’s evasion capabilities."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 80,
+    "raw_citation": "B. Liu, X. Li, J. Zhang, J. Wang, T. He, S. Hong, H. Liu, S. Zhang, K. Song, K. Zhu et al., “Advances and challenges in foundation agents: From brain-inspired intelligence to evolutionary, collaborative, and safe systems,” arXiv preprint arXiv:2504.01990, 2025.",
+    "parsed_title": "Advances and challenges in foundation agents: From brain-inspired intelligence to evolutionary, collaborative, and safe systems",
+    "parsed_authors": [
+      "B. Liu",
+      "X. Li",
+      "J. Zhang",
+      "J. Wang",
+      "T. He",
+      "S. Hong",
+      "H. Liu",
+      "S. Zhang",
+      "K. Song",
+      "K. Zhu"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2504.01990",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2504.01990",
+    "parsed_arxiv_id": "2504.01990",
+    "contexts": [
+      {
+        "sentence": "For instance, adopting a multi- objective alignment strategy [80], where multiple independent safety objectives guide neuron activations, could help diversify and diffuse neuron-level responsibilities.",
+        "expanded_context": [
+          "Although existing defenses cannot block NeuroStrike (see Section IX), the sparse and universal nature of the safety neurons suggests clear targets for potential defenses: proactively distributing these critical neuron subsets into more layers/neurons.",
+          "For instance, adopting a multi- objective alignment strategy [80], where multiple independent safety objectives guide neuron activations, could help diversify and diffuse neuron-level responsibilities.",
+          "Such multi-objective alignment would create less concentrated neuron activation patterns, reducing susceptibility to targeted neuron-level at- tacks."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 81,
+    "raw_citation": "F. Perez and I. Ribeiro, “Ignore previous prompt: Attack techniques for language models,” arXiv preprint arXiv:2211.09527, 2022.",
+    "parsed_title": "Ignore previous prompt: Attack techniques for language models",
+    "parsed_authors": [
+      "F. Perez",
+      "I. Ribeiro"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "arXiv preprint arXiv:2211.09527",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2211.09527",
+    "parsed_arxiv_id": "2211.09527",
+    "contexts": [
+      {
+        "sentence": "Early jailbreak methods used carefully engineered prompts, such as role-play, hidden directives, obfuscation, and prompt decomposition, to bypass LLM safety measures [8], [81]–[89].",
+        "expanded_context": [
+          "RELATED WORK Template-based Jailbreak Attacks.",
+          "Early jailbreak methods used carefully engineered prompts, such as role-play, hidden directives, obfuscation, and prompt decomposition, to bypass LLM safety measures [8], [81]–[89].",
+          "As models improved, these static methods became increasingly ineffective, prompt- ing the development of dynamic jailbreak attacks."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 82,
+    "raw_citation": "S. Schulhoff, J. Pinto, A. Khan, L.-F. Bouchard, C. Si, S. Anati, V. Tagliabue, A. L. Kost, C. Carnahan, and J. Boyd-Graber, “Ignore this title and hackaprompt: Exposing systemic vulnerabilities of llms through a global scale prompt hacking competition,” EMNLP 2023 - 2023 Conference on Empirical Methods in Natural Language Processing, Proceedings, 2023.",
+    "parsed_title": "Ignore this title and hackaprompt: Exposing systemic vulnerabilities of llms through a global scale prompt hacking competition",
+    "parsed_authors": [
+      "S. Schulhoff",
+      "J. Pinto",
+      "A. Khan",
+      "L.-F. Bouchard",
+      "C. Si",
+      "S. Anati",
+      "V. Tagliabue",
+      "A. L. Kost",
+      "C. Carnahan",
+      "J. Boyd-Graber"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "EMNLP 2023 - 2023 Conference on Empirical Methods in Natural Language Processing, Proceedings",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 83,
+    "raw_citation": "S. Jiang, X. Chen, and R. Tang, “Prompt packer: Deceiving llms through compositional instruction with hidden attacks,” arXiv preprint arXiv:2310.10077, 2023.",
+    "parsed_title": "Prompt packer: Deceiving llms through compositional instruction with hidden attacks",
+    "parsed_authors": [
+      "S. Jiang",
+      "X. Chen",
+      "R. Tang"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.10077",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.10077",
+    "parsed_arxiv_id": "2310.10077",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 84,
+    "raw_citation": "B. A. Saiem, M. Shanto, R. Ahsan et al., “Sequentialbreak: Large language models can be fooled by embedding jailbreak prompts into sequential prompt chains,” arXiv preprint arXiv:2411.06426, 2024.",
+    "parsed_title": "Sequentialbreak: Large language models can be fooled by embedding jailbreak prompts into sequential prompt chains",
+    "parsed_authors": [
+      "B. A. Saiem",
+      "M. Shanto",
+      "R. Ahsan"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2411.06426",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2411.06426",
+    "parsed_arxiv_id": "2411.06426",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 85,
+    "raw_citation": "Z. Wang, Y. Cao, and P. Liu, “Hidden you malicious goal into benign narratives: Jailbreak large language models through logic chain injection,” arXiv preprint arXiv:2404.04849, 2024.",
+    "parsed_title": "Hidden you malicious goal into benign narratives: Jailbreak large language models through logic chain injection",
+    "parsed_authors": [
+      "Z. Wang",
+      "Y. Cao",
+      "P. Liu"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2404.04849",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2404.04849",
+    "parsed_arxiv_id": "2404.04849",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 86,
+    "raw_citation": "S. Singh, F. Abri, and A. S. Namin, “Exploiting large language models (llms) through deception techniques and persuasion principles,” in 2023 IEEE International Conference on Big Data (BigData). IEEE, 2023, pp. 2508–2517.",
+    "parsed_title": "Exploiting large language models (llms) through deception techniques and persuasion principles",
+    "parsed_authors": [
+      "S. Singh",
+      "F. Abri",
+      "A. S. Namin"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "2023 IEEE International Conference on Big Data (BigData). IEEE",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 87,
+    "raw_citation": "H. Li, D. Guo, W. Fan, M. Xu, J. Huang, F. Meng, and Y. Song, “Multi-step jailbreaking privacy attacks on chatgpt,” arXiv preprint arXiv:2304.05197, 2023.",
+    "parsed_title": "Multi-step jailbreaking privacy attacks on chatgpt",
+    "parsed_authors": [
+      "H. Li",
+      "D. Guo",
+      "W. Fan",
+      "M. Xu",
+      "J. Huang",
+      "F. Meng",
+      "Y. Song"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2304.05197",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2304.05197",
+    "parsed_arxiv_id": "2304.05197",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 88,
+    "raw_citation": "X. Li, Z. Zhou, J. Zhu, J. Yao, T. Liu, and B. Han, “Deepinception: Hypnotize large language model to be jailbreaker,” arXiv preprint arXiv:2311.03191, 2023.",
+    "parsed_title": "Deepinception: Hypnotize large language model to be jailbreaker",
+    "parsed_authors": [
+      "X. Li",
+      "Z. Zhou",
+      "J. Zhu",
+      "J. Yao",
+      "T. Liu",
+      "B. Han"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2311.03191",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2311.03191",
+    "parsed_arxiv_id": "2311.03191",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 89,
+    "raw_citation": "H. Jin, R. Chen, A. Zhou, Y. Zhang, and H. Wang, “Guard: Roleplaying to generate natural-language jailbreakings to test guideline adherence of large language models,” arXiv preprint arXiv:2402.03299, 2024.",
+    "parsed_title": "Guard: Roleplaying to generate natural-language jailbreakings to test guideline adherence of large language models",
+    "parsed_authors": [
+      "H. Jin",
+      "R. Chen",
+      "A. Zhou",
+      "Y. Zhang",
+      "H. Wang"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2402.03299",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2402.03299",
+    "parsed_arxiv_id": "2402.03299",
+    "contexts": [
+      {
+        "sentence": "Early jailbreak methods used carefully engineered prompts, such as role-play, hidden directives, obfuscation, and prompt decomposition, to bypass LLM safety measures [8], [81]–[89].",
+        "expanded_context": [
+          "RELATED WORK Template-based Jailbreak Attacks.",
+          "Early jailbreak methods used carefully engineered prompts, such as role-play, hidden directives, obfuscation, and prompt decomposition, to bypass LLM safety measures [8], [81]–[89].",
+          "As models improved, these static methods became increasingly ineffective, prompt- ing the development of dynamic jailbreak attacks."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 90,
+    "raw_citation": "J. Yu, X. Lin, Z. Yu, and X. Xing, “Gptfuzzer: Red teaming large language models with auto-generated jailbreak prompts,” arXiv preprint arXiv:2309.10253, 2023.",
+    "parsed_title": "Gptfuzzer: Red teaming large language models with auto-generated jailbreak prompts",
+    "parsed_authors": [
+      "J. Yu",
+      "X. Lin",
+      "Z. Yu",
+      "X. Xing"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2309.10253",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2309.10253",
+    "parsed_arxiv_id": "2309.10253",
+    "contexts": [
+      {
+        "sentence": "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+        "expanded_context": [
+          "As models improved, these static methods became increasingly ineffective, prompt- ing the development of dynamic jailbreak attacks.",
+          "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+          "Unfortunately, they remain input-centric and do not exploit the model’s internal safety mechanisms, limiting their generalization across different LLMs."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 91,
+    "raw_citation": "——, “{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks,” in 33rd USENIX Security Symposium (USENIX Security 24), 2024, pp. 4657–4674.",
+    "parsed_title": "{LLM-Fuzzer}: Scaling assessment of large language model jailbreaks",
+    "parsed_authors": [
+      "J. Yu",
+      "X. Lin",
+      "Z. Yu",
+      "X. Xing"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "33rd USENIX Security Symposium (USENIX Security 24)",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+        "expanded_context": [
+          "As models improved, these static methods became increasingly ineffective, prompt- ing the development of dynamic jailbreak attacks.",
+          "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+          "Unfortunately, they remain input-centric and do not exploit the model’s internal safety mechanisms, limiting their generalization across different LLMs."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 92,
+    "raw_citation": "J. Ebrahimi, A. Rao, D. Lowd, and D. Dou, “Hotﬂip: Whitebox adversarial examples for text classiﬁcation,” arXiv preprint arXiv:1712.06751, 2017.",
+    "parsed_title": "Hotﬂip: Whitebox adversarial examples for text classiﬁcation",
+    "parsed_authors": [
+      "J. Ebrahimi",
+      "A. Rao",
+      "D. Lowd",
+      "D. Dou"
+    ],
+    "parsed_year": 2017,
+    "parsed_venue": "arXiv preprint arXiv:1712.06751",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1712.06751",
+    "parsed_arxiv_id": "1712.06751",
+    "contexts": [
+      {
+        "sentence": "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+        "expanded_context": [
+          "As models improved, these static methods became increasingly ineffective, prompt- ing the development of dynamic jailbreak attacks.",
+          "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+          "Unfortunately, they remain input-centric and do not exploit the model’s internal safety mechanisms, limiting their generalization across different LLMs."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 93,
+    "raw_citation": "T. Shin, Y. Razeghi, R. L. Logan IV, E. Wallace, and S. Singh, “Autoprompt: Eliciting knowledge from language models with automatically generated prompts,” arXiv preprint arXiv:2010.15980, 2020.",
+    "parsed_title": "Autoprompt: Eliciting knowledge from language models with automatically generated prompts",
+    "parsed_authors": [
+      "T. Shin",
+      "Y. Razeghi",
+      "R. L. Logan IV",
+      "E. Wallace",
+      "S. Singh"
+    ],
+    "parsed_year": 2010,
+    "parsed_venue": "arXiv preprint arXiv:2010.15980",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2010.15980",
+    "parsed_arxiv_id": "2010.15980",
+    "contexts": [
+      {
+        "sentence": "To address this, recent jailbreak methods utilize generative models, often other LLMs, to produce adaptive prompt variations [93], [101], [102].",
+        "expanded_context": [
+          "Fixed jailbreak- ing template-based attacks are inherently limited, as different prompts may require tailored adjustments.",
+          "To address this, recent jailbreak methods utilize generative models, often other LLMs, to produce adaptive prompt variations [93], [101], [102].",
+          "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 94,
+    "raw_citation": "B. Lester, R. Al-Rfou, and N. Constant, “The power of scale for parameter-efﬁcient prompt tuning,” arXiv preprint arXiv:2104.08691, 2021.",
+    "parsed_title": "The power of scale for parameter-efﬁcient prompt tuning",
+    "parsed_authors": [
+      "B. Lester",
+      "R. Al-Rfou",
+      "N. Constant"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "arXiv preprint arXiv:2104.08691",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2104.08691",
+    "parsed_arxiv_id": "2104.08691",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 95,
+    "raw_citation": "L. Qin, S. Welleck, D. Khashabi, and Y. Choi, “Cold decoding: Energy-based constrained text generation with langevin dynamics,” Advances in Neural Information Processing Systems, vol. 35, pp. 9538–9551, 2022.",
+    "parsed_title": "Cold decoding: Energy-based constrained text generation with langevin dynamics",
+    "parsed_authors": [
+      "L. Qin",
+      "S. Welleck",
+      "D. Khashabi",
+      "Y. Choi"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": "Advances in Neural Information Processing Systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 96,
+    "raw_citation": "Y. Wen, N. Jain, J. Kirchenbauer, M. Goldblum, J. Geiping, and T. Goldstein, “Hard prompts made easy: Gradient-based discrete optimization for prompt tuning and discovery,” Advances in Neural Information Processing Systems, vol. 36, pp. 51 008–51 025, 2023.",
+    "parsed_title": "Hard prompts made easy: Gradient-based discrete optimization for prompt tuning and discovery",
+    "parsed_authors": [
+      "Y. Wen",
+      "N. Jain",
+      "J. Kirchenbauer",
+      "M. Goldblum",
+      "J. Geiping",
+      "T. Goldstein"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "Advances in Neural Information Processing Systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 97,
+    "raw_citation": "E. Jones, A. Dragan, A. Raghunathan, and J. Steinhardt, “Automatically auditing large language models via discrete optimization,” in International Conference on Machine Learning. PMLR, 2023, pp. 15 307–15 329.",
+    "parsed_title": "Automatically auditing large language models via discrete optimization",
+    "parsed_authors": [
+      "E. Jones",
+      "A. Dragan",
+      "A. Raghunathan",
+      "J. Steinhardt"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "International Conference on Machine Learning. PMLR",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 98,
+    "raw_citation": "A. Zou, Z. Wang, N. Carlini, M. Nasr, J. Z. Kolter, and M. Fredrikson, “Universal and transferable adversarial attacks on aligned language models,” arXiv preprint arXiv:2307.15043, 2023.",
+    "parsed_title": "Universal and transferable adversarial attacks on aligned language models",
+    "parsed_authors": [
+      "A. Zou",
+      "Z. Wang",
+      "N. Carlini",
+      "M. Nasr",
+      "J. Z. Kolter",
+      "M. Fredrikson"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2307.15043",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2307.15043",
+    "parsed_arxiv_id": "2307.15043",
+    "contexts": [
+      {
+        "sentence": "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+        "expanded_context": [
+          "As models improved, these static methods became increasingly ineffective, prompt- ing the development of dynamic jailbreak attacks.",
+          "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+          "Unfortunately, they remain input-centric and do not exploit the model’s internal safety mechanisms, limiting their generalization across different LLMs."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 99,
+    "raw_citation": "F. Wu, X. Liu, and C. Xiao, “Deceptprompt: Exploiting llm-driven code generation via adversarial natural language instructions,” arXiv preprint arXiv:2312.04730, 2023.",
+    "parsed_title": "Deceptprompt: Exploiting llm-driven code generation via adversarial natural language instructions",
+    "parsed_authors": [
+      "F. Wu",
+      "X. Liu",
+      "C. Xiao"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2312.04730",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2312.04730",
+    "parsed_arxiv_id": "2312.04730",
+    "contexts": [
+      {
+        "sentence": "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+        "expanded_context": [
+          "As models improved, these static methods became increasingly ineffective, prompt- ing the development of dynamic jailbreak attacks.",
+          "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+          "Unfortunately, they remain input-centric and do not exploit the model’s internal safety mechanisms, limiting their generalization across different LLMs."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 100,
+    "raw_citation": "X. Liu, N. Xu, M. Chen, and C. Xiao, “Autodan: Generating stealthy jailbreak prompts on aligned large language models,” arXiv preprint arXiv:2310.04451, 2023.",
+    "parsed_title": "Autodan: Generating stealthy jailbreak prompts on aligned large language models",
+    "parsed_authors": [
+      "X. Liu",
+      "N. Xu",
+      "M. Chen",
+      "C. Xiao"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.04451",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.04451",
+    "parsed_arxiv_id": "2310.04451",
+    "contexts": [
+      {
+        "sentence": "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+        "expanded_context": [
+          "As models improved, these static methods became increasingly ineffective, prompt- ing the development of dynamic jailbreak attacks.",
+          "Automatic methods emerged, using techniques such as mutation-based fuzzing [90], [91], gradient-based optimization [92]–[98], and genetic algorithms [99], [100] to adaptively generate robust jailbreak prompts.",
+          "Unfortunately, they remain input-centric and do not exploit the model’s internal safety mechanisms, limiting their generalization across different LLMs."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 101,
+    "raw_citation": "T. Gao, A. Fisch, and D. Chen, “Making pre-trained language models better few-shot learners,” arXiv preprint arXiv:2012.15723, 2020.",
+    "parsed_title": "Making pre-trained language models better few-shot learners",
+    "parsed_authors": [
+      "T. Gao",
+      "A. Fisch",
+      "D. Chen"
+    ],
+    "parsed_year": 2012,
+    "parsed_venue": "arXiv preprint arXiv:2012.15723",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2012.15723",
+    "parsed_arxiv_id": "2012.15723",
+    "contexts": [
+      {
+        "sentence": "To address this, recent jailbreak methods utilize generative models, often other LLMs, to produce adaptive prompt variations [93], [101], [102].",
+        "expanded_context": [
+          "Fixed jailbreak- ing template-based attacks are inherently limited, as different prompts may require tailored adjustments.",
+          "To address this, recent jailbreak methods utilize generative models, often other LLMs, to produce adaptive prompt variations [93], [101], [102].",
+          "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 102,
+    "raw_citation": "R. Pryzant, D. Iter, J. Li, Y. T. Lee, C. Zhu, and M. Zeng, “Automatic prompt optimization with” gradient descent” and beam search,” arXiv preprint arXiv:2305.03495, 2023.",
+    "parsed_title": "Automatic prompt optimization with",
+    "parsed_authors": [
+      "R. Pryzant",
+      "D. Iter",
+      "J. Li",
+      "Y. T. Lee",
+      "C. Zhu",
+      "M. Zeng"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "gradient descent” and beam search,” arXiv preprint arXiv:2305.03495",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2305.03495",
+    "parsed_arxiv_id": "2305.03495",
+    "contexts": [
+      {
+        "sentence": "To address this, recent jailbreak methods utilize generative models, often other LLMs, to produce adaptive prompt variations [93], [101], [102].",
+        "expanded_context": [
+          "Fixed jailbreak- ing template-based attacks are inherently limited, as different prompts may require tailored adjustments.",
+          "To address this, recent jailbreak methods utilize generative models, often other LLMs, to produce adaptive prompt variations [93], [101], [102].",
+          "Approaches such as APE [73], PAIR [72], TAP [74], and Puzzler [75] dynamically reﬁne adversarial prompts based on iterative interactions with the target model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 103,
+    "raw_citation": "A. K´ad´ar, G. Chrupała, and A. Alishahi, “Representation of linguistic form and function in recurrent neural networks,” Computational Linguistics, vol. 43, no. 4, pp. 761–780, 2017.",
+    "parsed_title": "Representation of linguistic form and function in recurrent neural networks",
+    "parsed_authors": [
+      "A. K´ad´ar",
+      "G. Chrupała",
+      "A. Alishahi"
+    ],
+    "parsed_year": 2017,
+    "parsed_venue": "Computational Linguistics",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Recent efforts in neuron interpretability have taken two main approaches: analyzing neuron activations triggered by speciﬁc concepts [103]–[107], and using probing methods such as training classiﬁers on activations to decode linguistic prop- erties [108].",
+        "expanded_context": [
+          "Interpreting the functional role of individual neurons has been an active research direction.",
+          "Recent efforts in neuron interpretability have taken two main approaches: analyzing neuron activations triggered by speciﬁc concepts [103]–[107], and using probing methods such as training classiﬁers on activations to decode linguistic prop- erties [108].",
+          "To the best of our knowledge, our work is the ﬁrst to explicitly identify and interpret neurons responsible for safety alignment in large-scale transformer-based LLMs, revealing their critical role in safety alignment."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 104,
+    "raw_citation": "S. Na, Y. J. Choe, D.-H. Lee, and G. Kim, “Discovery of natural language concepts in individual units of cnns,” arXiv preprint arXiv:1902.07249, 2019.",
+    "parsed_title": "Discovery of natural language concepts in individual units of cnns",
+    "parsed_authors": [
+      "S. Na",
+      "Y. J. Choe",
+      "D.-H. Lee",
+      "G. Kim"
+    ],
+    "parsed_year": 1902,
+    "parsed_venue": "arXiv preprint arXiv:1902.07249",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1902.07249",
+    "parsed_arxiv_id": "1902.07249",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 105,
+    "raw_citation": "J. Mu and J. Andreas, “Compositional explanations of neurons,” Advances in Neural Information Processing Systems, vol. 33, pp. 17 153– 17 163, 2020.",
+    "parsed_title": "Compositional explanations of neurons",
+    "parsed_authors": [
+      "J. Mu",
+      "J. Andreas"
+    ],
+    "parsed_year": 2020,
+    "parsed_venue": "Advances in Neural Information Processing Systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 106,
+    "raw_citation": "X. Suau, L. Zappella, and N. Apostoloff, “Finding experts in transformer models,” arXiv preprint arXiv:2005.07647, 2020.",
+    "parsed_title": "Finding experts in transformer models",
+    "parsed_authors": [
+      "X. Suau",
+      "L. Zappella",
+      "N. Apostoloff"
+    ],
+    "parsed_year": 2005,
+    "parsed_venue": "arXiv preprint arXiv:2005.07647",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2005.07647",
+    "parsed_arxiv_id": "2005.07647",
+    "contexts": [],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 107,
+    "raw_citation": "O. Antverg and Y. Belinkov, “On the pitfalls of analyzing individual neurons in language models,” arXiv preprint arXiv:2110.07483, 2021.",
+    "parsed_title": "On the pitfalls of analyzing individual neurons in language models",
+    "parsed_authors": [
+      "O. Antverg",
+      "Y. Belinkov"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "arXiv preprint arXiv:2110.07483",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2110.07483",
+    "parsed_arxiv_id": "2110.07483",
+    "contexts": [
+      {
+        "sentence": "Recent efforts in neuron interpretability have taken two main approaches: analyzing neuron activations triggered by speciﬁc concepts [103]–[107], and using probing methods such as training classiﬁers on activations to decode linguistic prop- erties [108].",
+        "expanded_context": [
+          "Interpreting the functional role of individual neurons has been an active research direction.",
+          "Recent efforts in neuron interpretability have taken two main approaches: analyzing neuron activations triggered by speciﬁc concepts [103]–[107], and using probing methods such as training classiﬁers on activations to decode linguistic prop- erties [108].",
+          "To the best of our knowledge, our work is the ﬁrst to explicitly identify and interpret neurons responsible for safety alignment in large-scale transformer-based LLMs, revealing their critical role in safety alignment."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  },
+  {
+    "citation_id": 108,
+    "raw_citation": "Y. Lakretz, G. Kruszewski, T. Desbordes, D. Hupkes, S. Dehaene, and M. Baroni, “The emergence of number and syntax units in lstm language models,” arXiv preprint arXiv:1903.07435, 2019.",
+    "parsed_title": "The emergence of number and syntax units in lstm language models",
+    "parsed_authors": [
+      "Y. Lakretz",
+      "G. Kruszewski",
+      "T. Desbordes",
+      "D. Hupkes",
+      "S. Dehaene",
+      "M. Baroni"
+    ],
+    "parsed_year": 1903,
+    "parsed_venue": "arXiv preprint arXiv:1903.07435",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1903.07435",
+    "parsed_arxiv_id": "1903.07435",
+    "contexts": [
+      {
+        "sentence": "Recent efforts in neuron interpretability have taken two main approaches: analyzing neuron activations triggered by speciﬁc concepts [103]–[107], and using probing methods such as training classiﬁers on activations to decode linguistic prop- erties [108].",
+        "expanded_context": [
+          "Interpreting the functional role of individual neurons has been an active research direction.",
+          "Recent efforts in neuron interpretability have taken two main approaches: analyzing neuron activations triggered by speciﬁc concepts [103]–[107], and using probing methods such as training classiﬁers on activations to decode linguistic prop- erties [108].",
+          "To the best of our knowledge, our work is the ﬁrst to explicitly identify and interpret neurons responsible for safety alignment in large-scale transformer-based LLMs, revealing their critical role in safety alignment."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_105126.pdf"
+  }
+]

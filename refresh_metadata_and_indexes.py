@@ -40,8 +40,8 @@ def main() -> int:
 
     if not args.skip_index:
         run_command([args.python, str(DB_UTILS_DIR / "build_arxiv_index.py"), "--rebuild"])
-        run_command([args.python, str(DB_UTILS_DIR / "build_dblp_index.py"), "--rebuild"])
         run_command([args.python, str(DB_UTILS_DIR / "build_openalex_index.py"), "--rebuild"])
+        run_command([args.python, str(DB_UTILS_DIR / "build_dblp_index.py"), "--rebuild"])
 
     print("[refresh_metadata_and_indexes] done")
     return 0

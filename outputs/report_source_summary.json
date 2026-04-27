@@ -1,17 +1,37 @@
 {
-  "arxiv": {
-    "count": 60,
-    "average_bibliographic_score": 0.8448,
-    "average_semantic_score": 0.1658,
+  "openalex": {
+    "count": 26,
+    "average_bibliographic_score": 0.8402,
+    "average_semantic_score": 0.0,
     "verification_counts": {
-      "verified": 39,
-      "partially_verified": 19,
+      "verified": 14,
+      "partially_verified": 12
+    },
+    "semantic_counts": {
+      "skipped": 26
+    }
+  },
+  "dblp": {
+    "count": 35,
+    "average_bibliographic_score": 0.8493,
+    "average_semantic_score": 0.0,
+    "verification_counts": {
+      "verified": 19,
+      "partially_verified": 16
+    },
+    "semantic_counts": {
+      "skipped": 35
+    }
+  },
+  "unknown": {
+    "count": 2,
+    "average_bibliographic_score": 0.0,
+    "average_semantic_score": 0.0,
+    "verification_counts": {
       "hallucinated": 2
     },
     "semantic_counts": {
-      "unsupported": 11,
-      "unclear": 5,
-      "supported": 44
+      "skipped": 2
     }
   }
 }

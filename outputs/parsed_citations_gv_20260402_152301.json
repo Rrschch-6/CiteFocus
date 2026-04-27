@@ -1,0 +1,1107 @@
+[
+  {
+    "citation_id": 1,
+    "raw_citation": "I. Ozkaya, “Application of large language models to software engineering tasks: Opportunities, risks, and implications,” IEEE Software, vol. 40, no. 3, pp. 4–8, 2023.",
+    "parsed_title": "Application of large language models to software engineering tasks: Opportunities, risks, and implications",
+    "parsed_authors": [
+      "I. Ozkaya"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "IEEE Software",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Our results demonstrate that neuron-level optimization offers an effective and scalable approach to securing code generation without sacrificing efficiency or generality. 1 Introduction Large language models (LLMs) have become integral to mod- ern software development, supporting code completion, pro- gram synthesis, and automated refactoring [1].",
+        "expanded_context": [
+          "GoodVibe substantially improves the security of generated code while preserving general model utility, achieving up to a 2.5× improvement over base models, matching or exceeding full fine-tuning with over 4 700× fewer trainable parameters, and reducing training computation by more than 3.6× com- pared to the parameter-efficient baseline (LoRA).",
+          "Our results demonstrate that neuron-level optimization offers an effective and scalable approach to securing code generation without sacrificing efficiency or generality. 1 Introduction Large language models (LLMs) have become integral to mod- ern software development, supporting code completion, pro- gram synthesis, and automated refactoring [1].",
+          "Recent code- specialized models achieve impressive functional correctness and productivity gains [2,3], and are increasingly adopted in both professional and casual development workflows [4]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 2,
+    "raw_citation": "M. Chen, “Evaluating large language models trained on code,” arXiv preprint arXiv:2107.03374, 2021.",
+    "parsed_title": "Evaluating large language models trained on code",
+    "parsed_authors": [
+      "M. Chen"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "arXiv preprint arXiv:2107.03374",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2107.03374",
+    "parsed_arxiv_id": "2107.03374",
+    "contexts": [
+      {
+        "sentence": "Recent code- specialized models achieve impressive functional correctness and productivity gains [2,3], and are increasingly adopted in both professional and casual development workflows [4].",
+        "expanded_context": [
+          "Our results demonstrate that neuron-level optimization offers an effective and scalable approach to securing code generation without sacrificing efficiency or generality. 1 Introduction Large language models (LLMs) have become integral to mod- ern software development, supporting code completion, pro- gram synthesis, and automated refactoring [1].",
+          "Recent code- specialized models achieve impressive functional correctness and productivity gains [2,3], and are increasingly adopted in both professional and casual development workflows [4].",
+          "This informal, exploratory usage, often referred to as “vibe cod- ing”, prioritizes speed and convenience over careful design or review, and typically proceeds without explicit security considerations [5,6]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 3,
+    "raw_citation": "Google, “Gemini Code Assist: AI-first coding in your natural language,” https://codeassist.google/, 2025.",
+    "parsed_title": "Gemini Code Assist: AI-first coding in your natural language",
+    "parsed_authors": [
+      "Google"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Recent code- specialized models achieve impressive functional correctness and productivity gains [2,3], and are increasingly adopted in both professional and casual development workflows [4].",
+        "expanded_context": [
+          "Our results demonstrate that neuron-level optimization offers an effective and scalable approach to securing code generation without sacrificing efficiency or generality. 1 Introduction Large language models (LLMs) have become integral to mod- ern software development, supporting code completion, pro- gram synthesis, and automated refactoring [1].",
+          "Recent code- specialized models achieve impressive functional correctness and productivity gains [2,3], and are increasingly adopted in both professional and casual development workflows [4].",
+          "This informal, exploratory usage, often referred to as “vibe cod- ing”, prioritizes speed and convenience over careful design or review, and typically proceeds without explicit security considerations [5,6]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 4,
+    "raw_citation": "I. Shani and G. Staff, “Survey reveals AI’s impact on the developer experience,” https://github.blog/news-insights/research/ survey-reveals-ais-impact-on-the-developer-experience/ #methodology, 2023.",
+    "parsed_title": "Survey reveals AI’s impact on the developer experience",
+    "parsed_authors": [
+      "I. Shani",
+      "G. Staff"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Recent code- specialized models achieve impressive functional correctness and productivity gains [2,3], and are increasingly adopted in both professional and casual development workflows [4].",
+        "expanded_context": [
+          "Our results demonstrate that neuron-level optimization offers an effective and scalable approach to securing code generation without sacrificing efficiency or generality. 1 Introduction Large language models (LLMs) have become integral to mod- ern software development, supporting code completion, pro- gram synthesis, and automated refactoring [1].",
+          "Recent code- specialized models achieve impressive functional correctness and productivity gains [2,3], and are increasingly adopted in both professional and casual development workflows [4].",
+          "This informal, exploratory usage, often referred to as “vibe cod- ing”, prioritizes speed and convenience over careful design or review, and typically proceeds without explicit security considerations [5,6]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 5,
+    "raw_citation": "P. P. Ray, “A review on vibe coding: Fundamentals, state-of-the-art, challenges and future directions,” Authorea Preprints, 2025.",
+    "parsed_title": "A review on vibe coding: Fundamentals, state-of-the-art, challenges and future directions",
+    "parsed_authors": [
+      "P. P. Ray"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "Authorea Preprints",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "This informal, exploratory usage, often referred to as “vibe cod- ing”, prioritizes speed and convenience over careful design or review, and typically proceeds without explicit security considerations [5,6].",
+        "expanded_context": [
+          "Recent code- specialized models achieve impressive functional correctness and productivity gains [2,3], and are increasingly adopted in both professional and casual development workflows [4].",
+          "This informal, exploratory usage, often referred to as “vibe cod- ing”, prioritizes speed and convenience over careful design or review, and typically proceeds without explicit security considerations [5,6].",
+          "In such settings, insecure code can be generated, copied, and reused with minimal audit."
+        ]
+      },
+      {
+        "sentence": "This problem is particularly acute in modern development workflows, where LLMs are used for rapid prototyping, code completion, and informal vibe cod- ing, in which developers prioritize speed and convenience over careful review or explicit security reasoning [5,6].",
+        "expanded_context": [
+          "More broadly, this fine-grained internal control aligns with emerging needs for interpretable and targeted model adaptation, and suggests a general strategy for improving de- fault behavior in AI-assisted software development, extending beyond code security to domains such as privacy, compliance, and organizational policy adherence. 8 Related Works Recent studies have shown that code LLMs frequently gen- erate code with security vulnerabilities, even when the code is functionally correct.",
+          "This problem is particularly acute in modern development workflows, where LLMs are used for rapid prototyping, code completion, and informal vibe cod- ing, in which developers prioritize speed and convenience over careful review or explicit security reasoning [5,6].",
+          "These observations have motivated a growing body of work on im- proving the security of LLM-generated code."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 6,
+    "raw_citation": "S. Zhao, D. Wang, K. Zhang, J. Luo, Z. Li, and L. Li, “Is vibe coding safe? benchmarking vulnerability of agent-generated code in real-world tasks,” arXiv preprint arXiv:2512.03262, 2025.",
+    "parsed_title": "Is vibe coding safe? benchmarking vulnerability of agent-generated code in real-world tasks",
+    "parsed_authors": [
+      "S. Zhao",
+      "D. Wang",
+      "K. Zhang",
+      "J. Luo",
+      "Z. Li",
+      "L. Li"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2512.03262",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2512.03262",
+    "parsed_arxiv_id": "2512.03262",
+    "contexts": [
+      {
+        "sentence": "This informal, exploratory usage, often referred to as “vibe cod- ing”, prioritizes speed and convenience over careful design or review, and typically proceeds without explicit security considerations [5,6].",
+        "expanded_context": [
+          "Recent code- specialized models achieve impressive functional correctness and productivity gains [2,3], and are increasingly adopted in both professional and casual development workflows [4].",
+          "This informal, exploratory usage, often referred to as “vibe cod- ing”, prioritizes speed and convenience over careful design or review, and typically proceeds without explicit security considerations [5,6].",
+          "In such settings, insecure code can be generated, copied, and reused with minimal audit."
+        ]
+      },
+      {
+        "sentence": "This problem is particularly acute in modern development workflows, where LLMs are used for rapid prototyping, code completion, and informal vibe cod- ing, in which developers prioritize speed and convenience over careful review or explicit security reasoning [5,6].",
+        "expanded_context": [
+          "More broadly, this fine-grained internal control aligns with emerging needs for interpretable and targeted model adaptation, and suggests a general strategy for improving de- fault behavior in AI-assisted software development, extending beyond code security to domains such as privacy, compliance, and organizational policy adherence. 8 Related Works Recent studies have shown that code LLMs frequently gen- erate code with security vulnerabilities, even when the code is functionally correct.",
+          "This problem is particularly acute in modern development workflows, where LLMs are used for rapid prototyping, code completion, and informal vibe cod- ing, in which developers prioritize speed and convenience over careful review or explicit security reasoning [5,6].",
+          "These observations have motivated a growing body of work on im- proving the security of LLM-generated code."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 7,
+    "raw_citation": "M. Schreiber and P. Tippe, “Security vulnerabilities in ai-generated code: A large-scale analysis of public github repositories,” in International Conference on Information and Communications Security. Springer, 2025, pp. 153–172.",
+    "parsed_title": "Security vulnerabilities in ai-generated code: A large-scale analysis of public github repositories",
+    "parsed_authors": [
+      "M. Schreiber",
+      "P. Tippe"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "International Conference on Information and Communications Security. Springer",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Prior work shows that even highly capable models frequently produce insecure patterns, including injection vulnerabilities, hallucinated dependencies, and unsafe memory operations [7,8].",
+        "expanded_context": [
+          "As a result, security vulnerabilities introduced by LLM-generated code have emerged as a serious concern.",
+          "Prior work shows that even highly capable models frequently produce insecure patterns, including injection vulnerabilities, hallucinated dependencies, and unsafe memory operations [7,8].",
+          "When incorporated into production systems, these issues can be directly exploitable and may propagate through reused components and depen- dencies, amplifying risk across the software supply chain."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 8,
+    "raw_citation": "J. Spracklen, R. Wijewickrama, A. N. Sakib, A. Maiti, and B. Viswanath, “We have a package for you! a comprehensive analysis of package hallucinations by code generating {LLMs},” in 34th USENIX Security Symposium (USENIX Security 25), 2025, pp. 3687–3706.",
+    "parsed_title": "We have a package for you! a comprehensive analysis of package hallucinations by code generating {LLMs}",
+    "parsed_authors": [
+      "J. Spracklen",
+      "R. Wijewickrama",
+      "A. N. Sakib",
+      "A. Maiti",
+      "B. Viswanath"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "34th USENIX Security Symposium (USENIX Security 25)",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Prior work shows that even highly capable models frequently produce insecure patterns, including injection vulnerabilities, hallucinated dependencies, and unsafe memory operations [7,8].",
+        "expanded_context": [
+          "As a result, security vulnerabilities introduced by LLM-generated code have emerged as a serious concern.",
+          "Prior work shows that even highly capable models frequently produce insecure patterns, including injection vulnerabilities, hallucinated dependencies, and unsafe memory operations [7,8].",
+          "When incorporated into production systems, these issues can be directly exploitable and may propagate through reused components and depen- dencies, amplifying risk across the software supply chain."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 9,
+    "raw_citation": "J. He and M. Vechev, “Large language models for code: Security hardening and adversarial testing,” in Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security, 2023, pp. 1865–1879.",
+    "parsed_title": "Large language models for code: Security hardening and adversarial testing",
+    "parsed_authors": [
+      "J. He",
+      "M. Vechev"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "However, full-parameter fine-tuning is computationally expensive and often fragile, with security gains frequently accompanied by catastrophic forgetting or degraded general coding performance [9–11].",
+        "expanded_context": [
+          "A natural mitigation strategy is to fine-tune LLMs on security- focused datasets.",
+          "However, full-parameter fine-tuning is computationally expensive and often fragile, with security gains frequently accompanied by catastrophic forgetting or degraded general coding performance [9–11].",
+          "Parameter- efficient methods such as LoRA [12] reduce training cost but operate at coarse granularity, offering limited interpretability or control over how security behavior is encoded [12, 13]."
+        ]
+      },
+      {
+        "sentence": "For instance, SVEN [9] manipulates internal activations to influence model outputs without modifying parameters.",
+        "expanded_context": [
+          "Beyond prompting and weight updates, a small number of works have begun to explore representation-level interven- tions.",
+          "For instance, SVEN [9] manipulates internal activations to influence model outputs without modifying parameters.",
+          "Although promising, these approaches typically lack explicit mechanisms for identifying which internal components are re- sponsible for security behavior, and they often exhibit higher variance compared to fine-tuning-based methods."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 10,
+    "raw_citation": "J. He, M. Vero, G. Krasnopolska, and M. Vechev, “Instruction tuning for secure code generation,” arXiv preprint arXiv:2402.09497, 2024.",
+    "parsed_title": "Instruction tuning for secure code generation",
+    "parsed_authors": [
+      "J. He",
+      "M. Vero",
+      "G. Krasnopolska",
+      "M. Vechev"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2402.09497",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2402.09497",
+    "parsed_arxiv_id": "2402.09497",
+    "contexts": [
+      {
+        "sentence": "However, full-parameter fine-tuning is computationally expensive and often fragile, with security gains frequently accompanied by catastrophic forgetting or degraded general coding performance [9–11].",
+        "expanded_context": [
+          "A natural mitigation strategy is to fine-tune LLMs on security- focused datasets.",
+          "However, full-parameter fine-tuning is computationally expensive and often fragile, with security gains frequently accompanied by catastrophic forgetting or degraded general coding performance [9–11].",
+          "Parameter- efficient methods such as LoRA [12] reduce training cost but operate at coarse granularity, offering limited interpretability or control over how security behavior is encoded [12, 13]."
+        ]
+      },
+      {
+        "sentence": "These results suggest that selectively opti- mizing security-critical neurons enables robust code security improvements. 1 void copyString(char* str) { 2 char buffer [10]; 3 strcpy(buffer , str); 4 } 5 6 int main() { 7 char largeStr [20] = \"This is a large string\"; 8 copyString(largeStr); 9 return 0; 10 } Listing 1: Code Generated by Baseline model. 1 void copyString(char* dest , const char* src , ,→size_t destSize) { 2 strncpy(dest , src , destSize - 1); 3 dest[destSize - 1] = ’\\0’; 4 } 5 6 int main() { 7 constexpr size_t bufferSize = 10; 8 char buffer[bufferSize]; 9 const char* largeString = \"This is a large ,→string\"; 10 copyString(buffer , largeString , bufferSize); 11 std::cout << \"Copied string: \" << buffer << ,→std::endl; 12 return 0; 13 } Listing 2: Code Generated by GoodVibe-hardened Model.",
+        "expanded_context": [
+          "As expected, GoodVibe incorporates size checks that mitigate potential buffer-overflow vulnerabilities, while the base model’s output lacks such checks and may lead to buffer overflow.",
+          "These results suggest that selectively opti- mizing security-critical neurons enables robust code security improvements. 1 void copyString(char* str) { 2 char buffer [10]; 3 strcpy(buffer , str); 4 } 5 6 int main() { 7 char largeStr [20] = \"This is a large string\"; 8 copyString(largeStr); 9 return 0; 10 } Listing 1: Code Generated by Baseline model. 1 void copyString(char* dest , const char* src , ,→size_t destSize) { 2 strncpy(dest , src , destSize - 1); 3 dest[destSize - 1] = ’\\0’; 4 } 5 6 int main() { 7 constexpr size_t bufferSize = 10; 8 char buffer[bufferSize]; 9 const char* largeString = \"This is a large ,→string\"; 10 copyString(buffer , largeString , bufferSize); 11 std::cout << \"Copied string: \" << buffer << ,→std::endl; 12 return 0; 13 } Listing 2: Code Generated by GoodVibe-hardened Model.",
+          "Trainable Parameter Efficiency."
+        ]
+      },
+      {
+        "sentence": "Ap- proaches such as SafeCoder [10] and Secure-Instruct [33] construct instruction–response pairs that emphasize secure coding practices and fine-tune pre-trained models accordingly, reporting substantial reductions in vulnerable code generation.",
+        "expanded_context": [
+          "A prominent line of research focuses on adapting models through full fine- tuning or instruction tuning on security-focused datasets.",
+          "Ap- proaches such as SafeCoder [10] and Secure-Instruct [33] construct instruction–response pairs that emphasize secure coding practices and fine-tune pre-trained models accordingly, reporting substantial reductions in vulnerable code generation.",
+          "While effective, full fine-tuning is computationally expensive, requires full access to model parameters, and is known to risk catastrophic forgetting of general coding capabilities [11]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 11,
+    "raw_citation": "X. Qi, Y. Zeng, T. Xie, P.-Y. Chen, R. Jia, P. Mittal, and P. Henderson, “Fine-tuning aligned language models compromises safety, even when users do not intend to!” arXiv preprint arXiv:2310.03693, 2023.",
+    "parsed_title": "Fine-tuning aligned language models compromises safety, even when users do not intend to!",
+    "parsed_authors": [
+      "X. Qi",
+      "Y. Zeng",
+      "T. Xie",
+      "P.-Y. Chen",
+      "R. Jia",
+      "P. Mittal",
+      "P. Henderson"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2310.03693",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2310.03693",
+    "parsed_arxiv_id": "2310.03693",
+    "contexts": [
+      {
+        "sentence": "However, full-parameter fine-tuning is computationally expensive and often fragile, with security gains frequently accompanied by catastrophic forgetting or degraded general coding performance [9–11].",
+        "expanded_context": [
+          "A natural mitigation strategy is to fine-tune LLMs on security- focused datasets.",
+          "However, full-parameter fine-tuning is computationally expensive and often fragile, with security gains frequently accompanied by catastrophic forgetting or degraded general coding performance [9–11].",
+          "Parameter- efficient methods such as LoRA [12] reduce training cost but operate at coarse granularity, offering limited interpretability or control over how security behavior is encoded [12, 13]."
+        ]
+      },
+      {
+        "sentence": "While effective, full fine-tuning is computationally expensive, requires full access to model parameters, and is known to risk catastrophic forgetting of general coding capabilities [11].",
+        "expanded_context": [
+          "Ap- proaches such as SafeCoder [10] and Secure-Instruct [33] construct instruction–response pairs that emphasize secure coding practices and fine-tune pre-trained models accordingly, reporting substantial reductions in vulnerable code generation.",
+          "While effective, full fine-tuning is computationally expensive, requires full access to model parameters, and is known to risk catastrophic forgetting of general coding capabilities [11].",
+          "These drawbacks limit its practicality for frequent updates or deployment in resource-constrained settings."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 12,
+    "raw_citation": "E. J. Hu, Y. Shen, P. Wallis, Z. Allen-Zhu, Y. Li, S. Wang, L. Wang, W. Chen et al., “Lora: Low-rank adaptation of large language models.” ICLR, vol. 1, no. 2, p. 3, 2022.",
+    "parsed_title": "Lora: Low-rank adaptation of large language models.: ICLR",
+    "parsed_authors": [
+      "E. J. Hu",
+      "Y. Shen",
+      "P. Wallis",
+      "Z. Allen-Zhu",
+      "Y. Li",
+      "S. Wang",
+      "L. Wang",
+      "W. Chen"
+    ],
+    "parsed_year": 2022,
+    "parsed_venue": null,
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Parameter- efficient methods such as LoRA [12] reduce training cost but operate at coarse granularity, offering limited interpretability or control over how security behavior is encoded [12, 13].",
+        "expanded_context": [
+          "However, full-parameter fine-tuning is computationally expensive and often fragile, with security gains frequently accompanied by catastrophic forgetting or degraded general coding performance [9–11].",
+          "Parameter- efficient methods such as LoRA [12] reduce training cost but operate at coarse granularity, offering limited interpretability or control over how security behavior is encoded [12, 13].",
+          "In practice, this makes it difficult to reason about robustness or ensure that security improvements generalize beyond the fine-tuning data."
+        ]
+      },
+      {
+        "sentence": "Com- mon PEFT approaches include adapter-based methods, which insert lightweight trainable modules between transformer layers; prefix or prompt tuning, which prepends trainable embeddings to model inputs; and low-rank adaptation tech- niques that constrain parameter updates to low-dimensional subspaces [12,15].",
+        "expanded_context": [
+          "Parameter-Efficient Fine-Tuning (PEFT) methods seek to reduce this cost by restricting optimization to a subset of parameters while freezing the pre-trained backbone.",
+          "Com- mon PEFT approaches include adapter-based methods, which insert lightweight trainable modules between transformer layers; prefix or prompt tuning, which prepends trainable embeddings to model inputs; and low-rank adaptation tech- niques that constrain parameter updates to low-dimensional subspaces [12,15].",
+          "From an optimization perspective, PEFT methods modify model behavior by introducing or updat- ing parameters at the level of layers or submodules."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 13,
+    "raw_citation": "N. Ding, Y. Qin, G. Yang, F. Wei, Z. Yang, Y. Su, S. Hu, Y. Chen, C.-M. Chan, W. Chen et al., “Parameter-efficient fine-tuning of large-scale pre-trained language models,” Nature machine intelligence, vol. 5, no. 3, pp. 220–235, 2023.",
+    "parsed_title": "Parameter-efficient fine-tuning of large-scale pre-trained language models",
+    "parsed_authors": [
+      "N. Ding",
+      "Y. Qin",
+      "G. Yang",
+      "F. Wei",
+      "Z. Yang",
+      "Y. Su",
+      "S. Hu",
+      "Y. Chen",
+      "C.-M. Chan",
+      "W. Chen"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "Nature machine intelligence",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Parameter- efficient methods such as LoRA [12] reduce training cost but operate at coarse granularity, offering limited interpretability or control over how security behavior is encoded [12, 13].",
+        "expanded_context": [
+          "However, full-parameter fine-tuning is computationally expensive and often fragile, with security gains frequently accompanied by catastrophic forgetting or degraded general coding performance [9–11].",
+          "Parameter- efficient methods such as LoRA [12] reduce training cost but operate at coarse granularity, offering limited interpretability or control over how security behavior is encoded [12, 13].",
+          "In practice, this makes it difficult to reason about robustness or ensure that security improvements generalize beyond the fine-tuning data."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 14,
+    "raw_citation": "B. Roziere, J. Gehring, F. Gloeckle, S. Sootla, I. Gat, X. E. Tan, Y. Adi, J. Liu, R. Sauvestre, T. Remez et al., “Code llama: Open foundation models for code,” arXiv preprint arXiv:2308.12950, 2023.",
+    "parsed_title": "Code llama: Open foundation models for code",
+    "parsed_authors": [
+      "B. Roziere",
+      "J. Gehring",
+      "F. Gloeckle",
+      "S. Sootla",
+      "I. Gat",
+      "X. E. Tan",
+      "Y. Adi",
+      "J. Liu",
+      "R. Sauvestre",
+      "T. Remez"
+    ],
+    "parsed_year": 2023,
+    "parsed_venue": "arXiv preprint arXiv:2308.12950",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2308.12950",
+    "parsed_arxiv_id": "2308.12950",
+    "contexts": [
+      {
+        "sentence": "Pre- training is performed on large-scale code corpora span- ning multiple programming languages and development con- texts [14].",
+        "expanded_context": [
+          "Given an input sequence x = (x1,...,xn), the model learns a conditional distribution p(xn+1 | x≤n) over a vocabulary that includes programming language keywords, identifiers, operators, and literals.",
+          "Pre- training is performed on large-scale code corpora span- ning multiple programming languages and development con- texts [14].",
+          "Architecturally, a code LLM, identical to conven- tional LLMs, consists of a stack of transformer layers, each composed of a multi-head self-attention module followed by a position-wise feed-forward network (FFN)."
+        ]
+      },
+      {
+        "sentence": "Specifically, we include both code-specialized models (CodeLlama [14]) and general- purpose instruction-tuned models (Llama3 [23], Qwen3 [18], and Gemma3 [24] families).",
+        "expanded_context": [
+          "We evaluate GoodVibe on six recent open- source large language models released by three major devel- opers: Meta, Alibaba, and Google.",
+          "Specifically, we include both code-specialized models (CodeLlama [14]) and general- purpose instruction-tuned models (Llama3 [23], Qwen3 [18], and Gemma3 [24] families).",
+          "All models are transformer-based and are used in their original pre-trained checkpoint."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 15,
+    "raw_citation": "L. Xu, H. Xie, S. J. Qin, X. Tao, and F. L. Wang, “Parameter-efficient fine-tuning methods for pretrained language models: A critical review and assessment,” IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026.",
+    "parsed_title": "Parameter-efficient fine-tuning methods for pretrained language models: A critical review and assessment",
+    "parsed_authors": [
+      "L. Xu",
+      "H. Xie",
+      "S. J. Qin",
+      "X. Tao",
+      "F. L. Wang"
+    ],
+    "parsed_year": 2026,
+    "parsed_venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Com- mon PEFT approaches include adapter-based methods, which insert lightweight trainable modules between transformer layers; prefix or prompt tuning, which prepends trainable embeddings to model inputs; and low-rank adaptation tech- niques that constrain parameter updates to low-dimensional subspaces [12,15].",
+        "expanded_context": [
+          "Parameter-Efficient Fine-Tuning (PEFT) methods seek to reduce this cost by restricting optimization to a subset of parameters while freezing the pre-trained backbone.",
+          "Com- mon PEFT approaches include adapter-based methods, which insert lightweight trainable modules between transformer layers; prefix or prompt tuning, which prepends trainable embeddings to model inputs; and low-rank adaptation tech- niques that constrain parameter updates to low-dimensional subspaces [12,15].",
+          "From an optimization perspective, PEFT methods modify model behavior by introducing or updat- ing parameters at the level of layers or submodules."
+        ]
+      },
+      {
+        "sentence": "These approaches have been shown to retain much of the pre- trained model’s general capability while improving task- specific performance [15, 16].",
+        "expanded_context": [
+          "From an optimization perspective, PEFT methods modify model behavior by introducing or updat- ing parameters at the level of layers or submodules.",
+          "These approaches have been shown to retain much of the pre- trained model’s general capability while improving task- specific performance [15, 16].",
+          "However, since PEFT oper- ates at coarse granularity, it provides limited visibility into how task-relevant knowledge is encoded within the model’s internal representations, particularly at individual neurons. 3 GoodVibe 3.1 Threat Model Goal and Assumptions."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 16,
+    "raw_citation": "D. Zhang, T. Feng, L. Xue, Y. Wang, Y. Dong, and J. Tang, “Parameter-efficient fine-tuning for foundation models,” arXiv preprint arXiv:2501.13787, 2025.",
+    "parsed_title": "Parameter-efficient fine-tuning for foundation models",
+    "parsed_authors": [
+      "D. Zhang",
+      "T. Feng",
+      "L. Xue",
+      "Y. Wang",
+      "Y. Dong",
+      "J. Tang"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2501.13787",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2501.13787",
+    "parsed_arxiv_id": "2501.13787",
+    "contexts": [
+      {
+        "sentence": "These approaches have been shown to retain much of the pre- trained model’s general capability while improving task- specific performance [15, 16].",
+        "expanded_context": [
+          "From an optimization perspective, PEFT methods modify model behavior by introducing or updat- ing parameters at the level of layers or submodules.",
+          "These approaches have been shown to retain much of the pre- trained model’s general capability while improving task- specific performance [15, 16].",
+          "However, since PEFT oper- ates at coarse granularity, it provides limited visibility into how task-relevant knowledge is encoded within the model’s internal representations, particularly at individual neurons. 3 GoodVibe 3.1 Threat Model Goal and Assumptions."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 17,
+    "raw_citation": "N. Elhage, N. Nanda, C. Olsson, T. Henighan, N. Joseph, B. Mann, A. Askell, Y. Bai, A. Chen, T. Conerly et al., “A mathematical framework for transformer circuits,” Transformer Circuits Thread, vol. 1, no. 1, p. 12, 2021.",
+    "parsed_title": "A mathematical framework for transformer circuits",
+    "parsed_authors": [
+      "N. Elhage",
+      "N. Nanda",
+      "C. Olsson",
+      "T. Henighan",
+      "N. Joseph",
+      "B. Mann",
+      "A. Askell",
+      "Y. Bai",
+      "A. Chen",
+      "T. Conerly"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "Transformer Circuits Thread",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Furthermore, in large transformer models, individual neurons typically capture low- level features or partial signals, while higher-level behaviors are distributed across multiple neurons [17].",
+        "expanded_context": [
+          "By selectively adapting these neurons, GoodVibe increases the likelihood that security considera- tions are applied during code generation, even when the user does not explicitly request secure code.",
+          "Furthermore, in large transformer models, individual neurons typically capture low- level features or partial signals, while higher-level behaviors are distributed across multiple neurons [17].",
+          "Following this, we argue that the security control logic emerges from groups of neurons that respond similarly to security-relevant patterns."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 19,
+    "raw_citation": "J. Gu, X. Jiang, Z. Shi, H. Tan, X. Zhai, C. Xu, W. Li, Y. Shen, S. Ma, H. Liu et al., “A survey on llm-as-ajudge,” The Innovation, 2024.",
+    "parsed_title": "A survey on llm-as-ajudge",
+    "parsed_authors": [
+      "J. Gu",
+      "X. Jiang",
+      "Z. Shi",
+      "H. Tan",
+      "X. Zhai",
+      "C. Xu",
+      "W. Li",
+      "Y. Shen",
+      "S. Ma",
+      "H. Liu"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "The Innovation",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Fol- lowing the emerging LLM-as-a-judge paradigm [19], Qwen3- 0.6B demonstrates reliable instruction adherence and stable binary classification behavior, which is critical for structured security evaluation at scale.",
+        "expanded_context": [
+          "Models in the Qwen family are trained on large-scale technical and programming-centric corpora, making them well-suited for identifying vulnerability-related patterns in source code.",
+          "Fol- lowing the emerging LLM-as-a-judge paradigm [19], Qwen3- 0.6B demonstrates reliable instruction adherence and stable binary classification behavior, which is critical for structured security evaluation at scale.",
+          "Specifically, the judge model is prompted using a fixed instruction template: 6 You are an AI that returns only a single number: 1 or 0."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 20,
+    "raw_citation": "P. Clark, I. Cowhey, O. Etzioni, T. Khot, A. Sabharwal, C. Schoenick, and O. Tafjord, “Think you have solved question answering? try arc, the ai2 reasoning challenge,” arXiv preprint arXiv:1803.05457, 2018.",
+    "parsed_title": "Think you have solved question answering? try arc, the ai2 reasoning challenge",
+    "parsed_authors": [
+      "P. Clark",
+      "I. Cowhey",
+      "O. Etzioni",
+      "T. Khot",
+      "A. Sabharwal",
+      "C. Schoenick",
+      "O. Tafjord"
+    ],
+    "parsed_year": 2018,
+    "parsed_venue": "arXiv preprint arXiv:1803.05457",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/1803.05457",
+    "parsed_arxiv_id": "1803.05457",
+    "contexts": [
+      {
+        "sentence": "We report accuracy on ARC Challenge [20], which tests non- trivial scientific reasoning; GSM8K [21], a benchmark of linguistically diverse grade-school math word problems; and MMLU [22], a large multitask benchmark spanning multiple domains of knowledge.",
+        "expanded_context": [
+          "To assess whether security optimization degrades gen- eral model capabilities, we evaluate utility preservation using standard reasoning and language understanding benchmarks.",
+          "We report accuracy on ARC Challenge [20], which tests non- trivial scientific reasoning; GSM8K [21], a benchmark of linguistically diverse grade-school math word problems; and MMLU [22], a large multitask benchmark spanning multiple domains of knowledge.",
+          "Performance on these benchmarks serves as a proxy for the model’s general reasoning and lan- guage modeling capability after security optimization. 5 Experimental Results 5.1 Evaluation Setup Target Models."
+        ]
+      },
+      {
+        "sentence": "These results suggest that selectively opti- mizing security-critical neurons enables robust code security improvements. 1 void copyString(char* str) { 2 char buffer [10]; 3 strcpy(buffer , str); 4 } 5 6 int main() { 7 char largeStr [20] = \"This is a large string\"; 8 copyString(largeStr); 9 return 0; 10 } Listing 1: Code Generated by Baseline model. 1 void copyString(char* dest , const char* src , ,→size_t destSize) { 2 strncpy(dest , src , destSize - 1); 3 dest[destSize - 1] = ’\\0’; 4 } 5 6 int main() { 7 constexpr size_t bufferSize = 10; 8 char buffer[bufferSize]; 9 const char* largeString = \"This is a large ,→string\"; 10 copyString(buffer , largeString , bufferSize); 11 std::cout << \"Copied string: \" << buffer << ,→std::endl; 12 return 0; 13 } Listing 2: Code Generated by GoodVibe-hardened Model.",
+        "expanded_context": [
+          "As expected, GoodVibe incorporates size checks that mitigate potential buffer-overflow vulnerabilities, while the base model’s output lacks such checks and may lead to buffer overflow.",
+          "These results suggest that selectively opti- mizing security-critical neurons enables robust code security improvements. 1 void copyString(char* str) { 2 char buffer [10]; 3 strcpy(buffer , str); 4 } 5 6 int main() { 7 char largeStr [20] = \"This is a large string\"; 8 copyString(largeStr); 9 return 0; 10 } Listing 1: Code Generated by Baseline model. 1 void copyString(char* dest , const char* src , ,→size_t destSize) { 2 strncpy(dest , src , destSize - 1); 3 dest[destSize - 1] = ’\\0’; 4 } 5 6 int main() { 7 constexpr size_t bufferSize = 10; 8 char buffer[bufferSize]; 9 const char* largeString = \"This is a large ,→string\"; 10 copyString(buffer , largeString , bufferSize); 11 std::cout << \"Copied string: \" << buffer << ,→std::endl; 12 return 0; 13 } Listing 2: Code Generated by GoodVibe-hardened Model.",
+          "Trainable Parameter Efficiency."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 21,
+    "raw_citation": "K. Cobbe, V. Kosaraju, M. Bavarian, M. Chen, H. Jun, L. Kaiser, M. Plappert, J. Tworek, J. Hilton, R. Nakano, C. Hesse, and J. Schulman, “Training verifiers to solve math word problems,” arXiv preprint arXiv:2110.14168, 2021.",
+    "parsed_title": "Training verifiers to solve math word problems",
+    "parsed_authors": [
+      "K. Cobbe",
+      "V. Kosaraju",
+      "M. Bavarian",
+      "M. Chen",
+      "H. Jun",
+      "L. Kaiser",
+      "M. Plappert",
+      "J. Tworek",
+      "J. Hilton",
+      "R. Nakano",
+      "C. Hesse",
+      "J. Schulman"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "arXiv preprint arXiv:2110.14168",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2110.14168",
+    "parsed_arxiv_id": "2110.14168",
+    "contexts": [
+      {
+        "sentence": "We report accuracy on ARC Challenge [20], which tests non- trivial scientific reasoning; GSM8K [21], a benchmark of linguistically diverse grade-school math word problems; and MMLU [22], a large multitask benchmark spanning multiple domains of knowledge.",
+        "expanded_context": [
+          "To assess whether security optimization degrades gen- eral model capabilities, we evaluate utility preservation using standard reasoning and language understanding benchmarks.",
+          "We report accuracy on ARC Challenge [20], which tests non- trivial scientific reasoning; GSM8K [21], a benchmark of linguistically diverse grade-school math word problems; and MMLU [22], a large multitask benchmark spanning multiple domains of knowledge.",
+          "Performance on these benchmarks serves as a proxy for the model’s general reasoning and lan- guage modeling capability after security optimization. 5 Experimental Results 5.1 Evaluation Setup Target Models."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 22,
+    "raw_citation": "D. Hendrycks, C. Burns, S. Basart, A. Zou, M. Mazeika, D. Song, and J. Steinhardt, “Measuring massive multitask language understanding,” Proceedings of the International Conference on Learning Representations (ICLR), 2021.",
+    "parsed_title": "Measuring massive multitask language understanding",
+    "parsed_authors": [
+      "D. Hendrycks",
+      "C. Burns",
+      "S. Basart",
+      "A. Zou",
+      "M. Mazeika",
+      "D. Song",
+      "J. Steinhardt"
+    ],
+    "parsed_year": 2021,
+    "parsed_venue": "Proceedings of the International Conference on Learning Representations (ICLR)",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "We report accuracy on ARC Challenge [20], which tests non- trivial scientific reasoning; GSM8K [21], a benchmark of linguistically diverse grade-school math word problems; and MMLU [22], a large multitask benchmark spanning multiple domains of knowledge.",
+        "expanded_context": [
+          "To assess whether security optimization degrades gen- eral model capabilities, we evaluate utility preservation using standard reasoning and language understanding benchmarks.",
+          "We report accuracy on ARC Challenge [20], which tests non- trivial scientific reasoning; GSM8K [21], a benchmark of linguistically diverse grade-school math word problems; and MMLU [22], a large multitask benchmark spanning multiple domains of knowledge.",
+          "Performance on these benchmarks serves as a proxy for the model’s general reasoning and lan- guage modeling capability after security optimization. 5 Experimental Results 5.1 Evaluation Setup Target Models."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 23,
+    "raw_citation": "A. Dubey, A. Jauhri, A. Pandey, A. Kadian, A. Al-Dahle, et al., “The llama 3 herd of models,” arXiv e-prints, pp. arXiv–2407, 2024.",
+    "parsed_title": "The llama 3 herd of models",
+    "parsed_authors": [
+      "A. Dubey",
+      "A. Jauhri",
+      "A. Pandey",
+      "A. Kadian",
+      "A. Al-Dahle"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv e-prints",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Specifically, we include both code-specialized models (CodeLlama [14]) and general- purpose instruction-tuned models (Llama3 [23], Qwen3 [18], and Gemma3 [24] families).",
+        "expanded_context": [
+          "We evaluate GoodVibe on six recent open- source large language models released by three major devel- opers: Meta, Alibaba, and Google.",
+          "Specifically, we include both code-specialized models (CodeLlama [14]) and general- purpose instruction-tuned models (Llama3 [23], Qwen3 [18], and Gemma3 [24] families).",
+          "All models are transformer-based and are used in their original pre-trained checkpoint."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 24,
+    "raw_citation": "G. Team, A. Kamath, J. Ferret, S. Pathak, N. Vieillard, R. Merhej, S. Perrin, T. Matejovicova, A. Ramé, M. Rivière et al., “Gemma 3 technical report,” arXiv preprint arXiv:2503.19786, 2025.",
+    "parsed_title": "Gemma 3 technical report",
+    "parsed_authors": [
+      "G. Team",
+      "A. Kamath",
+      "J. Ferret",
+      "S. Pathak",
+      "N. Vieillard",
+      "R. Merhej",
+      "S. Perrin",
+      "T. Matejovicova",
+      "A. Ramé",
+      "M. Rivière"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2503.19786",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2503.19786",
+    "parsed_arxiv_id": "2503.19786",
+    "contexts": [
+      {
+        "sentence": "Specifically, we include both code-specialized models (CodeLlama [14]) and general- purpose instruction-tuned models (Llama3 [23], Qwen3 [18], and Gemma3 [24] families).",
+        "expanded_context": [
+          "We evaluate GoodVibe on six recent open- source large language models released by three major devel- opers: Meta, Alibaba, and Google.",
+          "Specifically, we include both code-specialized models (CodeLlama [14]) and general- purpose instruction-tuned models (Llama3 [23], Qwen3 [18], and Gemma3 [24] families).",
+          "All models are transformer-based and are used in their original pre-trained checkpoint."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 25,
+    "raw_citation": "Cybernative.ai, “Cybernative.ai code vulnerability and security dataset,” 2024. [Online]. Available: https://huggingface.co/datasets/CyberNative/ Code_Vulnerability_Security_DPO",
+    "parsed_title": "Cybernative.ai code vulnerability and security dataset",
+    "parsed_authors": [
+      "Cybernative.ai"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "[Online]. Available",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "For security neuron identification and fine-tuning, we use the CyberNative Code Vulnerability and Security Dataset [25].",
+        "expanded_context": [
+          "Evaluation Dataset.",
+          "For security neuron identification and fine-tuning, we use the CyberNative Code Vulnerability and Security Dataset [25].",
+          "The dataset consists of aligned pairs of secure and insecure code snippets corresponding to the same natural-language prompt, making it well-suited for the security neuron identification."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 26,
+    "raw_citation": "S. Lu, S. Park, E. Seo, and Y. Zhou, “Learning from mistakes: a comprehensive study on real world concurrency bug characteristics,” in Proceedings of the 13th international conference on Architectural support for programming languages and operating systems, 2008, pp. 329–339.",
+    "parsed_title": "Learning from mistakes: a comprehensive study on real world concurrency bug characteristics",
+    "parsed_authors": [
+      "S. Lu",
+      "S. Park",
+      "E. Seo",
+      "Y. Zhou"
+    ],
+    "parsed_year": 2008,
+    "parsed_venue": "Proceedings of the 13th international conference on Architectural support for programming languages and operating systems",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "C++ is widely used in low-level and performance-critical systems, including operating sys- tems, system libraries, and embedded software, where mem- ory safety vulnerabilities such as buffer overflows and use- after-free errors are common and can have severe conse- quences [26, 27].",
+        "expanded_context": [
+          "Experiments are primarily conducted on two programming languages, C++ and Java, as they represent distinct and security-critical segments of the software ecosystem.",
+          "C++ is widely used in low-level and performance-critical systems, including operating sys- tems, system libraries, and embedded software, where mem- ory safety vulnerabilities such as buffer overflows and use- after-free errors are common and can have severe conse- quences [26, 27].",
+          "Java, in contrast, is extensively used in large-scale application development and the Android ecosys- tem, where security issues often arise from improper input validation, insecure API usage, and flawed authentication or authorization logic [28,29]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 27,
+    "raw_citation": "L. Szekeres, M. Payer, T. Wei, and D. Song, “Sok: Eternal war in memory,” in 2013 IEEE Symposium on Security and Privacy. IEEE, 2013, pp. 48–62.",
+    "parsed_title": "Sok: Eternal war in memory",
+    "parsed_authors": [
+      "L. Szekeres",
+      "M. Payer",
+      "T. Wei",
+      "D. Song"
+    ],
+    "parsed_year": 2013,
+    "parsed_venue": "2013 IEEE Symposium on Security and Privacy. IEEE",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "C++ is widely used in low-level and performance-critical systems, including operating sys- tems, system libraries, and embedded software, where mem- ory safety vulnerabilities such as buffer overflows and use- after-free errors are common and can have severe conse- quences [26, 27].",
+        "expanded_context": [
+          "Experiments are primarily conducted on two programming languages, C++ and Java, as they represent distinct and security-critical segments of the software ecosystem.",
+          "C++ is widely used in low-level and performance-critical systems, including operating sys- tems, system libraries, and embedded software, where mem- ory safety vulnerabilities such as buffer overflows and use- after-free errors are common and can have severe conse- quences [26, 27].",
+          "Java, in contrast, is extensively used in large-scale application development and the Android ecosys- tem, where security issues often arise from improper input validation, insecure API usage, and flawed authentication or authorization logic [28,29]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 28,
+    "raw_citation": "A. P. Felt, M. Finifter, E. Chin, S. Hanna, and D. Wagner, “A survey of mobile malware in the wild,” in Proceedings of the 1st ACM workshop on Security and privacy in smartphones and mobile devices, 2011, pp. 3–14.",
+    "parsed_title": "A survey of mobile malware in the wild",
+    "parsed_authors": [
+      "A. P. Felt",
+      "M. Finifter",
+      "E. Chin",
+      "S. Hanna",
+      "D. Wagner"
+    ],
+    "parsed_year": 2011,
+    "parsed_venue": "Proceedings of the 1st ACM workshop on Security and privacy in smartphones and mobile devices",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Java, in contrast, is extensively used in large-scale application development and the Android ecosys- tem, where security issues often arise from improper input validation, insecure API usage, and flawed authentication or authorization logic [28,29].",
+        "expanded_context": [
+          "C++ is widely used in low-level and performance-critical systems, including operating sys- tems, system libraries, and embedded software, where mem- ory safety vulnerabilities such as buffer overflows and use- after-free errors are common and can have severe conse- quences [26, 27].",
+          "Java, in contrast, is extensively used in large-scale application development and the Android ecosys- tem, where security issues often arise from improper input validation, insecure API usage, and flawed authentication or authorization logic [28,29].",
+          "Furthermore, to assess the gener- alization of GoodVibe, we extend the evaluation to Swift and Go, detailed in Section 5.3."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 29,
+    "raw_citation": "S. Arzt, S. Rasthofer, C. Fritz, E. Bodden, A. Bartel, J. Klein, Y. Le Traon, D. Octeau, and P. McDaniel, “Flowdroid: Precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for android apps,” ACM sigplan notices, vol. 49, no. 6, pp. 259–269, 2014.",
+    "parsed_title": "Flowdroid: Precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for android apps",
+    "parsed_authors": [
+      "S. Arzt",
+      "S. Rasthofer",
+      "C. Fritz",
+      "E. Bodden",
+      "A. Bartel",
+      "J. Klein",
+      "Y. Le Traon",
+      "D. Octeau",
+      "P. McDaniel"
+    ],
+    "parsed_year": 2014,
+    "parsed_venue": "ACM sigplan notices",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "Java, in contrast, is extensively used in large-scale application development and the Android ecosys- tem, where security issues often arise from improper input validation, insecure API usage, and flawed authentication or authorization logic [28,29].",
+        "expanded_context": [
+          "C++ is widely used in low-level and performance-critical systems, including operating sys- tems, system libraries, and embedded software, where mem- ory safety vulnerabilities such as buffer overflows and use- after-free errors are common and can have severe conse- quences [26, 27].",
+          "Java, in contrast, is extensively used in large-scale application development and the Android ecosys- tem, where security issues often arise from improper input validation, insecure API usage, and flawed authentication or authorization logic [28,29].",
+          "Furthermore, to assess the gener- alization of GoodVibe, we extend the evaluation to Swift and Go, detailed in Section 5.3."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 30,
+    "raw_citation": "T. Krauß, H. Dashtbani, and A. Dmitrienko, “Twinbreak: Jailbreaking llm security alignments based on twin prompts,” arXiv preprint arXiv:2506.07596, 2025.",
+    "parsed_title": "Twinbreak: Jailbreaking llm security alignments based on twin prompts",
+    "parsed_authors": [
+      "T. Krauß",
+      "H. Dashtbani",
+      "A. Dmitrienko"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2506.07596",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2506.07596",
+    "parsed_arxiv_id": "2506.07596",
+    "contexts": [
+      {
+        "sentence": "We first evaluate the impor- tance of gradient-based neuron identification by comparing it against an activation-based baseline that is widely used in literature to identify critical neuron structures [30,31].",
+        "expanded_context": [
+          "Security Neuron Identification.",
+          "We first evaluate the impor- tance of gradient-based neuron identification by comparing it against an activation-based baseline that is widely used in literature to identify critical neuron structures [30,31].",
+          "Specif- ically, in the activation-based approach, we select neurons based on their activation magnitude during the security eval- uation task, while keeping the number of selected neurons identical to the gradient-based method."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 31,
+    "raw_citation": "L. Wu, S. Behrouzi, M. Rostami, M. Thang, S. Picek, and A.-R. Sadeghi, “Neurostrike: Neuron-level attacks on aligned llms,” Network and Distributed System Security (NDSS) Symposium, 2026.",
+    "parsed_title": "Neurostrike: Neuron-level attacks on aligned llms",
+    "parsed_authors": [
+      "L. Wu",
+      "S. Behrouzi",
+      "M. Rostami",
+      "M. Thang",
+      "S. Picek",
+      "A.-R. Sadeghi"
+    ],
+    "parsed_year": 2026,
+    "parsed_venue": "Network and Distributed System Security (NDSS) Symposium",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "We first evaluate the impor- tance of gradient-based neuron identification by comparing it against an activation-based baseline that is widely used in literature to identify critical neuron structures [30,31].",
+        "expanded_context": [
+          "Security Neuron Identification.",
+          "We first evaluate the impor- tance of gradient-based neuron identification by comparing it against an activation-based baseline that is widely used in literature to identify critical neuron structures [30,31].",
+          "Specif- ically, in the activation-based approach, we select neurons based on their activation magnitude during the security eval- uation task, while keeping the number of selected neurons identical to the gradient-based method."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 32,
+    "raw_citation": "T. M. Ahmed, W. Shang, and A. E. Hassan, “An empirical study of the copy and paste behavior during development,” in 2015 IEEE/ACM 12th Working Conference on Mining Software Repositories. IEEE, 2015, pp. 99–110.",
+    "parsed_title": "An empirical study of the copy and paste behavior during development",
+    "parsed_authors": [
+      "T. M. Ahmed",
+      "W. Shang",
+      "A. E. Hassan"
+    ],
+    "parsed_year": 2015,
+    "parsed_venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories. IEEE",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "In these settings, code gener- ated by language models is often reused, adapted, or integrated into larger codebases with minimal modification [32].",
+        "expanded_context": [
+          "This distinction is particularly important in practical develop- ment workflows such as vibe coding, where developers rely on rapid, informal interactions with LLMs and rarely specify security requirements explicitly.",
+          "In these settings, code gener- ated by language models is often reused, adapted, or integrated into larger codebases with minimal modification [32].",
+          "Improv- ing the security of these initial outputs, therefore, reduces the 12 likelihood that insecure patterns propagate downstream, ef- fectively raising the baseline security quality of AI-generated code."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 33,
+    "raw_citation": "J. Li, F. Rabbi, B. Yang, S. Wang, and J. Yang, “Secure-instruct: An automated pipeline for synthesizing instruction-tuning datasets using llms for secure code generation,” arXiv preprint arXiv:2510.07189, 2025.",
+    "parsed_title": "Secure-instruct: An automated pipeline for synthesizing instruction-tuning datasets using llms for secure code generation",
+    "parsed_authors": [
+      "J. Li",
+      "F. Rabbi",
+      "B. Yang",
+      "S. Wang",
+      "J. Yang"
+    ],
+    "parsed_year": 2025,
+    "parsed_venue": "arXiv preprint arXiv:2510.07189",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2510.07189",
+    "parsed_arxiv_id": "2510.07189",
+    "contexts": [
+      {
+        "sentence": "Ap- proaches such as SafeCoder [10] and Secure-Instruct [33] construct instruction–response pairs that emphasize secure coding practices and fine-tune pre-trained models accordingly, reporting substantial reductions in vulnerable code generation.",
+        "expanded_context": [
+          "A prominent line of research focuses on adapting models through full fine- tuning or instruction tuning on security-focused datasets.",
+          "Ap- proaches such as SafeCoder [10] and Secure-Instruct [33] construct instruction–response pairs that emphasize secure coding practices and fine-tune pre-trained models accordingly, reporting substantial reductions in vulnerable code generation.",
+          "While effective, full fine-tuning is computationally expensive, requires full access to model parameters, and is known to risk catastrophic forgetting of general coding capabilities [11]."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 34,
+    "raw_citation": "H. Hajipour, L. Schönherr, T. Holz, and M. Fritz, “Hexacoder: Secure code generation via oracle-guided synthetic training data,” arXiv preprint arXiv:2409.06446, 2024.",
+    "parsed_title": "Hexacoder: Secure code generation via oracle-guided synthetic training data",
+    "parsed_authors": [
+      "H. Hajipour",
+      "L. Schönherr",
+      "T. Holz",
+      "M. Fritz"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2409.06446",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2409.06446",
+    "parsed_arxiv_id": "2409.06446",
+    "contexts": [
+      {
+        "sentence": "Systems like HexaCoder [34] demonstrate that PEFT can improve security outcomes while introducing only a small number of trainable parameters.",
+        "expanded_context": [
+          "To reduce train- ing cost, parameter-efficient fine-tuning (PEFT) methods such as Low-Rank Adaptation (LoRA) have been applied to secure code generation.",
+          "Systems like HexaCoder [34] demonstrate that PEFT can improve security outcomes while introducing only a small number of trainable parameters.",
+          "However, these methods still operate at the level of weight matrices and im- plicitly assume that security-relevant knowledge is diffusely distributed across the model."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 35,
+    "raw_citation": "M. Nazzal, I. Khalil, A. Khreishah, and N. Phan, “Promsec: Prompt optimization for secure generation of functional source code with large language models (llms),” in Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security, 2024, pp. 2266–2280.",
+    "parsed_title": "Promsec: Prompt optimization for secure generation of functional source code with large language models (llms)",
+    "parsed_authors": [
+      "M. Nazzal",
+      "I. Khalil",
+      "A. Khreishah",
+      "N. Phan"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "For example, PromSec [35] proposes automated prompt op- timization to discourage vulnerable code generation, while SGCode [36] introduces structured prompts tailored to spe- cific vulnerability classes.",
+        "expanded_context": [
+          "Another line of work explores prompt-based techniques that steer model behavior without modifying parameters, making them attractive for black-box settings and rapid deployment.",
+          "For example, PromSec [35] proposes automated prompt op- timization to discourage vulnerable code generation, while SGCode [36] introduces structured prompts tailored to spe- cific vulnerability classes.",
+          "In-context learning approaches such as SecCoder [37] further show that few-shot security- aware examples can improve outputs without training."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 36,
+    "raw_citation": "K. Ton, N. Nguyen, M. Nazzal, A. Khreishah, C. Borcea, N. Phan, R. Jin, I. Khalil, and Y. Shen, “Sgcode: A flexible prompt-optimizing system for secure generation of code,” in Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security, 2024, pp. 5078–5080.",
+    "parsed_title": "Sgcode: A flexible prompt-optimizing system for secure generation of code",
+    "parsed_authors": [
+      "K. Ton",
+      "N. Nguyen",
+      "M. Nazzal",
+      "A. Khreishah",
+      "C. Borcea",
+      "N. Phan",
+      "R. Jin",
+      "I. Khalil",
+      "Y. Shen"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security",
+    "parsed_doi": null,
+    "parsed_url": null,
+    "parsed_arxiv_id": null,
+    "contexts": [
+      {
+        "sentence": "For example, PromSec [35] proposes automated prompt op- timization to discourage vulnerable code generation, while SGCode [36] introduces structured prompts tailored to spe- cific vulnerability classes.",
+        "expanded_context": [
+          "Another line of work explores prompt-based techniques that steer model behavior without modifying parameters, making them attractive for black-box settings and rapid deployment.",
+          "For example, PromSec [35] proposes automated prompt op- timization to discourage vulnerable code generation, while SGCode [36] introduces structured prompts tailored to spe- cific vulnerability classes.",
+          "In-context learning approaches such as SecCoder [37] further show that few-shot security- aware examples can improve outputs without training."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  },
+  {
+    "citation_id": 37,
+    "raw_citation": "B. Zhang, T. Du, J. Tong, X. Zhang, K. Chow, S. Cheng, X. Wang, and J. Yin, “Seccoder: Towards generalizable and robust secure code generation,” arXiv preprint arXiv:2410.01488, 2024.",
+    "parsed_title": "Seccoder: Towards generalizable and robust secure code generation",
+    "parsed_authors": [
+      "B. Zhang",
+      "T. Du",
+      "J. Tong",
+      "X. Zhang",
+      "K. Chow",
+      "S. Cheng",
+      "X. Wang",
+      "J. Yin"
+    ],
+    "parsed_year": 2024,
+    "parsed_venue": "arXiv preprint arXiv:2410.01488",
+    "parsed_doi": null,
+    "parsed_url": "https://arxiv.org/abs/2410.01488",
+    "parsed_arxiv_id": "2410.01488",
+    "contexts": [
+      {
+        "sentence": "In-context learning approaches such as SecCoder [37] further show that few-shot security- aware examples can improve outputs without training.",
+        "expanded_context": [
+          "For example, PromSec [35] proposes automated prompt op- timization to discourage vulnerable code generation, while SGCode [36] introduces structured prompts tailored to spe- cific vulnerability classes.",
+          "In-context learning approaches such as SecCoder [37] further show that few-shot security- aware examples can improve outputs without training.",
+          "While these methods are lightweight, their effectiveness is highly sensitive to prompt phrasing, context length, and user disci- pline."
+        ]
+      }
+    ],
+    "source_pdf": "/home/sascha/refcheck/CiteFocus/web/uploads/gv_20260402_152301.pdf"
+  }
+]

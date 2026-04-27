@@ -1,0 +1,29 @@
+{
+  "tag": "gv_20260409_161412",
+  "status": "failed",
+  "duration_seconds": 87.68,
+  "stages": {
+    "parse": "completed",
+    "route": "completed",
+    "exact": "completed",
+    "fusion_stage1": "completed",
+    "lexical": "failed",
+    "fusion_stage2": "pending",
+    "verify": "pending",
+    "semantic_stage1": "running",
+    "semantic_stage2": "pending",
+    "report": "pending"
+  },
+  "stage_durations": {
+    "parse": 5.91,
+    "route": 0.0,
+    "exact": 0.0,
+    "fusion_stage1": 0.0,
+    "lexical": 81.77,
+    "fusion_stage2": 0.0,
+    "verify": 0.0,
+    "semantic_stage1": 0.0,
+    "semantic_stage2": 0.0,
+    "report": 0.0
+  }
+}

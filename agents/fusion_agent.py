@@ -16,6 +16,7 @@ DEFAULT_STAGE1_OUTPUT_PATH = "/home/sascha/refcheck/CiteFocus/outputs/fused_cand
 DEFAULT_STAGE2_OUTPUT_PATH = "/home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage2.json"
 
 HIGH_CONFIDENCE_EXACT_TYPES = {"arxiv_id_exact", "doi_exact"}
+LEXICAL_BACKUP_SCORE_GAP = 0.05
 
 
 def load_json(path: str) -> list[dict[str, Any]]:
@@ -56,6 +57,18 @@ def lexical_summary_for_record(lexical_record: dict[str, Any] | None) -> dict[st
         "db_timings_ms": (lexical_record or {}).get("db_timings_ms", {}),
         "candidate_count": len(lexical_candidates),
     }
+
+
+def lexical_backups_if_close(lexical_candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    if len(lexical_candidates) < 2:
+        return []
+    top = lexical_candidates[0]
+    second = lexical_candidates[1]
+    top_score = float(top.get("lexical_score") or 0.0)
+    second_score = float(second.get("lexical_score") or 0.0)
+    if top_score - second_score <= LEXICAL_BACKUP_SCORE_GAP:
+        return [second]
+    return []
 
 
 def make_stage1_result(citation: dict[str, Any], route_record: dict[str, Any], exact_record: dict[str, Any] | None) -> dict[str, Any]:
@@ -123,14 +136,14 @@ def make_stage2_result(
         selected_confidence = float(exact_record.get("confidence") or 0.0)
         selected_match_type = exact_record.get("match_type")
         fusion_status = "high_confidence_exact" if selected_match_type in HIGH_CONFIDENCE_EXACT_TYPES else "exact"
-        backup_candidates = lexical_candidates[:2]
+        backup_candidates = []
     elif lexical_top is not None:
         selected_source = "lexical"
         selected_candidate = lexical_top
         selected_confidence = float(lexical_top.get("lexical_score") or 0.0)
         selected_match_type = "lexical_top_1"
         fusion_status = "lexical"
-        backup_candidates = lexical_candidates[1:3]
+        backup_candidates = lexical_backups_if_close(lexical_candidates)
 
     return {
         "citation_id": citation_id,

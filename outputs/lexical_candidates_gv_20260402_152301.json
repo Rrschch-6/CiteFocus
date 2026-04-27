@@ -1,0 +1,817 @@
+[
+  {
+    "citation_id": 1,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "application",
+      "large",
+      "language",
+      "models",
+      "software",
+      "engineering",
+      "tasks",
+      "opportunities"
+    ],
+    "db_timings_ms": {
+      "openalex": 134.95
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 2,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 3,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "gemini",
+      "code",
+      "assist",
+      "ai-first",
+      "coding",
+      "your",
+      "natural",
+      "language"
+    ],
+    "db_timings_ms": {
+      "openalex": 35.5
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 4,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "survey",
+      "reveals",
+      "impact",
+      "developer",
+      "experience"
+    ],
+    "db_timings_ms": {
+      "openalex": 50.53
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 5,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "review",
+      "vibe",
+      "coding",
+      "fundamentals",
+      "state-of-the-art",
+      "challenges",
+      "future",
+      "directions"
+    ],
+    "db_timings_ms": {
+      "openalex": 56.41
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 6,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 7,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "security",
+      "vulnerabilities",
+      "ai-generated",
+      "code",
+      "large-scale",
+      "analysis",
+      "public",
+      "github"
+    ],
+    "db_timings_ms": {
+      "openalex": 186.59
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 8,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "have",
+      "package",
+      "you!",
+      "comprehensive",
+      "analysis",
+      "package",
+      "hallucinations",
+      "code"
+    ],
+    "db_timings_ms": {
+      "openalex": 161.11
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 9,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "large",
+      "language",
+      "models",
+      "code",
+      "security",
+      "hardening",
+      "adversarial",
+      "testing"
+    ],
+    "db_timings_ms": {
+      "openalex": 62.81
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 10,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 11,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 12,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "lora",
+      "low-rank",
+      "adaptation",
+      "large",
+      "language",
+      "models",
+      "iclr"
+    ],
+    "db_timings_ms": {
+      "openalex": 39.06
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 13,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "parameter-efficient",
+      "fine-tuning",
+      "large-scale",
+      "pre-trained",
+      "language",
+      "models"
+    ],
+    "db_timings_ms": {
+      "openalex": 27.66
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 14,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 15,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "parameter-efficient",
+      "fine-tuning",
+      "methods",
+      "pretrained",
+      "language",
+      "models",
+      "critical",
+      "review"
+    ],
+    "db_timings_ms": {
+      "openalex": 97.3
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 16,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 17,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "mathematical",
+      "framework",
+      "transformer",
+      "circuits"
+    ],
+    "db_timings_ms": {
+      "openalex": 11.73
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 19,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "a",
+      "survey",
+      "on",
+      "llm-as-ajudge"
+    ],
+    "db_timings_ms": {
+      "openalex": 39.6
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 20,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 21,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 22,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "measuring",
+      "massive",
+      "multitask",
+      "language",
+      "understanding"
+    ],
+    "db_timings_ms": {
+      "openalex": 27.32
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 23,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 24,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 25,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "cybernative",
+      "code",
+      "vulnerability",
+      "security",
+      "dataset"
+    ],
+    "db_timings_ms": {
+      "openalex": 12.85
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 26,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "learning",
+      "from",
+      "mistakes",
+      "comprehensive",
+      "study",
+      "real",
+      "world",
+      "concurrency"
+    ],
+    "db_timings_ms": {
+      "openalex": 425.08
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 27,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "sok",
+      "eternal",
+      "war",
+      "memory"
+    ],
+    "db_timings_ms": {
+      "openalex": 8.57
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 28,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "survey",
+      "mobile",
+      "malware",
+      "wild"
+    ],
+    "db_timings_ms": {
+      "openalex": 24.57
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 29,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "flowdroid",
+      "precise",
+      "context",
+      "flow",
+      "field",
+      "object-sensitive",
+      "lifecycle-aware",
+      "taint"
+    ],
+    "db_timings_ms": {
+      "openalex": 40.52
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 30,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 31,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "neurostrike",
+      "neuron-level",
+      "attacks",
+      "aligned",
+      "llms"
+    ],
+    "db_timings_ms": {
+      "openalex": 0.86
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 32,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "empirical",
+      "study",
+      "copy",
+      "paste",
+      "behavior",
+      "during",
+      "development"
+    ],
+    "db_timings_ms": {
+      "openalex": 319.17
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 33,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 34,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 35,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "promsec",
+      "prompt",
+      "optimization",
+      "secure",
+      "generation",
+      "functional",
+      "source",
+      "code"
+    ],
+    "db_timings_ms": {
+      "openalex": 50.05
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 36,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex"
+    ],
+    "lexical_db_mode": "openalex",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "sgcode",
+      "flexible",
+      "prompt-optimizing",
+      "system",
+      "secure",
+      "generation",
+      "code"
+    ],
+    "db_timings_ms": {
+      "openalex": 120.16
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 37,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  }
+]

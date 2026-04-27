@@ -29,6 +29,9 @@ PUBLICATION_TAGS = {
 STOP_WORDS = {"a", "an", "the", "of", "and", "or", "for", "to", "in", "on", "with", "by"}
 WORD_RE = re.compile(r"[a-zA-Z0-9]+(?:['\-][a-zA-Z0-9]+)*[?!]?")
 DOI_RE = re.compile(r"(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", re.IGNORECASE)
+ARXIV_NEW_RE = re.compile(r"\b(\d{4}\.\d{4,5}(?:v\d+)?)\b")
+ARXIV_OLD_RE = re.compile(r"\b([a-z\-]+/\d{7}(?:v\d+)?)\b", re.IGNORECASE)
+SQLITE_IN_LIMIT = 900
 
 
 def normalize_space(text: str) -> str:
@@ -65,6 +68,28 @@ def extract_doi_from_text(text: str) -> str:
     text = re.sub(r"^https?://(?:dx\.)?doi\.org/", "", text, flags=re.IGNORECASE)
     match = DOI_RE.search(text)
     return normalize_doi(match.group(1)) if match else ""
+
+
+def extract_arxiv_id_from_text(text: str | None) -> str:
+    text = normalize_space(text or "")
+    if not text:
+        return ""
+    match = re.search(r"arXiv[:\s]+(\d{4}\.\d{4,5}(?:v\d+)?)", text, re.IGNORECASE)
+    if match:
+        return match.group(1)
+    match = re.search(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5}(?:v\d+)?)", text, re.IGNORECASE)
+    if match:
+        return match.group(1)
+    match = re.search(r"arXiv[:\s]+([a-z\-]+/\d{7}(?:v\d+)?)", text, re.IGNORECASE)
+    if match:
+        return match.group(1)
+    match = ARXIV_NEW_RE.search(text)
+    if match:
+        return match.group(1)
+    match = ARXIV_OLD_RE.search(text)
+    if match:
+        return match.group(1)
+    return ""
 
 
 def get_query_words(title: str, n: int = 8) -> list[str]:
@@ -116,6 +141,67 @@ def get_child_text(elem: ET.Element, child_name: str) -> str:
     return normalize_space("".join(child.itertext()))
 
 
+def connect_lookup(sqlite_path: Path | None) -> sqlite3.Connection | None:
+    if sqlite_path is None or not sqlite_path.exists():
+        return None
+    conn = sqlite3.connect(f"file:{sqlite_path}?mode=ro", uri=True)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+
+def batched(items: list[str], size: int = SQLITE_IN_LIMIT):
+    for start in range(0, len(items), size):
+        yield items[start : start + size]
+
+
+def fetch_abstract_map_by_doi(conn: sqlite3.Connection | None, dois: list[str]) -> dict[str, str]:
+    if conn is None or not dois:
+        return {}
+    result: dict[str, str] = {}
+    for batch in batched(dois):
+        placeholders = ",".join("?" for _ in batch)
+        rows = conn.execute(
+            f"""
+            SELECT lower(doi) AS doi, abstract
+            FROM records
+            WHERE lower(doi) IN ({placeholders})
+              AND abstract IS NOT NULL
+              AND abstract != ''
+            """,
+            batch,
+        ).fetchall()
+        for row in rows:
+            doi = normalize_doi(row["doi"])
+            abstract = normalize_space(row["abstract"])
+            if doi and abstract and doi not in result:
+                result[doi] = abstract
+    return result
+
+
+def fetch_arxiv_abstract_map_by_id(conn: sqlite3.Connection | None, arxiv_ids: list[str]) -> dict[str, str]:
+    if conn is None or not arxiv_ids:
+        return {}
+    result: dict[str, str] = {}
+    for batch in batched(arxiv_ids):
+        placeholders = ",".join("?" for _ in batch)
+        rows = conn.execute(
+            f"""
+            SELECT arxiv_id, abstract
+            FROM records
+            WHERE arxiv_id IN ({placeholders})
+              AND abstract IS NOT NULL
+              AND abstract != ''
+            """,
+            batch,
+        ).fetchall()
+        for row in rows:
+            arxiv_id = normalize_space(row["arxiv_id"])
+            abstract = normalize_space(row["abstract"])
+            if arxiv_id and abstract and arxiv_id not in result:
+                result[arxiv_id] = abstract
+    return result
+
+
 def extract_record_from_elem(elem: ET.Element) -> dict[str, str] | None:
     record_type = elem.tag
     if record_type not in PUBLICATION_TAGS:
@@ -155,6 +241,7 @@ def extract_record_from_elem(elem: ET.Element) -> dict[str, str] | None:
         "title": title,
         "title_normalized": normalize_title(title),
         "authors": "; ".join(authors),
+        "abstract": "",
         "venue": venue,
         "venue_normalized": normalize_venue(venue),
         "year": year,
@@ -179,6 +266,7 @@ def create_schema(conn: sqlite3.Connection) -> None:
             title TEXT,
             title_normalized TEXT,
             authors TEXT,
+            abstract TEXT,
             venue TEXT,
             venue_normalized TEXT,
             year TEXT,
@@ -196,8 +284,12 @@ def create_schema(conn: sqlite3.Connection) -> None:
         CREATE INDEX IF NOT EXISTS idx_records_title_normalized ON records(title_normalized);
         CREATE INDEX IF NOT EXISTS idx_records_year ON records(year);
         CREATE INDEX IF NOT EXISTS idx_title_words_word ON title_words(word);
+        CREATE INDEX IF NOT EXISTS idx_title_words_word_record ON title_words(word, record_id);
         """
     )
+    columns = {row["name"] for row in conn.execute("PRAGMA table_info(records)").fetchall()}
+    if "abstract" not in columns:
+        conn.execute("ALTER TABLE records ADD COLUMN abstract TEXT")
     conn.commit()
 
 
@@ -211,7 +303,50 @@ def reset_index(conn: sqlite3.Connection) -> None:
     conn.commit()
 
 
-def insert_record_batch(conn: sqlite3.Connection, batch_records: list[dict[str, str]]) -> None:
+def enrich_batch_records(
+    batch_records: list[dict[str, str]],
+    *,
+    openalex_lookup_conn: sqlite3.Connection | None = None,
+    arxiv_lookup_conn: sqlite3.Connection | None = None,
+) -> None:
+    dois = sorted({normalize_doi(record.get("doi")) for record in batch_records if normalize_doi(record.get("doi"))})
+    openalex_abstracts = fetch_abstract_map_by_doi(openalex_lookup_conn, dois)
+    remaining_dois = [doi for doi in dois if doi not in openalex_abstracts]
+    arxiv_abstracts_by_doi = fetch_abstract_map_by_doi(arxiv_lookup_conn, remaining_dois)
+
+    arxiv_ids = sorted(
+        {
+            extract_arxiv_id_from_text(record.get("ee"))
+            for record in batch_records
+            if not normalize_space(record.get("abstract"))
+        }
+        - {""}
+    )
+    arxiv_abstracts_by_id = fetch_arxiv_abstract_map_by_id(arxiv_lookup_conn, arxiv_ids)
+
+    for record in batch_records:
+        if normalize_space(record.get("abstract")):
+            continue
+        doi = normalize_doi(record.get("doi"))
+        abstract = openalex_abstracts.get(doi) or arxiv_abstracts_by_doi.get(doi) or ""
+        if not abstract:
+            arxiv_id = extract_arxiv_id_from_text(record.get("ee"))
+            abstract = arxiv_abstracts_by_id.get(arxiv_id, "")
+        record["abstract"] = normalize_space(abstract)
+
+
+def insert_record_batch(
+    conn: sqlite3.Connection,
+    batch_records: list[dict[str, str]],
+    *,
+    openalex_lookup_conn: sqlite3.Connection | None = None,
+    arxiv_lookup_conn: sqlite3.Connection | None = None,
+) -> None:
+    enrich_batch_records(
+        batch_records,
+        openalex_lookup_conn=openalex_lookup_conn,
+        arxiv_lookup_conn=arxiv_lookup_conn,
+    )
     rows = [
         (
             record["dblp_key"],
@@ -219,6 +354,7 @@ def insert_record_batch(conn: sqlite3.Connection, batch_records: list[dict[str, 
             record["title"],
             record["title_normalized"],
             record["authors"],
+            record["abstract"],
             record["venue"],
             record["venue_normalized"],
             record["year"],
@@ -232,8 +368,8 @@ def insert_record_batch(conn: sqlite3.Connection, batch_records: list[dict[str, 
         """
         INSERT OR IGNORE INTO records (
             dblp_key, record_type, title, title_normalized, authors,
-            venue, venue_normalized, year, doi, ee
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            abstract, venue, venue_normalized, year, doi, ee
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         rows,
     )
@@ -264,6 +400,9 @@ def build_dblp_index(
     conn: sqlite3.Connection,
     xml_path: Path,
     xml_gz_path: Path,
+    *,
+    openalex_lookup_conn: sqlite3.Connection | None = None,
+    arxiv_lookup_conn: sqlite3.Connection | None = None,
     batch_size: int = 5000,
 ) -> None:
     create_schema(conn)
@@ -284,7 +423,12 @@ def build_dblp_index(
                 batch_records.append(record)
 
             if len(batch_records) >= batch_size:
-                insert_record_batch(conn, batch_records)
+                insert_record_batch(
+                    conn,
+                    batch_records,
+                    openalex_lookup_conn=openalex_lookup_conn,
+                    arxiv_lookup_conn=arxiv_lookup_conn,
+                )
                 total_records += len(batch_records)
                 print(f"indexed records: {total_records}")
                 batch_records.clear()
@@ -293,7 +437,12 @@ def build_dblp_index(
             root.clear()
 
     if batch_records:
-        insert_record_batch(conn, batch_records)
+        insert_record_batch(
+            conn,
+            batch_records,
+            openalex_lookup_conn=openalex_lookup_conn,
+            arxiv_lookup_conn=arxiv_lookup_conn,
+        )
         total_records += len(batch_records)
 
     conn.commit()
@@ -302,10 +451,14 @@ def build_dblp_index(
 
 def parse_args() -> argparse.Namespace:
     dblp_dir = ROOT / "academic_metadata" / "dblp"
+    openalex_dir = ROOT / "academic_metadata" / "openalex"
+    arxiv_dir = ROOT / "academic_metadata" / "arxiv" / "oai_pages"
     parser = argparse.ArgumentParser(description="Build a local SQLite index from DBLP XML.")
     parser.add_argument("--xml-path", default=str(dblp_dir / "dblp.xml"))
     parser.add_argument("--xml-gz-path", default=str(dblp_dir / "dblp.xml.gz"))
     parser.add_argument("--sqlite-path", default=str(dblp_dir / "dblp_local_index.sqlite"))
+    parser.add_argument("--openalex-sqlite-path", default=str(openalex_dir / "openalex_local_index.sqlite"))
+    parser.add_argument("--arxiv-sqlite-path", default=str(arxiv_dir / "arxiv_local_index.sqlite"))
     parser.add_argument("--rebuild", action="store_true", help="Drop and rebuild the SQLite index.")
     parser.add_argument("--batch-size", type=int, default=5000)
     return parser.parse_args()
@@ -316,7 +469,11 @@ def main() -> int:
     xml_path = Path(args.xml_path)
     xml_gz_path = Path(args.xml_gz_path)
     sqlite_path = Path(args.sqlite_path)
+    openalex_sqlite_path = Path(args.openalex_sqlite_path) if args.openalex_sqlite_path else None
+    arxiv_sqlite_path = Path(args.arxiv_sqlite_path) if args.arxiv_sqlite_path else None
     sqlite_path.parent.mkdir(parents=True, exist_ok=True)
+    openalex_lookup_conn = None
+    arxiv_lookup_conn = None
 
     try:
         conn = connect_index(sqlite_path)
@@ -324,11 +481,22 @@ def main() -> int:
             print(f"rebuilding SQLite index at {sqlite_path}")
             reset_index(conn)
 
-        build_dblp_index(conn, xml_path, xml_gz_path, batch_size=args.batch_size)
+        openalex_lookup_conn = connect_lookup(openalex_sqlite_path)
+        arxiv_lookup_conn = connect_lookup(arxiv_sqlite_path)
+
+        build_dblp_index(
+            conn,
+            xml_path,
+            xml_gz_path,
+            openalex_lookup_conn=openalex_lookup_conn,
+            arxiv_lookup_conn=arxiv_lookup_conn,
+            batch_size=args.batch_size,
+        )
 
         record_count = conn.execute("SELECT COUNT(*) AS n FROM records").fetchone()["n"]
         doi_count = conn.execute("SELECT COUNT(*) AS n FROM records WHERE doi != ''").fetchone()["n"]
         venue_count = conn.execute("SELECT COUNT(*) AS n FROM records WHERE venue != ''").fetchone()["n"]
+        abstract_count = conn.execute("SELECT COUNT(*) AS n FROM records WHERE abstract != ''").fetchone()["n"]
     except sqlite3.OperationalError as exc:
         if "locked" in str(exc).lower():
             print(
@@ -339,10 +507,16 @@ def main() -> int:
             )
             return 1
         raise
+    finally:
+        if openalex_lookup_conn is not None:
+            openalex_lookup_conn.close()
+        if arxiv_lookup_conn is not None:
+            arxiv_lookup_conn.close()
 
     print("record_count:", record_count)
     print("doi_count:", doi_count)
     print("venue_count:", venue_count)
+    print("abstract_count:", abstract_count)
     return 0
 
 

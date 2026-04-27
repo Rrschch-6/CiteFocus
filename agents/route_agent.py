@@ -12,6 +12,7 @@ DEFAULT_INPUT_PATH = "/home/sascha/refcheck/CiteFocus/outputs/parsed_citations.j
 DEFAULT_OUTPUT_PATH = "/home/sascha/refcheck/CiteFocus/outputs/route_plan.json"
 
 ARXIV_KEYWORDS = {"arxiv", "arxiv preprint", "arxiv e-prints"}
+SCHOLARLY_DOMAINS = {"arxiv.org", "doi.org", "acm.org", "ieee.org", "springer.com", "nature.com", "sciencedirect.com", "usenix.org", "dblp.org", "openreview.net"}
 NLP_KEYWORDS = {"acl", "emnlp", "naacl", "eacl", "coling", "tacl", "computational linguistics"}
 CS_KEYWORDS = {
     "neurips", "nips", "icml", "iclr", "aaai", "ijcai", "kdd", "www", "sigir",
@@ -84,14 +85,28 @@ def is_biomed_like(record: dict[str, Any]) -> bool:
     return contains_any(combined, BIOMED_KEYWORDS)
 
 
+def is_web_like(record: dict[str, Any]) -> bool:
+    url = normalize_text(record.get("parsed_url"))
+    if not url:
+        return False
+    if record.get("parsed_arxiv_id") or record.get("parsed_doi"):
+        return False
+    if any(domain in url for domain in SCHOLARLY_DOMAINS):
+        return False
+    return True
+
+
 def build_route_plan(record: dict[str, Any]) -> dict[str, Any]:
     parsed_doi = bool(record.get("parsed_doi"))
     arxiv_like = is_arxiv_like(record)
     nlp_like = is_nlp_like(record)
     cs_like = is_cs_like(record)
     biomed_like = is_biomed_like(record)
+    web_like = is_web_like(record)
 
-    if arxiv_like:
+    if web_like:
+        plan = {"db_priority": [], "run_exact_match": False, "run_lexical_retrieval": False, "run_dense_retrieval": False, "confidence": 0.85}
+    elif arxiv_like:
         plan = {"db_priority": ["arxiv", "openalex", "dblp"], "run_exact_match": True, "run_lexical_retrieval": True, "run_dense_retrieval": True, "confidence": 0.95}
     elif parsed_doi and (nlp_like or cs_like):
         plan = {"db_priority": ["dblp", "openalex", "arxiv"], "run_exact_match": True, "run_lexical_retrieval": True, "run_dense_retrieval": True, "confidence": 0.90}

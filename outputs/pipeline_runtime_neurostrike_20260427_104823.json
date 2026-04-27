@@ -1,0 +1,29 @@
+{
+  "tag": "neurostrike_20260427_104823",
+  "status": "failed",
+  "duration_seconds": 3.54,
+  "stages": {
+    "parse": "failed",
+    "route": "pending",
+    "exact": "pending",
+    "fusion_stage1": "pending",
+    "lexical": "pending",
+    "fusion_stage2": "pending",
+    "verify": "pending",
+    "semantic_stage1": "pending",
+    "semantic_stage2": "pending",
+    "report": "pending"
+  },
+  "stage_durations": {
+    "parse": 3.54,
+    "route": 0.0,
+    "exact": 0.0,
+    "fusion_stage1": 0.0,
+    "lexical": 0.0,
+    "fusion_stage2": 0.0,
+    "verify": 0.0,
+    "semantic_stage1": 0.0,
+    "semantic_stage2": 0.0,
+    "report": 0.0
+  }
+}

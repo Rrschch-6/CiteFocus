@@ -164,6 +164,7 @@ def create_schema(conn: sqlite3.Connection) -> None:
         CREATE INDEX IF NOT EXISTS idx_records_title_normalized ON records(title_normalized);
         CREATE INDEX IF NOT EXISTS idx_records_year ON records(year);
         CREATE INDEX IF NOT EXISTS idx_title_words_word ON title_words(word);
+        CREATE INDEX IF NOT EXISTS idx_title_words_word_record ON title_words(word, record_id);
         """
     )
     conn.commit()

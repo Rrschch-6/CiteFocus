@@ -1,0 +1,1771 @@
+[
+  {
+    "citation_id": 1,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "application",
+      "large",
+      "language",
+      "models",
+      "software",
+      "engineering",
+      "tasks",
+      "opportunities"
+    ],
+    "db_timings_ms": {
+      "dblp": 985.09,
+      "openalex": 4942.76,
+      "arxiv": 1.95
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/software/Ozkaya23b",
+        "title": "Application of Large Language Models to Software Engineering Tasks: Opportunities, Risks, and Implications.",
+        "authors": [
+          "Ipek Ozkaya"
+        ],
+        "year": 2023,
+        "venue": "IEEE Softw.",
+        "doi": "10.1109/ms.2023.3248401",
+        "url": "https://doi.org/10.1109/MS.2023.3248401",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4367059011",
+        "title": "Application of Large Language Models to Software Engineering Tasks: Opportunities, Risks, and Implications",
+        "authors": [
+          "İpek Özkaya"
+        ],
+        "year": 2023,
+        "venue": "IEEE Software",
+        "doi": "10.1109/ms.2023.3248401",
+        "url": "https://doi.org/10.1109/ms.2023.3248401",
+        "abstract": "Has the day we all have been waiting for really arrived? Have advances in deep learning and machine learning (ML) finally reached a turning point and have started to produce “accurate enough” assistants to help us in a variety of tasks, including software development? Are large language models (LLM) going to turn us all into better writers, artists, translators, programmers, health-care workers, not to mention software engineers? Or are we at a risky turning point where we will not be able to separate artificial intelligence (AI)-generated content from user-created ones, drowning in misinformation and perfect sounding yet fake and incorrect information and AI-generated faulty programs?",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 2,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 3,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "gemini",
+      "code",
+      "assist",
+      "ai-first",
+      "coding",
+      "your",
+      "natural",
+      "language"
+    ],
+    "db_timings_ms": {
+      "openalex": 1208.56,
+      "dblp": 187.47,
+      "arxiv": 1.17
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 4,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "survey",
+      "reveals",
+      "impact",
+      "developer",
+      "experience"
+    ],
+    "db_timings_ms": {
+      "openalex": 2412.08,
+      "dblp": 175.73,
+      "arxiv": 1.22
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 5,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "review",
+      "vibe",
+      "coding",
+      "fundamentals",
+      "state-of-the-art",
+      "challenges",
+      "future",
+      "directions"
+    ],
+    "db_timings_ms": {
+      "openalex": 3054.12,
+      "dblp": 194.22,
+      "arxiv": 0.87
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 6,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 7,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "security",
+      "vulnerabilities",
+      "ai-generated",
+      "code",
+      "large-scale",
+      "analysis",
+      "public",
+      "github"
+    ],
+    "db_timings_ms": {
+      "dblp": 758.81,
+      "openalex": 6339.86,
+      "arxiv": 0.83
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2510-26103",
+        "title": "Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories.",
+        "authors": [
+          "Maximilian Schreiber",
+          "Pascal Tippe"
+        ],
+        "year": 2025,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2510.26103",
+        "url": "https://doi.org/10.48550/arXiv.2510.26103",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/icics/SchreiberT25",
+        "title": "Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories.",
+        "authors": [
+          "Maximilian Schreiber",
+          "Pascal Tippe"
+        ],
+        "year": 2025,
+        "venue": "ICICS (3)",
+        "doi": "10.1007/978-981-95-3537-8_9",
+        "url": "https://doi.org/10.1007/978-981-95-3537-8_9",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 8,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "have",
+      "package",
+      "you!",
+      "comprehensive",
+      "analysis",
+      "package",
+      "hallucinations",
+      "code"
+    ],
+    "db_timings_ms": {
+      "dblp": 164.67,
+      "openalex": 1430.68,
+      "arxiv": 0.09
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2406-10279",
+        "title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs.",
+        "authors": [
+          "Joseph Spracklen",
+          "Raveen Wijewickrama",
+          "A. H. M. Nazmus Sakib",
+          "Anindya Maiti",
+          "Murtuza Jadliwala"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2406.10279",
+        "url": "https://doi.org/10.48550/arXiv.2406.10279",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/uss/SpracklenWSMV25",
+        "title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs.",
+        "authors": [
+          "Joseph Spracklen",
+          "Raveen Wijewickrama",
+          "A. H. M. Nazmus Sakib",
+          "Anindya Maiti",
+          "Bimal Viswanath",
+          "Murtuza Jadliwala"
+        ],
+        "year": 2025,
+        "venue": "USENIX Security Symposium",
+        "doi": null,
+        "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W6930889873",
+        "title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs",
+        "authors": [
+          "Spracklen, Joseph",
+          "Wijewickrama, Raveen",
+          "Sakib, A.H.M Nazmus",
+          "Maiti, Anindya",
+          "Viswanath, Bimal",
+          "Jadliwala, Murtuza"
+        ],
+        "year": 2025,
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "doi": "10.5281/zenodo.14676376",
+        "url": "https://doi.org/10.5281/zenodo.14676376",
+        "abstract": "USENIX Artifact Availability Submission",
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4399795583",
+        "title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs",
+        "authors": [
+          "Joseph Spracklen",
+          "Raveen Wijewickrama",
+          "A. H. M. Nazmus Sakib",
+          "Anindya Maiti",
+          "Murtuza Jadliwala",
+          "Jadliwala, Murtuza"
+        ],
+        "year": 2024,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2406.10279",
+        "url": "http://arxiv.org/abs/2406.10279",
+        "abstract": "The reliance of popular programming languages such as Python and JavaScript on centralized package repositories and open-source software, combined with the emergence of code-generating Large Language Models (LLMs), has created a new type of threat to the software supply chain: package hallucinations. These hallucinations, which arise from fact-conflicting errors when generating code using LLMs, represent a novel form of package confusion attack that poses a critical threat to the integrity of the software supply chain. This paper conducts a rigorous and comprehensive evaluation of package hallucinations across different programming languages, settings, and parameters, exploring how a diverse set of models and configurations affect the likelihood of generating erroneous package recommendations and identifying the root causes of this phenomenon. Using 16 popular LLMs for code generation and two unique prompt datasets, we generate 576,000 code samples in two programming languages that we analyze for package hallucinations. Our findings reveal that that the average percentage of hallucinated packages is at least 5.2% for commercial models and 21.7% for open-source models, including a staggering 205,474 unique examples of hallucinated package names, further underscoring the severity and pervasiveness of this threat. To overcome this problem, we implement several hallucination mitigation strategies and show that they are able to significantly reduce the number of package hallucinations while maintaining code quality. Our experiments and findings highlight package hallucinations as a persistent and systemic phenomenon while using state-of-the-art LLMs for code generation, and a significant challenge which deserves the research community's urgent attention.",
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 4
+      }
+    ]
+  },
+  {
+    "citation_id": 9,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "large",
+      "language",
+      "models",
+      "code",
+      "security",
+      "hardening",
+      "adversarial",
+      "testing"
+    ],
+    "db_timings_ms": {
+      "dblp": 247.14,
+      "openalex": 990.57,
+      "arxiv": 0.6
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/ccs/HeV23",
+        "title": "Large Language Models for Code: Security Hardening and Adversarial Testing.",
+        "authors": [
+          "Jingxuan He",
+          "Martin T. Vechev"
+        ],
+        "year": 2023,
+        "venue": "CCS",
+        "doi": "10.1145/3576915.3623175",
+        "url": "https://doi.org/10.1145/3576915.3623175",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W6948378433",
+        "title": "Large Language Models for Code: Security Hardening and Adversarial Testing",
+        "authors": [
+          "He, Jingxuan",
+          "Vechev, Martin"
+        ],
+        "year": 2023,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2302.05319",
+        "url": "https://doi.org/10.48550/arxiv.2302.05319",
+        "abstract": "Large language models (large LMs) are increasingly trained on massive codebases and used to generate code. However, LMs lack awareness of security and are found to frequently produce unsafe code. This work studies the security of LMs along two important axes: (i) security hardening, which aims to enhance LMs' reliability in generating secure code, and (ii) adversarial testing, which seeks to evaluate LMs' security at an adversarial standpoint. We address both of these by formulating a new security task called controlled code generation. The task is parametric and takes as input a binary property to guide the LM to generate secure or unsafe code, while preserving the LM's capability of generating functionally correct code. We propose a novel learning-based approach called SVEN to solve this task. SVEN leverages property-specific continuous vectors to guide program generation towards the given property, without modifying the LM's weights. Our training procedure optimizes these continuous vectors by enforcing specialized loss terms on different regions of code, using a high-quality dataset carefully curated by us. Our extensive evaluation shows that SVEN is highly effective in achieving strong security control. For instance, a state-of-the-art CodeGen LM with 2.7B parameters generates secure code for 59.1% of the time. When we employ SVEN to perform security hardening (or adversarial testing) on this LM, the ratio is significantly boosted to 92.3% (or degraded to 36.8%). Importantly, SVEN closely matches the original LMs in functional correctness.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 10,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 11,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 12,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "lora",
+      "low-rank",
+      "adaptation",
+      "large",
+      "language",
+      "models",
+      "iclr"
+    ],
+    "db_timings_ms": {
+      "dblp": 160.83,
+      "openalex": 519.25,
+      "arxiv": 0.38
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/iclr/HuSWALWWC22",
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models.",
+        "authors": [
+          "Edward J. Hu",
+          "Yelong Shen",
+          "Phillip Wallis",
+          "Zeyuan Allen-Zhu",
+          "Yuanzhi Li",
+          "Shean Wang",
+          "Lu Wang",
+          "Weizhu Chen"
+        ],
+        "year": 2022,
+        "venue": "ICLR",
+        "doi": null,
+        "url": "https://openreview.net/forum?id=nZeVKeeFYf9",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 0.8571,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2106-09685",
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models.",
+        "authors": [
+          "Edward J. Hu",
+          "Yelong Shen",
+          "Phillip Wallis",
+          "Zeyuan Allen-Zhu",
+          "Yuanzhi Li",
+          "Shean Wang",
+          "Weizhu Chen"
+        ],
+        "year": 2021,
+        "venue": "CoRR",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2106.09685",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 0.8571,
+        "author_score": 0.875,
+        "year_score": 0.7,
+        "lexical_score": 0.845,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 13,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "parameter-efficient",
+      "fine-tuning",
+      "large-scale",
+      "pre-trained",
+      "language",
+      "models"
+    ],
+    "db_timings_ms": {
+      "dblp": 102.87,
+      "openalex": 271.4,
+      "arxiv": 0.37
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/natmi/DingQYWYSHCCCYZWLZCLTLS23",
+        "title": "Parameter-efficient fine-tuning of large-scale pre-trained language models.",
+        "authors": [
+          "Ning Ding 0002",
+          "Yujia Qin",
+          "Guang Yang 0046",
+          "Fuchao Wei",
+          "Zonghan Yang",
+          "Yusheng Su",
+          "Shengding Hu",
+          "Yulin Chen",
+          "Chi-Min Chan",
+          "Weize Chen",
+          "Jing Yi",
+          "Weilin Zhao",
+          "Xiaozhi Wang",
+          "Zhiyuan Liu 0001",
+          "Hai-Tao Zheng 0002",
+          "Jianfei Chen 0001",
+          "Yang Liu 0005",
+          "Jie Tang 0001",
+          "Juanzi Li",
+          "Maosong Sun 0001"
+        ],
+        "year": 2023,
+        "venue": "Nat. Mac. Intell.",
+        "doi": "10.1038/s42256-023-00626-4",
+        "url": "https://doi.org/10.1038/s42256-023-00626-4",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 14,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 15,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "parameter-efficient",
+      "fine-tuning",
+      "methods",
+      "pretrained",
+      "language",
+      "models",
+      "critical",
+      "review"
+    ],
+    "db_timings_ms": {
+      "dblp": 237.31,
+      "openalex": 1989.36,
+      "arxiv": 0.55
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 16,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 17,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "mathematical",
+      "framework",
+      "transformer",
+      "circuits"
+    ],
+    "db_timings_ms": {
+      "dblp": 333.86,
+      "openalex": 823.38,
+      "arxiv": 0.76
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 19,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "a",
+      "survey",
+      "on",
+      "llm-as-ajudge"
+    ],
+    "db_timings_ms": {
+      "openalex": 851.04,
+      "dblp": 19.36,
+      "arxiv": 0.87
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2411-15594",
+        "title": "A Survey on LLM-as-a-Judge.",
+        "authors": [
+          "Jiawei Gu",
+          "Xuhui Jiang",
+          "Zhichao Shi 0001",
+          "Hexiang Tan",
+          "Xuehao Zhai",
+          "Chengjin Xu",
+          "Wei Li 0176",
+          "Yinghan Shen",
+          "Shengjie Ma",
+          "Honghao Liu",
+          "Yuanzhuo Wang",
+          "Jian Guo 0016"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2411.15594",
+        "url": "https://doi.org/10.48550/arXiv.2411.15594",
+        "abstract": null,
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 20,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 21,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 22,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "measuring",
+      "massive",
+      "multitask",
+      "language",
+      "understanding"
+    ],
+    "db_timings_ms": {
+      "dblp": 157.16,
+      "openalex": 923.94,
+      "arxiv": 0.07
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2009-03300",
+        "title": "Measuring Massive Multitask Language Understanding.",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Steven Basart",
+          "Andy Zou",
+          "Mantas Mazeika",
+          "Dawn Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2020,
+        "venue": "CoRR",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2009.03300",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 23,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 24,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 25,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "cybernative",
+      "code",
+      "vulnerability",
+      "security",
+      "dataset"
+    ],
+    "db_timings_ms": {
+      "dblp": 75.39,
+      "openalex": 389.02,
+      "arxiv": 0.07
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 26,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "learning",
+      "from",
+      "mistakes",
+      "comprehensive",
+      "study",
+      "real",
+      "world",
+      "concurrency"
+    ],
+    "db_timings_ms": {
+      "openalex": 12392.65,
+      "dblp": 1236.82,
+      "arxiv": 0.65
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/asplos/LuPSZ08",
+        "title": "Learning from mistakes: a comprehensive study on real world concurrency bug characteristics.",
+        "authors": [
+          "Shan Lu 0001",
+          "Soyeon Park",
+          "Eunsoo Seo",
+          "Yuanyuan Zhou 0001"
+        ],
+        "year": 2008,
+        "venue": "ASPLOS",
+        "doi": "10.1145/1346281.1346323",
+        "url": "https://doi.org/10.1145/1346281.1346323",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.5,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W2133348162",
+        "title": "Learning from Mistakes --- A Comprehensive Study on Real World Concurrency Bug Characteristics. In the proceedings of the 13th International Conference on Architecture Support for Programming Languages and Operating Systems (ASPLOS'08), March 2008",
+        "authors": [
+          "Yuanyuan Zhou Shan Lu Soyeon Park"
+        ],
+        "year": 2008,
+        "venue": "University of North Texas Digital Library (University of North Texas)",
+        "doi": null,
+        "url": "https://digital.library.unt.edu/ark:/67531/metadc894456/",
+        "abstract": "The reality of multi-core hardware has made concurrent programs pervasive. Unfortunately, writing correct concurrent programs is dif#2;cult. Addressing this challenge requires advances in multiple directions, including concurrency bug detection, concurrent program testing, concurrent programming model design, etc. Designing effective techniques in all these directions will signi#2;cantly bene#2;t from a deep understanding of real world concurrency bug characteristics. This paper provides the #2;rst (to the best of our knowledge) comprehensive real world concurrency bug characteristic study. Specifically, we have carefully examined concurrency bug patterns, manifestation, and #2;x strategies of 105 randomly selected real world concurrency bugs from 4 representative server and client opensource applications (MySQL, Apache, Mozilla and OpenOf#2;ce). Our study reveals several interesting #2;ndings and provides useful guidance for concurrency bug detection, testing, and concurrent programming language design. Some of our #2;ndings are as follows: (1) Around one third of the examined non-deadlock concurrency bugs are caused by violation to programmers' order intentions, which may not be easily expressed via synchronization primitives like locks and transactional memories; (2) Around 34% of the examined non-deadlock concurrency bugs involve multiple variables, which are not well addressed by existing bug detection tools; (3) About 92% of the examined concurrency bugs can be reliably triggered by enforcing certain orders among no more than 4 memory accesses. This indicates that testing concurrent programs can target at exploring possible orders among every small groups of memory accesses, instead of among all memory accesses; (4) About 73% of the examined non-deadlock concurrency bugs were not #2;xed by simply adding or changing locks, and many of the #2;xes were not correct at the #2;rst try, indicating the dif#2;culty of reasoning concurrent execution by programmers.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.0,
+        "year_score": 1.0,
+        "lexical_score": 0.8,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 27,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "sok",
+      "eternal",
+      "war",
+      "memory"
+    ],
+    "db_timings_ms": {
+      "dblp": 63.53,
+      "openalex": 545.68,
+      "arxiv": 0.08
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/sp/SzekeresPWS13",
+        "title": "SoK: Eternal War in Memory.",
+        "authors": [
+          "Laszlo Szekeres",
+          "Mathias Payer",
+          "Tao Wei 0002",
+          "Dawn Song"
+        ],
+        "year": 2013,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "doi": "10.1109/sp.2013.13",
+        "url": "https://doi.org/10.1109/SP.2013.13",
+        "abstract": null,
+        "matched_word_count": 4,
+        "title_score": 1.0,
+        "author_score": 0.75,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/ieeesp/SzekeresPWS14",
+        "title": "Eternal War in Memory.",
+        "authors": [
+          "Laszlo Szekeres",
+          "Mathias Payer",
+          "Tao Wei 0002",
+          "R. Sekar 0001"
+        ],
+        "year": 2014,
+        "venue": "IEEE Secur. Priv.",
+        "doi": "10.1109/msp.2014.44",
+        "url": "https://doi.org/10.1109/MSP.2014.44",
+        "abstract": null,
+        "matched_word_count": 3,
+        "title_score": 0.75,
+        "author_score": 0.5,
+        "year_score": 0.7,
+        "lexical_score": 0.695,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W2114030344",
+        "title": "Eternal War in Memory",
+        "authors": [
+          "László Szekeres",
+          "Mathias Payer",
+          "Lenx Tao Wei",
+          "R. Sekar"
+        ],
+        "year": 2014,
+        "venue": "IEEE Security & Privacy",
+        "doi": "10.1109/msp.2014.44",
+        "url": "https://doi.org/10.1109/msp.2014.44",
+        "abstract": "Software written in low-level languages like C or C++ is prone to memory corruption bugs that allow attackers to access machines, extract information, and install malware. Real-world exploits show that all widely deployed protections can be defeated.",
+        "matched_word_count": 3,
+        "title_score": 0.75,
+        "author_score": 0.5,
+        "year_score": 0.7,
+        "lexical_score": 0.695,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 28,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "survey",
+      "mobile",
+      "malware",
+      "wild"
+    ],
+    "db_timings_ms": {
+      "dblp": 183.61,
+      "openalex": 506.31,
+      "arxiv": 0.08
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/ccs/FeltFCHW11",
+        "title": "A survey of mobile malware in the wild.",
+        "authors": [
+          "Adrienne Porter Felt",
+          "Matthew Finifter",
+          "Erika Chin",
+          "Steve Hanna",
+          "David A. Wagner 0001"
+        ],
+        "year": 2011,
+        "venue": "SPSM@CCS",
+        "doi": "10.1145/2046614.2046618",
+        "url": "https://doi.org/10.1145/2046614.2046618",
+        "abstract": null,
+        "matched_word_count": 4,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W2142145056",
+        "title": "A survey of mobile malware in the wild",
+        "authors": [
+          "Adrienne Porter Felt",
+          "Matthew Finifter",
+          "Erika Chin",
+          "Steve Hanna",
+          "David Wagner"
+        ],
+        "year": 2011,
+        "venue": "Proceedings of the 1st ACM workshop on Security and privacy in smartphones and mobile devices",
+        "doi": "10.1145/2046614.2046618",
+        "url": "https://doi.org/10.1145/2046614.2046618",
+        "abstract": "Mobile malware is rapidly becoming a serious threat. In this paper, we survey the current state of mobile malware in the wild. We analyze the incentives behind 46 pieces of iOS, Android, and Symbian malware that spread in the wild from 2009 to 2011. We also use this data set to evaluate the effectiveness of techniques for preventing and identifying mobile malware. After observing that 4 pieces of malware use root exploits to mount sophisticated attacks on Android phones, we also examine the incentives that cause non-malicious smartphone tinkerers to publish root exploits and survey the availability of root exploits.",
+        "matched_word_count": 4,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 29,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "flowdroid",
+      "precise",
+      "context",
+      "flow",
+      "field",
+      "object-sensitive",
+      "lifecycle-aware",
+      "taint"
+    ],
+    "db_timings_ms": {
+      "openalex": 1630.39,
+      "dblp": 155.01,
+      "arxiv": 0.48
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/pldi/ArztRFBBKTOM14",
+        "title": "FlowDroid: precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for Android apps.",
+        "authors": [
+          "Steven Arzt",
+          "Siegfried Rasthofer",
+          "Christian Fritz 0002",
+          "Eric Bodden",
+          "Alexandre Bartel",
+          "Jacques Klein",
+          "Yves Le Traon",
+          "Damien Octeau",
+          "Patrick D. McDaniel"
+        ],
+        "year": 2014,
+        "venue": "PLDI",
+        "doi": "10.1145/2594291.2594299",
+        "url": "https://doi.org/10.1145/2594291.2594299",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.8889,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 30,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 31,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "neurostrike",
+      "neuron-level",
+      "attacks",
+      "aligned",
+      "llms"
+    ],
+    "db_timings_ms": {
+      "dblp": 62.04,
+      "openalex": 75.66,
+      "arxiv": 0.14
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2509-11864",
+        "title": "NeuroStrike: Neuron-Level Attacks on Aligned LLMs.",
+        "authors": [
+          "Lichao Wu",
+          "Sasha Behrouzi",
+          "Mohamadreza Rostami",
+          "Maximilian Thang",
+          "Stjepan Picek",
+          "Ahmad-Reza Sadeghi"
+        ],
+        "year": 2025,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2509.11864",
+        "url": "https://doi.org/10.48550/arXiv.2509.11864",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W7080226190",
+        "title": "NeuroStrike: Neuron-Level Attacks on Aligned LLMs",
+        "authors": [
+          "Wu, Lichao"
+        ],
+        "year": 2025,
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "doi": "10.5281/zenodo.17072074",
+        "url": "https://doi.org/10.5281/zenodo.17072074",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 0.1667,
+        "year_score": 0.7,
+        "lexical_score": 0.9033,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W7080231338",
+        "title": "NeuroStrike: Neuron-Level Attacks on Aligned LLMs",
+        "authors": [
+          "Wu, Lichao"
+        ],
+        "year": 2025,
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "doi": "10.5281/zenodo.17072075",
+        "url": "https://doi.org/10.5281/zenodo.17072075",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 0.1667,
+        "year_score": 0.7,
+        "lexical_score": 0.9033,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 32,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "empirical",
+      "study",
+      "copy",
+      "paste",
+      "behavior",
+      "during",
+      "development"
+    ],
+    "db_timings_ms": {
+      "openalex": 6363.51,
+      "dblp": 310.6,
+      "arxiv": 0.74
+    },
+    "candidates": [
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4231026759",
+        "title": "An Empirical Study of the Copy and Paste Behavior during Development",
+        "authors": [
+          "Tarek M. Ahmed",
+          "Weiyi Shang",
+          "Ahmed E. Hassan"
+        ],
+        "year": 2015,
+        "venue": "2015 IEEE/ACM 12th Working Conference on Mining Software Repositories",
+        "doi": "10.1109/msr.2015.17",
+        "url": "https://doi.org/10.1109/msr.2015.17",
+        "abstract": "Developers frequently employ Copy and Paste. However, little is known about the copy and paste behavior during development. To better understand the copy and paste behavior, automated approaches are proposed to identify cloned code. However, such automated approaches can only identify the location of the code that has been copied and pasted, but little is known about the context of the copy and paste. On the other hand, prior research studying actual copy and paste behavior is based on a small number of users in an experimental setup. In this paper, we study the behavior of developers copying and pasting code while using the Eclipse IDE. We mine the usage data of over 20,000 Eclipse users. We aim to explore the different patterns of Copy and Paste (C&P) that are used by Eclipse users during development. We compare such usage patterns to the regular users' usage of copy and paste during non-development tasks reported in earlier studies. Our findings instruct builders of future IDEs. We find that developers' C&P behavior is considerably different from the behavior of regular users. For example, developers tend to perform more frequent C&P in the same file contrary to regular users, who tend to perform C&P across different windows. Moreover, we find that C&P across different programming languages is a common behavior as we extracted more than 75,000 C&P incidents across different programming languages. Such a finding highlights the need for code cloning tools that can detect code clones across different programming languages.",
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/msr/AhmedSH15",
+        "title": "An Empirical Study of the Copy and Paste Behavior during Development.",
+        "authors": [
+          "Tarek M. Ahmed",
+          "Weiyi Shang",
+          "Ahmed E. Hassan"
+        ],
+        "year": 2015,
+        "venue": "MSR",
+        "doi": "10.1109/msr.2015.17",
+        "url": "https://doi.org/10.1109/MSR.2015.17",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 33,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "secure-instruct",
+      "automated",
+      "pipeline",
+      "synthesizing",
+      "instruction-tuning",
+      "datasets",
+      "using",
+      "llms"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.31,
+      "openalex": 3523.5,
+      "dblp": 944.81
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 34,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 35,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "promsec",
+      "prompt",
+      "optimization",
+      "secure",
+      "generation",
+      "functional",
+      "source",
+      "code"
+    ],
+    "db_timings_ms": {
+      "dblp": 570.98,
+      "openalex": 2179.4,
+      "arxiv": 0.17
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2409-12699",
+        "title": "PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs).",
+        "authors": [
+          "Mahmoud Nazzal",
+          "Issa Khalil",
+          "Abdallah Khreishah",
+          "NhatHai Phan"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2409.12699",
+        "url": "https://doi.org/10.48550/arXiv.2409.12699",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/ccs/NazzalKKP24",
+        "title": "PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs).",
+        "authors": [
+          "Mahmoud Nazzal",
+          "Issa Khalil",
+          "Abdallah Khreishah",
+          "NhatHai Phan"
+        ],
+        "year": 2024,
+        "venue": "CCS",
+        "doi": "10.1145/3658644.3690298",
+        "url": "https://doi.org/10.1145/3658644.3690298",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 36,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "sgcode",
+      "flexible",
+      "prompt-optimizing",
+      "system",
+      "secure",
+      "generation",
+      "code"
+    ],
+    "db_timings_ms": {
+      "dblp": 526.76,
+      "openalex": 3111.07,
+      "arxiv": 0.17
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2409-07368",
+        "title": "Demo: SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code.",
+        "authors": [
+          "Khiem Ton",
+          "Nhi Nguyen",
+          "Mahmoud Nazzal",
+          "Abdallah Khreishah",
+          "Cristian Borcea",
+          "NhatHai Phan",
+          "Ruoming Jin",
+          "Issa Khalil",
+          "Yelong Shen"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2409.07368",
+        "url": "https://doi.org/10.48550/arXiv.2409.07368",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/ccs/TonNNKBPJKS24",
+        "title": "Demo: SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code.",
+        "authors": [
+          "Khiem Ton",
+          "Nhi Nguyen",
+          "Mahmoud Nazzal",
+          "Abdallah Khreishah",
+          "Cristian Borcea",
+          "NhatHai Phan",
+          "Ruoming Jin",
+          "Issa Khalil",
+          "Yelong Shen"
+        ],
+        "year": 2024,
+        "venue": "CCS",
+        "doi": "10.1145/3658644.3691367",
+        "url": "https://doi.org/10.1145/3658644.3691367",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4403788859",
+        "title": "Demo: SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code",
+        "authors": [
+          "Khiem Ton",
+          "Nhi Nguyen",
+          "Mahmoud Nazzal",
+          "Abdallah Khreishah",
+          "Cristian Borcea",
+          "NhatHai Phan",
+          "Ruoming Jin",
+          "Issa Khalil",
+          "Yelong Shen"
+        ],
+        "year": 2024,
+        "venue": "Proceedings of the 2024 on ACM SIGSAC Conference on Computer and Communications Security",
+        "doi": "10.1145/3658644.3691367",
+        "url": "https://doi.org/10.1145/3658644.3691367",
+        "abstract": "This paper introduces SGCode, a flexible prompt-optimizing system to generate secure code with large language models (LLMs). SGCode integrates recent prompt-optimization approaches with LLMs in a unified system accessible through front-end and back-end APIs, enabling users to 1) generate secure code, which is free of vulnerabilities, 2) review and share security analysis, and 3) easily switch from one prompt optimization approach to another, while providing insights on model and system performance. We populated SGCode on an AWS server with PromSec, an approach that optimizes prompts by combining an LLM and security tools with a lightweight generative adversarial graph neural network to detect and fix security vulnerabilities in the generated code. Extensive experiments show that SGCode is practical as a public tool to gain insights into the trade-offs between model utility, secure code generation, and system cost. SGCode has only a marginal cost compared with prompting LLMs. SGCode is available at: http://3.131.141.63:8501/.",
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 37,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  }
+]

@@ -1,0 +1,181 @@
+[parse_agent] Reading PDF: /home/sascha/refcheck/CiteFocus/web/uploads/gv_20260409_160918.pdf
+[parse_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_gv_20260409_160918.json
+[parse_agent] Done. Parsed 36 citations.
+[route_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/route_plan_gv_20260409_160918.json
+[route_agent] Done. Routed 36 citations.
+[exact_match_agent] citation_id=1 run_exact=False
+[exact_match_agent] citation_id=2 run_exact=True
+[exact_match_agent] citation_id=3 run_exact=False
+[exact_match_agent] citation_id=4 run_exact=False
+[exact_match_agent] citation_id=5 run_exact=False
+[exact_match_agent] citation_id=6 run_exact=True
+[exact_match_agent] citation_id=7 run_exact=False
+[exact_match_agent] citation_id=8 run_exact=False
+[exact_match_agent] citation_id=9 run_exact=False
+[exact_match_agent] citation_id=10 run_exact=True
+[exact_match_agent] citation_id=11 run_exact=True
+[exact_match_agent] citation_id=12 run_exact=False
+[exact_match_agent] citation_id=13 run_exact=False
+[exact_match_agent] citation_id=14 run_exact=True
+[exact_match_agent] citation_id=15 run_exact=False
+[exact_match_agent] citation_id=16 run_exact=True
+[exact_match_agent] citation_id=17 run_exact=False
+[exact_match_agent] citation_id=19 run_exact=False
+[exact_match_agent] citation_id=20 run_exact=True
+[exact_match_agent] citation_id=21 run_exact=True
+[exact_match_agent] citation_id=22 run_exact=False
+[exact_match_agent] citation_id=23 run_exact=True
+[exact_match_agent] citation_id=24 run_exact=True
+[exact_match_agent] citation_id=25 run_exact=False
+[exact_match_agent] citation_id=26 run_exact=False
+[exact_match_agent] citation_id=27 run_exact=False
+[exact_match_agent] citation_id=28 run_exact=False
+[exact_match_agent] citation_id=29 run_exact=False
+[exact_match_agent] citation_id=30 run_exact=True
+[exact_match_agent] citation_id=31 run_exact=False
+[exact_match_agent] citation_id=32 run_exact=False
+[exact_match_agent] citation_id=33 run_exact=True
+[exact_match_agent] citation_id=34 run_exact=True
+[exact_match_agent] citation_id=35 run_exact=False
+[exact_match_agent] citation_id=36 run_exact=False
+[exact_match_agent] citation_id=37 run_exact=True
+[exact_match_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/exact_matches_gv_20260409_160918.json
+[exact_match_agent] Done. Processed 36 citations.
+[fusion_agent] stage=stage1 citation_id=1 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=2 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=3 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=4 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=5 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=6 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=7 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=8 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=9 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=10 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=11 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=12 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=13 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=14 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=15 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=16 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=17 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=19 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=20 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=21 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=22 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=23 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=24 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=25 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=26 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=27 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=28 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=29 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=30 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=31 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=32 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=33 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=34 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=35 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=36 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=37 fusion_status=high_confidence_exact selected_source=exact
+[fusion_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage1_gv_20260409_160918.json
+[fusion_agent] Done. Processed 36 citations.
+/opt/anaconda3/lib/python3.12/site-packages/torch/cuda/__init__.py:180: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12040). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return torch._C._cuda_getDeviceCount() > 0
+[run_pipeline] running: /opt/anaconda3/bin/python /home/sascha/refcheck/CiteFocus/agents/parse_agent.py --input /home/sascha/refcheck/CiteFocus/web/uploads/gv_20260409_160918.pdf --output /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_gv_20260409_160918.json
+[run_pipeline] running: /opt/anaconda3/bin/python /home/sascha/refcheck/CiteFocus/agents/route_agent.py --input /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_gv_20260409_160918.json --output /home/sascha/refcheck/CiteFocus/outputs/route_plan_gv_20260409_160918.json
+[run_pipeline] running: /opt/anaconda3/bin/python /home/sascha/refcheck/CiteFocus/agents/exact_match_agent.py --parsed /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_gv_20260409_160918.json --route /home/sascha/refcheck/CiteFocus/outputs/route_plan_gv_20260409_160918.json --output /home/sascha/refcheck/CiteFocus/outputs/exact_matches_gv_20260409_160918.json
+[run_pipeline] running: /opt/anaconda3/bin/python /home/sascha/refcheck/CiteFocus/agents/fusion_agent.py --stage stage1 --parsed /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_gv_20260409_160918.json --route /home/sascha/refcheck/CiteFocus/outputs/route_plan_gv_20260409_160918.json --exact /home/sascha/refcheck/CiteFocus/outputs/exact_matches_gv_20260409_160918.json --output /home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage1_gv_20260409_160918.json
+[run_pipeline] starting: /opt/anaconda3/bin/python /home/sascha/refcheck/CiteFocus/agents/lexical_retrieval_agent.py --parsed /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_gv_20260409_160918.json --route /home/sascha/refcheck/CiteFocus/outputs/route_plan_gv_20260409_160918.json --exact /home/sascha/refcheck/CiteFocus/outputs/exact_matches_gv_20260409_160918.json --output /home/sascha/refcheck/CiteFocus/outputs/lexical_candidates_gv_20260409_160918.json --db-mode all
+[run_pipeline] loading semantic model once: Qwen/Qwen2.5-7B-Instruct
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2207, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2441, in _get_module
+    raise e
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2439, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 19, in <module>
+    from ...modeling_layers import (
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/modeling_layers.py", line 27, in <module>
+    from .processing_utils import Unpack
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/processing_utils.py", line 38, in <module>
+    from .image_utils import ChannelDimension, ImageInput, is_vision_available
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/image_utils.py", line 53, in <module>
+    from torchvision.transforms import InterpolationMode
+  File "/opt/anaconda3/lib/python3.12/site-packages/torchvision/__init__.py", line 10, in <module>
+    from torchvision import _meta_registrations, datasets, io, models, ops, transforms, utils  # usort:skip
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/torchvision/_meta_registrations.py", line 163, in <module>
+    @torch.library.register_fake("torchvision::nms")
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/torch/library.py", line 1087, in register
+    use_lib._register_fake(
+  File "/opt/anaconda3/lib/python3.12/site-packages/torch/library.py", line 204, in _register_fake
+    handle = entry.fake_impl.register(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/torch/_library/fake_impl.py", line 50, in register
+    if torch._C._dispatch_has_kernel_for_dispatch_key(self.qualname, "Meta"):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: operator torchvision::nms does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sascha/refcheck/CiteFocus/run_pipeline.py", line 250, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/sascha/refcheck/CiteFocus/run_pipeline.py", line 141, in main
+    semantic_model, semantic_tokenizer = load_model_and_tokenizer(args.semantic_model)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sascha/refcheck/CiteFocus/agents/semantic_agent.py", line 121, in load_model_and_tokenizer
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 348, in from_pretrained
+    explicit_local_code = has_local_code and not _get_model_class(
+                                                 ^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 180, in _get_model_class
+    supported_models = model_mapping[type(config)]
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 587, in __getitem__
+    return self._load_attr_from_module(model_type, model_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 601, in _load_attr_from_module
+    return getattribute_from_module(self._modules[module_name], attr)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 513, in getattribute_from_module
+    if hasattr(module, attr):
+       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2295, in __getattr__
+    raise ModuleNotFoundError(
+ModuleNotFoundError: Could not import module 'Qwen2ForCausalLM'. Are this object's requirements defined correctly?
+Traceback (most recent call last):
+  File "/home/sascha/refcheck/CiteFocus/agents/lexical_retrieval_agent.py", line 558, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/sascha/refcheck/CiteFocus/agents/lexical_retrieval_agent.py", line 537, in main
+    result = retrieve_lexical_for_citation(citation, route_record, exact_record, arxiv_conn=arxiv_conn, dblp_conn=dblp_conn, openalex_conn=openalex_conn, db_mode=args.db_mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sascha/refcheck/CiteFocus/agents/lexical_retrieval_agent.py", line 496, in retrieve_lexical_for_citation
+    run_db(db_name)
+  File "/home/sascha/refcheck/CiteFocus/agents/lexical_retrieval_agent.py", line 490, in run_db
+    db_candidates = query_db_candidates(citation, db_name, arxiv_conn=arxiv_conn, dblp_conn=dblp_conn, openalex_conn=openalex_conn)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sascha/refcheck/CiteFocus/agents/lexical_retrieval_agent.py", line 458, in query_db_candidates
+    return lexical_search_sqlite(citation, openalex_conn, db_name="openalex", limit=LEXICAL_CANDIDATES_PER_DB)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sascha/refcheck/CiteFocus/agents/lexical_retrieval_agent.py", line 279, in lexical_search_sqlite
+    ensure_supporting_indexes(connection, year_col=year_col)
+  File "/home/sascha/refcheck/CiteFocus/agents/lexical_retrieval_agent.py", line 213, in ensure_supporting_indexes
+    connection.execute("CREATE INDEX IF NOT EXISTS idx_title_words_word_record ON title_words(word, record_id)")
+sqlite3.OperationalError: database is locked

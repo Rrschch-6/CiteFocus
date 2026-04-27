@@ -1,0 +1,1443 @@
+[
+  {
+    "citation_id": 1,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "application",
+      "large",
+      "language",
+      "models",
+      "software",
+      "engineering",
+      "tasks",
+      "opportunities"
+    ],
+    "db_timings_ms": {
+      "dblp": 11457.75
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/software/Ozkaya23b",
+        "title": "Application of Large Language Models to Software Engineering Tasks: Opportunities, Risks, and Implications.",
+        "authors": [
+          "Ipek Ozkaya"
+        ],
+        "year": 2023,
+        "venue": "IEEE Softw.",
+        "doi": "10.1109/ms.2023.3248401",
+        "url": "https://doi.org/10.1109/MS.2023.3248401",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 2,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 3,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "gemini",
+      "code",
+      "assist",
+      "ai-first",
+      "coding",
+      "your",
+      "natural",
+      "language"
+    ],
+    "db_timings_ms": {
+      "openalex": 19830.41,
+      "dblp": 10895.64,
+      "arxiv": 3340.84
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 4,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "survey",
+      "reveals",
+      "impact",
+      "developer",
+      "experience"
+    ],
+    "db_timings_ms": {
+      "openalex": 19330.6,
+      "dblp": 10267.46,
+      "arxiv": 3189.19
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 5,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "review",
+      "vibe",
+      "coding",
+      "fundamentals",
+      "state-of-the-art",
+      "challenges",
+      "future",
+      "directions"
+    ],
+    "db_timings_ms": {
+      "openalex": 19794.2,
+      "dblp": 10707.28,
+      "arxiv": 3228.76
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 6,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 7,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "security",
+      "vulnerabilities",
+      "ai-generated",
+      "code",
+      "large-scale",
+      "analysis",
+      "public",
+      "github"
+    ],
+    "db_timings_ms": {
+      "dblp": 11515.26
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2510-26103",
+        "title": "Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories.",
+        "authors": [
+          "Maximilian Schreiber",
+          "Pascal Tippe"
+        ],
+        "year": 2025,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2510.26103",
+        "url": "https://doi.org/10.48550/arXiv.2510.26103",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/icics/SchreiberT25",
+        "title": "Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories.",
+        "authors": [
+          "Maximilian Schreiber",
+          "Pascal Tippe"
+        ],
+        "year": 2025,
+        "venue": "ICICS (3)",
+        "doi": "10.1007/978-981-95-3537-8_9",
+        "url": "https://doi.org/10.1007/978-981-95-3537-8_9",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 8,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "have",
+      "package",
+      "you!",
+      "comprehensive",
+      "analysis",
+      "package",
+      "hallucinations",
+      "code"
+    ],
+    "db_timings_ms": {
+      "dblp": 11197.15
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2406-10279",
+        "title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs.",
+        "authors": [
+          "Joseph Spracklen",
+          "Raveen Wijewickrama",
+          "A. H. M. Nazmus Sakib",
+          "Anindya Maiti",
+          "Murtuza Jadliwala"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2406.10279",
+        "url": "https://doi.org/10.48550/arXiv.2406.10279",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/uss/SpracklenWSMV25",
+        "title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs.",
+        "authors": [
+          "Joseph Spracklen",
+          "Raveen Wijewickrama",
+          "A. H. M. Nazmus Sakib",
+          "Anindya Maiti",
+          "Bimal Viswanath",
+          "Murtuza Jadliwala"
+        ],
+        "year": 2025,
+        "venue": "USENIX Security Symposium",
+        "doi": null,
+        "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 9,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "large",
+      "language",
+      "models",
+      "code",
+      "security",
+      "hardening",
+      "adversarial",
+      "testing"
+    ],
+    "db_timings_ms": {
+      "dblp": 11498.25
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/ccs/HeV23",
+        "title": "Large Language Models for Code: Security Hardening and Adversarial Testing.",
+        "authors": [
+          "Jingxuan He",
+          "Martin T. Vechev"
+        ],
+        "year": 2023,
+        "venue": "CCS",
+        "doi": "10.1145/3576915.3623175",
+        "url": "https://doi.org/10.1145/3576915.3623175",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 10,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 11,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 12,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "lora",
+      "low-rank",
+      "adaptation",
+      "large",
+      "language",
+      "models",
+      "iclr"
+    ],
+    "db_timings_ms": {
+      "dblp": 10625.85
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/iclr/HuSWALWWC22",
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models.",
+        "authors": [
+          "Edward J. Hu",
+          "Yelong Shen",
+          "Phillip Wallis",
+          "Zeyuan Allen-Zhu",
+          "Yuanzhi Li",
+          "Shean Wang",
+          "Lu Wang",
+          "Weizhu Chen"
+        ],
+        "year": 2022,
+        "venue": "ICLR",
+        "doi": null,
+        "url": "https://openreview.net/forum?id=nZeVKeeFYf9",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 0.8571,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2106-09685",
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models.",
+        "authors": [
+          "Edward J. Hu",
+          "Yelong Shen",
+          "Phillip Wallis",
+          "Zeyuan Allen-Zhu",
+          "Yuanzhi Li",
+          "Shean Wang",
+          "Weizhu Chen"
+        ],
+        "year": 2021,
+        "venue": "CoRR",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2106.09685",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 0.8571,
+        "author_score": 0.875,
+        "year_score": 0.7,
+        "lexical_score": 0.845,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 13,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "parameter-efficient",
+      "fine-tuning",
+      "large-scale",
+      "pre-trained",
+      "language",
+      "models"
+    ],
+    "db_timings_ms": {
+      "dblp": 10798.77
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/natmi/DingQYWYSHCCCYZWLZCLTLS23",
+        "title": "Parameter-efficient fine-tuning of large-scale pre-trained language models.",
+        "authors": [
+          "Ning Ding 0002",
+          "Yujia Qin",
+          "Guang Yang 0046",
+          "Fuchao Wei",
+          "Zonghan Yang",
+          "Yusheng Su",
+          "Shengding Hu",
+          "Yulin Chen",
+          "Chi-Min Chan",
+          "Weize Chen",
+          "Jing Yi",
+          "Weilin Zhao",
+          "Xiaozhi Wang",
+          "Zhiyuan Liu 0001",
+          "Hai-Tao Zheng 0002",
+          "Jianfei Chen 0001",
+          "Yang Liu 0005",
+          "Jie Tang 0001",
+          "Juanzi Li",
+          "Maosong Sun 0001"
+        ],
+        "year": 2023,
+        "venue": "Nat. Mac. Intell.",
+        "doi": "10.1038/s42256-023-00626-4",
+        "url": "https://doi.org/10.1038/s42256-023-00626-4",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 14,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 15,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "parameter-efficient",
+      "fine-tuning",
+      "methods",
+      "pretrained",
+      "language",
+      "models",
+      "critical",
+      "review"
+    ],
+    "db_timings_ms": {
+      "dblp": 11243.91,
+      "openalex": 20311.77,
+      "arxiv": 3623.79
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 16,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 17,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "mathematical",
+      "framework",
+      "transformer",
+      "circuits"
+    ],
+    "db_timings_ms": {
+      "dblp": 12125.09,
+      "openalex": 18817.48,
+      "arxiv": 3144.73
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 19,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "a",
+      "survey",
+      "on",
+      "llm-as-ajudge"
+    ],
+    "db_timings_ms": {
+      "openalex": 18934.1,
+      "dblp": 11537.73
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2411-15594",
+        "title": "A Survey on LLM-as-a-Judge.",
+        "authors": [
+          "Jiawei Gu",
+          "Xuhui Jiang",
+          "Zhichao Shi 0001",
+          "Hexiang Tan",
+          "Xuehao Zhai",
+          "Chengjin Xu",
+          "Wei Li 0176",
+          "Yinghan Shen",
+          "Shengjie Ma",
+          "Honghao Liu",
+          "Yuanzhuo Wang",
+          "Jian Guo 0016"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2411.15594",
+        "url": "https://doi.org/10.48550/arXiv.2411.15594",
+        "abstract": null,
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 20,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 21,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 22,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "measuring",
+      "massive",
+      "multitask",
+      "language",
+      "understanding"
+    ],
+    "db_timings_ms": {
+      "dblp": 10264.38
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2009-03300",
+        "title": "Measuring Massive Multitask Language Understanding.",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Steven Basart",
+          "Andy Zou",
+          "Mantas Mazeika",
+          "Dawn Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2020,
+        "venue": "CoRR",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2009.03300",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/iclr/HendrycksBBZMSS21",
+        "title": "Measuring Massive Multitask Language Understanding.",
+        "authors": [
+          "Dan Hendrycks",
+          "Collin Burns",
+          "Steven Basart",
+          "Andy Zou",
+          "Mantas Mazeika",
+          "Dawn Song",
+          "Jacob Steinhardt"
+        ],
+        "year": 2021,
+        "venue": "ICLR",
+        "doi": null,
+        "url": "https://openreview.net/forum?id=d7KBjmI3GmQ",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 23,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 24,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 25,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "cybernative",
+      "code",
+      "vulnerability",
+      "security",
+      "dataset"
+    ],
+    "db_timings_ms": {
+      "dblp": 9821.98,
+      "openalex": 18218.52,
+      "arxiv": 2988.61
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 26,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "learning",
+      "from",
+      "mistakes",
+      "comprehensive",
+      "study",
+      "real",
+      "world",
+      "concurrency"
+    ],
+    "db_timings_ms": {
+      "openalex": 22398.93,
+      "dblp": 11942.53
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/asplos/LuPSZ08",
+        "title": "Learning from mistakes: a comprehensive study on real world concurrency bug characteristics.",
+        "authors": [
+          "Shan Lu 0001",
+          "Soyeon Park",
+          "Eunsoo Seo",
+          "Yuanyuan Zhou 0001"
+        ],
+        "year": 2008,
+        "venue": "ASPLOS",
+        "doi": "10.1145/1346281.1346323",
+        "url": "https://doi.org/10.1145/1346281.1346323",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.5,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 27,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "sok",
+      "eternal",
+      "war",
+      "memory"
+    ],
+    "db_timings_ms": {
+      "dblp": 11522.32
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/sp/SzekeresPWS13",
+        "title": "SoK: Eternal War in Memory.",
+        "authors": [
+          "Laszlo Szekeres",
+          "Mathias Payer",
+          "Tao Wei 0002",
+          "Dawn Song"
+        ],
+        "year": 2013,
+        "venue": "IEEE Symposium on Security and Privacy",
+        "doi": "10.1109/sp.2013.13",
+        "url": "https://doi.org/10.1109/SP.2013.13",
+        "abstract": null,
+        "matched_word_count": 4,
+        "title_score": 1.0,
+        "author_score": 0.75,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/ieeesp/SzekeresPWS14",
+        "title": "Eternal War in Memory.",
+        "authors": [
+          "Laszlo Szekeres",
+          "Mathias Payer",
+          "Tao Wei 0002",
+          "R. Sekar 0001"
+        ],
+        "year": 2014,
+        "venue": "IEEE Secur. Priv.",
+        "doi": "10.1109/msp.2014.44",
+        "url": "https://doi.org/10.1109/MSP.2014.44",
+        "abstract": null,
+        "matched_word_count": 3,
+        "title_score": 0.75,
+        "author_score": 0.5,
+        "year_score": 0.7,
+        "lexical_score": 0.695,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 28,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "survey",
+      "mobile",
+      "malware",
+      "wild"
+    ],
+    "db_timings_ms": {
+      "dblp": 11631.15
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/ccs/FeltFCHW11",
+        "title": "A survey of mobile malware in the wild.",
+        "authors": [
+          "Adrienne Porter Felt",
+          "Matthew Finifter",
+          "Erika Chin",
+          "Steve Hanna",
+          "David A. Wagner 0001"
+        ],
+        "year": 2011,
+        "venue": "SPSM@CCS",
+        "doi": "10.1145/2046614.2046618",
+        "url": "https://doi.org/10.1145/2046614.2046618",
+        "abstract": null,
+        "matched_word_count": 4,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 29,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "flowdroid",
+      "precise",
+      "context",
+      "flow",
+      "field",
+      "object-sensitive",
+      "lifecycle-aware",
+      "taint"
+    ],
+    "db_timings_ms": {
+      "openalex": 20107.63,
+      "dblp": 10763.04
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/pldi/ArztRFBBKTOM14",
+        "title": "FlowDroid: precise context, flow, field, object-sensitive and lifecycle-aware taint analysis for Android apps.",
+        "authors": [
+          "Steven Arzt",
+          "Siegfried Rasthofer",
+          "Christian Fritz 0002",
+          "Eric Bodden",
+          "Alexandre Bartel",
+          "Jacques Klein",
+          "Yves Le Traon",
+          "Damien Octeau",
+          "Patrick D. McDaniel"
+        ],
+        "year": 2014,
+        "venue": "PLDI",
+        "doi": "10.1145/2594291.2594299",
+        "url": "https://doi.org/10.1145/2594291.2594299",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.8889,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 30,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 31,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "neurostrike",
+      "neuron-level",
+      "attacks",
+      "aligned",
+      "llms"
+    ],
+    "db_timings_ms": {
+      "dblp": 9892.18
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2509-11864",
+        "title": "NeuroStrike: Neuron-Level Attacks on Aligned LLMs.",
+        "authors": [
+          "Lichao Wu",
+          "Sasha Behrouzi",
+          "Mohamadreza Rostami",
+          "Maximilian Thang",
+          "Stjepan Picek",
+          "Ahmad-Reza Sadeghi"
+        ],
+        "year": 2025,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2509.11864",
+        "url": "https://doi.org/10.48550/arXiv.2509.11864",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 32,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "empirical",
+      "study",
+      "copy",
+      "paste",
+      "behavior",
+      "during",
+      "development"
+    ],
+    "db_timings_ms": {
+      "openalex": 21345.84,
+      "dblp": 10873.06
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/msr/AhmedSH15",
+        "title": "An Empirical Study of the Copy and Paste Behavior during Development.",
+        "authors": [
+          "Tarek M. Ahmed",
+          "Weiyi Shang",
+          "Ahmed E. Hassan"
+        ],
+        "year": 2015,
+        "venue": "MSR",
+        "doi": "10.1109/msr.2015.17",
+        "url": "https://doi.org/10.1109/MSR.2015.17",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 33,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 34,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 35,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "promsec",
+      "prompt",
+      "optimization",
+      "secure",
+      "generation",
+      "functional",
+      "source",
+      "code"
+    ],
+    "db_timings_ms": {
+      "dblp": 11280.61
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2409-12699",
+        "title": "PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs).",
+        "authors": [
+          "Mahmoud Nazzal",
+          "Issa Khalil",
+          "Abdallah Khreishah",
+          "NhatHai Phan"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2409.12699",
+        "url": "https://doi.org/10.48550/arXiv.2409.12699",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/ccs/NazzalKKP24",
+        "title": "PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs).",
+        "authors": [
+          "Mahmoud Nazzal",
+          "Issa Khalil",
+          "Abdallah Khreishah",
+          "NhatHai Phan"
+        ],
+        "year": 2024,
+        "venue": "CCS",
+        "doi": "10.1145/3658644.3690298",
+        "url": "https://doi.org/10.1145/3658644.3690298",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 36,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp"
+    ],
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "sgcode",
+      "flexible",
+      "prompt-optimizing",
+      "system",
+      "secure",
+      "generation",
+      "code"
+    ],
+    "db_timings_ms": {
+      "dblp": 11372.72
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2409-07368",
+        "title": "Demo: SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code.",
+        "authors": [
+          "Khiem Ton",
+          "Nhi Nguyen",
+          "Mahmoud Nazzal",
+          "Abdallah Khreishah",
+          "Cristian Borcea",
+          "NhatHai Phan",
+          "Ruoming Jin",
+          "Issa Khalil",
+          "Yelong Shen"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2409.07368",
+        "url": "https://doi.org/10.48550/arXiv.2409.07368",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/ccs/TonNNKBPJKS24",
+        "title": "Demo: SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code.",
+        "authors": [
+          "Khiem Ton",
+          "Nhi Nguyen",
+          "Mahmoud Nazzal",
+          "Abdallah Khreishah",
+          "Cristian Borcea",
+          "NhatHai Phan",
+          "Ruoming Jin",
+          "Issa Khalil",
+          "Yelong Shen"
+        ],
+        "year": 2024,
+        "venue": "CCS",
+        "doi": "10.1145/3658644.3691367",
+        "url": "https://doi.org/10.1145/3658644.3691367",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 37,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  }
+]

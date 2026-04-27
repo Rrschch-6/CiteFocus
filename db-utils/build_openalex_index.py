@@ -43,6 +43,22 @@ def normalize_doi(doi: str | None) -> str:
     return doi.rstrip(".,;:").lower()
 
 
+def decode_abstract_inverted_index(value: object) -> str:
+    if not isinstance(value, dict) or not value:
+        return ""
+    positions_to_words: dict[int, str] = {}
+    for word, positions in value.items():
+        if not isinstance(word, str) or not isinstance(positions, list):
+            continue
+        for pos in positions:
+            if isinstance(pos, int):
+                positions_to_words[pos] = word
+    if not positions_to_words:
+        return ""
+    ordered_words = [positions_to_words[pos] for pos in sorted(positions_to_words)]
+    return normalize_space(" ".join(ordered_words))
+
+
 def get_query_words(title: str, n: int = 8) -> list[str]:
     title = re.sub(r"[{}]", "", str(title or ""))
     all_words = WORD_RE.findall(title)
@@ -77,6 +93,7 @@ def create_schema(conn: sqlite3.Connection) -> None:
             title TEXT,
             title_normalized TEXT,
             authors TEXT,
+            abstract TEXT,
             venue TEXT,
             venue_normalized TEXT,
             publication_year TEXT,
@@ -98,6 +115,7 @@ def create_schema(conn: sqlite3.Connection) -> None:
         CREATE INDEX IF NOT EXISTS idx_records_title_normalized ON records(title_normalized);
         CREATE INDEX IF NOT EXISTS idx_records_publication_year ON records(publication_year);
         CREATE INDEX IF NOT EXISTS idx_title_words_word ON title_words(word);
+        CREATE INDEX IF NOT EXISTS idx_title_words_word_record ON title_words(word, record_id);
         """
     )
     conn.commit()
@@ -130,6 +148,7 @@ def extract_work_record(record: dict, updated_date: str) -> dict[str, str] | Non
     doi = normalize_doi(record.get("doi"))
     publication_year = str(record.get("publication_year") or "")
     work_type = normalize_space(record.get("type", ""))
+    abstract = decode_abstract_inverted_index(record.get("abstract_inverted_index"))
 
     authorships = record.get("authorships") or []
     authors: list[str] = []
@@ -163,6 +182,7 @@ def extract_work_record(record: dict, updated_date: str) -> dict[str, str] | Non
         "title": title,
         "title_normalized": normalize_title(title),
         "authors": "; ".join(authors),
+        "abstract": abstract,
         "venue": venue,
         "venue_normalized": normalize_venue(venue),
         "publication_year": publication_year,
@@ -183,6 +203,7 @@ def insert_record_batch(conn: sqlite3.Connection, batch_records: list[dict[str, 
             record["title"],
             record["title_normalized"],
             record["authors"],
+            record["abstract"],
             record["venue"],
             record["venue_normalized"],
             record["publication_year"],
@@ -199,10 +220,10 @@ def insert_record_batch(conn: sqlite3.Connection, batch_records: list[dict[str, 
     conn.executemany(
         """
         INSERT OR REPLACE INTO records (
-            openalex_id, doi, title, title_normalized, authors,
+            openalex_id, doi, title, title_normalized, authors, abstract,
             venue, venue_normalized, publication_year, work_type,
             source_id, source_type, landing_page_url, indexed_in, updated_date
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
         rows,
     )
@@ -293,6 +314,7 @@ def main() -> int:
         record_count = conn.execute("SELECT COUNT(*) AS n FROM records").fetchone()["n"]
         doi_count = conn.execute("SELECT COUNT(*) AS n FROM records WHERE doi != ''").fetchone()["n"]
         venue_count = conn.execute("SELECT COUNT(*) AS n FROM records WHERE venue != ''").fetchone()["n"]
+        abstract_count = conn.execute("SELECT COUNT(*) AS n FROM records WHERE abstract != ''").fetchone()["n"]
     except sqlite3.OperationalError as exc:
         if "locked" in str(exc).lower():
             print(
@@ -307,6 +329,7 @@ def main() -> int:
     print("record_count:", record_count)
     print("doi_count:", doi_count)
     print("venue_count:", venue_count)
+    print("abstract_count:", abstract_count)
     return 0
 
 

@@ -1,0 +1,38 @@
+{
+  "unknown": {
+    "count": 11,
+    "average_bibliographic_score": 0.0,
+    "average_semantic_score": 0.0,
+    "verification_counts": {
+      "hallucinated": 11
+    },
+    "semantic_counts": {
+      "skipped": 11
+    }
+  },
+  "dblp": {
+    "count": 50,
+    "average_bibliographic_score": 0.8298,
+    "average_semantic_score": 0.0,
+    "verification_counts": {
+      "partially_verified": 28,
+      "verified": 22
+    },
+    "semantic_counts": {
+      "skipped": 50
+    }
+  },
+  "openalex": {
+    "count": 36,
+    "average_bibliographic_score": 0.8355,
+    "average_semantic_score": 0.0,
+    "verification_counts": {
+      "hallucinated": 1,
+      "partially_verified": 14,
+      "verified": 21
+    },
+    "semantic_counts": {
+      "skipped": 36
+    }
+  }
+}

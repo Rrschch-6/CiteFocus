@@ -131,6 +131,26 @@ main.wrap {
   display: grid;
   gap: 1rem;
 }
+.option-group {
+  display: grid;
+  gap: 0.55rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fffdf8 0%, #f8f1e5 100%);
+}
+.option-label {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+.option-group label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--muted);
+  font-weight: 600;
+}
 .file-drop {
   border: 2px dashed #b8c2ba;
   background: linear-gradient(180deg, #fffefb 0%, var(--cream) 100%);

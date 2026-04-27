@@ -1,0 +1,434 @@
+[
+  {
+    "citation_id": 1,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 2,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 3,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.55
+  },
+  {
+    "citation_id": 4,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.55
+  },
+  {
+    "citation_id": 5,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.55
+  },
+  {
+    "citation_id": 6,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 7,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 8,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 9,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 10,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 11,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 12,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 13,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 14,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 15,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 16,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 17,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 19,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.55
+  },
+  {
+    "citation_id": 20,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 21,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 22,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 23,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 24,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 25,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 26,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.55
+  },
+  {
+    "citation_id": 27,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 28,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 29,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.55
+  },
+  {
+    "citation_id": 30,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 31,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 32,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.55
+  },
+  {
+    "citation_id": 33,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 34,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  },
+  {
+    "citation_id": 35,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 36,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "run_exact_match": false,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.78
+  },
+  {
+    "citation_id": 37,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "run_exact_match": true,
+    "run_lexical_retrieval": true,
+    "run_dense_retrieval": true,
+    "confidence": 0.95
+  }
+]

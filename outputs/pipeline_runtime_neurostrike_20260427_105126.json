@@ -1,0 +1,29 @@
+{
+  "tag": "neurostrike_20260427_105126",
+  "status": "failed",
+  "duration_seconds": 206.05,
+  "stages": {
+    "parse": "completed",
+    "route": "completed",
+    "exact": "completed",
+    "fusion_stage1": "completed",
+    "lexical": "completed",
+    "fusion_stage2": "completed",
+    "verify": "completed",
+    "semantic_stage1": "completed",
+    "semantic_stage2": "completed",
+    "report": "failed"
+  },
+  "stage_durations": {
+    "parse": 5.12,
+    "route": 0.0,
+    "exact": 0.0,
+    "fusion_stage1": 0.0,
+    "lexical": 199.46,
+    "fusion_stage2": 0.0,
+    "verify": 0.05,
+    "semantic_stage1": 199.46,
+    "semantic_stage2": 0.0,
+    "report": 1.42
+  }
+}

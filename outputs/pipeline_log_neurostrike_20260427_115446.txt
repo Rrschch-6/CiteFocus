@@ -1,0 +1,673 @@
+[parse_agent] Reading PDF: /home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_115446.pdf
+[parse_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_115446.json
+[parse_agent] Done. Parsed 97 citations.
+[route_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/route_plan_neurostrike_20260427_115446.json
+[route_agent] Done. Routed 97 citations.
+[exact_match_agent] citation_id=1 run_exact=False
+[exact_match_agent] citation_id=2 run_exact=True
+[exact_match_agent] citation_id=3 run_exact=True
+[exact_match_agent] citation_id=4 run_exact=False
+[exact_match_agent] citation_id=5 run_exact=False
+[exact_match_agent] citation_id=6 run_exact=True
+[exact_match_agent] citation_id=7 run_exact=True
+[exact_match_agent] citation_id=8 run_exact=False
+[exact_match_agent] citation_id=9 run_exact=True
+[exact_match_agent] citation_id=10 run_exact=True
+[exact_match_agent] citation_id=11 run_exact=True
+[exact_match_agent] citation_id=12 run_exact=True
+[exact_match_agent] citation_id=13 run_exact=False
+[exact_match_agent] citation_id=14 run_exact=False
+[exact_match_agent] citation_id=15 run_exact=False
+[exact_match_agent] citation_id=16 run_exact=True
+[exact_match_agent] citation_id=17 run_exact=True
+[exact_match_agent] citation_id=19 run_exact=True
+[exact_match_agent] citation_id=21 run_exact=False
+[exact_match_agent] citation_id=22 run_exact=True
+[exact_match_agent] citation_id=23 run_exact=True
+[exact_match_agent] citation_id=24 run_exact=False
+[exact_match_agent] citation_id=25 run_exact=True
+[exact_match_agent] citation_id=26 run_exact=True
+[exact_match_agent] citation_id=27 run_exact=False
+[exact_match_agent] citation_id=28 run_exact=False
+[exact_match_agent] citation_id=29 run_exact=True
+[exact_match_agent] citation_id=30 run_exact=True
+[exact_match_agent] citation_id=31 run_exact=True
+[exact_match_agent] citation_id=32 run_exact=True
+[exact_match_agent] citation_id=33 run_exact=False
+[exact_match_agent] citation_id=34 run_exact=False
+[exact_match_agent] citation_id=35 run_exact=False
+[exact_match_agent] citation_id=36 run_exact=True
+[exact_match_agent] citation_id=37 run_exact=True
+[exact_match_agent] citation_id=38 run_exact=False
+[exact_match_agent] citation_id=39 run_exact=True
+[exact_match_agent] citation_id=40 run_exact=True
+[exact_match_agent] citation_id=41 run_exact=True
+[exact_match_agent] citation_id=42 run_exact=False
+[exact_match_agent] citation_id=43 run_exact=True
+[exact_match_agent] citation_id=44 run_exact=True
+[exact_match_agent] citation_id=45 run_exact=False
+[exact_match_agent] citation_id=46 run_exact=True
+[exact_match_agent] citation_id=47 run_exact=False
+[exact_match_agent] citation_id=48 run_exact=True
+[exact_match_agent] citation_id=49 run_exact=True
+[exact_match_agent] citation_id=52 run_exact=True
+[exact_match_agent] citation_id=53 run_exact=True
+[exact_match_agent] citation_id=54 run_exact=True
+[exact_match_agent] citation_id=55 run_exact=False
+[exact_match_agent] citation_id=57 run_exact=False
+[exact_match_agent] citation_id=58 run_exact=True
+[exact_match_agent] citation_id=64 run_exact=False
+[exact_match_agent] citation_id=65 run_exact=False
+[exact_match_agent] citation_id=66 run_exact=False
+[exact_match_agent] citation_id=67 run_exact=True
+[exact_match_agent] citation_id=68 run_exact=False
+[exact_match_agent] citation_id=69 run_exact=True
+[exact_match_agent] citation_id=70 run_exact=True
+[exact_match_agent] citation_id=72 run_exact=True
+[exact_match_agent] citation_id=73 run_exact=False
+[exact_match_agent] citation_id=74 run_exact=False
+[exact_match_agent] citation_id=75 run_exact=True
+[exact_match_agent] citation_id=76 run_exact=True
+[exact_match_agent] citation_id=77 run_exact=True
+[exact_match_agent] citation_id=78 run_exact=True
+[exact_match_agent] citation_id=79 run_exact=False
+[exact_match_agent] citation_id=80 run_exact=True
+[exact_match_agent] citation_id=81 run_exact=True
+[exact_match_agent] citation_id=82 run_exact=False
+[exact_match_agent] citation_id=83 run_exact=True
+[exact_match_agent] citation_id=84 run_exact=True
+[exact_match_agent] citation_id=85 run_exact=True
+[exact_match_agent] citation_id=86 run_exact=False
+[exact_match_agent] citation_id=87 run_exact=True
+[exact_match_agent] citation_id=88 run_exact=True
+[exact_match_agent] citation_id=89 run_exact=True
+[exact_match_agent] citation_id=90 run_exact=True
+[exact_match_agent] citation_id=91 run_exact=False
+[exact_match_agent] citation_id=92 run_exact=True
+[exact_match_agent] citation_id=93 run_exact=True
+[exact_match_agent] citation_id=94 run_exact=True
+[exact_match_agent] citation_id=95 run_exact=False
+[exact_match_agent] citation_id=96 run_exact=False
+[exact_match_agent] citation_id=97 run_exact=False
+[exact_match_agent] citation_id=98 run_exact=True
+[exact_match_agent] citation_id=99 run_exact=True
+[exact_match_agent] citation_id=100 run_exact=True
+[exact_match_agent] citation_id=101 run_exact=True
+[exact_match_agent] citation_id=102 run_exact=True
+[exact_match_agent] citation_id=103 run_exact=False
+[exact_match_agent] citation_id=104 run_exact=True
+[exact_match_agent] citation_id=105 run_exact=False
+[exact_match_agent] citation_id=106 run_exact=True
+[exact_match_agent] citation_id=107 run_exact=True
+[exact_match_agent] citation_id=108 run_exact=True
+[exact_match_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/exact_matches_neurostrike_20260427_115446.json
+[exact_match_agent] Done. Processed 97 citations.
+[fusion_agent] stage=stage1 citation_id=1 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=2 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=3 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=4 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=5 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=6 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=7 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=8 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=9 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=10 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=11 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=12 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=13 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=14 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=15 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=16 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=17 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=19 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=21 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=22 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=23 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=24 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=25 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=26 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=27 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=28 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=29 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=30 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=31 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=32 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=33 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=34 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=35 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=36 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=37 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=38 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=39 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=40 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=41 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=42 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=43 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=44 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=45 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=46 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=47 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=48 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=49 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=52 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=53 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=54 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=55 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=57 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=58 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=64 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=65 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=66 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=67 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=68 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=69 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=70 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=72 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=73 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=74 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=75 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=76 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=77 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=78 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=79 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=80 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=81 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=82 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=83 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=84 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=85 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=86 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=87 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=88 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=89 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=90 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=91 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=92 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=93 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=94 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=95 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=96 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=97 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=98 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=99 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=100 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=101 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=102 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=103 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=104 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=105 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage1 citation_id=106 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=107 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage1 citation_id=108 fusion_status=exact selected_source=exact
+[fusion_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage1_neurostrike_20260427_115446.json
+[fusion_agent] Done. Processed 97 citations.
+[run_pipeline] running: /opt/anaconda3/envs/citefocus/bin/python /home/sascha/refcheck/CiteFocus/agents/parse_agent.py --input /home/sascha/refcheck/CiteFocus/web/uploads/neurostrike_20260427_115446.pdf --output /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_115446.json
+[run_pipeline] running: /opt/anaconda3/envs/citefocus/bin/python /home/sascha/refcheck/CiteFocus/agents/route_agent.py --input /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_115446.json --output /home/sascha/refcheck/CiteFocus/outputs/route_plan_neurostrike_20260427_115446.json
+[run_pipeline] running: /opt/anaconda3/envs/citefocus/bin/python /home/sascha/refcheck/CiteFocus/agents/exact_match_agent.py --parsed /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_115446.json --route /home/sascha/refcheck/CiteFocus/outputs/route_plan_neurostrike_20260427_115446.json --output /home/sascha/refcheck/CiteFocus/outputs/exact_matches_neurostrike_20260427_115446.json
+[run_pipeline] running: /opt/anaconda3/envs/citefocus/bin/python /home/sascha/refcheck/CiteFocus/agents/fusion_agent.py --stage stage1 --parsed /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_115446.json --route /home/sascha/refcheck/CiteFocus/outputs/route_plan_neurostrike_20260427_115446.json --exact /home/sascha/refcheck/CiteFocus/outputs/exact_matches_neurostrike_20260427_115446.json --output /home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage1_neurostrike_20260427_115446.json
+[run_pipeline] starting: /opt/anaconda3/envs/citefocus/bin/python /home/sascha/refcheck/CiteFocus/agents/lexical_retrieval_agent.py --parsed /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_115446.json --route /home/sascha/refcheck/CiteFocus/outputs/route_plan_neurostrike_20260427_115446.json --exact /home/sascha/refcheck/CiteFocus/outputs/exact_matches_neurostrike_20260427_115446.json --output /home/sascha/refcheck/CiteFocus/outputs/lexical_candidates_neurostrike_20260427_115446.json --db-mode all
+[run_pipeline] loading semantic model once: Qwen/Qwen2.5-7B-Instruct
+
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/339 [00:00<00:48,  7.03it/s]
+Loading weights:   5%|▌         | 17/339 [00:00<00:04, 75.83it/s]
+Loading weights:   9%|▉         | 30/339 [00:00<00:03, 88.97it/s]
+Loading weights:  14%|█▍        | 49/339 [00:00<00:02, 123.16it/s]
+Loading weights:  19%|█▊        | 63/339 [00:00<00:02, 127.94it/s]
+Loading weights:  23%|██▎       | 77/339 [00:00<00:02, 105.43it/s]
+Loading weights:  27%|██▋       | 90/339 [00:00<00:02, 106.98it/s]
+Loading weights:  30%|███       | 102/339 [00:01<00:02, 105.63it/s]
+Loading weights:  34%|███▎      | 114/339 [00:01<00:02, 106.79it/s]
+Loading weights:  37%|███▋      | 126/339 [00:01<00:02, 104.29it/s]
+Loading weights:  40%|████      | 137/339 [00:01<00:02, 99.97it/s]
+Loading weights:  44%|████▍     | 150/339 [00:01<00:01, 103.48it/s]
+Loading weights:  49%|████▉     | 166/339 [00:01<00:01, 118.48it/s]
+Loading weights:  53%|█████▎    | 180/339 [00:01<00:01, 124.01it/s]
+Loading weights:  58%|█████▊    | 196/339 [00:01<00:01, 125.73it/s]
+Loading weights:  62%|██████▏   | 209/339 [00:01<00:01, 116.51it/s]
+Loading weights:  65%|██████▌   | 221/339 [00:02<00:01, 108.37it/s]
+Loading weights:  70%|███████   | 238/339 [00:02<00:00, 123.09it/s]
+Loading weights:  76%|███████▌  | 256/339 [00:02<00:00, 131.05it/s]
+Loading weights:  80%|███████▉  | 270/339 [00:02<00:00, 113.16it/s]
+Loading weights:  83%|████████▎ | 282/339 [00:02<00:00, 108.69it/s]
+Loading weights:  87%|████████▋ | 294/339 [00:02<00:00, 108.52it/s]
+Loading weights:  90%|█████████ | 306/339 [00:02<00:00, 106.39it/s]
+Loading weights:  94%|█████████▍| 318/339 [00:02<00:00, 105.27it/s]
+Loading weights:  97%|█████████▋| 329/339 [00:03<00:00, 100.98it/s]
+Loading weights: 100%|██████████| 339/339 [00:03<00:00, 110.85it/s]
+[lexical_retrieval_agent] citation_id=1 status=retrieved candidates=2 timings=[dblp=90.4ms, openalex=419.61ms, arxiv=0.24ms, crossref=1708.31ms]
+[lexical_retrieval_agent] citation_id=2 status=retrieved candidates=1 timings=[arxiv=0.47ms, openalex=921.56ms, dblp=173.03ms]
+[lexical_retrieval_agent] citation_id=3 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=4 status=retrieved candidates=3 timings=[dblp=35.62ms, openalex=465.76ms, arxiv=0.15ms]
+[lexical_retrieval_agent] citation_id=5 status=retrieved candidates=2 timings=[dblp=111.98ms, openalex=663.61ms, arxiv=0.19ms]
+[lexical_retrieval_agent] citation_id=6 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=7 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=8 status=retrieved candidates=3 timings=[dblp=30.75ms, openalex=146.92ms, arxiv=0.16ms]
+[lexical_retrieval_agent] citation_id=9 status=skipped reason=exact_match_found:title_exact candidates=0
+[lexical_retrieval_agent] citation_id=10 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=11 status=retrieved candidates=2 timings=[arxiv=0.12ms, openalex=505.32ms, dblp=91.01ms]
+[lexical_retrieval_agent] citation_id=12 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=13 status=retrieved candidates=1 timings=[dblp=45.93ms, openalex=493.71ms, arxiv=0.13ms]
+[lexical_retrieval_agent] citation_id=14 status=retrieved candidates=3 timings=[dblp=124.01ms, openalex=331.3ms, arxiv=0.18ms]
+[lexical_retrieval_agent] citation_id=15 status=retrieved candidates=4 timings=[dblp=131.02ms, openalex=291.09ms, arxiv=0.14ms]
+[lexical_retrieval_agent] citation_id=16 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=17 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=19 status=retrieved candidates=1 timings=[arxiv=0.17ms, openalex=319.52ms, dblp=78.2ms]
+[lexical_retrieval_agent] citation_id=21 status=retrieved candidates=2 timings=[dblp=13.9ms, openalex=135.82ms, arxiv=0.13ms, crossref=1421.51ms]
+[lexical_retrieval_agent] citation_id=22 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=23 status=skipped reason=exact_match_found:title_exact candidates=0
+[lexical_retrieval_agent] citation_id=24 status=retrieved candidates=3 timings=[dblp=167.44ms, openalex=592.37ms, arxiv=0.52ms]
+[lexical_retrieval_agent] citation_id=25 status=skipped reason=exact_match_found:title_exact candidates=0
+[lexical_retrieval_agent] citation_id=26 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=27 status=retrieved candidates=2 timings=[dblp=148.87ms, openalex=670.98ms, arxiv=0.18ms]
+[lexical_retrieval_agent] citation_id=28 status=retrieved candidates=3 timings=[dblp=66.74ms, openalex=334.34ms, arxiv=0.17ms]
+[lexical_retrieval_agent] citation_id=29 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=30 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=31 status=retrieved candidates=1 timings=[arxiv=0.12ms, openalex=103.16ms, dblp=34.23ms]
+[lexical_retrieval_agent] citation_id=32 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=33 status=retrieved candidates=0 timings=[openalex=161.81ms, dblp=45.32ms, arxiv=0.14ms, crossref=2973.37ms]
+[lexical_retrieval_agent] citation_id=34 status=retrieved candidates=0 timings=[openalex=577.7ms, dblp=157.0ms, arxiv=0.18ms, crossref=2644.01ms]
+[lexical_retrieval_agent] citation_id=35 status=retrieved candidates=1 timings=[dblp=169.28ms, openalex=430.33ms, arxiv=0.15ms]
+[lexical_retrieval_agent] citation_id=36 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=37 status=retrieved candidates=1 timings=[arxiv=0.13ms, openalex=101.56ms, dblp=9.06ms]
+[lexical_retrieval_agent] citation_id=38 status=retrieved candidates=2 timings=[dblp=98.54ms, openalex=336.47ms, arxiv=0.14ms]
+[lexical_retrieval_agent] citation_id=39 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=40 status=retrieved candidates=1 timings=[arxiv=0.13ms, openalex=196.64ms, dblp=34.12ms, crossref=3170.72ms]
+[lexical_retrieval_agent] citation_id=41 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=42 status=retrieved candidates=3 timings=[openalex=131.78ms, dblp=14.41ms, arxiv=0.13ms]
+[lexical_retrieval_agent] citation_id=43 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=44 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=45 status=retrieved candidates=1 timings=[dblp=50.16ms, openalex=208.77ms, arxiv=0.14ms, crossref=2808.74ms]
+[lexical_retrieval_agent] citation_id=46 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=47 status=retrieved candidates=0 timings=[dblp=123.02ms, openalex=254.75ms, arxiv=0.14ms, crossref=2304.49ms]
+[lexical_retrieval_agent] citation_id=48 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=49 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=52 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=53 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=54 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=55 status=retrieved candidates=4 timings=[dblp=16.14ms, openalex=122.3ms, arxiv=0.12ms]
+[lexical_retrieval_agent] citation_id=57 status=retrieved candidates=0 timings=[openalex=502.99ms, dblp=78.58ms, arxiv=0.14ms, crossref=2192.2ms]
+[lexical_retrieval_agent] citation_id=58 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=64 status=retrieved candidates=3 timings=[dblp=130.11ms, openalex=462.22ms, arxiv=0.15ms]
+[lexical_retrieval_agent] citation_id=65 status=retrieved candidates=1 timings=[dblp=260.44ms, openalex=1109.02ms, arxiv=0.2ms]
+[lexical_retrieval_agent] citation_id=66 status=retrieved candidates=2 timings=[openalex=2.08ms, dblp=0.55ms, arxiv=0.11ms]
+[lexical_retrieval_agent] citation_id=67 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=68 status=retrieved candidates=2 timings=[dblp=72.25ms, openalex=246.7ms, arxiv=0.17ms]
+[lexical_retrieval_agent] citation_id=69 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=70 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=72 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=73 status=retrieved candidates=2 timings=[dblp=101.69ms, openalex=480.6ms, arxiv=0.16ms]
+[lexical_retrieval_agent] citation_id=74 status=retrieved candidates=2 timings=[dblp=17.79ms, openalex=40.91ms, arxiv=0.13ms]
+[lexical_retrieval_agent] citation_id=75 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=76 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=77 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=78 status=retrieved candidates=4 timings=[arxiv=0.13ms, openalex=549.33ms, dblp=142.64ms]
+[lexical_retrieval_agent] citation_id=79 status=retrieved candidates=0 timings=[dblp=51.82ms, openalex=128.69ms, arxiv=0.12ms, crossref=2521.74ms]
+[lexical_retrieval_agent] citation_id=80 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=81 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=82 status=retrieved candidates=3 timings=[dblp=11.52ms, openalex=144.84ms, arxiv=0.15ms]
+[lexical_retrieval_agent] citation_id=83 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=84 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=85 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=86 status=retrieved candidates=3 timings=[dblp=148.06ms, openalex=658.04ms, arxiv=0.16ms]
+[lexical_retrieval_agent] citation_id=87 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=88 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=89 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=90 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=91 status=retrieved candidates=1 timings=[dblp=144.38ms, openalex=918.68ms, arxiv=0.17ms]
+[lexical_retrieval_agent] citation_id=92 status=retrieved candidates=0 timings=[arxiv=0.13ms, openalex=83.96ms, dblp=21.73ms, crossref=2183.11ms]
+[lexical_retrieval_agent] citation_id=93 status=skipped reason=exact_match_found:title_exact candidates=0
+[lexical_retrieval_agent] citation_id=94 status=retrieved candidates=1 timings=[arxiv=0.32ms, openalex=314.58ms, dblp=31.72ms, crossref=1996.71ms]
+[lexical_retrieval_agent] citation_id=95 status=retrieved candidates=3 timings=[dblp=110.53ms, openalex=278.54ms, arxiv=0.16ms]
+[lexical_retrieval_agent] citation_id=96 status=retrieved candidates=3 timings=[dblp=55.08ms, openalex=179.12ms, arxiv=0.13ms]
+[lexical_retrieval_agent] citation_id=97 status=retrieved candidates=3 timings=[dblp=183.85ms, openalex=613.8ms, arxiv=0.14ms]
+[lexical_retrieval_agent] citation_id=98 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=99 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=100 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=101 status=skipped reason=exact_match_found:title_exact candidates=0
+[lexical_retrieval_agent] citation_id=102 status=retrieved candidates=2 timings=[arxiv=0.1ms, openalex=157.41ms, dblp=62.7ms]
+[lexical_retrieval_agent] citation_id=103 status=retrieved candidates=4 timings=[dblp=167.6ms, openalex=456.59ms, arxiv=0.15ms]
+[lexical_retrieval_agent] citation_id=104 status=skipped reason=exact_match_found:title_exact candidates=0
+[lexical_retrieval_agent] citation_id=105 status=retrieved candidates=4 timings=[dblp=3.06ms, openalex=12.88ms, arxiv=0.11ms]
+[lexical_retrieval_agent] citation_id=106 status=skipped reason=exact_match_found:title_exact candidates=0
+[lexical_retrieval_agent] citation_id=107 status=skipped reason=exact_match_found:title_year_exact candidates=0
+[lexical_retrieval_agent] citation_id=108 status=skipped reason=exact_match_found:title_exact candidates=0
+[lexical_retrieval_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/lexical_candidates_neurostrike_20260427_115446.json
+[lexical_retrieval_agent] Done. Processed 97 citations.
+[fusion_agent] stage=stage2 citation_id=1 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=2 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=3 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=4 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=5 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=6 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=7 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=8 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=9 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=10 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=11 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=12 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=13 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=14 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=15 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=16 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=17 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=19 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=21 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=22 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=23 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=24 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=25 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=26 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=27 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=28 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=29 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=30 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=31 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=32 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=33 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage2 citation_id=34 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage2 citation_id=35 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=36 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=37 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=38 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=39 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=40 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=41 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=42 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=43 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=44 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=45 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=46 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=47 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage2 citation_id=48 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=49 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=52 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=53 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=54 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=55 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=57 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage2 citation_id=58 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=64 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=65 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=66 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=67 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=68 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=69 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=70 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=72 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=73 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=74 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=75 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=76 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=77 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=78 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=79 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage2 citation_id=80 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=81 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=82 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=83 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=84 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=85 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=86 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=87 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=88 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=89 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=90 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=91 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=92 fusion_status=no_candidate selected_source=None
+[fusion_agent] stage=stage2 citation_id=93 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=94 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=95 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=96 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=97 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=98 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=99 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=100 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=101 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=102 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=103 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=104 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=105 fusion_status=lexical selected_source=lexical
+[fusion_agent] stage=stage2 citation_id=106 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=107 fusion_status=exact selected_source=exact
+[fusion_agent] stage=stage2 citation_id=108 fusion_status=exact selected_source=exact
+[fusion_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage2_neurostrike_20260427_115446.json
+[fusion_agent] Done. Processed 97 citations.
+[verify_agent] citation_id=1 status=partially_verified confidence=1.0
+[verify_agent] citation_id=2 status=partially_verified confidence=0.9125
+[verify_agent] citation_id=3 status=verified confidence=0.93
+[verify_agent] citation_id=4 status=hallucinated confidence=0.9125
+[verify_agent] citation_id=5 status=verified confidence=1.0
+[verify_agent] citation_id=6 status=partially_verified confidence=0.93
+[verify_agent] citation_id=7 status=partially_verified confidence=0.93
+[verify_agent] citation_id=8 status=partially_verified confidence=0.97
+[verify_agent] citation_id=9 status=partially_verified confidence=0.88
+[verify_agent] citation_id=10 status=partially_verified confidence=0.93
+[verify_agent] citation_id=11 status=partially_verified confidence=0.9125
+[verify_agent] citation_id=12 status=verified confidence=0.93
+[verify_agent] citation_id=13 status=partially_verified confidence=0.825
+[verify_agent] citation_id=14 status=partially_verified confidence=0.77
+[verify_agent] citation_id=15 status=verified confidence=1.0
+[verify_agent] citation_id=16 status=verified confidence=0.93
+[verify_agent] citation_id=17 status=verified confidence=0.93
+[verify_agent] citation_id=19 status=partially_verified confidence=0.8433
+[verify_agent] citation_id=21 status=partially_verified confidence=0.975
+[verify_agent] citation_id=22 status=partially_verified confidence=0.93
+[verify_agent] citation_id=23 status=partially_verified confidence=0.88
+[verify_agent] citation_id=24 status=partially_verified confidence=1.0
+[verify_agent] citation_id=25 status=partially_verified confidence=0.88
+[verify_agent] citation_id=26 status=partially_verified confidence=0.93
+[verify_agent] citation_id=27 status=partially_verified confidence=0.975
+[verify_agent] citation_id=28 status=partially_verified confidence=1.0
+[verify_agent] citation_id=29 status=verified confidence=0.93
+[verify_agent] citation_id=30 status=verified confidence=0.93
+[verify_agent] citation_id=31 status=partially_verified confidence=0.9125
+[verify_agent] citation_id=32 status=partially_verified confidence=0.93
+[verify_agent] citation_id=33 status=hallucinated confidence=0.0
+[verify_agent] citation_id=34 status=hallucinated confidence=0.0
+[verify_agent] citation_id=35 status=verified confidence=1.0
+[verify_agent] citation_id=36 status=verified confidence=0.93
+[verify_agent] citation_id=37 status=partially_verified confidence=0.8833
+[verify_agent] citation_id=38 status=partially_verified confidence=0.9
+[verify_agent] citation_id=39 status=verified confidence=0.93
+[verify_agent] citation_id=40 status=partially_verified confidence=0.865
+[verify_agent] citation_id=41 status=verified confidence=0.93
+[verify_agent] citation_id=42 status=partially_verified confidence=1.0
+[verify_agent] citation_id=43 status=partially_verified confidence=0.93
+[verify_agent] citation_id=44 status=verified confidence=0.93
+[verify_agent] citation_id=45 status=verified confidence=1.0
+[verify_agent] citation_id=46 status=verified confidence=0.93
+[verify_agent] citation_id=47 status=hallucinated confidence=0.0
+[verify_agent] citation_id=48 status=verified confidence=0.93
+[verify_agent] citation_id=49 status=verified confidence=0.93
+[verify_agent] citation_id=52 status=verified confidence=0.93
+[verify_agent] citation_id=53 status=partially_verified confidence=0.93
+[verify_agent] citation_id=54 status=verified confidence=0.93
+[verify_agent] citation_id=55 status=verified confidence=1.0
+[verify_agent] citation_id=57 status=hallucinated confidence=0.0
+[verify_agent] citation_id=58 status=verified confidence=0.93
+[verify_agent] citation_id=64 status=partially_verified confidence=0.9125
+[verify_agent] citation_id=65 status=verified confidence=1.0
+[verify_agent] citation_id=66 status=verified confidence=1.0
+[verify_agent] citation_id=67 status=verified confidence=0.93
+[verify_agent] citation_id=68 status=partially_verified confidence=0.7133
+[verify_agent] citation_id=69 status=verified confidence=0.93
+[verify_agent] citation_id=70 status=verified confidence=0.93
+[verify_agent] citation_id=72 status=verified confidence=0.93
+[verify_agent] citation_id=73 status=verified confidence=1.0
+[verify_agent] citation_id=74 status=partially_verified confidence=1.0
+[verify_agent] citation_id=75 status=verified confidence=0.93
+[verify_agent] citation_id=76 status=verified confidence=0.93
+[verify_agent] citation_id=77 status=verified confidence=0.93
+[verify_agent] citation_id=78 status=partially_verified confidence=0.96
+[verify_agent] citation_id=79 status=hallucinated confidence=0.0
+[verify_agent] citation_id=80 status=verified confidence=0.93
+[verify_agent] citation_id=81 status=verified confidence=0.93
+[verify_agent] citation_id=82 status=verified confidence=1.0
+[verify_agent] citation_id=83 status=partially_verified confidence=0.93
+[verify_agent] citation_id=84 status=verified confidence=0.93
+[verify_agent] citation_id=85 status=verified confidence=0.93
+[verify_agent] citation_id=86 status=verified confidence=1.0
+[verify_agent] citation_id=87 status=verified confidence=0.93
+[verify_agent] citation_id=88 status=partially_verified confidence=0.93
+[verify_agent] citation_id=89 status=verified confidence=0.93
+[verify_agent] citation_id=90 status=partially_verified confidence=0.93
+[verify_agent] citation_id=91 status=partially_verified confidence=0.95
+[verify_agent] citation_id=92 status=hallucinated confidence=0.0
+[verify_agent] citation_id=93 status=partially_verified confidence=0.88
+[verify_agent] citation_id=94 status=partially_verified confidence=0.965
+[verify_agent] citation_id=95 status=partially_verified confidence=1.0
+[verify_agent] citation_id=96 status=verified confidence=1.0
+[verify_agent] citation_id=97 status=verified confidence=1.0
+[verify_agent] citation_id=98 status=partially_verified confidence=0.93
+[verify_agent] citation_id=99 status=verified confidence=0.93
+[verify_agent] citation_id=100 status=verified confidence=0.93
+[verify_agent] citation_id=101 status=partially_verified confidence=0.88
+[verify_agent] citation_id=102 status=partially_verified confidence=1.0
+[verify_agent] citation_id=103 status=partially_verified confidence=1.0
+[verify_agent] citation_id=104 status=partially_verified confidence=0.88
+[verify_agent] citation_id=105 status=verified confidence=1.0
+[verify_agent] citation_id=106 status=partially_verified confidence=0.88
+[verify_agent] citation_id=107 status=partially_verified confidence=0.93
+[verify_agent] citation_id=108 status=partially_verified confidence=0.88
+[verify_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/verification_results_neurostrike_20260427_115446.json
+[verify_agent] Done. Processed 97 citations.
+[semantic_agent] stage=stage1 citation_id=3 status=skipped
+[semantic_agent] stage=stage1 citation_id=6 status=skipped
+[semantic_agent] stage=stage1 citation_id=7 status=skipped
+[semantic_agent] stage=stage1 citation_id=9 status=skipped
+[semantic_agent] stage=stage1 citation_id=10 status=skipped
+[semantic_agent] stage=stage1 citation_id=12 status=skipped
+[semantic_agent] stage=stage1 citation_id=16 status=skipped
+[semantic_agent] stage=stage1 citation_id=17 status=skipped
+[semantic_agent] stage=stage1 citation_id=22 status=skipped
+[semantic_agent] stage=stage1 citation_id=23 status=skipped
+[semantic_agent] stage=stage1 citation_id=25 status=skipped
+[semantic_agent] stage=stage1 citation_id=26 status=skipped
+[semantic_agent] stage=stage1 citation_id=29 status=skipped
+[semantic_agent] stage=stage1 citation_id=30 status=skipped
+[semantic_agent] stage=stage1 citation_id=32 status=skipped
+[semantic_agent] stage=stage1 citation_id=36 status=skipped
+[semantic_agent] stage=stage1 citation_id=39 status=skipped
+[semantic_agent] stage=stage1 citation_id=41 status=skipped
+[semantic_agent] stage=stage1 citation_id=43 status=skipped
+[semantic_agent] stage=stage1 citation_id=44 status=skipped
+[semantic_agent] stage=stage1 citation_id=46 status=skipped
+[semantic_agent] stage=stage1 citation_id=48 status=skipped
+[semantic_agent] stage=stage1 citation_id=49 status=skipped
+[semantic_agent] stage=stage1 citation_id=52 status=skipped
+[semantic_agent] stage=stage1 citation_id=53 status=skipped
+[semantic_agent] stage=stage1 citation_id=54 status=skipped
+[semantic_agent] stage=stage1 citation_id=58 status=skipped
+[semantic_agent] stage=stage1 citation_id=67 status=skipped
+[semantic_agent] stage=stage1 citation_id=69 status=skipped
+[semantic_agent] stage=stage1 citation_id=70 status=skipped
+[semantic_agent] stage=stage1 citation_id=72 status=skipped
+[semantic_agent] stage=stage1 citation_id=75 status=skipped
+[semantic_agent] stage=stage1 citation_id=76 status=skipped
+[semantic_agent] stage=stage1 citation_id=77 status=skipped
+[semantic_agent] stage=stage1 citation_id=80 status=skipped
+[semantic_agent] stage=stage1 citation_id=81 status=skipped
+[semantic_agent] stage=stage1 citation_id=83 status=skipped
+[semantic_agent] stage=stage1 citation_id=84 status=skipped
+[semantic_agent] stage=stage1 citation_id=85 status=skipped
+[semantic_agent] stage=stage1 citation_id=87 status=skipped
+[semantic_agent] stage=stage1 citation_id=88 status=skipped
+[semantic_agent] stage=stage1 citation_id=89 status=skipped
+[semantic_agent] stage=stage1 citation_id=90 status=skipped
+[semantic_agent] stage=stage1 citation_id=93 status=skipped
+[semantic_agent] stage=stage1 citation_id=98 status=skipped
+[semantic_agent] stage=stage1 citation_id=99 status=skipped
+[semantic_agent] stage=stage1 citation_id=100 status=skipped
+[semantic_agent] stage=stage1 citation_id=101 status=skipped
+[semantic_agent] stage=stage1 citation_id=104 status=skipped
+[semantic_agent] stage=stage1 citation_id=106 status=skipped
+[semantic_agent] stage=stage1 citation_id=107 status=skipped
+[semantic_agent] stage=stage1 citation_id=108 status=skipped
+[semantic_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/semantic_results_stage1_neurostrike_20260427_115446.json
+[semantic_agent] Wrote summary JSON to: /home/sascha/refcheck/CiteFocus/outputs/semantic_summary_stage1_neurostrike_20260427_115446.json
+[semantic_agent] summary: supporting=0.0% not_supporting=0.0% judged=0 skipped=52
+[semantic_agent] Done. Wrote 52 records.
+[run_pipeline] finished: lexical
+[run_pipeline] running: /opt/anaconda3/envs/citefocus/bin/python /home/sascha/refcheck/CiteFocus/agents/fusion_agent.py --stage stage2 --parsed /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_115446.json --route /home/sascha/refcheck/CiteFocus/outputs/route_plan_neurostrike_20260427_115446.json --exact /home/sascha/refcheck/CiteFocus/outputs/exact_matches_neurostrike_20260427_115446.json --lexical /home/sascha/refcheck/CiteFocus/outputs/lexical_candidates_neurostrike_20260427_115446.json --output /home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage2_neurostrike_20260427_115446.json
+[run_pipeline] running: /opt/anaconda3/envs/citefocus/bin/python /home/sascha/refcheck/CiteFocus/agents/verify_agent.py --parsed /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_115446.json --fused /home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage2_neurostrike_20260427_115446.json --output /home/sascha/refcheck/CiteFocus/outputs/verification_results_neurostrike_20260427_115446.json
+[run_pipeline] finished: semantic_stage1
+[semantic_agent] stage=stage2 citation_id=1 status=skipped
+[semantic_agent] stage=stage2 citation_id=2 status=skipped
+[semantic_agent] stage=stage2 citation_id=4 status=skipped
+[semantic_agent] stage=stage2 citation_id=5 status=skipped
+[semantic_agent] stage=stage2 citation_id=8 status=skipped
+[semantic_agent] stage=stage2 citation_id=11 status=skipped
+[semantic_agent] stage=stage2 citation_id=13 status=skipped
+[semantic_agent] stage=stage2 citation_id=14 status=skipped
+[semantic_agent] stage=stage2 citation_id=15 status=skipped
+[semantic_agent] stage=stage2 citation_id=19 status=skipped
+[semantic_agent] stage=stage2 citation_id=21 status=skipped
+[semantic_agent] stage=stage2 citation_id=24 status=skipped
+[semantic_agent] stage=stage2 citation_id=27 status=skipped
+[semantic_agent] stage=stage2 citation_id=28 status=skipped
+[semantic_agent] stage=stage2 citation_id=31 status=skipped
+[semantic_agent] stage=stage2 citation_id=33 status=skipped
+[semantic_agent] stage=stage2 citation_id=34 status=skipped
+[semantic_agent] stage=stage2 citation_id=35 status=skipped
+[semantic_agent] stage=stage2 citation_id=37 status=skipped
+[semantic_agent] stage=stage2 citation_id=38 status=skipped
+[semantic_agent] stage=stage2 citation_id=40 status=skipped
+[semantic_agent] stage=stage2 citation_id=42 status=skipped
+[semantic_agent] stage=stage2 citation_id=45 status=skipped
+[semantic_agent] stage=stage2 citation_id=47 status=skipped
+[semantic_agent] stage=stage2 citation_id=55 status=skipped
+[semantic_agent] stage=stage2 citation_id=57 status=skipped
+[semantic_agent] stage=stage2 citation_id=64 status=skipped
+[semantic_agent] stage=stage2 citation_id=65 status=skipped
+[semantic_agent] stage=stage2 citation_id=66 status=skipped
+[semantic_agent] stage=stage2 citation_id=68 status=skipped
+[semantic_agent] stage=stage2 citation_id=73 status=skipped
+[semantic_agent] stage=stage2 citation_id=74 status=skipped
+[semantic_agent] stage=stage2 citation_id=78 status=skipped
+[semantic_agent] stage=stage2 citation_id=79 status=skipped
+[semantic_agent] stage=stage2 citation_id=82 status=skipped
+[semantic_agent] stage=stage2 citation_id=86 status=skipped
+[semantic_agent] stage=stage2 citation_id=91 status=skipped
+[semantic_agent] stage=stage2 citation_id=92 status=skipped
+[semantic_agent] stage=stage2 citation_id=94 status=skipped
+[semantic_agent] stage=stage2 citation_id=95 status=skipped
+[semantic_agent] stage=stage2 citation_id=96 status=skipped
+[semantic_agent] stage=stage2 citation_id=97 status=skipped
+[semantic_agent] stage=stage2 citation_id=102 status=skipped
+[semantic_agent] stage=stage2 citation_id=103 status=skipped
+[semantic_agent] stage=stage2 citation_id=105 status=skipped
+[semantic_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/semantic_results_neurostrike_20260427_115446.json
+[semantic_agent] Wrote summary JSON to: /home/sascha/refcheck/CiteFocus/outputs/semantic_summary_neurostrike_20260427_115446.json
+[semantic_agent] summary: supporting=0.0% not_supporting=0.0% judged=0 skipped=97
+[semantic_agent] Done. Wrote 97 records.
+[run_pipeline] running: /opt/anaconda3/envs/citefocus/bin/python /home/sascha/refcheck/CiteFocus/agents/report_agent.py --verification /home/sascha/refcheck/CiteFocus/outputs/verification_results_neurostrike_20260427_115446.json --semantic /home/sascha/refcheck/CiteFocus/outputs/semantic_results_neurostrike_20260427_115446.json --summary-output /home/sascha/refcheck/CiteFocus/outputs/report_summary_neurostrike_20260427_115446.json --combined-output /home/sascha/refcheck/CiteFocus/outputs/report_combined_neurostrike_20260427_115446.json --combined-csv-output /home/sascha/refcheck/CiteFocus/outputs/report_combined_neurostrike_20260427_115446.csv --review-output /home/sascha/refcheck/CiteFocus/outputs/report_review_queue_neurostrike_20260427_115446.json --source-summary-output /home/sascha/refcheck/CiteFocus/outputs/report_source_summary_neurostrike_20260427_115446.json --chart-dir /home/sascha/refcheck/CiteFocus/outputs --tag neurostrike_20260427_115446[report_agent] Wrote chart to: /home/sascha/refcheck/CiteFocus/outputs/chart_verification_status_neurostrike_20260427_115446.png
+[report_agent] Wrote chart to: /home/sascha/refcheck/CiteFocus/outputs/chart_semantic_support_neurostrike_20260427_115446.png
+[report_agent] Wrote chart to: /home/sascha/refcheck/CiteFocus/outputs/chart_verification_semantic_crosstab_neurostrike_20260427_115446.png
+[report_agent] Wrote chart to: /home/sascha/refcheck/CiteFocus/outputs/chart_selected_source_neurostrike_20260427_115446.png
+[report_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/report_combined_neurostrike_20260427_115446.json
+[report_agent] Wrote CSV to: /home/sascha/refcheck/CiteFocus/outputs/report_combined_neurostrike_20260427_115446.csv
+[report_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/report_summary_neurostrike_20260427_115446.json
+[report_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/report_review_queue_neurostrike_20260427_115446.json
+[report_agent] Wrote JSON to: /home/sascha/refcheck/CiteFocus/outputs/report_source_summary_neurostrike_20260427_115446.json
+[report_agent] summary: total=97 verified=44 supported=0 unsupported=0 needs_review=97
+
+[run_pipeline] done
+[run_pipeline] outputs:
+  parsed:            /home/sascha/refcheck/CiteFocus/outputs/parsed_citations_neurostrike_20260427_115446.json
+  route:             /home/sascha/refcheck/CiteFocus/outputs/route_plan_neurostrike_20260427_115446.json
+  exact:             /home/sascha/refcheck/CiteFocus/outputs/exact_matches_neurostrike_20260427_115446.json
+  lexical:           /home/sascha/refcheck/CiteFocus/outputs/lexical_candidates_neurostrike_20260427_115446.json
+  fusion_stage1:     /home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage1_neurostrike_20260427_115446.json
+  fusion_stage2:     /home/sascha/refcheck/CiteFocus/outputs/fused_candidates_stage2_neurostrike_20260427_115446.json
+  verify:            /home/sascha/refcheck/CiteFocus/outputs/verification_results_neurostrike_20260427_115446.json
+  semantic_stage1:   /home/sascha/refcheck/CiteFocus/outputs/semantic_results_stage1_neurostrike_20260427_115446.json
+  semantic_stage1_summary: /home/sascha/refcheck/CiteFocus/outputs/semantic_summary_stage1_neurostrike_20260427_115446.json
+  semantic_final:    /home/sascha/refcheck/CiteFocus/outputs/semantic_results_neurostrike_20260427_115446.json
+  semantic_final_summary:  /home/sascha/refcheck/CiteFocus/outputs/semantic_summary_neurostrike_20260427_115446.json
+  report_summary:    /home/sascha/refcheck/CiteFocus/outputs/report_summary_neurostrike_20260427_115446.json
+  report_combined:   /home/sascha/refcheck/CiteFocus/outputs/report_combined_neurostrike_20260427_115446.json
+  report_combined_csv: /home/sascha/refcheck/CiteFocus/outputs/report_combined_neurostrike_20260427_115446.csv
+  report_review:     /home/sascha/refcheck/CiteFocus/outputs/report_review_queue_neurostrike_20260427_115446.json
+  report_source_summary: /home/sascha/refcheck/CiteFocus/outputs/report_source_summary_neurostrike_20260427_115446.json
+[run_pipeline] duration_seconds: 47.76

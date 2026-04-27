@@ -7,7 +7,7 @@
     <p>Combined bibliographic verification and semantic support results for the uploaded paper.</p>
   </div>
   <div class="hero-actions">
-    <a class="button secondary" href="{{ url_for('artifact', filename='report_combined_' ~ tag ~ '.csv') }}">Download CSV</a>
+    <a class="button secondary" href="{{ url_for('index') }}">Upload Another PDF</a>
   </div>
 </section>
 
@@ -32,11 +32,13 @@
 
 <section class="panel">
   <h2>Pipeline Progress</h2>
+  <p class="muted">Total time: {{ '%.2f'|format(summary.get('pipeline_duration_seconds', 0) if summary is mapping else 0) }}s</p>
   <div class="stage-grid compact">
     {% for item in stage_metrics %}
       <div class="stage-card done">
         <div class="stage-name">{{ item.label }}</div>
         <div class="stage-status">{{ item.metric }}</div>
+        <div class="stage-time">{{ '%.2f'|format(item.elapsed_seconds or 0) }}s</div>
       </div>
     {% endfor %}
   </div>

@@ -18,6 +18,7 @@ AGENTS_DIR = ROOT / "agents"
 OUTPUTS_DIR = ROOT / "outputs"
 DEFAULT_INPUT_PDF = str(ROOT / "inputs" / "nest.pdf")
 PIPELINE_ORDER = ["parse", "route", "exact", "lexical", "fusion", "verify", "semantic", "report"]
+LEXICAL_DB_CHOICES = ["all", "arxiv", "dblp", "openalex"]
 
 
 def output_path(name: str, tag: str | None) -> Path:
@@ -32,6 +33,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--agents", nargs="+", choices=PIPELINE_ORDER, default=PIPELINE_ORDER, help="Subset of agents to run in pipeline order.")
     parser.add_argument("--python", default=sys.executable, help="Python executable to use for agent scripts.")
     parser.add_argument("--semantic-model", default=DEFAULT_MODEL_NAME, help="Local Hugging Face model for semantic checks.")
+    parser.add_argument("--lexical-db", choices=LEXICAL_DB_CHOICES, default="all", help="Choose one lexical DB or 'all' to follow router DB order.")
     return parser.parse_args()
 
 
@@ -125,6 +127,8 @@ def main() -> int:
                 str(exact_path),
                 "--output",
                 str(lexical_path),
+                "--db-mode",
+                args.lexical_db,
             ]
         )
 

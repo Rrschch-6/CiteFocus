@@ -1,0 +1,4565 @@
+[
+  {
+    "citation_id": 1,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "large",
+      "language",
+      "models",
+      "medicine"
+    ],
+    "db_timings_ms": {
+      "dblp": 90.4,
+      "openalex": 419.61,
+      "arxiv": 0.24,
+      "crossref": 1708.31
+    },
+    "candidates": [
+      {
+        "db": "crossref",
+        "record_id": "10.1038/s41591-023-02448-8",
+        "title": "Large language models in medicine",
+        "authors": [
+          "Arun James Thirunavukarasu",
+          "Darren Shu Jeng Ting",
+          "Kabilan Elangovan",
+          "Laura Gutierrez",
+          "Ting Fang Tan",
+          "Daniel Shu Wei Ting"
+        ],
+        "year": 2023,
+        "venue": "Nature Medicine",
+        "doi": "10.1038/s41591-023-02448-8",
+        "url": "https://doi.org/10.1038/s41591-023-02448-8",
+        "abstract": null,
+        "matched_word_count": 4,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 0.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "crossref",
+        "record_id": "10.4258/hir.2025.31.2.111",
+        "title": "Large Language Models in Medicine",
+        "authors": [
+          "Jinwook Choi"
+        ],
+        "year": 2025,
+        "venue": "Healthcare Informatics Research",
+        "doi": "10.4258/hir.2025.31.2.111",
+        "url": "https://doi.org/10.4258/hir.2025.31.2.111",
+        "abstract": null,
+        "matched_word_count": 4,
+        "title_score": 1.0,
+        "author_score": 0.0,
+        "year_score": 0.0,
+        "lexical_score": 0.8,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 2,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "fin-r1",
+      "large",
+      "language",
+      "model",
+      "nancial",
+      "reasoning",
+      "through",
+      "reinforcement"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.47,
+      "openalex": 921.56,
+      "dblp": 173.03
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2503-16252",
+        "title": "Fin-R1: A Large Language Model for Financial Reasoning through Reinforcement Learning.",
+        "authors": [
+          "Zhaowei Liu",
+          "Xin Guo",
+          "Fangqi Lou",
+          "Lingfeng Zeng",
+          "Jinyi Niu",
+          "Zixuan Wang",
+          "Jiajie Xu",
+          "Weige Cai",
+          "Ziwei Yang",
+          "Xueqian Zhao",
+          "Chao Li",
+          "Sheng Xu",
+          "Dezhi Chen",
+          "Yun Chen",
+          "Zuo Bai",
+          "Liwen Zhang"
+        ],
+        "year": 2025,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2503.16252",
+        "url": "https://doi.org/10.48550/arXiv.2503.16252",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 0.875,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9125,
+        "normalized_title_exact": false,
+        "db_priority_rank": 3,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 3,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 4,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "jailbroken",
+      "how",
+      "does",
+      "llm",
+      "safety",
+      "training",
+      "fail?",
+      "advances"
+    ],
+    "db_timings_ms": {
+      "dblp": 35.62,
+      "openalex": 465.76,
+      "arxiv": 0.15
+    },
+    "candidates": [
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4383473937",
+        "title": "Jailbroken: How Does LLM Safety Training Fail?",
+        "authors": [
+          "Alexander Wei",
+          "Nika Haghtalab",
+          "Jacob Steinhardt"
+        ],
+        "year": 2023,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2307.02483",
+        "url": "http://arxiv.org/abs/2307.02483",
+        "abstract": "Large language models trained for safety and harmlessness remain susceptible to adversarial misuse, as evidenced by the prevalence of \"jailbreak\" attacks on early releases of ChatGPT that elicit undesired behavior. Going beyond recognition of the issue, we investigate why such attacks succeed and how they can be created. We hypothesize two failure modes of safety training: competing objectives and mismatched generalization. Competing objectives arise when a model's capabilities and safety goals conflict, while mismatched generalization occurs when safety training fails to generalize to a domain for which capabilities exist. We use these failure modes to guide jailbreak design and then evaluate state-of-the-art models, including OpenAI's GPT-4 and Anthropic's Claude v1.3, against both existing and newly designed attacks. We find that vulnerabilities persist despite the extensive red-teaming and safety-training efforts behind these models. Notably, new attacks utilizing our failure modes succeed on every prompt in a collection of unsafe requests from the models' red-teaming evaluation sets and outperform existing ad hoc jailbreaks. Our analysis emphasizes the need for safety-capability parity -- that safety mechanisms should be as sophisticated as the underlying model -- and argues against the idea that scaling alone can resolve these safety failure modes.",
+        "matched_word_count": 7,
+        "title_score": 0.875,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9125,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2307-02483",
+        "title": "Jailbroken: How Does LLM Safety Training Fail?",
+        "authors": [
+          "Alexander Wei 0001",
+          "Nika Haghtalab",
+          "Jacob Steinhardt"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2307.02483",
+        "url": "https://doi.org/10.48550/arXiv.2307.02483",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 0.875,
+        "author_score": 0.6667,
+        "year_score": 1.0,
+        "lexical_score": 0.8458,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/nips/0001HS23",
+        "title": "Jailbroken: How Does LLM Safety Training Fail?",
+        "authors": [
+          "Alexander Wei 0001",
+          "Nika Haghtalab",
+          "Jacob Steinhardt"
+        ],
+        "year": 2023,
+        "venue": "NeurIPS",
+        "doi": null,
+        "url": "http://papers.nips.cc/paper_files/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 0.875,
+        "author_score": 0.6667,
+        "year_score": 1.0,
+        "lexical_score": 0.8458,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 5,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "training",
+      "language",
+      "models",
+      "follow",
+      "instructions",
+      "human",
+      "feedback"
+    ],
+    "db_timings_ms": {
+      "dblp": 111.98,
+      "openalex": 663.61,
+      "arxiv": 0.19
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2203-02155",
+        "title": "Training language models to follow instructions with human feedback.",
+        "authors": [
+          "Long Ouyang",
+          "Jeff Wu 0003",
+          "Xu Jiang",
+          "Diogo Almeida",
+          "Carroll L. Wainwright",
+          "Pamela Mishkin",
+          "Chong Zhang",
+          "Sandhini Agarwal",
+          "Katarina Slama",
+          "Alex Ray",
+          "John Schulman",
+          "Jacob Hilton",
+          "Fraser Kelton",
+          "Luke Miller",
+          "Maddie Simens",
+          "Amanda Askell",
+          "Peter Welinder",
+          "Paul F. Christiano",
+          "Jan Leike",
+          "Ryan Lowe"
+        ],
+        "year": 2022,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2203.02155",
+        "url": "https://doi.org/10.48550/arXiv.2203.02155",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.9,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/nips/Ouyang0JAWMZASR22",
+        "title": "Training language models to follow instructions with human feedback.",
+        "authors": [
+          "Long Ouyang",
+          "Jeffrey Wu 0003",
+          "Xu Jiang",
+          "Diogo Almeida",
+          "Carroll L. Wainwright",
+          "Pamela Mishkin",
+          "Chong Zhang",
+          "Sandhini Agarwal",
+          "Katarina Slama",
+          "Alex Ray",
+          "John Schulman",
+          "Jacob Hilton",
+          "Fraser Kelton",
+          "Luke Miller",
+          "Maddie Simens",
+          "Amanda Askell",
+          "Peter Welinder",
+          "Paul F. Christiano",
+          "Jan Leike",
+          "Ryan Lowe"
+        ],
+        "year": 2022,
+        "venue": "NeurIPS",
+        "doi": null,
+        "url": "http://papers.nips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.9,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 6,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 7,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 8,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "anything",
+      "now",
+      "characterizing",
+      "evaluating",
+      "in-the-wild",
+      "jailbreak",
+      "prompts",
+      "large"
+    ],
+    "db_timings_ms": {
+      "dblp": 30.75,
+      "openalex": 146.92,
+      "arxiv": 0.16
+    },
+    "candidates": [
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4385714464",
+        "title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models",
+        "authors": [
+          "Xinyue Shen",
+          "Zeyuan Chen",
+          "Michael Backes",
+          "Yun Shen",
+          "Yang Zhang"
+        ],
+        "year": 2023,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2308.03825",
+        "url": "http://arxiv.org/abs/2308.03825",
+        "abstract": "The misuse of large language models (LLMs) has drawn significant attention from the general public and LLM vendors. One particular type of adversarial prompt, known as jailbreak prompt, has emerged as the main attack vector to bypass the safeguards and elicit harmful content from LLMs. In this paper, employing our new framework JailbreakHub, we conduct a comprehensive analysis of 1,405 jailbreak prompts spanning from December 2022 to December 2023. We identify 131 jailbreak communities and discover unique characteristics of jailbreak prompts and their major attack strategies, such as prompt injection and privilege escalation. We also observe that jailbreak prompts increasingly shift from online Web communities to prompt-aggregation websites and 28 user accounts have consistently optimized jailbreak prompts over 100 days. To assess the potential harm caused by jailbreak prompts, we create a question set comprising 107,250 samples across 13 forbidden scenarios. Leveraging this dataset, our experiments on six popular LLMs show that their safeguards cannot adequately defend jailbreak prompts in all scenarios. Particularly, we identify five highly effective jailbreak prompts that achieve 0.95 attack success rates on ChatGPT (GPT-3.5) and GPT-4, and the earliest one has persisted online for over 240 days. We hope that our study can facilitate the research community and LLM vendors in promoting safer and regulated LLMs.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 0.97,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/ccs/ShenC0SZ24",
+        "title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models.",
+        "authors": [
+          "Xinyue Shen 0001",
+          "Zeyuan Chen",
+          "Michael Backes 0001",
+          "Yun Shen",
+          "Yang Zhang 0016"
+        ],
+        "year": 2024,
+        "venue": "CCS",
+        "doi": "10.1145/3658644.3670388",
+        "url": "https://doi.org/10.1145/3658644.3670388",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.4,
+        "year_score": 1.0,
+        "lexical_score": 0.88,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2308-03825",
+        "title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models.",
+        "authors": [
+          "Xinyue Shen 0001",
+          "Zeyuan Chen",
+          "Michael Backes 0001",
+          "Yun Shen",
+          "Yang Zhang 0016"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2308.03825",
+        "url": "https://doi.org/10.48550/arXiv.2308.03825",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.4,
+        "year_score": 0.7,
+        "lexical_score": 0.85,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 9,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 10,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 11,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "towards",
+      "comprehensive",
+      "cient",
+      "post",
+      "safety",
+      "alignment",
+      "large",
+      "language"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.12,
+      "openalex": 505.32,
+      "dblp": 91.01
+    },
+    "candidates": [
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4399029227",
+        "title": "Towards Comprehensive Post Safety Alignment of Large Language Models via Safety Patching",
+        "authors": [
+          "Weixiang Zhao",
+          "Yulin Hu",
+          "Zhuojun Li",
+          "Yang Deng",
+          "Yanyan Zhao",
+          "Bing Qin",
+          "Tat-Seng Chua",
+          "Qin, Bing",
+          "Chua, Tat-Seng",
+          "Liu, Ting"
+        ],
+        "year": 2024,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2405.13820",
+        "url": "http://arxiv.org/abs/2405.13820",
+        "abstract": "Safety alignment of large language models (LLMs) has been gaining increasing attention. However, current safety-aligned LLMs suffer from the fragile and imbalanced safety mechanisms, which can still be induced to generate unsafe responses, exhibit over-safety by rejecting safe user inputs, and fail to preserve general utility after safety alignment. To this end, we propose a novel post safety alignment (PSA) method to address these inherent and emerging safety challenges, including safety enhancement, over-safety mitigation, and utility preservation. In specific, we introduce \\textsc{SafePatching}, a novel framework for comprehensive PSA, where two distinct safety patches are developed on the harmful data to enhance safety and mitigate over-safety concerns, and then seamlessly integrated into the target LLM backbone without compromising its utility. Extensive experiments on four representative aligned LLMs, including LLaMA-2/3, Gemma and Mistral, show that \\textsc{SafePatching} achieves a more comprehensive PSA than baseline methods, further optimizing the balance between being helpful and harmless in current aligned LLMs. Also, \\textsc{SafePatching} demonstrates its superiority in continual PSA scenarios.",
+        "matched_word_count": 7,
+        "title_score": 0.875,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9125,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2405-13820",
+        "title": "Towards Comprehensive and Efficient Post Safety Alignment of Large Language Models via Safety Patching.",
+        "authors": [
+          "Weixiang Zhao",
+          "Yulin Hu",
+          "Zhuojun Li",
+          "Yang Deng 0002",
+          "Yanyan Zhao",
+          "Bing Qin 0001",
+          "Tat-Seng Chua"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2405.13820",
+        "url": "https://doi.org/10.48550/arXiv.2405.13820",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 0.875,
+        "author_score": 0.7143,
+        "year_score": 1.0,
+        "lexical_score": 0.8554,
+        "normalized_title_exact": false,
+        "db_priority_rank": 3,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 12,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 13,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "review",
+      "arti",
+      "cial",
+      "intelligence",
+      "adversarial",
+      "attack",
+      "defense",
+      "technologies"
+    ],
+    "db_timings_ms": {
+      "dblp": 45.93,
+      "openalex": 493.71,
+      "arxiv": 0.13
+    },
+    "candidates": [
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W2919491917",
+        "title": "Review of Artificial Intelligence Adversarial Attack and Defense Technologies",
+        "authors": [
+          "Shilin Qiu",
+          "Qihe Liu",
+          "Shijie Zhou",
+          "Chunjiang Wu"
+        ],
+        "year": 2019,
+        "venue": "Applied Sciences",
+        "doi": "10.3390/app9050909",
+        "url": "https://doi.org/10.3390/app9050909",
+        "abstract": "In recent years, artificial intelligence technologies have been widely used in computer vision, natural language processing, automatic driving, and other fields. However, artificial intelligence systems are vulnerable to adversarial attacks, which limit the applications of artificial intelligence (AI) technologies in key security fields. Therefore, improving the robustness of AI systems against adversarial attacks has played an increasingly important role in the further development of AI. This paper aims to comprehensively summarize the latest research progress on adversarial attack and defense technologies in deep learning. According to the target model’s different stages where the adversarial attack occurred, this paper expounds the adversarial attack methods in the training stage and testing stage respectively. Then, we sort out the applications of adversarial attack technologies in computer vision, natural language processing, cyberspace security, and the physical world. Finally, we describe the existing adversarial defense methods respectively in three main categories, i.e., modifying data, modifying models and using auxiliary tools.",
+        "matched_word_count": 6,
+        "title_score": 0.75,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.825,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 14,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "backdoor",
+      "learning",
+      "survey"
+    ],
+    "db_timings_ms": {
+      "dblp": 124.01,
+      "openalex": 331.3,
+      "arxiv": 0.18
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2302-09457",
+        "title": "Adversarial Machine Learning: A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Example.",
+        "authors": [
+          "Baoyuan Wu",
+          "Li Liu 0036",
+          "Zihao Zhu 0001",
+          "Qingshan Liu 0001",
+          "Zhaofeng He 0001",
+          "Siwei Lyu"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2302.09457",
+        "url": "https://doi.org/10.48550/arXiv.2302.09457",
+        "abstract": null,
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.77,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2303-02213",
+        "title": "Backdoor Attacks and Defenses in Federated Learning: Survey, Challenges and Future Research Directions.",
+        "authors": [
+          "Thuy Dung Nguyen",
+          "Tuan Nguyen",
+          "Phi Le Nguyen",
+          "Hieu H. Pham 0001",
+          "Khoa D. Doan",
+          "Kok-Seng Wong"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2303.02213",
+        "url": "https://doi.org/10.48550/arXiv.2303.02213",
+        "abstract": null,
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.77,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4323555800",
+        "title": "Backdoor Attacks and Defenses in Federated Learning: Survey, Challenges and Future Research Directions",
+        "authors": [
+          "Thuy Nguyen",
+          "Tuan Nguyen",
+          "Phi Le Nguyen",
+          "Hieu H. Pham",
+          "Khoa D. Doan",
+          "Kok‐Seng Wong"
+        ],
+        "year": 2023,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2303.02213",
+        "url": "http://arxiv.org/abs/2303.02213",
+        "abstract": "Federated learning (FL) is a machine learning (ML) approach that allows the use of distributed data without compromising personal privacy. However, the heterogeneous distribution of data among clients in FL can make it difficult for the orchestration server to validate the integrity of local model updates, making FL vulnerable to various threats, including backdoor attacks. Backdoor attacks involve the insertion of malicious functionality into a targeted model through poisoned updates from malicious clients. These attacks can cause the global model to misbehave on specific inputs while appearing normal in other cases. Backdoor attacks have received significant attention in the literature due to their potential to impact real-world deep learning applications. However, they have not been thoroughly studied in the context of FL. In this survey, we provide a comprehensive survey of current backdoor attack strategies and defenses in FL, including a comprehensive analysis of different approaches. We also discuss the challenges and potential future directions for attacks and defenses in the context of FL.",
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.77,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 15,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "network",
+      "dissection",
+      "quantifying",
+      "interpretability",
+      "deep",
+      "visual",
+      "representations"
+    ],
+    "db_timings_ms": {
+      "dblp": 131.02,
+      "openalex": 291.09,
+      "arxiv": 0.14
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/BauZKOT17",
+        "title": "Network Dissection: Quantifying Interpretability of Deep Visual Representations.",
+        "authors": [
+          "David Bau",
+          "Bolei Zhou",
+          "Aditya Khosla",
+          "Aude Oliva",
+          "Antonio Torralba 0001"
+        ],
+        "year": 2017,
+        "venue": "CoRR",
+        "doi": null,
+        "url": "http://arxiv.org/abs/1704.05796",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/cvpr/BauZKO017",
+        "title": "Network Dissection: Quantifying Interpretability of Deep Visual Representations.",
+        "authors": [
+          "David Bau",
+          "Bolei Zhou",
+          "Aditya Khosla",
+          "Aude Oliva",
+          "Antonio Torralba 0001"
+        ],
+        "year": 2017,
+        "venue": "CVPR",
+        "doi": "10.1109/cvpr.2017.354",
+        "url": "https://doi.org/10.1109/CVPR.2017.354",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W2610018085",
+        "title": "Network Dissection: Quantifying Interpretability of Deep Visual Representations",
+        "authors": [
+          "David Bau",
+          "Bolei Zhou",
+          "Aditya Khosla",
+          "Aude Oliva",
+          "Antonio Torralba"
+        ],
+        "year": 2017,
+        "venue": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "doi": "10.1109/cvpr.2017.354",
+        "url": "https://doi.org/10.1109/cvpr.2017.354",
+        "abstract": "We propose a general framework called Network Dissection for quantifying the interpretability of latent representations of CNNs by evaluating the alignment between individual hidden units and a set of semantic concepts. Given any CNN model, the proposed method draws on a data set of concepts to score the semantics of hidden units at each intermediate convolutional layer. The units with semantics are labeled across a broad range of visual concepts including objects, parts, scenes, textures, materials, and colors. We use the proposed method to test the hypothesis that interpretability is an axis-independent property of the representation space, then we apply the method to compare the latent representations of various networks when trained to solve different classification problems. We further analyze the effect of training iterations, compare networks trained with different initializations, and measure the effect of dropout and batch normalization on the interpretability of deep visual representations. We demonstrate that the proposed method can shed light on characteristics of CNN models and training methods that go beyond measurements of their discriminative power.",
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4297847851",
+        "title": "Network Dissection: Quantifying Interpretability of Deep Visual\\n Representations",
+        "authors": [
+          "David Bau",
+          "Bolei Zhou",
+          "Aditya Khosla",
+          "Aude Oliva",
+          "Antonio Torralba"
+        ],
+        "year": 2017,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.1704.05796",
+        "url": "http://arxiv.org/abs/1704.05796",
+        "abstract": "We propose a general framework called Network Dissection for quantifying the\\ninterpretability of latent representations of CNNs by evaluating the alignment\\nbetween individual hidden units and a set of semantic concepts. Given any CNN\\nmodel, the proposed method draws on a broad data set of visual concepts to\\nscore the semantics of hidden units at each intermediate convolutional layer.\\nThe units with semantics are given labels across a range of objects, parts,\\nscenes, textures, materials, and colors. We use the proposed method to test the\\nhypothesis that interpretability of units is equivalent to random linear\\ncombinations of units, then we apply our method to compare the latent\\nrepresentations of various networks when trained to solve different supervised\\nand self-supervised training tasks. We further analyze the effect of training\\niterations, compare networks trained with different initializations, examine\\nthe impact of network depth and width, and measure the effect of dropout and\\nbatch normalization on the interpretability of deep visual representations. We\\ndemonstrate that the proposed method can shed light on characteristics of CNN\\nmodels and training methods that go beyond measurements of their discriminative\\npower.\\n",
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 4
+      }
+    ]
+  },
+  {
+    "citation_id": 16,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 17,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 19,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "llama",
+      "open",
+      "cient",
+      "foundation",
+      "language",
+      "models"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.17,
+      "openalex": 319.52,
+      "dblp": 78.2
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2302-13971",
+        "title": "LLaMA: Open and Efficient Foundation Language Models.",
+        "authors": [
+          "Hugo Touvron",
+          "Thibaut Lavril",
+          "Gautier Izacard",
+          "Xavier Martinet",
+          "Marie-Anne Lachaux",
+          "Timothée Lacroix",
+          "Baptiste Rozière",
+          "Naman Goyal 0001",
+          "Eric Hambro",
+          "Faisal Azhar",
+          "Aurélien Rodriguez",
+          "Armand Joulin",
+          "Edouard Grave",
+          "Guillaume Lample"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2302.13971",
+        "url": "https://doi.org/10.48550/arXiv.2302.13971",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 0.8333,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 0.8433,
+        "normalized_title_exact": false,
+        "db_priority_rank": 3,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 21,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "attention",
+      "all",
+      "you",
+      "need"
+    ],
+    "db_timings_ms": {
+      "dblp": 13.9,
+      "openalex": 135.82,
+      "arxiv": 0.13,
+      "crossref": 1421.51
+    },
+    "candidates": [
+      {
+        "db": "crossref",
+        "record_id": "10.65215/nxvz2v36",
+        "title": "Attention Is All You Need",
+        "authors": [
+          "Ashish Vaswani",
+          "Noam Shazeer",
+          "Niki Parmar",
+          "Jakob Uszkoreit",
+          "Llion Jones",
+          "Aidan N.Gomez",
+          "Lukasz Kaiser",
+          "Illia Polosukhin"
+        ],
+        "year": 2025,
+        "venue": null,
+        "doi": "10.65215/nxvz2v36",
+        "url": "https://doi.org/10.65215/nxvz2v36",
+        "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+        "matched_word_count": 4,
+        "title_score": 1.0,
+        "author_score": 0.875,
+        "year_score": 0.0,
+        "lexical_score": 0.975,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "crossref",
+        "record_id": "10.1201/9781003561460-19",
+        "title": "Attention Is All You Need",
+        "authors": [
+          "J. Mark Bishop",
+          "Gabriel Seiberth"
+        ],
+        "year": 2025,
+        "venue": "Driving Intelligence: The Green Book",
+        "doi": "10.1201/9781003561460-19",
+        "url": "https://doi.org/10.1201/9781003561460-19",
+        "abstract": null,
+        "matched_word_count": 4,
+        "title_score": 1.0,
+        "author_score": 0.0,
+        "year_score": 0.0,
+        "lexical_score": 0.8,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 22,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 23,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 24,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "comprehensive",
+      "overview",
+      "backdoor",
+      "attacks",
+      "large",
+      "language",
+      "models",
+      "within"
+    ],
+    "db_timings_ms": {
+      "dblp": 167.44,
+      "openalex": 592.37,
+      "arxiv": 0.52
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/network/YangXGLLY24",
+        "title": "A Comprehensive Overview of Backdoor Attacks in Large Language Models Within Communication Networks.",
+        "authors": [
+          "Haomiao Yang",
+          "Kunlan Xiang",
+          "Mengyu Ge",
+          "Hongwei Li 0001",
+          "Rongxing Lu",
+          "Shui Yu 0001"
+        ],
+        "year": 2024,
+        "venue": "IEEE Netw.",
+        "doi": "10.1109/mnet.2024.3367788",
+        "url": "https://doi.org/10.1109/MNET.2024.3367788",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.6667,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4391974622",
+        "title": "A Comprehensive Overview of Backdoor Attacks in Large Language Models Within Communication Networks",
+        "authors": [
+          "Haomiao Yang",
+          "Kunlan Xiang",
+          "Mengyu Ge",
+          "Hongwei Li",
+          "Rongxing Lu",
+          "Shui Yu"
+        ],
+        "year": 2024,
+        "venue": "IEEE Network",
+        "doi": "10.1109/mnet.2024.3367788",
+        "url": "https://doi.org/10.1109/mnet.2024.3367788",
+        "abstract": "The Large Language Models (LLMs) are poised to offer efficient and intelligent services for future mobile communication networks, owing to their exceptional capabilities in language comprehension and generation. However, the extremely high data and computational resource requirements for the performance of LLMs compel developers to resort to outsourcing training or utilizing third-party data and computing resources. These strategies may expose the model within the network to maliciously manipulated training data and processing, providing an opportunity for attackers to embed a hidden backdoor into the model, termed a backdoor attack. Backdoor attack in LLMs refers to embedding a hidden backdoor in LLMs that causes the model to perform normally on benign samples but exhibit degraded performance on poisoned ones. This issue is particularly concerning within communication networks where reliability and security are paramount. Despite the extensive research on backdoor attacks, there remains a lack of in-depth exploration specifically within the context of LLMs employed in communication networks, and a systematic review of such attacks is currently absent. In this survey, we systematically propose a taxonomy of backdoor attacks in LLMs as used in communication networks, dividing them into four major categories: <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">input-triggered</i> , <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">prompt-triggered</i> , <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">instruction-triggered</i> , and <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">demonstration-triggered</i> attacks. Furthermore, we conduct a comprehensive analysis of the benchmark datasets. Finally, we identify potential problems and open challenges, offering valuable insights into future research directions for enhancing the security and integrity of LLMs in communication networks.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2308-14367",
+        "title": "A Comprehensive Overview of Backdoor Attacks in Large Language Models within Communication Networks.",
+        "authors": [
+          "Haomiao Yang",
+          "Kunlan Xiang",
+          "Hongwei Li 0001",
+          "Rongxing Lu"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2308.14367",
+        "url": "https://doi.org/10.48550/arXiv.2308.14367",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.5,
+        "year_score": 0.7,
+        "lexical_score": 0.97,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 25,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 26,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 27,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "masterkey",
+      "automated",
+      "jailbreaking",
+      "large",
+      "language",
+      "model",
+      "chatbots"
+    ],
+    "db_timings_ms": {
+      "dblp": 148.87,
+      "openalex": 670.98,
+      "arxiv": 0.18
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/ndss/DengLLWZLW0L24",
+        "title": "MASTERKEY: Automated Jailbreaking of Large Language Model Chatbots.",
+        "authors": [
+          "Gelei Deng",
+          "Yi Liu 0069",
+          "Yuekang Li",
+          "Kailong Wang 0001",
+          "Ying Zhang 0066",
+          "Zefeng Li",
+          "Haoyu Wang 0001",
+          "Tianwei Zhang 0004",
+          "Yang Liu 0003"
+        ],
+        "year": 2024,
+        "venue": "NDSS",
+        "doi": null,
+        "url": "https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.375,
+        "year_score": 1.0,
+        "lexical_score": 0.975,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4384816574",
+        "title": "MasterKey: Automated Jailbreak Across Multiple Large Language Model Chatbots",
+        "authors": [
+          "Gelei Deng",
+          "Yi Liu",
+          "Yuekang Li",
+          "Kailong Wang",
+          "Ying Zhang",
+          "Zefeng Li",
+          "Haoyu Wang",
+          "Tianwei Zhang",
+          "Yang Liu"
+        ],
+        "year": 2023,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2307.08715",
+        "url": "http://arxiv.org/abs/2307.08715",
+        "abstract": "Large Language Models (LLMs) have revolutionized Artificial Intelligence (AI) services due to their exceptional proficiency in understanding and generating human-like text. LLM chatbots, in particular, have seen widespread adoption, transforming human-machine interactions. However, these LLM chatbots are susceptible to \"jailbreak\" attacks, where malicious users manipulate prompts to elicit inappropriate or sensitive responses, contravening service policies. Despite existing attempts to mitigate such threats, our research reveals a substantial gap in our understanding of these vulnerabilities, largely due to the undisclosed defensive measures implemented by LLM service providers. In this paper, we present Jailbreaker, a comprehensive framework that offers an in-depth understanding of jailbreak attacks and countermeasures. Our work makes a dual contribution. First, we propose an innovative methodology inspired by time-based SQL injection techniques to reverse-engineer the defensive strategies of prominent LLM chatbots, such as ChatGPT, Bard, and Bing Chat. This time-sensitive approach uncovers intricate details about these services' defenses, facilitating a proof-of-concept attack that successfully bypasses their mechanisms. Second, we introduce an automatic generation method for jailbreak prompts. Leveraging a fine-tuned LLM, we validate the potential of automated jailbreak generation across various commercial LLM chatbots. Our method achieves a promising average success rate of 21.58%, significantly outperforming the effectiveness of existing techniques. We have responsibly disclosed our findings to the concerned service providers, underscoring the urgent need for more robust defenses. Jailbreaker thus marks a significant step towards understanding and mitigating jailbreak threats in the realm of LLM chatbots.",
+        "matched_word_count": 5,
+        "title_score": 0.8571,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 0.87,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 28,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "don",
+      "listen",
+      "understanding",
+      "exploring",
+      "jailbreak",
+      "prompts",
+      "large",
+      "language"
+    ],
+    "db_timings_ms": {
+      "dblp": 66.74,
+      "openalex": 334.34,
+      "arxiv": 0.17
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2403-17336",
+        "title": "Don't Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models.",
+        "authors": [
+          "Zhiyuan Yu 0001",
+          "Xiaogeng Liu",
+          "Shunning Liang",
+          "Zach Cameron",
+          "Chaowei Xiao",
+          "Ning Zhang 0017"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2403.17336",
+        "url": "https://doi.org/10.48550/arXiv.2403.17336",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.6667,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/uss/YuLLCXZ24",
+        "title": "Don't Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models.",
+        "authors": [
+          "Zhiyuan Yu 0001",
+          "Xiaogeng Liu",
+          "Shunning Liang",
+          "Zach Cameron",
+          "Chaowei Xiao",
+          "Ning Zhang 0017"
+        ],
+        "year": 2024,
+        "venue": "USENIX Security Symposium",
+        "doi": null,
+        "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/yu-zhiyuan",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.6667,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4393284699",
+        "title": "Don't Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models",
+        "authors": [
+          "Zhiyuan Yu",
+          "Xiaogeng Liu",
+          "S. Liang",
+          "Zach Cameron",
+          "Chaowei Xiao",
+          "Ning Zhang"
+        ],
+        "year": 2024,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2403.17336",
+        "url": "http://arxiv.org/abs/2403.17336",
+        "abstract": "Recent advancements in generative AI have enabled ubiquitous access to large language models (LLMs). Empowered by their exceptional capabilities to understand and generate human-like text, these models are being increasingly integrated into our society. At the same time, there are also concerns on the potential misuse of this powerful technology, prompting defensive measures from service providers. To overcome such protection, jailbreaking prompts have recently emerged as one of the most effective mechanisms to circumvent security restrictions and elicit harmful content originally designed to be prohibited. Due to the rapid development of LLMs and their ease of access via natural languages, the frontline of jailbreak prompts is largely seen in online forums and among hobbyists. To gain a better understanding of the threat landscape of semantically meaningful jailbreak prompts, we systemized existing prompts and measured their jailbreak effectiveness empirically. Further, we conducted a user study involving 92 participants with diverse backgrounds to unveil the process of manually creating jailbreak prompts. We observed that users often succeeded in jailbreak prompts generation regardless of their expertise in LLMs. Building on the insights from the user study, we also developed a system using AI as the assistant to automate the process of jailbreak prompt generation.",
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 29,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 30,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 31,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "decoding",
+      "specialised",
+      "feature",
+      "neurons",
+      "llms",
+      "nal",
+      "projection",
+      "layer"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.12,
+      "openalex": 103.16,
+      "dblp": 34.23
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2501-02688",
+        "title": "Decoding specialised feature neurons in LLMs with the final projection layer.",
+        "authors": [
+          "Harry J. Davies"
+        ],
+        "year": 2025,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2501.02688",
+        "url": "https://doi.org/10.48550/arXiv.2501.02688",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 0.875,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9125,
+        "normalized_title_exact": false,
+        "db_priority_rank": 3,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 32,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 33,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "qwen2",
+      "party",
+      "foundation",
+      "models"
+    ],
+    "db_timings_ms": {
+      "openalex": 161.81,
+      "dblp": 45.32,
+      "arxiv": 0.14,
+      "crossref": 2973.37
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 34,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "qwq-32b",
+      "embracing",
+      "power",
+      "reinforcement",
+      "learning"
+    ],
+    "db_timings_ms": {
+      "openalex": 577.7,
+      "dblp": 157.0,
+      "arxiv": 0.18,
+      "crossref": 2644.01
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 35,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "jailbreakv-28k",
+      "benchmark",
+      "assessing",
+      "robustness",
+      "multimodal",
+      "large",
+      "language",
+      "models"
+    ],
+    "db_timings_ms": {
+      "dblp": 169.28,
+      "openalex": 430.33,
+      "arxiv": 0.15
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2404-03027",
+        "title": "JailBreakV-28K: A Benchmark for Assessing the Robustness of MultiModal Large Language Models against Jailbreak Attacks.",
+        "authors": [
+          "Weidi Luo",
+          "Siyuan Ma",
+          "Xiaogeng Liu",
+          "Xiaoyu Guo",
+          "Chaowei Xiao"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2404.03027",
+        "url": "https://doi.org/10.48550/arXiv.2404.03027",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 36,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 37,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "rank",
+      "stabilization",
+      "scaling",
+      "factor",
+      "ne-tuning",
+      "lora"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.13,
+      "openalex": 101.56,
+      "dblp": 9.06
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2312-03732",
+        "title": "A Rank Stabilization Scaling Factor for Fine-Tuning with LoRA.",
+        "authors": [
+          "Damjan Kalajdzievski"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2312.03732",
+        "url": "https://doi.org/10.48550/arXiv.2312.03732",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 0.8333,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.8833,
+        "normalized_title_exact": false,
+        "db_priority_rank": 3,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 38,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "lora",
+      "low-rank",
+      "adaptation",
+      "large",
+      "language",
+      "models",
+      "iclr"
+    ],
+    "db_timings_ms": {
+      "dblp": 98.54,
+      "openalex": 336.47,
+      "arxiv": 0.14
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/iclr/HuSWALWWC22",
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models.",
+        "authors": [
+          "Edward J. Hu",
+          "Yelong Shen",
+          "Phillip Wallis",
+          "Zeyuan Allen-Zhu",
+          "Yuanzhi Li",
+          "Shean Wang",
+          "Lu Wang",
+          "Weizhu Chen"
+        ],
+        "year": 2022,
+        "venue": "ICLR",
+        "doi": null,
+        "url": "https://openreview.net/forum?id=nZeVKeeFYf9",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 0.8571,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2106-09685",
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models.",
+        "authors": [
+          "Edward J. Hu",
+          "Yelong Shen",
+          "Phillip Wallis",
+          "Zeyuan Allen-Zhu",
+          "Yuanzhi Li",
+          "Shean Wang",
+          "Weizhu Chen"
+        ],
+        "year": 2021,
+        "venue": "CoRR",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2106.09685",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 0.8571,
+        "author_score": 0.875,
+        "year_score": 0.7,
+        "lexical_score": 0.845,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 39,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 40,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "hellaswag",
+      "can",
+      "machine",
+      "really",
+      "nish",
+      "your",
+      "sentence?"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.13,
+      "openalex": 196.64,
+      "dblp": 34.12,
+      "crossref": 3170.72
+    },
+    "candidates": [
+      {
+        "db": "crossref",
+        "record_id": "10.18653/v1/p19-1472",
+        "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+        "authors": [
+          "Rowan Zellers",
+          "Ari Holtzman",
+          "Yonatan Bisk",
+          "Ali Farhadi",
+          "Yejin Choi"
+        ],
+        "year": 2019,
+        "venue": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+        "doi": "10.18653/v1/p19-1472",
+        "url": "https://doi.org/10.18653/v1/p19-1472",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 0.95,
+        "author_score": 1.0,
+        "year_score": 0.0,
+        "lexical_score": 0.865,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 41,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 42,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "winogrande",
+      "adversarial",
+      "winograd",
+      "schema",
+      "challenge",
+      "scale"
+    ],
+    "db_timings_ms": {
+      "openalex": 131.78,
+      "dblp": 14.41,
+      "arxiv": 0.13
+    },
+    "candidates": [
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W2996908057",
+        "title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
+        "authors": [
+          "Keisuke Sakaguchi",
+          "Ronan Le Bras",
+          "Chandra Bhagavatula",
+          "Yejin Choi"
+        ],
+        "year": 2020,
+        "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "doi": "10.1609/aaai.v34i05.6399",
+        "url": "https://doi.org/10.1609/aaai.v34i05.6399",
+        "abstract": "The Winograd Schema Challenge (WSC) (Levesque, Davis, and Morgenstern 2011), a benchmark for commonsense reasoning, is a set of 273 expert-crafted pronoun resolution problems originally designed to be unsolvable for statistical models that rely on selectional preferences or word associations. However, recent advances in neural language models have already reached around 90% accuracy on variants of WSC. This raises an important question whether these models have truly acquired robust commonsense capabilities or whether they rely on spurious biases in the datasets that lead to an overestimation of the true capabilities of machine commonsense.To investigate this question, we introduce WinoGrande, a large-scale dataset of 44k problems, inspired by the original WSC design, but adjusted to improve both the scale and the hardness of the dataset. The key steps of the dataset construction consist of (1) a carefully designed crowdsourcing procedure, followed by (2) systematic bias reduction using a novel AfLite algorithm that generalizes human-detectable word associations to machine-detectable embedding associations. The best state-of-the-art methods on WinoGrande achieve 59.4 – 79.1%, which are ∼15-35% (absolute) below human performance of 94.0%, depending on the amount of the training data allowed (2% – 100% respectively).Furthermore, we establish new state-of-the-art results on five related benchmarks — WSC (→ 90.1%), DPR (→ 93.1%), COPA(→ 90.6%), KnowRef (→ 85.6%), and Winogender (→ 97.1%). These results have dual implications: on one hand, they demonstrate the effectiveness of WinoGrande when used as a resource for transfer learning. On the other hand, they raise a concern that we are likely to be overestimating the true capabilities of machine commonsense across all these benchmarks. We emphasize the importance of algorithmic bias reduction in existing and future benchmarks to mitigate such overestimation.",
+        "matched_word_count": 6,
+        "title_score": 1.0,
+        "author_score": 0.75,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/cacm/SakaguchiBBC21",
+        "title": "WinoGrande: an adversarial winograd schema challenge at scale.",
+        "authors": [
+          "Keisuke Sakaguchi",
+          "Ronan Le Bras 0001",
+          "Chandra Bhagavatula",
+          "Yejin Choi 0001"
+        ],
+        "year": 2021,
+        "venue": "Commun. ACM",
+        "doi": "10.1145/3474381",
+        "url": "https://doi.org/10.1145/3474381",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 1.0,
+        "author_score": 0.5,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/aaai/SakaguchiBBC20",
+        "title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale.",
+        "authors": [
+          "Keisuke Sakaguchi",
+          "Ronan Le Bras 0001",
+          "Chandra Bhagavatula",
+          "Yejin Choi 0001"
+        ],
+        "year": 2020,
+        "venue": "AAAI",
+        "doi": "10.1609/aaai.v34i05.6399",
+        "url": "https://doi.org/10.1609/aaai.v34i05.6399",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 1.0,
+        "author_score": 0.5,
+        "year_score": 0.7,
+        "lexical_score": 0.97,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 43,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 44,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 45,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "vikhr",
+      "constructing",
+      "state-of-the-art",
+      "bilingual",
+      "open-source",
+      "instruction-following",
+      "large",
+      "language"
+    ],
+    "db_timings_ms": {
+      "dblp": 50.16,
+      "openalex": 208.77,
+      "arxiv": 0.14,
+      "crossref": 2808.74
+    },
+    "candidates": [
+      {
+        "db": "crossref",
+        "record_id": "10.18653/v1/2024.mrl-1.15",
+        "title": "Vikhr: Constructing a State-of-the-art Bilingual Open-Source Instruction-Following Large Language Model for Russian",
+        "authors": [
+          "Aleksandr Nikolich",
+          "Konstantin Korolev",
+          "Sergei Bratchikov",
+          "Igor Kiselev",
+          "Artem Shelmanov"
+        ],
+        "year": 2024,
+        "venue": "Proceedings of the Fourth Workshop on Multilingual Representation Learning (MRL 2024)",
+        "doi": "10.18653/v1/2024.mrl-1.15",
+        "url": "https://doi.org/10.18653/v1/2024.mrl-1.15",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 46,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 47,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "llama",
+      "revolutionizing",
+      "edge",
+      "vision",
+      "open",
+      "customizable",
+      "models"
+    ],
+    "db_timings_ms": {
+      "dblp": 123.02,
+      "openalex": 254.75,
+      "arxiv": 0.14,
+      "crossref": 2304.49
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 48,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 49,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 52,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 53,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 54,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 55,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "ultramedical",
+      "building",
+      "specialized",
+      "generalists",
+      "biomedicine"
+    ],
+    "db_timings_ms": {
+      "dblp": 16.14,
+      "openalex": 122.3,
+      "arxiv": 0.12
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2406-03949",
+        "title": "UltraMedical: Building Specialized Generalists in Biomedicine.",
+        "authors": [
+          "Kaiyan Zhang",
+          "Sihang Zeng",
+          "Ermo Hua",
+          "Ning Ding 0002",
+          "Zhang-Ren Chen",
+          "Zhiyuan Ma 0005",
+          "Haoxin Li",
+          "Ganqu Cui",
+          "Biqing Qi",
+          "Xuekai Zhu",
+          "Xingtai Lv",
+          "Jinfang Hu",
+          "Zhiyuan Liu 0001",
+          "Bowen Zhou 0002"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2406.03949",
+        "url": "https://doi.org/10.48550/arXiv.2406.03949",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/nips/ZhangZH0C0LCQZL24",
+        "title": "UltraMedical: Building Specialized Generalists in Biomedicine.",
+        "authors": [
+          "Kaiyan Zhang",
+          "Sihang Zeng",
+          "Ermo Hua",
+          "Ning Ding 0002",
+          "Zhang-Ren Chen",
+          "Zhiyuan Ma 0005",
+          "Haoxin Li",
+          "Ganqu Cui",
+          "Biqing Qi",
+          "Xuekai Zhu",
+          "Xingtai Lv",
+          "Jinfang Hu",
+          "Zhiyuan Liu 0001",
+          "Bowen Zhou 0002"
+        ],
+        "year": 2024,
+        "venue": "NeurIPS",
+        "doi": null,
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/2dfc26ce9039f00eee4aba0c54931e46-Abstract-Datasets_and_Benchmarks_Track.html",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4399454961",
+        "title": "UltraMedical: Building Specialized Generalists in Biomedicine",
+        "authors": [
+          "Kaiyan Zhang",
+          "Sihang Zeng",
+          "Ermo Hua",
+          "Ning Ding",
+          "Zhang-Ren Chen",
+          "Zhiyuan Ma",
+          "Haoxin Li",
+          "Ganqu Cui",
+          "Biqing Qi",
+          "Xuekai Zhu",
+          "Xingtai Lv",
+          "Hu Jinfang",
+          "Zhiyuan Liu",
+          "Bowen Zhou"
+        ],
+        "year": 2024,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2406.03949",
+        "url": "http://arxiv.org/abs/2406.03949",
+        "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains and are moving towards more specialized areas. Recent advanced proprietary models such as GPT-4 and Gemini have achieved significant advancements in biomedicine, which have also raised privacy and security challenges. The construction of specialized generalists hinges largely on high-quality datasets, enhanced by techniques like supervised fine-tuning and reinforcement learning from human or AI feedback, and direct preference optimization. However, these leading technologies (e.g., preference learning) are still significantly limited in the open source community due to the scarcity of specialized data. In this paper, we present the UltraMedical collections, which consist of high-quality manual and synthetic datasets in the biomedicine domain, featuring preference annotations across multiple advanced LLMs. By utilizing these datasets, we fine-tune a suite of specialized medical models based on Llama-3 series, demonstrating breathtaking capabilities across various medical benchmarks. Moreover, we develop powerful reward models skilled in biomedical and general reward benchmark, enhancing further online preference learning within the biomedical LLM community. Datasets and models are available at https://github.com/TsinghuaC3I/UltraMedical",
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4415798212",
+        "title": "UltraMedical: Building Specialized Generalists in Biomedicine",
+        "authors": [
+          "Zhang-Ren Chen",
+          "Ganqu Cui",
+          "Ning Ding",
+          "Jianbing Hu",
+          "Ermo Hua",
+          "Haoxin Li",
+          "Zhiyuan Liu",
+          "Xingtai Lv",
+          "Zhiyuan Ma",
+          "Biqing Qi",
+          "Sihang Zeng",
+          "Kaiyan Zhang",
+          "Bowen Zhou",
+          "Xuekai Zhu"
+        ],
+        "year": 2024,
+        "venue": "Advances in Neural Information Processing Systems 37",
+        "doi": "10.52202/079017-0819",
+        "url": "https://doi.org/10.52202/079017-0819",
+        "abstract": null,
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 4
+      }
+    ]
+  },
+  {
+    "citation_id": 57,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "oxy",
+      "small",
+      "ne-tuned",
+      "qwen2",
+      "5-14b-instruct",
+      "model",
+      "role-play"
+    ],
+    "db_timings_ms": {
+      "openalex": 502.99,
+      "dblp": 78.58,
+      "arxiv": 0.14,
+      "crossref": 2192.2
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 58,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 64,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "language",
+      "models",
+      "are",
+      "homer",
+      "simpson!",
+      "safety",
+      "re-alignment",
+      "ne-tuned"
+    ],
+    "db_timings_ms": {
+      "dblp": 130.11,
+      "openalex": 462.22,
+      "arxiv": 0.15
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2402-11746",
+        "title": "Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic.",
+        "authors": [
+          "Rishabh Bhardwaj",
+          "Do Duc Anh",
+          "Soujanya Poria"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2402.11746",
+        "url": "https://doi.org/10.48550/arXiv.2402.11746",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 0.875,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9125,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/acl/BhardwajAP24",
+        "title": "Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic.",
+        "authors": [
+          "Rishabh Bhardwaj",
+          "Do Duc Anh",
+          "Soujanya Poria"
+        ],
+        "year": 2024,
+        "venue": "ACL (1)",
+        "doi": "10.18653/v1/2024.acl-long.762",
+        "url": "https://doi.org/10.18653/v1/2024.acl-long.762",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 0.875,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9125,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4391987581",
+        "title": "Language Models are Homer Simpson! Safety Re-Alignment of Fine-tuned Language Models through Task Arithmetic",
+        "authors": [
+          "Rishabh Bhardwaj",
+          "Do Duc Anh",
+          "Soujanya Poria"
+        ],
+        "year": 2024,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2402.11746",
+        "url": "http://arxiv.org/abs/2402.11746",
+        "abstract": "Aligned language models face a significant limitation as their fine-tuning often results in compromised safety. To tackle this, we propose a simple method RESTA that performs LLM safety realignment. RESTA stands for REstoring Safety through Task Arithmetic. At its core, it involves a simple arithmetic addition of a safety vector to the weights of the compromised model. We demonstrate the effectiveness of RESTA in both parameter-efficient and full fine-tuning, covering a wide range of downstream tasks, including instruction following in Chinese, English, and Hindi, as well as problem-solving capabilities in Code and Math. We also showcase the generalizability of RESTA on three existing safety evaluation benchmarks and a multilingual benchmark dataset proposed as a part of this work, consisting of 550 harmful questions covering 11 categories, each with 5 sub-categories of harm. Overall, RESTA decreases the harmfulness of the compromised model from 18.6% to 5.1% and from 9.2% to 1.5% in parameter-efficient and full fine-tuning, respectively, while maintaining most of the model's performance on the task. We release the source codes at: https://github.com/declare-lab/resta.",
+        "matched_word_count": 7,
+        "title_score": 0.875,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.9125,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 65,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "red-teaming",
+      "large",
+      "language",
+      "models",
+      "using",
+      "chain",
+      "utterances",
+      "safety-alignment"
+    ],
+    "db_timings_ms": {
+      "dblp": 260.44,
+      "openalex": 1109.02,
+      "arxiv": 0.2
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2308-09662",
+        "title": "Red-Teaming Large Language Models using Chain of Utterances for Safety-Alignment.",
+        "authors": [
+          "Rishabh Bhardwaj",
+          "Soujanya Poria"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2308.09662",
+        "url": "https://doi.org/10.48550/arXiv.2308.09662",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 66,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "strongreject",
+      "empty",
+      "jailbreaks"
+    ],
+    "db_timings_ms": {
+      "openalex": 2.08,
+      "dblp": 0.55,
+      "arxiv": 0.11
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2402-10260",
+        "title": "A StrongREJECT for Empty Jailbreaks.",
+        "authors": [
+          "Alexandra Souly",
+          "Qingyuan Lu",
+          "Dillon Bowen",
+          "Tu Trinh",
+          "Elvis Hsieh",
+          "Sana Pandey",
+          "Pieter Abbeel",
+          "Justin Svegliato",
+          "Scott Emmons",
+          "Olivia Watkins",
+          "Sam Toyer"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2402.10260",
+        "url": "https://doi.org/10.48550/arXiv.2402.10260",
+        "abstract": null,
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 0.9091,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/nips/SoulyLBTHPASEWT24",
+        "title": "A StrongREJECT for Empty Jailbreaks.",
+        "authors": [
+          "Alexandra Souly",
+          "Qingyuan Lu",
+          "Dillon Bowen",
+          "Tu Trinh",
+          "Elvis Hsieh",
+          "Sana Pandey",
+          "Pieter Abbeel",
+          "Justin Svegliato",
+          "Scott Emmons",
+          "Olivia Watkins",
+          "Sam Toyer"
+        ],
+        "year": 2024,
+        "venue": "NeurIPS",
+        "doi": null,
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/e2e06adf560b0706d3b1ddfca9f29756-Abstract-Datasets_and_Benchmarks_Track.html",
+        "abstract": null,
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 0.9091,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 67,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 68,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "tdc",
+      "2023",
+      "llm",
+      "edition",
+      "trojan",
+      "detection",
+      "challenge"
+    ],
+    "db_timings_ms": {
+      "dblp": 72.25,
+      "openalex": 246.7,
+      "arxiv": 0.17
+    },
+    "candidates": [
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4393876655",
+        "title": "TDC 2023 (LLM Edition) - Trojan Detection Track - Development Phase - Large Subtrack (Deprecated)",
+        "authors": [
+          "Mantas Mazeika"
+        ],
+        "year": 2023,
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "doi": "10.5281/zenodo.8180362",
+        "url": "https://doi.org/10.5281/zenodo.8180362",
+        "abstract": "(Deprecated; models have been moved to Hugging Face) This contains data for the Trojan Detection Track of TDC 2023 (LLM Edition), a NeurIPS 2023 competition. To learn more about the competition, please see the competition website. In particular, this is the folder containing the model and training data for the Large Subtrack.",
+        "matched_word_count": 6,
+        "title_score": 0.8571,
+        "author_score": 0.0667,
+        "year_score": 1.0,
+        "lexical_score": 0.7133,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4393419204",
+        "title": "TDC 2023 (LLM Edition) - Trojan Detection Track - Development Phase - Large Subtrack (Deprecated)",
+        "authors": [
+          "Mantas Mazeika"
+        ],
+        "year": 2023,
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "doi": "10.5281/zenodo.8180363",
+        "url": "https://zenodo.org/record/8180363",
+        "abstract": "(Deprecated; models have been moved to Hugging Face) This contains data for the Trojan Detection Track of TDC 2023 (LLM Edition), a NeurIPS 2023 competition. To learn more about the competition, please see the competition website. In particular, this is the folder containing the model and training data for the Large Subtrack.",
+        "matched_word_count": 6,
+        "title_score": 0.8571,
+        "author_score": 0.0667,
+        "year_score": 1.0,
+        "lexical_score": 0.7133,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 69,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 70,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 72,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 73,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "large",
+      "language",
+      "models",
+      "are",
+      "human-level",
+      "prompt",
+      "engineers"
+    ],
+    "db_timings_ms": {
+      "dblp": 101.69,
+      "openalex": 480.6,
+      "arxiv": 0.16
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2211-01910",
+        "title": "Large Language Models Are Human-Level Prompt Engineers.",
+        "authors": [
+          "Yongchao Zhou",
+          "Andrei Ioan Muresanu",
+          "Ziwen Han",
+          "Keiran Paster",
+          "Silviu Pitis",
+          "Harris Chan",
+          "Jimmy Ba"
+        ],
+        "year": 2022,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2211.01910",
+        "url": "https://doi.org/10.48550/arXiv.2211.01910",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/iclr/ZhouMHPPCB23",
+        "title": "Large Language Models are Human-Level Prompt Engineers.",
+        "authors": [
+          "Yongchao Zhou",
+          "Andrei Ioan Muresanu",
+          "Ziwen Han",
+          "Keiran Paster",
+          "Silviu Pitis",
+          "Harris Chan",
+          "Jimmy Ba"
+        ],
+        "year": 2023,
+        "venue": "ICLR",
+        "doi": null,
+        "url": "https://openreview.net/forum?id=92gvk82DE-",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 74,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "tree",
+      "attacks",
+      "jailbreaking",
+      "black-box",
+      "llms",
+      "automatically"
+    ],
+    "db_timings_ms": {
+      "dblp": 17.79,
+      "openalex": 40.91,
+      "arxiv": 0.13
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2312-02119",
+        "title": "Tree of Attacks: Jailbreaking Black-Box LLMs Automatically.",
+        "authors": [
+          "Anay Mehrotra",
+          "Manolis Zampetakis",
+          "Paul Kassianik",
+          "Blaine Nelson",
+          "Hyrum S. Anderson",
+          "Yaron Singer",
+          "Amin Karbasi"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2312.02119",
+        "url": "https://doi.org/10.48550/arXiv.2312.02119",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/nips/MehrotraZKNASK24",
+        "title": "Tree of Attacks: Jailbreaking Black-Box LLMs Automatically.",
+        "authors": [
+          "Anay Mehrotra",
+          "Manolis Zampetakis",
+          "Paul Kassianik",
+          "Blaine Nelson",
+          "Hyrum S. Anderson",
+          "Yaron Singer",
+          "Amin Karbasi"
+        ],
+        "year": 2024,
+        "venue": "NeurIPS",
+        "doi": null,
+        "url": "http://papers.nips.cc/paper_files/paper/2024/hash/70702e8cbb4890b4a467b984ae59828a-Abstract-Conference.html",
+        "abstract": null,
+        "matched_word_count": 6,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 75,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 76,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 77,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 78,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "defending",
+      "large",
+      "language",
+      "models",
+      "against",
+      "jailbreak",
+      "attacks",
+      "via"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.13,
+      "openalex": 549.33,
+      "dblp": 142.64
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2405-18166",
+        "title": "Defending Large Language Models Against Jailbreak Attacks via Layer-specific Editing.",
+        "authors": [
+          "Wei Zhao",
+          "Zhe Li",
+          "Yige Li",
+          "Ye Zhang",
+          "Jun Sun 0001"
+        ],
+        "year": 2024,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2405.18166",
+        "url": "https://doi.org/10.48550/arXiv.2405.18166",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 0.96,
+        "normalized_title_exact": false,
+        "db_priority_rank": 3,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/emnlp/ZhaoLLZ024",
+        "title": "Defending Large Language Models Against Jailbreak Attacks via Layer-specific Editing.",
+        "authors": [
+          "Wei Zhao",
+          "Zhe Li",
+          "Yige Li",
+          "Ye Zhang",
+          "Jun Sun 0001"
+        ],
+        "year": 2024,
+        "venue": "EMNLP (Findings)",
+        "doi": "10.18653/v1/2024.findings-emnlp.293",
+        "url": "https://doi.org/10.18653/v1/2024.findings-emnlp.293",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.8,
+        "year_score": 1.0,
+        "lexical_score": 0.96,
+        "normalized_title_exact": false,
+        "db_priority_rank": 3,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4392222150",
+        "title": "Defending Large Language Models against Jailbreak Attacks via Semantic Smoothing",
+        "authors": [
+          "Jiabao Ji",
+          "Bairu Hou",
+          "Alexander Robey",
+          "George J. Pappas",
+          "Hamed Hassani",
+          "Shuicheng Yan",
+          "Eric Wong",
+          "Shiyu Chang"
+        ],
+        "year": 2024,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2402.16192",
+        "url": "http://arxiv.org/abs/2402.16192",
+        "abstract": "Aligned large language models (LLMs) are vulnerable to jailbreaking attacks, which bypass the safeguards of targeted LLMs and fool them into generating objectionable content. While initial defenses show promise against token-based threat models, there do not exist defenses that provide robustness against semantic attacks and avoid unfavorable trade-offs between robustness and nominal performance. To meet this need, we propose SEMANTICSMOOTH, a smoothing-based defense that aggregates the predictions of multiple semantically transformed copies of a given input prompt. Experimental results demonstrate that SEMANTICSMOOTH achieves state-of-the-art robustness against GCG, PAIR, and AutoDAN attacks while maintaining strong nominal performance on instruction following benchmarks such as InstructionFollowing and AlpacaEval. The codes will be publicly available at https://github.com/UCSB-NLP-Chang/SemanticSmooth.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.0,
+        "year_score": 1.0,
+        "lexical_score": 0.8,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W6912077473",
+        "title": "JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation",
+        "authors": [
+          "Zhang, Shenyi"
+        ],
+        "year": 2025,
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "doi": "10.5281/zenodo.14732883",
+        "url": "https://doi.org/10.5281/zenodo.14732883",
+        "abstract": "This is the artifact for USENIX Security 2025 accepted paper \"JBShield: Defending Large Language Models from Jailbreak Attacks through Activated Concept Analysis and Manipulation.\" To test the artifact, please download and uncompress the zip file. You can also refer to https://github.com/NISPLab/JBShield.",
+        "matched_word_count": 6,
+        "title_score": 0.75,
+        "author_score": 0.0,
+        "year_score": 0.7,
+        "lexical_score": 0.595,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 4
+      }
+    ]
+  },
+  {
+    "citation_id": 79,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "mathematical",
+      "framework",
+      "transformer",
+      "circuits"
+    ],
+    "db_timings_ms": {
+      "dblp": 51.82,
+      "openalex": 128.69,
+      "arxiv": 0.12,
+      "crossref": 2521.74
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 80,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 81,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 82,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "ignore",
+      "this",
+      "title",
+      "hackaprompt",
+      "exposing",
+      "systemic",
+      "vulnerabilities",
+      "llms"
+    ],
+    "db_timings_ms": {
+      "dblp": 11.52,
+      "openalex": 144.84,
+      "arxiv": 0.15
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2311-16119",
+        "title": "Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition.",
+        "authors": [
+          "Sander Schulhoff",
+          "Jeremy Pinto",
+          "Anaum Khan",
+          "Louis-François Bouchard",
+          "Chenglei Si",
+          "Svetlina Anati",
+          "Valen Tagliabue",
+          "Anson Liu Kost",
+          "Christopher Carnahan",
+          "Jordan L. Boyd-Graber"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2311.16119",
+        "url": "https://doi.org/10.48550/arXiv.2311.16119",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/emnlp/SchulhoffPKBSAT23",
+        "title": "Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs Through a Global Prompt Hacking Competition.",
+        "authors": [
+          "Sander Schulhoff",
+          "Jeremy Pinto",
+          "Anaum Khan",
+          "Louis-François Bouchard",
+          "Chenglei Si",
+          "Svetlina Anati",
+          "Valen Tagliabue",
+          "Anson Liu Kost",
+          "Christopher Carnahan",
+          "Jordan L. Boyd-Graber"
+        ],
+        "year": 2023,
+        "venue": "EMNLP",
+        "doi": "10.18653/v1/2023.emnlp-main.302",
+        "url": "https://doi.org/10.18653/v1/2023.emnlp-main.302",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W6910578594",
+        "title": "Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs Through a Global Prompt Hacking Competition",
+        "authors": [
+          "Association for Computational Linguistics 2023",
+          "Anati, Svetlina",
+          "Bouchard, Louis-François",
+          "Boyd-Graber, Jordan",
+          "Carnahan, Christopher R",
+          "Khan, Anaum",
+          "Kost, Anson Liu",
+          "Pinto, Jeremy",
+          "Schulhoff, Sander V",
+          "Si, Chenglei",
+          "Tagliabue, Valen"
+        ],
+        "year": 2023,
+        "venue": "Underline Science Inc.",
+        "doi": "10.48448/3rbx-9d12",
+        "url": "https://doi.org/10.48448/3rbx-9d12",
+        "abstract": "Large Language Models (LLMs) are increasingly being deployed in interactive contexts that involve direct user engagement, such as chatbots and writing assistants. These deployments are increasingly plagued by prompt injection and jailbreaking (collectively, prompt hacking), in which models are manipulated to ignore their original instructions and instead follow potentially malicious ones. Although widely acknowledged as a significant security threat, there is a dearth of a large-scale resource and quantitative study on prompt hacking. To address this lacuna, we launch a global prompt hacking competition, which allows for free-form human input attacks. We elicit 600K+ adversarial prompts against three state-of-the-art LLMs. We describe the dataset, which empirically verifies that current LLMs can indeed be manipulated via prompt hacking. We also present a comprehensive ontology of the types of adversarial prompts.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 83,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 84,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 85,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 86,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "exploiting",
+      "large",
+      "language",
+      "models",
+      "llms",
+      "through",
+      "deception",
+      "techniques"
+    ],
+    "db_timings_ms": {
+      "dblp": 148.06,
+      "openalex": 658.04,
+      "arxiv": 0.16
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2311-14876",
+        "title": "Exploiting Large Language Models (LLMs) through Deception Techniques and Persuasion Principles.",
+        "authors": [
+          "Sonali Singh",
+          "Faranak Abri",
+          "Akbar Siami Namin"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2311.14876",
+        "url": "https://doi.org/10.48550/arXiv.2311.14876",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/bigdataconf/SinghAN23",
+        "title": "Exploiting Large Language Models (LLMs) through Deception Techniques and Persuasion Principles.",
+        "authors": [
+          "Sonali Singh",
+          "Faranak Abri",
+          "Akbar Siami Namin"
+        ],
+        "year": 2023,
+        "venue": "IEEE Big Data",
+        "doi": "10.1109/bigdata59044.2023.10386814",
+        "url": "https://doi.org/10.1109/BigData59044.2023.10386814",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4389115373",
+        "title": "Exploiting Large Language Models (LLMs) through Deception Techniques and Persuasion Principles",
+        "authors": [
+          "Sonali Singh",
+          "Faranak Abri",
+          "Akbar Siami Namin"
+        ],
+        "year": 2023,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2311.14876",
+        "url": "http://arxiv.org/abs/2311.14876",
+        "abstract": "With the recent advent of Large Language Models (LLMs), such as ChatGPT from OpenAI, BARD from Google, Llama2 from Meta, and Claude from Anthropic AI, gain widespread use, ensuring their security and robustness is critical. The widespread use of these language models heavily relies on their reliability and proper usage of this fascinating technology. It is crucial to thoroughly test these models to not only ensure its quality but also possible misuses of such models by potential adversaries for illegal activities such as hacking. This paper presents a novel study focusing on exploitation of such large language models against deceptive interactions. More specifically, the paper leverages widespread and borrows well-known techniques in deception theory to investigate whether these models are susceptible to deceitful interactions. This research aims not only to highlight these risks but also to pave the way for robust countermeasures that enhance the security and integrity of language models in the face of sophisticated social engineering tactics. Through systematic experiments and analysis, we assess their performance in these critical security domains. Our results demonstrate a significant finding in that these large language models are susceptible to deception and social engineering attacks.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 87,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 88,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 89,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 90,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 91,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "llm-fuzzer",
+      "scaling",
+      "assessment",
+      "large",
+      "language",
+      "model",
+      "jailbreaks"
+    ],
+    "db_timings_ms": {
+      "dblp": 144.38,
+      "openalex": 918.68,
+      "arxiv": 0.17
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "conf/uss/0001LYX24",
+        "title": "LLM-Fuzzer: Scaling Assessment of Large Language Model Jailbreaks.",
+        "authors": [
+          "Jiahao Yu 0001",
+          "Xingwei Lin",
+          "Zheng Yu 0003",
+          "Xinyu Xing 0001"
+        ],
+        "year": 2024,
+        "venue": "USENIX Security Symposium",
+        "doi": null,
+        "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/yu-jiahao",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.25,
+        "year_score": 1.0,
+        "lexical_score": 0.95,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 92,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "hot",
+      "whitebox",
+      "adversarial",
+      "examples",
+      "text",
+      "classi",
+      "cation"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.13,
+      "openalex": 83.96,
+      "dblp": 21.73,
+      "crossref": 2183.11
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 93,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 94,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp",
+      "crossref"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "power",
+      "scale",
+      "parameter-ef",
+      "cient",
+      "prompt",
+      "tuning"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.32,
+      "openalex": 314.58,
+      "dblp": 31.72,
+      "crossref": 1996.71
+    },
+    "candidates": [
+      {
+        "db": "crossref",
+        "record_id": "10.18653/v1/2021.emnlp-main.243",
+        "title": "The Power of Scale for Parameter-Efficient Prompt Tuning",
+        "authors": [
+          "Brian Lester",
+          "Rami Al-Rfou",
+          "Noah Constant"
+        ],
+        "year": 2021,
+        "venue": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+        "doi": "10.18653/v1/2021.emnlp-main.243",
+        "url": "https://doi.org/10.18653/v1/2021.emnlp-main.243",
+        "abstract": null,
+        "matched_word_count": 4,
+        "title_score": 0.95,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 0.965,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 95,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "cold",
+      "decoding",
+      "energy-based",
+      "constrained",
+      "text",
+      "generation",
+      "langevin",
+      "dynamics"
+    ],
+    "db_timings_ms": {
+      "dblp": 110.53,
+      "openalex": 278.54,
+      "arxiv": 0.16
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2202-11705",
+        "title": "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics.",
+        "authors": [
+          "Lianhui Qin",
+          "Sean Welleck",
+          "Daniel Khashabi",
+          "Yejin Choi 0001"
+        ],
+        "year": 2022,
+        "venue": "CoRR",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2202.11705",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.75,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/nips/QinWKC22",
+        "title": "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics.",
+        "authors": [
+          "Lianhui Qin",
+          "Sean Welleck",
+          "Daniel Khashabi",
+          "Yejin Choi 0001"
+        ],
+        "year": 2022,
+        "venue": "NeurIPS",
+        "doi": null,
+        "url": "http://papers.nips.cc/paper_files/paper/2022/hash/3e25d1aff47964c8409fd5c8dc0438d7-Abstract-Conference.html",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 0.75,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4221143575",
+        "title": "COLD Decoding: Energy-based Constrained Text Generation with Langevin Dynamics",
+        "authors": [
+          "Lianhui Qin",
+          "Sean Welleck",
+          "Daniel Khashabi",
+          "Yejin Choi"
+        ],
+        "year": 2022,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2202.11705",
+        "url": "http://arxiv.org/abs/2202.11705",
+        "abstract": "Many applications of text generation require incorporating different constraints to control the semantics or style of generated text. These constraints can be hard (e.g., ensuring certain keywords are included in the output) and soft (e.g., contextualizing the output with the left- or right-hand context). In this paper, we present Energy-based Constrained Decoding with Langevin Dynamics (COLD), a decoding framework which unifies constrained generation as specifying constraints through an energy function, then performing efficient differentiable reasoning over the constraints through gradient-based sampling. COLD decoding is a flexible framework that can be applied directly to off-the-shelf left-to-right language models without the need for any task-specific fine-tuning, as demonstrated through three challenging text generation applications: lexically-constrained generation, abductive reasoning, and counterfactual reasoning. Our experiments on these constrained generation tasks point to the effectiveness of our approach, both in terms of automatic and human evaluation.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 96,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "hard",
+      "prompts",
+      "made",
+      "easy",
+      "gradient-based",
+      "discrete",
+      "optimization",
+      "prompt"
+    ],
+    "db_timings_ms": {
+      "dblp": 55.08,
+      "openalex": 179.12,
+      "arxiv": 0.13
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2302-03668",
+        "title": "Hard Prompts Made Easy: Gradient-Based Discrete Optimization for Prompt Tuning and Discovery.",
+        "authors": [
+          "Yuxin Wen",
+          "Neel Jain",
+          "John Kirchenbauer",
+          "Micah Goldblum",
+          "Jonas Geiping",
+          "Tom Goldstein"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2302.03668",
+        "url": "https://doi.org/10.48550/arXiv.2302.03668",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/nips/WenJKGGG23",
+        "title": "Hard Prompts Made Easy: Gradient-Based Discrete Optimization for Prompt Tuning and Discovery.",
+        "authors": [
+          "Yuxin Wen",
+          "Neel Jain",
+          "John Kirchenbauer",
+          "Micah Goldblum",
+          "Jonas Geiping",
+          "Tom Goldstein"
+        ],
+        "year": 2023,
+        "venue": "NeurIPS",
+        "doi": null,
+        "url": "http://papers.nips.cc/paper_files/paper/2023/hash/a00548031e4647b13042c97c922fadf1-Abstract-Conference.html",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4319653969",
+        "title": "Hard Prompts Made Easy: Gradient-Based Discrete Optimization for Prompt Tuning and Discovery",
+        "authors": [
+          "Yuxin Wen",
+          "Neel Jain",
+          "John Kirchenbauer",
+          "Micah Goldblum",
+          "Jonas Geiping",
+          "Tom Goldstein"
+        ],
+        "year": 2023,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2302.03668",
+        "url": "http://arxiv.org/abs/2302.03668",
+        "abstract": "The strength of modern generative models lies in their ability to be controlled through text-based prompts. Typical \"hard\" prompts are made from interpretable words and tokens, and must be hand-crafted by humans. There are also \"soft\" prompts, which consist of continuous feature vectors. These can be discovered using powerful optimization methods, but they cannot be easily interpreted, re-used across models, or plugged into a text-based interface. We describe an approach to robustly optimize hard text prompts through efficient gradient-based optimization. Our approach automatically generates hard text-based prompts for both text-to-image and text-to-text applications. In the text-to-image setting, the method creates hard prompts for diffusion models, allowing API users to easily generate, discover, and mix and match image concepts without prior knowledge on how to prompt the model. In the text-to-text setting, we show that hard prompts can be automatically discovered that are effective in tuning LMs for classification.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 97,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "automatically",
+      "auditing",
+      "large",
+      "language",
+      "models",
+      "via",
+      "discrete",
+      "optimization"
+    ],
+    "db_timings_ms": {
+      "dblp": 183.85,
+      "openalex": 613.8,
+      "arxiv": 0.14
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2303-04381",
+        "title": "Automatically Auditing Large Language Models via Discrete Optimization.",
+        "authors": [
+          "Erik Jones",
+          "Anca D. Dragan",
+          "Aditi Raghunathan",
+          "Jacob Steinhardt"
+        ],
+        "year": 2023,
+        "venue": "CoRR",
+        "doi": "10.48550/arxiv.2303.04381",
+        "url": "https://doi.org/10.48550/arXiv.2303.04381",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/icml/JonesDRS23",
+        "title": "Automatically Auditing Large Language Models via Discrete Optimization.",
+        "authors": [
+          "Erik Jones",
+          "Anca D. Dragan",
+          "Aditi Raghunathan",
+          "Jacob Steinhardt"
+        ],
+        "year": 2023,
+        "venue": "ICML",
+        "doi": null,
+        "url": "https://proceedings.mlr.press/v202/jones23a.html",
+        "abstract": null,
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4323709479",
+        "title": "Automatically Auditing Large Language Models via Discrete Optimization",
+        "authors": [
+          "Erik Jones",
+          "Anca D. Dragan",
+          "Aditi Raghunathan",
+          "Jacob Steinhardt"
+        ],
+        "year": 2023,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2303.04381",
+        "url": "http://arxiv.org/abs/2303.04381",
+        "abstract": "Auditing large language models for unexpected behaviors is critical to preempt catastrophic deployments, yet remains challenging. In this work, we cast auditing as an optimization problem, where we automatically search for input-output pairs that match a desired target behavior. For example, we might aim to find a non-toxic input that starts with \"Barack Obama\" that a model maps to a toxic output. This optimization problem is difficult to solve as the set of feasible points is sparse, the space is discrete, and the language models we audit are non-linear and high-dimensional. To combat these challenges, we introduce a discrete optimization algorithm, ARCA, that jointly and efficiently optimizes over inputs and outputs. Our approach automatically uncovers derogatory completions about celebrities (e.g. \"Barack Obama is a legalized unborn\" -&gt; \"child murderer\"), produces French inputs that complete to English outputs, and finds inputs that generate a specific name. Our work offers a promising new tool to uncover models' failure-modes before deployment.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      }
+    ]
+  },
+  {
+    "citation_id": 98,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 99,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 100,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 101,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 102,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "automatic",
+      "prompt",
+      "optimization"
+    ],
+    "db_timings_ms": {
+      "arxiv": 0.1,
+      "openalex": 157.41,
+      "dblp": 62.7
+    },
+    "candidates": [
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4375869925",
+        "title": "Automatic Prompt Optimization with \"Gradient Descent\" and Beam Search",
+        "authors": [
+          "Reid Pryzant",
+          "Dan Iter",
+          "Jerry Li",
+          "Yin Tat Lee",
+          "Chenguang Zhu",
+          "Michael Zeng"
+        ],
+        "year": 2023,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2305.03495",
+        "url": "http://arxiv.org/abs/2305.03495",
+        "abstract": "Large Language Models (LLMs) have shown impressive performance as general purpose agents, but their abilities remain highly dependent on prompts which are hand written with onerous trial-and-error effort. We propose a simple and nonparametric solution to this problem, Automatic Prompt Optimization (APO), which is inspired by numerical gradient descent to automatically improve prompts, assuming access to training data and an LLM API. The algorithm uses minibatches of data to form natural language \"gradients\" that criticize the current prompt. The gradients are then \"propagated\" into the prompt by editing the prompt in the opposite semantic direction of the gradient. These gradient descent steps are guided by a beam search and bandit selection procedure which significantly improves algorithmic efficiency. Preliminary results across three benchmark NLP tasks and the novel problem of LLM jailbreak detection suggest that Automatic Prompt Optimization can outperform prior prompt editing techniques and improve an initial prompt's performance by up to 31%, by using data to rewrite vague task descriptions into more precise annotation instructions.",
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W4385750209",
+        "title": "Emotion-Conditioned Text Generation through Automatic Prompt Optimization",
+        "authors": [
+          "Yarik Menchaca Resendiz",
+          "Roman Klinger"
+        ],
+        "year": 2023,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2308.04857",
+        "url": "http://arxiv.org/abs/2308.04857",
+        "abstract": "Conditional natural language generation methods often require either expensive fine-tuning or training a large language model from scratch. Both are unlikely to lead to good results without a substantial amount of data and computational resources. Prompt learning without changing the parameters of a large language model presents a promising alternative. It is a cost-effective approach, while still achieving competitive results. While this procedure is now established for zero- and few-shot text classification and structured prediction, it has received limited attention in conditional text generation. We present the first automatic prompt optimization approach for emotion-conditioned text generation with instruction-fine-tuned models. Our method uses an iterative optimization procedure that changes the prompt by adding, removing, or replacing tokens. As objective function, we only require a text classifier that measures the realization of the conditional variable in the generated text. We evaluate the method on emotion-conditioned text generation with a focus on event reports and compare it to manually designed prompts that also act as the seed for the optimization procedure. The optimized prompts achieve 0.75 macro-average F1 to fulfill the emotion condition in contrast to manually designed seed prompts with only 0.22 macro-average F1.",
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 0.0,
+        "year_score": 1.0,
+        "lexical_score": 0.8,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 2
+      }
+    ]
+  },
+  {
+    "citation_id": 103,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "representation",
+      "linguistic",
+      "form",
+      "function",
+      "recurrent",
+      "neural",
+      "networks"
+    ],
+    "db_timings_ms": {
+      "dblp": 167.6,
+      "openalex": 456.59,
+      "arxiv": 0.15
+    },
+    "candidates": [
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W2950290711",
+        "title": "Representation of linguistic form and function in recurrent neural networks",
+        "authors": [
+          "Ákos Kádár",
+          "Grzegorz Chrupała",
+          "Afra Alishahi"
+        ],
+        "year": 2016,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.1602.08952",
+        "url": "https://arxiv.org/pdf/1602.08952",
+        "abstract": "We present novel methods for analyzing the activation patterns of RNNs from a linguistic point of view and explore the types of linguistic structure they learn. As a case study, we use a multi-task gated recurrent network architecture consisting of two parallel pathways with shared word embeddings trained on predicting the representations of the visual scene corresponding to an input sentence, and predicting the next word in the same sentence. Based on our proposed method to estimate the amount of contribution of individual tokens in the input to the final prediction of the networks we show that the image prediction pathway: a) is sensitive to the information structure of the sentence b) pays selective attention to lexical categories and grammatical functions that carry semantic information c) learns to treat the same input token differently depending on its grammatical functions in the sentence. In contrast the language model is comparatively more sensitive to words with a syntactic function. Furthermore, we propose methods to ex- plore the function of individual hidden units in RNNs and show that the two pathways of the architecture in our case study contain specialized units tuned to patterns informative for the task, some of which can carry activations to later time steps to encode long-term dependencies.",
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.6667,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/coling/KadarCA17",
+        "title": "Representation of Linguistic Form and Function in Recurrent Neural Networks.",
+        "authors": [
+          "Ákos Kádár",
+          "Grzegorz Chrupala",
+          "Afra Alishahi"
+        ],
+        "year": 2017,
+        "venue": "Comput. Linguistics",
+        "doi": "10.1162/coli_a_00300",
+        "url": "https://doi.org/10.1162/COLI_a_00300",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.3333,
+        "year_score": 1.0,
+        "lexical_score": 0.9667,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/KadarCA16",
+        "title": "Representation of linguistic form and function in recurrent neural networks.",
+        "authors": [
+          "Ákos Kádár",
+          "Grzegorz Chrupala",
+          "Afra Alishahi"
+        ],
+        "year": 2016,
+        "venue": "CoRR",
+        "doi": null,
+        "url": "http://arxiv.org/abs/1602.08952",
+        "abstract": null,
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 0.3333,
+        "year_score": 0.7,
+        "lexical_score": 0.9367,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 3
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W6950195253",
+        "title": "RNN models for Representation of linguistic form and function in recurrent neural networks",
+        "authors": [
+          "Kádár, Ákos",
+          "Chrupała, Grzegorz",
+          "Alishahi, Afra"
+        ],
+        "year": 2017,
+        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "doi": "10.5281/zenodo.825407",
+        "url": "https://doi.org/10.5281/zenodo.825407",
+        "abstract": "RNN models trained on MS-COCO used in the following paper: Ákos Kádár, Grzegorz Chrupała, Afra Alishahi. 2017. \"Representation of<br> linguistic form and function in recurrent neural networks\". <em>Computational Linguistics.</em><br>",
+        "matched_word_count": 6,
+        "title_score": 1.0,
+        "author_score": 0.6667,
+        "year_score": 1.0,
+        "lexical_score": 0.9333,
+        "normalized_title_exact": false,
+        "db_priority_rank": 2,
+        "retrieval_rank": 4
+      }
+    ]
+  },
+  {
+    "citation_id": 104,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 105,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "lexical_db_mode": "all",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "compositional",
+      "explanations",
+      "neurons"
+    ],
+    "db_timings_ms": {
+      "dblp": 3.06,
+      "openalex": 12.88,
+      "arxiv": 0.11
+    },
+    "candidates": [
+      {
+        "db": "dblp",
+        "record_id": "journals/corr/abs-2006-14032",
+        "title": "Compositional Explanations of Neurons.",
+        "authors": [
+          "Jesse Mu",
+          "Jacob Andreas"
+        ],
+        "year": 2020,
+        "venue": "CoRR",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2006.14032",
+        "abstract": null,
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      },
+      {
+        "db": "dblp",
+        "record_id": "conf/nips/MuA20",
+        "title": "Compositional Explanations of Neurons.",
+        "authors": [
+          "Jesse Mu",
+          "Jacob Andreas"
+        ],
+        "year": 2020,
+        "venue": "NeurIPS",
+        "doi": null,
+        "url": "https://proceedings.neurips.cc/paper/2020/hash/c74956ffb38ba48ed6ce977af6727275-Abstract.html",
+        "abstract": null,
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 2
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W3037626499",
+        "title": "Compositional Explanations of Neurons",
+        "authors": [
+          "Jesse Mu",
+          "Jacob Andreas"
+        ],
+        "year": 2020,
+        "venue": "arXiv (Cornell University)",
+        "doi": "10.48550/arxiv.2006.14032",
+        "url": "http://arxiv.org/abs/2006.14032",
+        "abstract": "We describe a procedure for explaining neurons in deep representations by identifying compositional logical concepts that closely approximate neuron behavior. Compared to prior work that uses atomic labels as explanations, analyzing neurons compositionally allows us to more precisely and expressively characterize their behavior. We use this procedure to answer several questions on interpretability in models for vision and natural language processing. First, we examine the kinds of abstractions learned by neurons. In image classification, we find that many neurons learn highly abstract but semantically coherent visual concepts, while other polysemantic neurons detect multiple unrelated features; in natural language inference (NLI), neurons learn shallow lexical heuristics from dataset biases. Second, we see whether compositional explanations give us insight into model performance: vision neurons that detect human-interpretable concepts are positively correlated with task performance, while NLI neurons that fire for shallow heuristics are negatively correlated with task performance. Finally, we show how compositional explanations provide an accessible way for end users to produce simple \"copy-paste\" adversarial examples that change model behavior in predictable ways.",
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 3
+      },
+      {
+        "db": "openalex",
+        "record_id": "https://openalex.org/W3098680936",
+        "title": "Compositional Explanations of Neurons",
+        "authors": [
+          "Jesse Mu",
+          "Jacob Andreas"
+        ],
+        "year": 2020,
+        "venue": "Neural Information Processing Systems",
+        "doi": null,
+        "url": "https://papers.nips.cc/paper/2020/file/c74956ffb38ba48ed6ce977af6727275-Paper.pdf",
+        "abstract": "We describe a procedure for explaining neurons in deep representations by identifying compositional logical concepts that closely approximate neuron behavior. Compared to prior work that uses atomic labels as explanations, analyzing neurons compositionally allows us to more precisely and expressively characterize their behavior. We use this procedure to answer several questions on interpretability in models for vision and natural language processing. First, we examine the kinds of abstractions learned by neurons. In image classification, we find that many neurons learn highly abstract but semantically coherent visual concepts, while other polysemantic neurons detect multiple unrelated features; in natural language inference (NLI), neurons learn shallow lexical heuristics from dataset biases. Second, we see whether compositional explanations give us insight into model performance: vision neurons that detect human-interpretable concepts are positively correlated with task performance, while NLI neurons that fire for shallow heuristics are negatively correlated with task performance. Finally, we show how compositional explanations provide an accessible way for end users to produce simple copy-paste adversarial examples that change model behavior in predictable ways.",
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 2,
+        "retrieval_rank": 4
+      }
+    ]
+  },
+  {
+    "citation_id": 106,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 107,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 108,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "unknown": {
+    "count": 14,
+    "average_bibliographic_score": 0.0,
+    "average_semantic_score": 0.0,
+    "verification_counts": {
+      "hallucinated": 14
+    },
+    "semantic_counts": {
+      "skipped": 14
+    }
+  },
+  "arxiv": {
+    "count": 22,
+    "average_bibliographic_score": 0.9078,
+    "average_semantic_score": 0.2227,
+    "verification_counts": {
+      "verified": 18,
+      "partially_verified": 4
+    },
+    "semantic_counts": {
+      "supported": 20,
+      "unsupported": 1,
+      "partially_supported": 1
+    }
+  }
+}

@@ -1,0 +1,1038 @@
+[
+  {
+    "citation_id": 1,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "application",
+      "large",
+      "language",
+      "models",
+      "software",
+      "engineering",
+      "tasks",
+      "opportunities"
+    ],
+    "db_timings_ms": {
+      "arxiv": 49.95
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 2,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 3,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "gemini",
+      "code",
+      "assist",
+      "ai-first",
+      "coding",
+      "your",
+      "natural",
+      "language"
+    ],
+    "db_timings_ms": {
+      "arxiv": 11.32
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 4,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "survey",
+      "reveals",
+      "impact",
+      "developer",
+      "experience"
+    ],
+    "db_timings_ms": {
+      "arxiv": 7.68
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 5,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "review",
+      "vibe",
+      "coding",
+      "fundamentals",
+      "state-of-the-art",
+      "challenges",
+      "future",
+      "directions"
+    ],
+    "db_timings_ms": {
+      "arxiv": 5.54
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 6,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 7,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "security",
+      "vulnerabilities",
+      "ai-generated",
+      "code",
+      "large-scale",
+      "analysis",
+      "public",
+      "github"
+    ],
+    "db_timings_ms": {
+      "arxiv": 22.37
+    },
+    "candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2510.26103",
+        "title": "Security Vulnerabilities in AI-Generated Code: A Large-Scale Analysis of Public GitHub Repositories",
+        "authors": [
+          "Maximilian Schreiber",
+          "Pascal Tippe"
+        ],
+        "year": 2025,
+        "venue": "arXiv",
+        "doi": "10.1007/978-981-95-3537-8_9",
+        "url": "https://arxiv.org/abs/2510.26103",
+        "abstract": "This paper presents a comprehensive empirical analysis of security vulnerabilities in AI-generated code across public GitHub repositories. We collected and analyzed 7,703 files explicitly attributed to four major AI tools: ChatGPT (91.52\\%), GitHub Copilot (7.50\\%), Amazon CodeWhisperer (0.52\\%), and Tabnine (0.46\\%). Using CodeQL static analysis, we identified 4,241 Common Weakness Enumeration (CWE) instances across 77 distinct vulnerability types. Our findings reveal that while 87.9\\% of AI-generated code does not contain identifiable CWE-mapped vulnerabilities, significant patterns emerge regarding language-specific vulnerabilities and tool performance. Python consistently exhibited higher vulnerability rates (16.18\\%-18.50\\%) compared to JavaScript (8.66\\%-8.99\\%) and TypeScript (2.50\\%-7.14\\%) across all tools. We observed notable differences in security performance, with GitHub Copilot achieving better security density for Python (1,739 LOC per CWE) and TypeScript, while ChatGPT performed better for JavaScript. Additionally, we discovered widespread use of AI tools for documentation generation (39\\% of collected files), an understudied application with implications for software maintainability. These findings extend previous work with a significantly larger dataset and provide valuable insights for developing language-specific and context-aware security practices for the responsible integration of AI-generated code into software development workflows.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 8,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "have",
+      "package",
+      "you!",
+      "comprehensive",
+      "analysis",
+      "package",
+      "hallucinations",
+      "code"
+    ],
+    "db_timings_ms": {
+      "arxiv": 15.51
+    },
+    "candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2406.10279",
+        "title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs",
+        "authors": [
+          "Joseph Spracklen",
+          "Raveen Wijewickrama",
+          "A H M Nazmus Sakib",
+          "Anindya Maiti",
+          "Bimal Viswanath",
+          "Murtuza Jadliwala"
+        ],
+        "year": 2024,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2406.10279",
+        "abstract": "The reliance of popular programming languages such as Python and JavaScript on centralized package repositories and open-source software, combined with the emergence of code-generating Large Language Models (LLMs), has created a new type of threat to the software supply chain: package hallucinations. These hallucinations, which arise from fact-conflicting errors when generating code using LLMs, represent a novel form of package confusion attack that poses a critical threat to the integrity of the software supply chain. This paper conducts a rigorous and comprehensive evaluation of package hallucinations across different programming languages, settings, and parameters, exploring how a diverse set of models and configurations affect the likelihood of generating erroneous package recommendations and identifying the root causes of this phenomenon. Using 16 popular LLMs for code generation and two unique prompt datasets, we generate 576,000 code samples in two programming languages that we analyze for package hallucinations. Our findings reveal that that the average percentage of hallucinated packages is at least 5.2% for commercial models and 21.7% for open-source models, including a staggering 205,474 unique examples of hallucinated package names, further underscoring the severity and pervasiveness of this threat. To overcome this problem, we implement several hallucination mitigation strategies and show that they are able to significantly reduce the number of package hallucinations while maintaining code quality. Our experiments and findings highlight package hallucinations as a persistent and systemic phenomenon while using state-of-the-art LLMs for code generation, and a significant challenge which deserves the research community's urgent attention.",
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 9,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "large",
+      "language",
+      "models",
+      "code",
+      "security",
+      "hardening",
+      "adversarial",
+      "testing"
+    ],
+    "db_timings_ms": {
+      "arxiv": 47.26
+    },
+    "candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2302.05319",
+        "title": "Large Language Models for Code: Security Hardening and Adversarial Testing",
+        "authors": [
+          "Jingxuan He",
+          "Martin Vechev"
+        ],
+        "year": 2023,
+        "venue": "arXiv",
+        "doi": "10.1145/3576915.3623175",
+        "url": "https://arxiv.org/abs/2302.05319",
+        "abstract": "Large language models (large LMs) are increasingly trained on massive codebases and used to generate code. However, LMs lack awareness of security and are found to frequently produce unsafe code. This work studies the security of LMs along two important axes: (i) security hardening, which aims to enhance LMs' reliability in generating secure code, and (ii) adversarial testing, which seeks to evaluate LMs' security at an adversarial standpoint. We address both of these by formulating a new security task called controlled code generation. The task is parametric and takes as input a binary property to guide the LM to generate secure or unsafe code, while preserving the LM's capability of generating functionally correct code. We propose a novel learning-based approach called SVEN to solve this task. SVEN leverages property-specific continuous vectors to guide program generation towards the given property, without modifying the LM's weights. Our training procedure optimizes these continuous vectors by enforcing specialized loss terms on different regions of code, using a high-quality dataset carefully curated by us. Our extensive evaluation shows that SVEN is highly effective in achieving strong security control. For instance, a state-of-the-art CodeGen LM with 2.7B parameters generates secure code for 59.1% of the time. When we employ SVEN to perform security hardening (or adversarial testing) on this LM, the ratio is significantly boosted to 92.3% (or degraded to 36.8%). Importantly, SVEN closely matches the original LMs in functional correctness.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 10,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 11,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 12,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "lora",
+      "low-rank",
+      "adaptation",
+      "large",
+      "language",
+      "models",
+      "iclr"
+    ],
+    "db_timings_ms": {
+      "arxiv": 38.89
+    },
+    "candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2106.09685",
+        "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+        "authors": [
+          "Edward J. Hu",
+          "Yelong Shen",
+          "Phillip Wallis",
+          "Zeyuan Allen-Zhu",
+          "Yuanzhi Li",
+          "Shean Wang",
+          "Lu Wang",
+          "Weizhu Chen"
+        ],
+        "year": 2021,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2106.09685",
+        "abstract": "An important paradigm of natural language processing consists of large-scale pre-training on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible. Using GPT-3 175B as an example -- deploying independent instances of fine-tuned models, each with 175B parameters, is prohibitively expensive. We propose Low-Rank Adaptation, or LoRA, which freezes the pre-trained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number of trainable parameters by 10,000 times and the GPU memory requirement by 3 times. LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike adapters, no additional inference latency. We also provide an empirical investigation into rank-deficiency in language model adaptation, which sheds light on the efficacy of LoRA. We release a package that facilitates the integration of LoRA with PyTorch models and provide our implementations and model checkpoints for RoBERTa, DeBERTa, and GPT-2 at https://github.com/microsoft/LoRA.",
+        "matched_word_count": 6,
+        "title_score": 0.8571,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 0.87,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 13,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "parameter-efficient",
+      "fine-tuning",
+      "large-scale",
+      "pre-trained",
+      "language",
+      "models"
+    ],
+    "db_timings_ms": {
+      "arxiv": 30.73
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 14,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 15,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "parameter-efficient",
+      "fine-tuning",
+      "methods",
+      "pretrained",
+      "language",
+      "models",
+      "critical",
+      "review"
+    ],
+    "db_timings_ms": {
+      "arxiv": 39.68
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 16,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 17,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "mathematical",
+      "framework",
+      "transformer",
+      "circuits"
+    ],
+    "db_timings_ms": {
+      "arxiv": 8.9
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 19,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "a",
+      "survey",
+      "on",
+      "llm-as-ajudge"
+    ],
+    "db_timings_ms": {
+      "arxiv": 4.95
+    },
+    "candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2411.15594",
+        "title": "A Survey on LLM-as-a-Judge",
+        "authors": [
+          "Jiawei Gu",
+          "Xuhui Jiang",
+          "Zhichao Shi",
+          "Hexiang Tan",
+          "Xuehao Zhai",
+          "Chengjin Xu",
+          "Wei Li",
+          "Yinghan Shen",
+          "Shengjie Ma",
+          "Honghao Liu",
+          "Saizhuo Wang",
+          "Kun Zhang",
+          "Yuanzhuo Wang",
+          "Wen Gao",
+          "Lionel Ni",
+          "Jian Guo"
+        ],
+        "year": 2024,
+        "venue": "arXiv",
+        "doi": null,
+        "url": "https://arxiv.org/abs/2411.15594",
+        "abstract": "Accurate and consistent evaluation is crucial for decision-making across numerous fields, yet it remains a challenging task due to inherent subjectivity, variability, and scale. Large Language Models (LLMs) have achieved remarkable success across diverse domains, leading to the emergence of \"LLM-as-a-Judge,\" where LLMs are employed as evaluators for complex tasks. With their ability to process diverse data types and provide scalable, cost-effective, and consistent assessments, LLMs present a compelling alternative to traditional expert-driven evaluations. However, ensuring the reliability of LLM-as-a-Judge systems remains a significant challenge that requires careful design and standardization. This paper provides a comprehensive survey of LLM-as-a-Judge, addressing the core question: How can reliable LLM-as-a-Judge systems be built? We explore strategies to enhance reliability, including improving consistency, mitigating biases, and adapting to diverse assessment scenarios. Additionally, we propose methodologies for evaluating the reliability of LLM-as-a-Judge systems, supported by a novel benchmark designed for this purpose. To advance the development and real-world deployment of LLM-as-a-Judge systems, we also discussed practical applications, challenges, and future directions. This survey serves as a foundational reference for researchers and practitioners in this rapidly evolving field.",
+        "matched_word_count": 3,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 20,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 21,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 22,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "measuring",
+      "massive",
+      "multitask",
+      "language",
+      "understanding"
+    ],
+    "db_timings_ms": {
+      "arxiv": 13.03
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 23,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:title_year_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 24,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 25,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "cybernative",
+      "code",
+      "vulnerability",
+      "security",
+      "dataset"
+    ],
+    "db_timings_ms": {
+      "arxiv": 4.94
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 26,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "learning",
+      "from",
+      "mistakes",
+      "comprehensive",
+      "study",
+      "real",
+      "world",
+      "concurrency"
+    ],
+    "db_timings_ms": {
+      "arxiv": 77.22
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 27,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "sok",
+      "eternal",
+      "war",
+      "memory"
+    ],
+    "db_timings_ms": {
+      "arxiv": 1.77
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 28,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "survey",
+      "mobile",
+      "malware",
+      "wild"
+    ],
+    "db_timings_ms": {
+      "arxiv": 5.55
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 29,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "flowdroid",
+      "precise",
+      "context",
+      "flow",
+      "field",
+      "object-sensitive",
+      "lifecycle-aware",
+      "taint"
+    ],
+    "db_timings_ms": {
+      "arxiv": 15.41
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 30,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 31,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "neurostrike",
+      "neuron-level",
+      "attacks",
+      "aligned",
+      "llms"
+    ],
+    "db_timings_ms": {
+      "arxiv": 3.02
+    },
+    "candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2509.11864",
+        "title": "NeuroStrike: Neuron-Level Attacks on Aligned LLMs",
+        "authors": [
+          "Lichao Wu",
+          "Sasha Behrouzi",
+          "Mohamadreza Rostami",
+          "Maximilian Thang",
+          "Stjepan Picek",
+          "Ahmad-Reza Sadeghi"
+        ],
+        "year": 2025,
+        "venue": "arXiv",
+        "doi": "10.14722/ndss.2026.230660",
+        "url": "https://arxiv.org/abs/2509.11864",
+        "abstract": "Safety alignment is critical for the ethical deployment of large language models (LLMs), guiding them to avoid generating harmful or unethical content. Current alignment techniques, such as supervised fine-tuning and reinforcement learning from human feedback, remain fragile and can be bypassed by carefully crafted adversarial prompts. Unfortunately, such attacks rely on trial and error, lack generalizability across models, and are constrained by scalability and reliability. This paper presents NeuroStrike, a novel and generalizable attack framework that exploits a fundamental vulnerability introduced by alignment techniques: the reliance on sparse, specialized safety neurons responsible for detecting and suppressing harmful inputs. We apply NeuroStrike to both white-box and black-box settings: In the white-box setting, NeuroStrike identifies safety neurons through feedforward activation analysis and prunes them during inference to disable safety mechanisms. In the black-box setting, we propose the first LLM profiling attack, which leverages safety neuron transferability by training adversarial prompt generators on open-weight surrogate models and then deploying them against black-box and proprietary targets. We evaluate NeuroStrike on over 20 open-weight LLMs from major LLM developers. By removing less than 0.6% of neurons in targeted layers, NeuroStrike achieves an average attack success rate (ASR) of 76.9% using only vanilla malicious prompts. Moreover, Neurostrike generalizes to four multimodal LLMs with 100% ASR on unsafe image inputs. Safety neurons transfer effectively across architectures, raising ASR to 78.5% on 11 fine-tuned models and 77.7% on five distilled models. The black-box LLM profiling attack achieves an average ASR of 63.7% across five black-box models, including the Google Gemini family.",
+        "matched_word_count": 5,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 0.7,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 32,
+    "db_priority": [
+      "openalex",
+      "dblp",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "empirical",
+      "study",
+      "copy",
+      "paste",
+      "behavior",
+      "during",
+      "development"
+    ],
+    "db_timings_ms": {
+      "arxiv": 13.67
+    },
+    "candidates": []
+  },
+  {
+    "citation_id": 33,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 34,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  },
+  {
+    "citation_id": 35,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "promsec",
+      "prompt",
+      "optimization",
+      "secure",
+      "generation",
+      "functional",
+      "source",
+      "code"
+    ],
+    "db_timings_ms": {
+      "arxiv": 23.86
+    },
+    "candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2409.12699",
+        "title": "PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs)",
+        "authors": [
+          "Mahmoud Nazzal",
+          "Issa Khalil",
+          "Abdallah Khreishah",
+          "NhatHai Phan"
+        ],
+        "year": 2024,
+        "venue": "arXiv",
+        "doi": "10.1145/3658644.3690298",
+        "url": "https://arxiv.org/abs/2409.12699",
+        "abstract": "The capability of generating high-quality source code using large language models (LLMs) reduces software development time and costs. However, they often introduce security vulnerabilities due to training on insecure open-source data. This highlights the need for ensuring secure and functional code generation. This paper introduces PromSec, an algorithm for prom optimization for secure and functioning code generation using LLMs. In PromSec, we combine 1) code vulnerability clearing using a generative adversarial graph neural network, dubbed as gGAN, to fix and reduce security vulnerabilities in generated codes and 2) code generation using an LLM into an interactive loop, such that the outcome of the gGAN drives the LLM with enhanced prompts to generate secure codes while preserving their functionality. Introducing a new contrastive learning approach in gGAN, we formulate code-clearing and generation as a dual-objective optimization problem, enabling PromSec to notably reduce the number of LLM inferences. PromSec offers a cost-effective and practical solution for generating secure, functional code. Extensive experiments conducted on Python and Java code datasets confirm that PromSec effectively enhances code security while upholding its intended functionality. Our experiments show that while a state-of-the-art approach fails to address all code vulnerabilities, PromSec effectively resolves them. Moreover, PromSec achieves more than an order-of-magnitude reduction in operation time, number of LLM queries, and security analysis costs. Furthermore, prompts optimized with PromSec for a certain LLM are transferable to other LLMs across programming languages and generalizable to unseen vulnerabilities in training. This study is a step in enhancing the trustworthiness of LLMs for secure and functional code generation, supporting their integration into real-world software development.",
+        "matched_word_count": 8,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": true,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 36,
+    "db_priority": [
+      "dblp",
+      "openalex",
+      "arxiv"
+    ],
+    "effective_db_priority": [
+      "arxiv"
+    ],
+    "lexical_db_mode": "arxiv",
+    "run_lexical_retrieval": true,
+    "skipped": false,
+    "skip_reason": null,
+    "query_words": [
+      "sgcode",
+      "flexible",
+      "prompt-optimizing",
+      "system",
+      "secure",
+      "generation",
+      "code"
+    ],
+    "db_timings_ms": {
+      "arxiv": 17.22
+    },
+    "candidates": [
+      {
+        "db": "arxiv",
+        "record_id": "2409.07368",
+        "title": "Demo: SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code",
+        "authors": [
+          "Khiem Ton",
+          "Nhi Nguyen",
+          "Mahmoud Nazzal",
+          "Abdallah Khreishah",
+          "Cristian Borcea",
+          "NhatHai Phan",
+          "Ruoming Jin",
+          "Issa Khalil",
+          "Yelong Shen"
+        ],
+        "year": 2024,
+        "venue": "arXiv",
+        "doi": "10.1145/3658644.3691367",
+        "url": "https://arxiv.org/abs/2409.07368",
+        "abstract": "This paper introduces SGCode, a flexible prompt-optimizing system to generate secure code with large language models (LLMs). SGCode integrates recent prompt-optimization approaches with LLMs in a unified system accessible through front-end and back-end APIs, enabling users to 1) generate secure code, which is free of vulnerabilities, 2) review and share security analysis, and 3) easily switch from one prompt optimization approach to another, while providing insights on model and system performance. We populated SGCode on an AWS server with PromSec, an approach that optimizes prompts by combining an LLM and security tools with a lightweight generative adversarial graph neural network to detect and fix security vulnerabilities in the generated code. Extensive experiments show that SGCode is practical as a public tool to gain insights into the trade-offs between model utility, secure code generation, and system cost. SGCode has only a marginal cost compared with prompting LLMs. SGCode is available at: https://sgcode.codes/.",
+        "matched_word_count": 7,
+        "title_score": 1.0,
+        "author_score": 1.0,
+        "year_score": 1.0,
+        "lexical_score": 1.0,
+        "normalized_title_exact": false,
+        "db_priority_rank": 1,
+        "retrieval_rank": 1
+      }
+    ]
+  },
+  {
+    "citation_id": 37,
+    "db_priority": [
+      "arxiv",
+      "openalex",
+      "dblp"
+    ],
+    "effective_db_priority": [],
+    "run_lexical_retrieval": true,
+    "skipped": true,
+    "skip_reason": "exact_match_found:arxiv_id_exact",
+    "query_words": [],
+    "db_timings_ms": {},
+    "candidates": []
+  }
+]

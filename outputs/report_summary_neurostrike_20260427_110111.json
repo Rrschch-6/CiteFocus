@@ -1,0 +1,108 @@
+{
+  "total_citations": 97,
+  "verification": {
+    "counts": {
+      "verified": 43,
+      "partially_verified": 42,
+      "ambiguous": 0,
+      "hallucinated": 12
+    },
+    "percentages": {
+      "verified": 44.33,
+      "partially_verified": 43.3,
+      "ambiguous": 0.0,
+      "hallucinated": 12.37
+    },
+    "category_counts": {
+      "Verified": 43,
+      "Partially Verified": 42,
+      "Not Verified": 12
+    },
+    "category_percentages": {
+      "Verified": 44.33,
+      "Partially Verified": 43.3,
+      "Not Verified": 12.37
+    },
+    "subcategory_counts": {
+      "Verified": {
+        "strong_metadata_match": 43
+      },
+      "Partially Verified": {
+        "author/year mismatch": 32,
+        "minor_title_mismatch": 10
+      },
+      "Not Verified": {
+        "no_candidate_found": 11,
+        "title_mismatch": 1
+      }
+    }
+  },
+  "semantic": {
+    "counts": {
+      "supported": 0,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 0,
+      "skipped": 97
+    },
+    "percentages": {
+      "supported": 0.0,
+      "partially_supported": 0.0,
+      "unclear": 0.0,
+      "unsupported": 0.0,
+      "skipped": 100.0
+    },
+    "supporting_count": 0,
+    "not_supporting_count": 0,
+    "semantically_verified_count": 0
+  },
+  "combined_labels": {
+    "counts": {
+      "likely_problematic": 12,
+      "needs_manual_review": 85
+    },
+    "percentages": {
+      "likely_problematic": 12.37,
+      "needs_manual_review": 87.63
+    }
+  },
+  "verification_semantic_crosstab": {
+    "verified": {
+      "supported": 0,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 0,
+      "skipped": 43
+    },
+    "partially_verified": {
+      "supported": 0,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 0,
+      "skipped": 42
+    },
+    "ambiguous": {
+      "supported": 0,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 0,
+      "skipped": 0
+    },
+    "hallucinated": {
+      "supported": 0,
+      "partially_supported": 0,
+      "unclear": 0,
+      "unsupported": 0,
+      "skipped": 12
+    }
+  },
+  "needs_review_count": 97,
+  "lexically_verified_count": 34,
+  "not_lexically_verified_count": 63,
+  "chart_paths": [
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_verification_status_neurostrike_20260427_110111.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_semantic_support_neurostrike_20260427_110111.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_verification_semantic_crosstab_neurostrike_20260427_110111.png",
+    "/home/sascha/refcheck/CiteFocus/outputs/chart_selected_source_neurostrike_20260427_110111.png"
+  ]
+}
